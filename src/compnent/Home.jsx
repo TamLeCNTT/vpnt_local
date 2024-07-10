@@ -349,7 +349,6 @@ const Home = () => {
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
               <div className="row">
-                <div className="col col-md-2">hhhh</div>
                 <div className="col col-md-10">
                   <ImPort
                     getdata={getdata}
@@ -369,8 +368,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <table className="table">
-            <thead className="thead-dark">
+          <table className="table mt-3 table-bordered   table-hover ">
+            <thead className="thead-primary">
               <tr>
                 <th>STT</th>
                 <th scope="col">Tên trạm</th>
@@ -430,7 +429,7 @@ const Home = () => {
                                                         <td>
                                                             {item.nightTime}
                                                         </td> */}
-                        <td>{item.teacherId}</td>
+
                         {/* <td className="manage"> */}
                         {/* <a href="#" className="close" data-dismiss="alert" aria-label="Close" onClick={() => xoa(item.cabinId)}>
                                                             <span aria-hidden="true"><i className="fa fa-close"></i></span>

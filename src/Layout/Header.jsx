@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Layout.scss";
 import "../Assets/scss/Layout.scss";
-// import logo from '../Assets/img/logo.jpg'
+import logo from "../Assets/img/logo.png";
 import { connect } from "react-redux";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
@@ -24,14 +24,11 @@ const Header = (props) => {
         <nav className="navbar header-nav navbar-expand-lg">
           <div className="container">
             <a className="navbar-brand header-logo" href="#">
-              {/* <img src={logo} alt="hung thinh" /> */}
+              <img src={logo} alt="vnpt" />
               <span className="header-subtitle-logo ">
-                <span className="d-flex justify-content-center align-items-center">
-                  Trung Tâm GDNN-ĐTLX
-                </span>
-                <span className="d-flex justify-content-center align-items-center">
-                  Hưng Thịnh
-                </span>
+                {/* <span className="d-flex fs-5 justify-content-center align-items-center">
+                  Hậu Giang
+                </span> */}
               </span>
             </a>
             <button
@@ -62,7 +59,7 @@ const Header = (props) => {
 
                                 </li> */}
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" href="#">
                     Lịch học
                   </a>
@@ -83,16 +80,16 @@ const Header = (props) => {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
 
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Ôn tập
+                    Báo cáo
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Khoá học
+                    Thông kê
                   </a>
                 </li>
                 <li className="nav-item">

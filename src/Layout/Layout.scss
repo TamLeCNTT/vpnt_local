@@ -2,6 +2,10 @@
   background-color: transparent !important;
   color: white !important;
 }
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid black; /* Đặt màu và độ dày của border cho các ô */
+}
 .Toastify__toast--error {
   border: 1px solid #eb5757;
   border-radius: 50px !important;
