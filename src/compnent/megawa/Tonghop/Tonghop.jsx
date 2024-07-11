@@ -72,7 +72,7 @@ const Tonghop = () => {
     setTextsearch(e.target.value);
 
     if (e.target.value) {
-      listSearch = await listfiilter.filter(
+      listSearch = listfiilter.filter(
         (item) =>
           String(
             removeDiacritics(decryptData(item.donvi).toLowerCase())
@@ -110,7 +110,7 @@ const Tonghop = () => {
       item.tenkhachhang = encryptData(item.tenkhachhang);
       item.account = encryptData(item.account);
       item.diachi = encryptData(item.diachi);
-      item.l2ws = encryptData(item.l2ws);
+      item.l2sw = encryptData(item.l2sw);
       item.wan = encryptData(item.wan);
       item.wamdoosan = encryptData(item.wamdoosan);
 
@@ -191,9 +191,9 @@ const Tonghop = () => {
                         <td>{item.svlan}</td>
                         <td>{item.cvlan}</td>
                         <td>{item.portl2sw}</td>
-                        <td>{item.l2sw}</td>
+                        <td>{decryptData(item.l2sw)}</td>
                         <td>
-                          <Tonghop_view />
+                          <Tonghop_view data={item} />
                         </td>
                       </tr>
                     );
