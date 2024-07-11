@@ -13,6 +13,7 @@ const initState = {
 const rootReducer = (state = initState, action) => {
   switch (action.type) {
     case "LOGIN":
+      console.log(action.payload)
       return { ...state, user: action.payload };
     case "LOGOUT":
       return { ...state, user: {}, sanpham: [] };

@@ -13,6 +13,9 @@ import {
 } from "react-router-dom";
 import Home from "./compnent/Home";
 import Nhienlieu from "./compnent/Nhienlieu";
+import Login from "./compnent/public/Login";
+import Register from "./compnent/public/Register";
+import Tonghop from "./compnent/megawa/Tonghop/Tonghop";
 function App() {
   return (
     <Router>
@@ -21,8 +24,12 @@ function App() {
           <Routes>
             {/* <Route path="/cabin/test" element={<Test />} />{" "} */}
             
-            <Route path="/" element={<Home />} />
-          
+            <Route path="/" element={<Login />} />
+            <Route path="/home" element={<Home />} />
+
+            <Route path="/register" element={<Register />} />
+            {/* Megawan */}
+            <Route path="/tonghop" element={<Tonghop />} />
           </Routes>{" "}
           <ToastContainer
             position="top-right"

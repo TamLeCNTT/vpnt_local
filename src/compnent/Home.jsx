@@ -356,12 +356,14 @@ const Home = () => {
                     row={6}
                     data={listexport}
                     name={
-                      "DanhSach_HocVien_" +
-                      new Date().getFullYear() +
+                      "Tổng hợp nhiên liệu tháng_" +
+                      new Date().getMonth() +
+                      "_Ngay" +
+                      new Date().getDate() +
                       "_" +
                       new Date().getMonth() +
                       "_" +
-                      new Date().getDate()
+                      new Date().getFullYear()
                     }
                   />
                 </div>
