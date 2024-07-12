@@ -59,33 +59,33 @@ const Header = (props) => {
 
                                 </li> */}
 
-                {/* <li className="nav-item">
+                <li className="nav-item">
                   <a className="nav-link" href="#">
-                    Lịch học
+                    MEGAWAN
                   </a>
                   <ul className="sub-nav modal-90w">
                     <li className="sub-item">
-                      <NavLink to="/cabin/show" className="sub-content">
-                        Lịch cabin
+                      <NavLink to="/tonghop" className="sub-content">
+                        Tổng hợp
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
                       <a href="" className="sub-content">
-                        Lịch thi tốt nghiệp
+                        S4T
                       </a>
                     </li>
                     <li className="sub-item">
                       <a href="" className="sub-content">
-                        Lịch thi sát hạch
+                        TSLCD
                       </a>
                     </li>
                   </ul>
-                </li> */}
+                </li>
 
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <NavLink to="/home" className="nav-link">
                     Báo cáo
-                  </a>
+                  </NavLink>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

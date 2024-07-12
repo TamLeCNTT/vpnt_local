@@ -4,7 +4,7 @@
 // variable
 $font-family-base: "Inter", "DM Sans", "Lato", sans-serif;
 $font-family-heading: "Lexend", sans-serif;
-$primary-color: #fee100;
+$primary-color: #3c26fd9c;
 $text-header-color: #090909;
 $black: #000;
 $white: #fff;
@@ -109,6 +109,7 @@ select {
   &:hover {
     transition: 1s ease-in-out;
     background: $white;
+
     border-color: $primary-color;
   }
 }
@@ -208,7 +209,7 @@ select {
   .nav-item {
     &:hover .nav-link {
       background-color: $primary-color;
-      color: $black;
+      color: white;
     }
   }
 

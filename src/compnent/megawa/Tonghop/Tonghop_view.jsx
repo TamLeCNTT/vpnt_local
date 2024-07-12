@@ -112,6 +112,9 @@ const Tonghop_view = (props) => {
     setlienhe(props.data.lienhe);
     setshow(true);
   };
+  const close = () => {
+    setshow(false);
+  };
   const changename = (e) => {
     setname(e.target.value);
     console.log(e.target.value);
@@ -618,6 +621,12 @@ const Tonghop_view = (props) => {
             </section>
           </Modal.Body>
           <Modal.Footer>
+            <button
+              className="btn btn-lg fs-3 btn-primary p-3 mr-6"
+              onClick={(e) => close()}
+            >
+              Đóng
+            </button>
             <button
               className="btn btn-lg d-block fs-3 btn-primary p-3"
               onClick={(e) => save(e)}
