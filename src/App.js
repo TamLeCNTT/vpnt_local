@@ -16,6 +16,8 @@ import Nhienlieu from "./compnent/Nhienlieu";
 import Login from "./compnent/public/Login";
 import Register from "./compnent/public/Register";
 import Tonghop from "./compnent/megawa/Tonghop/Tonghop";
+import TenTram from "./compnent/Tramdien/TenTram";
+import ChuyenAcQuy from "./compnent/Tramdien/ChuyenAcQuy";
 function App() {
   return (
     <Router>
@@ -30,6 +32,9 @@ function App() {
             <Route path="/register" element={<Register />} />
             {/* Megawan */}
             <Route path="/tonghop" element={<Tonghop />} />
+            {/* Tram Ac quy */}
+            {/* <Route path="/tentram" element={<TenTram />} /> */}
+            <Route path="/chuyenacquy" element={<ChuyenAcQuy />} />
           </Routes>{" "}
           <ToastContainer
             position="top-right"

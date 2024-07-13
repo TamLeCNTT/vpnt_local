@@ -4,19 +4,33 @@ import "../Assets/scss/Layout.scss";
 import logo from "../Assets/img/logo.png";
 import { connect } from "react-redux";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 import { toast } from "react-toastify";
+import CryptoJS from "crypto-js";
 const Header = (props) => {
-  const users = localStorage.getItem("user")
-    ? JSON.parse(localStorage.getItem("user"))
+  let navtive = useNavigate();
+  const users = sessionStorage.getItem("user")
+    ? JSON.parse(sessionStorage.getItem("user"))
     : null;
   const dangxuat = () => {
-    localStorage.removeItem("user");
+    navtive("/");
+    sessionStorage.removeItem("user");
     toast.success("Đăng xuất thành công");
     props.logout();
   };
-  useEffect(() => {
-    console.log(props.dataRedux);
-  }, []);
+
+  const decryptData = (encryptedData) => {
+    let secretKey = "vnpt";
+    try {
+      const bytes = CryptoJS.AES.decrypt(encryptedData, secretKey);
+      const decryptedData = bytes.toString(CryptoJS.enc.Utf8);
+      return decryptedData;
+    } catch (error) {
+      console.error("Error decrypting data: ", error);
+      return null;
+    }
+  };
   return (
     <>
       <header className="header">
@@ -58,28 +72,58 @@ const Header = (props) => {
                                     <a className="nav-link" href="#">Dịch vụ</a>
 
                                 </li> */}
-
+                {users && users.roleId > 99 && (
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      MEGAWAN
+                    </a>
+                    <ul className="sub-nav modal-90w">
+                      <li className="sub-item">
+                        <NavLink to="/tonghop" className="sub-content">
+                          Tổng hợp
+                        </NavLink>{" "}
+                      </li>
+                      <li className="sub-item">
+                        <a href="" className="sub-content">
+                          S4T
+                        </a>
+                      </li>
+                      <li className="sub-item">
+                        <a href="" className="sub-content">
+                          TSLCD
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                )}
+                {users && (
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      FORM
+                    </a>
+                    <ul className="sub-nav modal-90w">
+                      <li className="sub-item">
+                        <NavLink to="/chuyenacquy" className="sub-content">
+                          CHUYỂN TRẠM
+                        </NavLink>{" "}
+                      </li>
+                      <li className="sub-item">
+                        <a href="" className="sub-content">
+                          S4T
+                        </a>
+                      </li>
+                      <li className="sub-item">
+                        <a href="" className="sub-content">
+                          TSLCD
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                )}
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    MEGAWAN
-                  </a>
-                  <ul className="sub-nav modal-90w">
-                    <li className="sub-item">
-                      <NavLink to="/tonghop" className="sub-content">
-                        Tổng hợp
-                      </NavLink>{" "}
-                    </li>
-                    <li className="sub-item">
-                      <a href="" className="sub-content">
-                        S4T
-                      </a>
-                    </li>
-                    <li className="sub-item">
-                      <a href="" className="sub-content">
-                        TSLCD
-                      </a>
-                    </li>
-                  </ul>
+                  <NavLink to="/home" className="nav-link">
+                    Báo cáo
+                  </NavLink>
                 </li>
 
                 <li className="nav-item">
@@ -88,94 +132,95 @@ const Header = (props) => {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Thông kê
-                  </a>
+                  <NavLink to="/home" className="nav-link">
+                    Báo cáo
+                  </NavLink>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Giới thiệu
-                  </a>
-                </li>
-                {!props.dataRedux.user.username && !users && (
+
+                {!users && (
                   <li className="nav-item">
-                    <NavLink className="nav-link" to="/login">
+                    <NavLink className="nav-link" to="/">
                       Đăng nhập
                     </NavLink>
                   </li>
                 )}
 
-                {(props.dataRedux.user.username || users) && (
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Quản lý
-                    </a>
-                    <ul className="sub-nav">
-                      <li className="sub-item">
-                        <NavLink
-                          onClick={() => dangxuat()}
-                          className="sub-content"
-                        >
-                          Đăng xuất
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/cabin/list" className="sub-content">
-                          Lịch cabin
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/cabin/add" className="sub-content">
-                          Đăng ký cabin
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/giaovien/list" className="sub-content">
-                          Giáo viên{" "}
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/student/list" className="sub-content">
-                          Học viên{" "}
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/session/list" className="sub-content">
-                          Kiểm tra DAT
-                        </NavLink>
-                      </li>
-                      <li className="sub-item">
-                        {" "}
-                        <NavLink to="/cohuu/list" className="sub-content">
-                          DAT cơ hữu
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                )}
-              </ul>
-
-              <ul className="navbar-nav nav-right me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <button
+                {users && (
+                  <>
+                    <li className="nav-item mr-3">
+                      <a className="nav-link" href="#">
+                        Quản lý
+                      </a>
+                      <ul className="sub-nav">
+                        <li className="sub-item">
+                          <a onClick={() => dangxuat()} className="sub-content">
+                            Đăng xuất
+                          </a>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/cabin/list" className="sub-content">
+                            Lịch cabin
+                          </NavLink>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/cabin/add" className="sub-content">
+                            Đăng ký cabin
+                          </NavLink>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/giaovien/list" className="sub-content">
+                            Giáo viên{" "}
+                          </NavLink>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/student/list" className="sub-content">
+                            Học viên{" "}
+                          </NavLink>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/session/list" className="sub-content">
+                            Kiểm tra DAT
+                          </NavLink>
+                        </li>
+                        <li className="sub-item">
+                          {" "}
+                          <NavLink to="/cohuu/list" className="sub-content">
+                            DAT cơ hữu
+                          </NavLink>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="nav-item">
+                      <ul className="navbar-nav nav-right me-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                          {/* <button
                     className="btn btn-contact active"
                     aria-current="page"
                     href="#"
                   >
                     Liên hệ
-                  </button>
-                </li>
+                  </button> */}
+                          <img
+                            src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                            class="rounded-circle"
+                            alt="Avatar"
+                          />
+                        </li>
 
-                <li className="nav-item nav-phone">
-                  <a href="tel:0123456789" className="header-phone">
-                    <i className="fas fa-phone-alt"></i>
-                  </a>
-                </li>
+                        <li className="nav-item  nav-phone">
+                          <label className="form-label label label-primary">
+                            {decryptData(users.username)}
+                          </label>
+                        </li>
+                      </ul>
+                    </li>
+                  </>
+                )}
               </ul>
             </div>
           </div>

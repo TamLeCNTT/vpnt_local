@@ -18,7 +18,7 @@ const Register = (props) => {
   const [repassword, setRePassword] = useState("");
   const [listuser, setListUser] = useState([]);
   const [lastActivityTime, setLastActivityTime] = useState(new Date());
-
+  const role = 102;
   let navitive = useNavigate();
 
   useEffect(() => {
@@ -37,22 +37,6 @@ const Register = (props) => {
   const ChangeRePassword = (e) => {
     setRePassword(e.target.value);
   };
-  // useEffect(() => {
-  //   const logoutTimer = setTimeout(() => {
-  //     const currentTime = new Date();
-  //     const elapsedMinutes = (currentTime - lastActivityTime) / (1000 * 60);
-  //     console.log("Đăng xuất người dùng");
-  //     // Đăng xuất nếu thời gian đã trôi qua hơn 10 phút
-  //     if (elapsedMinutes >= 10) {
-  //       // Thực hiện hành động đăng xuất ở đây
-  //       console.log("Đăng xuất người dùng");
-  //       setUser(null);
-  //       sessionStorage.clear();
-  //     }
-  //   }, 60); // 10 phút = 600000 milliseconds
-
-  //   return () => clearTimeout(logoutTimer);
-  // }, [lastActivityTime, user]);
   const register = async (e) => {
     let user = { username: username, password: password };
     if (!username) {
@@ -77,6 +61,8 @@ const Register = (props) => {
           } else {
             setErrorRePassword(false);
             setErrorPassword(false);
+            console.log(username);
+            console.log(listuser.filter((e) => e.username == username));
             if (listuser.filter((e) => e.username == username).length > 0) {
               setErrorUsername(true);
               toast.error("Tên tài khoản đã tồn tại");
@@ -91,8 +77,8 @@ const Register = (props) => {
               );
               userService
                 .update({
-                  id: username,
-                  data: { username: username, password: hashed, roleId: 2 },
+                  id: username.replace(/\./g, ""),
+                  data: { username: username, password: hashed, roleId: role },
                 })
                 .then((res) => {
                   toast.success("Đăng ký tài khoản thành công !");

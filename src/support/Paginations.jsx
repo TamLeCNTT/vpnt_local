@@ -12,7 +12,7 @@ const Paginations = (props) => {
   let flag = 0;
   const changechoose = (e) => {
     flag = 0;
-    console.log(choose, TongST);
+
     let page = choose;
     if (e === "+") {
       if (choose < TongST - 1) {
@@ -94,7 +94,6 @@ const Paginations = (props) => {
       lists = props.list.slice(SoHT * 0, 1 * SoHT);
     }
     props.getlist(lists);
-    console.log("jhhh", props.list, lists);
   }, [props.list]);
   return (
     <>

@@ -8,6 +8,7 @@ import bcrypt from "bcryptjs";
 import { connect } from "react-redux";
 import Header from "../../Layout/Header";
 import userService from "../../service/userService";
+import CryptoJS from "crypto-js";
 const Login = (props) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -18,7 +19,16 @@ const Login = (props) => {
   const [errorpassword, setErrorPassword] = useState(false);
 
   let navitive = useNavigate();
-
+  const encryptData = (data) => {
+    let secretKey = "vnpt";
+    try {
+      const encryptedData = CryptoJS.AES.encrypt(data, secretKey).toString();
+      return encryptedData;
+    } catch (error) {
+      console.error("Error encrypting data: ", error);
+      return null;
+    }
+  };
   useEffect(() => {
     userService.getAll().then((res) => {
       setListUser(Object.values(res.data));
@@ -67,9 +77,14 @@ const Login = (props) => {
           let flash = await bcrypt.compare(password, userold[0].password);
           if (flash) {
             toast.success("Đăng nhập thành công");
-            sessionStorage.setItem("user", JSON.stringify(userold));
+            console.log(userold[0]);
+            userold[0].username = encryptData(userold[0].username);
+
+            console.log(userold[0]);
+            sessionStorage.setItem("user", JSON.stringify(userold[0]));
             navitive("/home");
-            props.login(userold);
+
+            props.login(userold[0]);
           } else {
             toast.error("Sai mật khẩu hoặc tên đăng nhập");
           }

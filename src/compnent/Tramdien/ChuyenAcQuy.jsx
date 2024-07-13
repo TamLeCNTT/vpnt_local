@@ -1,15 +1,18 @@
-import Header from "../../../Layout/Header";
+import Header from "../../Layout/Header";
 import { useState, useEffect } from "react";
 
-import Paginations from "../../../support/Paginations";
-
-import { toast } from "react-toastify";
-import ImportNhienlieu from "../../../support/ImportNhienlieu";
+import Paginations from "../../support/Paginations";
+// import Cabin_edit from "./Cabin_edit";
 import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
-import TonghopService from "../../../service/TonghopService";
+import ImportNhienlieu from "../../support/ImportNhienlieu";
+
+import TonghopService from "../../service/TonghopService";
 import CryptoJS from "crypto-js";
-import Tonghop_view from "./Tonghop_view";
+
+import ThemChuyenAcQuy from "./ThemChuyenAcQuy";
+import ChuyenAcQuyService from "../../service/ChuyenAcQuyService";
+import { toast } from "react-toastify";
 //mã hóa
 // const encrypted = CryptoJS.AES.encrypt("data", "vnpt").toString();
 // console.log(encrypted);
@@ -17,8 +20,8 @@ import Tonghop_view from "./Tonghop_view";
 // const bytes = CryptoJS.AES.decrypt(encrypted, "vnpt");
 // const decrypted = bytes.toString(CryptoJS.enc.Utf8);
 // console.log(decrypted);
-const Tonghop = (props) => {
-  const [listTonghop, setListTonghop] = useState([]);
+const ChuyenAcQuy = (props) => {
+  const [listchuyentram, setListchuyentram] = useState([]);
   const [listOLd, setListOld] = useState([]);
   const [listPg, setListPg] = useState([]);
   const [textsearch, setTextsearch] = useState([]);
@@ -70,7 +73,7 @@ const Tonghop = (props) => {
     let listSearch = listOLd;
     let listfiilter =
       String(textsearch).length < String(e.target.value)
-        ? listTonghop
+        ? listchuyentram
         : listOLd;
     setTextsearch(e.target.value);
 
@@ -106,18 +109,26 @@ const Tonghop = (props) => {
       );
     }
 
-    setListTonghop(listSearch);
+    setListchuyentram(listSearch);
   };
   useEffect(() => {
-    console.log("dđ");
     if (!usered) {
-      native("/");
       toast.error("Bạn không đủ quyền hạn");
-      console.log("ok");
+      native("/");
     } else {
-      TonghopService.getAll().then((res) => {
-        setListTonghop(Object.values(res.data));
-        setListOld(Object.values(res.data));
+      ChuyenAcQuyService.getAll().then((res) => {
+        if (Number(props.dataRedux.user.roleId) > 99)
+          setListchuyentram(Object.values(res.data));
+        else {
+          setListchuyentram(
+            Object.values(res.data).filter(
+              (e) =>
+                String(e.user) ==
+                String(decryptData(props.dataRedux.user.username))
+            )
+          );
+          console.log(Object.values(res.data));
+        }
       });
     }
   }, []);
@@ -140,6 +151,7 @@ const Tonghop = (props) => {
       });
     });
   };
+  const save = (e) => {};
   return (
     <>
       <Header />
@@ -159,13 +171,16 @@ const Tonghop = (props) => {
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
               <div className="row">
+                <div className="col col-md-2">
+                  <ThemChuyenAcQuy save={save} />
+                </div>
                 <div className="col col-md-10">
                   <ImportNhienlieu
                     getdata={getdata}
                     header={header}
                     row={0}
                     name={
-                      "DanhSach_HocVien_" +
+                      "DanhSach_Chuyen_" +
                       new Date().getFullYear() +
                       "_" +
                       new Date().getMonth() +
@@ -179,18 +194,20 @@ const Tonghop = (props) => {
           </div>
           <table className="table mt-3 table-bordered   table-hover ">
             <thead className="thead-dark">
-              <tr>
+              <tr id="tramchuyen">
                 <th>STT</th>
-                <th scope="col">Đơn vị</th>
-                <th scope="col">Tên khách hàng</th>
+                <th scope="col">Loại chuyển</th>
+                <th scope="col">Tên trạm chuyển</th>
 
-                <th scope="col">Account</th>
+                <th scope="col">Chủng loại</th>
 
-                <th scope="col">Địa chỉ</th>
-                <th scope="col">SVLAN</th>
-                <th scope="col">CVLAN</th>
-                <th scope="col">PORT/L2-SW</th>
-                <th scope="col">L2-SW</th>
+                <th scope="col">Serial</th>
+                <th scope="col">Số lượng</th>
+                <th scope="col">Đơn vị quản lý chuyển</th>
+                <th scope="col">Tên trạm nhận</th>
+                <th scope="col">Đơn vị quản lý nhận</th>
+                <th scope="col">Ghi chú</th>
+                <th scope="col">Ngày điều chuyển</th>
                 <th scope="col">Quản lý</th>
               </tr>
             </thead>
@@ -202,29 +219,41 @@ const Tonghop = (props) => {
                     return (
                       <tr className="alert " role="alert" key={index}>
                         <td scope="row">{index + 1}</td>
-                        <td>{decryptData(item.donvi)}</td>
-                        <td>{decryptData(item.tenkhachhang)}</td>
+                        <td>{item.loaichuyen}</td>
+                        <td>{item.tentramc}</td>
 
-                        <td>{decryptData(item.donvi)}</td>
+                        <td>{item.chungloai}</td>
 
-                        <td>{decryptData(item.diachi)}</td>
-                        <td>{item.svlan}</td>
-                        <td>{item.cvlan}</td>
-                        <td>{item.portl2sw}</td>
-                        <td>{decryptData(item.l2sw)}</td>
-                        <td>
-                          <Tonghop_view data={item} />
-                        </td>
+                        <td>{item.serial}</td>
+                        <td>{item.soluong}</td>
+                        <td>{item.donvic}</td>
+                        <td>{item.tentramn}</td>
+                        <td>{item.donvin}</td>
+                        <td>{item.ghichu}</td>
+                        <td>{item.ngaychuyen}</td>
+                        <td></td>
                       </tr>
                     );
                   })}
             </tbody>
           </table>
-          <Paginations itemsPerPage={20} list={listTonghop} getlist={getlist} />
+          <Paginations
+            itemsPerPage={20}
+            list={listchuyentram}
+            getlist={getlist}
+          />
         </div>
       </main>
     </>
   );
 };
+const mapStateToProps = (state) => {
+  return { dataRedux: state };
+};
 
-export default Tonghop;
+const mapDispatchToProps = (dispatch) => {
+  return {
+    logout: () => dispatch({ type: "LOGOUT" }),
+  };
+};
+export default connect(mapStateToProps, mapDispatchToProps)(ChuyenAcQuy);
