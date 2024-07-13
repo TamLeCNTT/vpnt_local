@@ -286,7 +286,7 @@ const ThemChuyenAcQuy = (props) => {
                         className="form-label tonghop-label"
                         htmlFor="name"
                       >
-                        Chọn loại chuyển
+                        Chọn loại
                       </label>
                       <Select
                         onChange={(e) => changeloaichuyen(e)}

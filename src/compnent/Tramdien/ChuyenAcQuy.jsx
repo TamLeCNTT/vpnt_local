@@ -174,21 +174,23 @@ const ChuyenAcQuy = (props) => {
                 <div className="col col-md-2">
                   <ThemChuyenAcQuy save={save} />
                 </div>
-                <div className="col col-md-10">
-                  <ImportNhienlieu
-                    getdata={getdata}
-                    header={header}
-                    row={0}
-                    name={
-                      "DanhSach_Chuyen_" +
-                      new Date().getFullYear() +
-                      "_" +
-                      new Date().getMonth() +
-                      "_" +
-                      new Date().getDate()
-                    }
-                  />
-                </div>
+                {usered && usered.roleId > 99 && (
+                  <div className="col col-md-10">
+                    <ImportNhienlieu
+                      getdata={getdata}
+                      header={header}
+                      row={0}
+                      name={
+                        "DanhSach_Chuyen_" +
+                        new Date().getFullYear() +
+                        "_" +
+                        new Date().getMonth() +
+                        "_" +
+                        new Date().getDate()
+                      }
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </div>
