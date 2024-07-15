@@ -280,7 +280,7 @@ const ThemChuyenAcQuy = (props) => {
                   </div>
                 </div>
                 <div className="row mb-5">
-                  <div className="col col-md-4 mb-4">
+                  <div className="col col-12 col-md-4 mb-4">
                     <div className="md-4">
                       <label
                         className="form-label tonghop-label"
@@ -295,7 +295,7 @@ const ThemChuyenAcQuy = (props) => {
                       />
                     </div>
                   </div>
-                  <div className="col col-md-4 mb-4">
+                  <div className="col col-12 col-md-4 mb-4">
                     <div className="md-4">
                       <label
                         htmlFor="code"
@@ -313,7 +313,7 @@ const ThemChuyenAcQuy = (props) => {
                     </div>
                   </div>
                   {tentramckhac && (
-                    <div className="col col-md-4 ">
+                    <div className="col col-12 col-md-4 ">
                       <div className="md-4">
                         <label
                           className="form-label tonghop-label"
@@ -337,7 +337,7 @@ const ThemChuyenAcQuy = (props) => {
                       </div>
                     </div>
                   )}
-                  <div className="col col-md-4">
+                  <div className="col col-12 col-md-4">
                     <div className="md-4">
                       <label
                         className="form-label tonghop-label"
@@ -355,7 +355,7 @@ const ThemChuyenAcQuy = (props) => {
                     </div>
                   </div>
                   {chungloaikhac && (
-                    <div className="col col-md-4 ">
+                    <div className="col col-12 col-md-4 ">
                       <div className="md-4">
                         <label
                           className="form-label tonghop-label"
@@ -379,7 +379,7 @@ const ThemChuyenAcQuy = (props) => {
                       </div>
                     </div>
                   )}
-                  <div className="col col-md-4 ">
+                  <div className="col col-12 col-md-4 ">
                     <div className="md-4">
                       <label
                         className="form-label tonghop-label"
@@ -403,8 +403,8 @@ const ThemChuyenAcQuy = (props) => {
                   <div
                     className={
                       tentramckhac && chungloaikhac
-                        ? "col col-md-3 mt-4"
-                        : "col col-md-3"
+                        ? "col col-12 col-md-3 mt-4"
+                        : "col col-12 col-md-3"
                     }
                   >
                     <div className="md-4">
@@ -430,8 +430,8 @@ const ThemChuyenAcQuy = (props) => {
                   <div
                     className={
                       tentramckhac || chungloaikhac
-                        ? "col col-md-5 mt-4"
-                        : "col col-md-5"
+                        ? "col col-12 col-md-5 mt-4"
+                        : "col col-12 col-md-5"
                     }
                   >
                     <div className="md-4">
@@ -450,14 +450,14 @@ const ThemChuyenAcQuy = (props) => {
                   </div>
                 </div>
                 <div className="row mb-4 mt-5 ">
-                  <div className="col col-md-12 tonghop-label">
+                  <div className="col col-12 col-md-12 tonghop-label">
                     <p class="text-center text-uppercase fs-2">
                       Trạm nhận điều chuyển
                     </p>
                   </div>
                 </div>
                 <div className="row mb-5">
-                  <div className="col col-md-6 mb-4">
+                  <div className="col col-12 col-md-6 mb-4">
                     <div className="md-4">
                       <label
                         htmlFor="code"
@@ -475,7 +475,7 @@ const ThemChuyenAcQuy = (props) => {
                     </div>
                   </div>
                   {tentramnkhac && (
-                    <div className="col col-md-6 ">
+                    <div className="col col-12 col-md-6 ">
                       <div className="md-4">
                         <label
                           className="form-label tonghop-label"
@@ -499,7 +499,7 @@ const ThemChuyenAcQuy = (props) => {
                       </div>
                     </div>
                   )}
-                  <div className="col col-md-6">
+                  <div className="col col-12 col-md-6">
                     <div className="md-4">
                       <label
                         className="form-label tonghop-label"
@@ -515,7 +515,7 @@ const ThemChuyenAcQuy = (props) => {
                     </div>
                   </div>
 
-                  <div className="col col-md-6">
+                  <div className="col col-12 col-md-6">
                     <div className="md-4">
                       <label
                         className="form-label tonghop-label"
@@ -536,7 +536,9 @@ const ThemChuyenAcQuy = (props) => {
                   </div>
                   <div
                     className={
-                      tentramnkhac ? "col col-md-6 mt-4" : "col col-md-6"
+                      tentramnkhac
+                        ? "col col-12 col-md-6 mt-4"
+                        : "col col-12 col-md-6"
                     }
                   >
                     <div className="md-4">
