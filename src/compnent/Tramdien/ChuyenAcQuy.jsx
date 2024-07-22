@@ -1,6 +1,6 @@
 import Header from "../../Layout/Header";
 import { useState, useEffect } from "react";
-
+import { NavLink } from "react-router-dom";
 import Paginations from "../../support/Paginations";
 // import Cabin_edit from "./Cabin_edit";
 import { useNavigate } from "react-router-dom";
@@ -13,6 +13,7 @@ import CryptoJS from "crypto-js";
 import ThemChuyenAcQuy from "./ThemChuyenAcQuy";
 import ChuyenAcQuyService from "../../service/ChuyenAcQuyService";
 import { toast } from "react-toastify";
+import { it } from "date-fns/locale/it";
 //mã hóa
 // const encrypted = CryptoJS.AES.encrypt("data", "vnpt").toString();
 // console.log(encrypted);
@@ -21,14 +22,24 @@ import { toast } from "react-toastify";
 // const decrypted = bytes.toString(CryptoJS.enc.Utf8);
 // console.log(decrypted);
 const ChuyenAcQuy = (props) => {
+  const getTodayDate = () => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, "0"); // Months are 0-based
+    const day = String(today.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  };
   const [listchuyentram, setListchuyentram] = useState([]);
   const [listOLd, setListOld] = useState([]);
   const [listPg, setListPg] = useState([]);
   const [textsearch, setTextsearch] = useState([]);
+  const [ngaybd, setngaybd] = useState(getTodayDate());
+  const [ngaykt, setngaykt] = useState(getTodayDate());
   const usered = sessionStorage.getItem("user")
     ? JSON.parse(sessionStorage.getItem("user"))
     : null;
   let native = useNavigate();
+
   const header = [
     [
       "STT",
@@ -112,25 +123,36 @@ const ChuyenAcQuy = (props) => {
     setListchuyentram(listSearch);
   };
   useEffect(() => {
-    if (!usered) {
-      toast.error("Bạn không đủ quyền hạn");
-      native("/");
-    } else {
-      ChuyenAcQuyService.getAll().then((res) => {
-        if (Number(props.dataRedux.user.roleId) > 99)
-          setListchuyentram(Object.values(res.data));
-        else {
-          setListchuyentram(
-            Object.values(res.data).filter(
-              (e) =>
-                String(e.user) ==
-                String(decryptData(props.dataRedux.user.username))
-            )
-          );
-          console.log(Object.values(res.data));
-        }
-      });
-    }
+    setngaybd(getTodayDate());
+    setngaykt(getTodayDate());
+    console.log(ngaybd, ngaykt);
+    ChuyenAcQuyService.getAll().then((res) => {
+      const today = new Date();
+      setListOld(Object.values(res.data));
+      setListchuyentram(
+        Object.values(res.data)
+          .filter(
+            (e) =>
+              new Date(e.ngaychuyen).getDate() === today.getDate() &&
+              new Date(e.ngaychuyen).getMonth() === today.getMonth() &&
+              new Date(e.ngaychuyen).getFullYear() === today.getFullYear()
+          )
+          .sort((a, b) => {
+            if (a.ngaychuyen < b.ngaychuyen) return 1;
+            if (a.ngaychuyen > b.ngaychuyen) return -1;
+            return 0;
+          })
+      );
+      let list = [];
+
+      console.log(
+        list.sort((a, b) => {
+          if (a.chungloai < b.chungloai) return 1;
+          if (a.chungloai > b.chungloai) return -1;
+          return 0;
+        })
+      );
+    });
   }, []);
   const getdata = (e) => {
     let listdata = [];
@@ -151,6 +173,30 @@ const ChuyenAcQuy = (props) => {
       });
     });
   };
+  const changengaybd = (e) => {
+    let ngaykts = new Date(ngaykt);
+    let ngaybds = new Date(e.target.value);
+    if (ngaybds <= ngaykts) {
+      let listnew = listOLd.filter(
+        (e) =>
+          new Date(e.ngaychuyen) >= ngaybds && new Date(e.ngaychuyen) <= ngaykts
+      );
+      setListchuyentram(listnew);
+      setngaybd(e.target.value);
+    } else toast.error("Vui lòng chọn ngày bắt đầu trước ngày kết thúc");
+  };
+  const changengaykt = (e) => {
+    let ngaybds = new Date(ngaybd);
+    let ngaykts = new Date(e.target.value);
+    if (ngaybds <= ngaykts) {
+      let listnew = listOLd.filter(
+        (e) =>
+          new Date(e.ngaychuyen) >= ngaybds && new Date(e.ngaychuyen) <= ngaykts
+      );
+      setListchuyentram(listnew);
+      setngaykt(e.target.value);
+    } else toast.error("Vui lòng chọn ngày kết thúc sau ngày bắt đầu ");
+  };
   const save = (e) => {};
   return (
     <>
@@ -158,7 +204,7 @@ const ChuyenAcQuy = (props) => {
       <main id="cabin_list" className="main">
         <div className="container">
           <div className="row mt-5 d-flex justify-content-between ">
-            <div className="col col-md-7">
+            {/* <div className="col col-md-7">
               <input
                 type="text"
                 className="form-control  ms-2 "
@@ -167,13 +213,14 @@ const ChuyenAcQuy = (props) => {
                 value={textsearch}
                 placeholder="Nhập nội dung tìm kiếm"
               />
-            </div>
+            </div> */}
+
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
               <div className="row">
-                <div className="col col-md-2">
+                {/* <div className="col col-md-2">
                   <ThemChuyenAcQuy save={save} />
-                </div>
+                </div> */}
                 {usered && usered.roleId > 99 && (
                   <div className="col col-md-10">
                     <ImportNhienlieu
@@ -194,51 +241,92 @@ const ChuyenAcQuy = (props) => {
               </div>
             </div>
           </div>
-          <table className="table mt-3 table-bordered   table-hover ">
-            <thead className="thead-dark">
-              <tr id="tramchuyen">
-                <th>STT</th>
-                <th scope="col">Loại chuyển</th>
-                <th scope="col">Tên trạm chuyển</th>
+          <div className="row mt-3">
+            <div className="col col-5 col-md-4">
+              <label className="form-label tonghop-label" htmlFor="name">
+                Ngày bắt đầu
+              </label>
+              <input
+                className={"form-control"}
+                id="teacher"
+                name="name"
+                type="date"
+                value={ngaybd}
+                onChange={(e) => changengaybd(e)}
+                placeholder=""
+              />
+            </div>
+            <div className="col col-5 col-md-4">
+              <label className="form-label tonghop-label" htmlFor="name">
+                Ngày kết thúc
+              </label>
+              <input
+                className={"form-control"}
+                id="teacher"
+                name="name"
+                type="date"
+                value={ngaykt}
+                onChange={(e) => changengaykt(e)}
+                placeholder=""
+              />
+            </div>
+            <div className="col col-2 col-md-2">
+              <div class="d-flex align-items-left justify-content-left">
+                <NavLink to="/themchuyenacquy">
+                  <button className="btn btn-lg d-block fs-2 btn-primary">
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                  </button>
+                </NavLink>
+              </div>
+            </div>
+          </div>
+          <div className="table-responsive">
+            <table className="table mt-3 table-bordered   table-hover ">
+              <thead className="thead-dark">
+                <tr id="tramchuyen">
+                  <th>STT</th>
+                  <th scope="col">Loại chuyển</th>
+                  <th scope="col">Tên trạm điều chuyển</th>
 
-                <th scope="col">Chủng loại</th>
+                  <th scope="col">Chủng loại</th>
 
-                <th scope="col">Serial</th>
-                <th scope="col">Số lượng</th>
-                <th scope="col">Đơn vị quản lý chuyển</th>
-                <th scope="col">Tên trạm nhận</th>
-                <th scope="col">Đơn vị quản lý nhận</th>
-                <th scope="col">Ghi chú</th>
-                <th scope="col">Ngày điều chuyển</th>
-                <th scope="col">Quản lý</th>
-              </tr>
-            </thead>
-            <tbody>
-              {listPg &&
-                listPg
-                  .sort((a, b) => b.tram - a.tram)
-                  .map((item, index) => {
-                    return (
-                      <tr className="alert " role="alert" key={index}>
-                        <td scope="row">{index + 1}</td>
-                        <td>{item.loaichuyen}</td>
-                        <td>{item.tentramc}</td>
+                  <th scope="col">Serial</th>
+                  <th scope="col">Số lượng</th>
+                  <th scope="col">Đơn vị quản lý chuyển</th>
+                  <th scope="col">Tên trạm nhận điều chuyển</th>
+                  <th scope="col">Đơn vị quản lý nhận</th>
+                  <th scope="col">Ghi chú</th>
+                  <th scope="col">Ngày điều chuyển</th>
+                  <th scope="col">Quản lý</th>
+                </tr>
+              </thead>
+              <tbody>
+                {listPg &&
+                  listPg
+                    .sort((a, b) => b.tram - a.tram)
+                    .map((item, index) => {
+                      return (
+                        <tr className="alert " role="alert" key={index}>
+                          <td scope="row">{index + 1}</td>
+                          <td>{item.loaichuyen}</td>
+                          <td>{item.tentramc}</td>
 
-                        <td>{item.chungloai}</td>
+                          <td>{item.chungloai}</td>
 
-                        <td>{item.serial}</td>
-                        <td>{item.soluong}</td>
-                        <td>{item.donvic}</td>
-                        <td>{item.tentramn}</td>
-                        <td>{item.donvin}</td>
-                        <td>{item.ghichu}</td>
-                        <td>{item.ngaychuyen}</td>
-                        <td></td>
-                      </tr>
-                    );
-                  })}
-            </tbody>
-          </table>
+                          <td>{item.serial}</td>
+                          <td>{item.soluong}</td>
+                          <td>{item.donvic}</td>
+                          <td>{item.tentramn}</td>
+                          <td>{item.donvin}</td>
+                          <td>{item.ghichu}</td>
+                          <td>{item.ngaychuyen}</td>
+                          <td></td>
+                        </tr>
+                      );
+                    })}
+              </tbody>
+            </table>
+          </div>
           <Paginations
             itemsPerPage={20}
             list={listchuyentram}

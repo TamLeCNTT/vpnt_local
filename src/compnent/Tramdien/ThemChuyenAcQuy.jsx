@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import CryptoJS from "crypto-js";
@@ -7,8 +7,11 @@ import { Modal } from "react-bootstrap";
 import Select from "react-select";
 import TenTramService from "../../service/TenTramService";
 import ChuyenAcQuyService from "../../service/ChuyenAcQuyService";
+
 import "../public/User.scss";
+import Header from "../../Layout/Header";
 const ThemChuyenAcQuy = (props) => {
+  let navtive = useNavigate();
   const [loaichuyen, setloaichuyen] = useState("");
   const [loaichuyenerror, setloaichuyenerror] = useState(false);
   const [tentramc, settentramc] = useState("");
@@ -33,6 +36,7 @@ const ThemChuyenAcQuy = (props) => {
   const [ngaychuyen, setngaychuyen] = useState("");
   const [ngaychuyenerror, setngaychuyenerror] = useState(false);
   const [show, setshow] = useState(false);
+
   const RandomString = (length) => {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -44,7 +48,7 @@ const ThemChuyenAcQuy = (props) => {
     return result;
   };
   const optionloaichuyen = [
-    { value: "acquy", label: "Ác quy" },
+    { value: "acquy", label: "Accu" },
     { value: "rec", label: "Rec" },
   ];
   const optiondonvi = [
@@ -58,6 +62,8 @@ const ThemChuyenAcQuy = (props) => {
     { value: "Posmax 12V-150Ah", label: "Posmax 12V-150Ah" },
     { value: "Posmax 2V-300Ah", label: "Posmax 2V-300Ah" },
     { value: "Postef V-LFP48100", label: "Postef V-LFP48100" },
+    { value: "DELTA ESR-48/56A B REV 06", label: "DELTA ESR-48/56A B REV 06" },
+    { value: "Emerson R48-2900U", label: "Emerson R48-2900U" },
     { value: "khac", label: "Khác" },
   ];
   const decryptData = (encryptedData) => {
@@ -130,7 +136,7 @@ const ThemChuyenAcQuy = (props) => {
     }
     if (flashcreatenew == 1) {
       ChuyenAcQuyService.update({
-        id: decryptData(props.dataRedux.user.username) + RandomString(6),
+        id: RandomString(16),
         data: {
           loaichuyen: loaichuyen,
           tentramc: tentramc,
@@ -142,11 +148,12 @@ const ThemChuyenAcQuy = (props) => {
           donvin: donvin,
           ghichu: ghichu,
           ngaychuyen: ngaychuyen,
-          user: decryptData(props.dataRedux.user.username),
         },
       }).then((res) => {
         console.log(res.data);
-        props.save(res.data);
+        navtive("/chuyenacquy");
+        toast.success("Thêm chuyển thành công");
+        setshow(false);
       });
       console.log(
         loaichuyen,
@@ -163,6 +170,20 @@ const ThemChuyenAcQuy = (props) => {
       );
     }
   };
+  useEffect(() => {
+    let list = [];
+
+    TenTramService.getAll().then((res) => {
+      console.log(Object.values(res.data));
+      Object.values(res.data).map((item) => {
+        let option = { value: item.tentram, label: item.tentram };
+        list.push(option);
+      });
+      let option = { value: "khac", label: "Khác" };
+      list.push(option);
+      setlistonptionTentram(list);
+    });
+  }, []);
   const openModal = () => {
     console.log(props);
     let list = [];
@@ -244,7 +265,280 @@ const ThemChuyenAcQuy = (props) => {
   };
   return (
     <>
-      <a
+      <Header />
+      <main id="cabin_list" className="main mt-5 ">
+        <div className="container">
+          <section id="about" className="about">
+            <div className="container" data-aos="fade-up">
+              <div className="row">
+                <div className=" mb-4 col col-md-12 tonghop-label">
+                  <p class="text-center text-uppercase fs-2">
+                    Trạm điều chuyển
+                  </p>
+                </div>
+              </div>
+              <div className="row mb-9">
+                <div className="col col-12 col-md-4 mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Chọn loại
+                    </label>
+                    <Select
+                      onChange={(e) => changeloaichuyen(e)}
+                      options={optionloaichuyen}
+                      className={loaichuyenerror ? "error" : ""}
+                    />
+                  </div>
+                </div>
+                <div className="col col-12 col-md-4 mb-4">
+                  <div className="md-4">
+                    <label htmlFor="code" className="form-label tonghop-label">
+                      Tên trạm điều chuyển
+                    </label>
+                    <Select
+                      onChange={(e) => changetentram(e)}
+                      options={listonptionTentram}
+                      className={tentramcerror && !tentramckhac ? "error" : ""}
+                    />
+                  </div>
+                </div>
+                {tentramckhac && (
+                  <div className="col col-12 col-md-4  mb-4 ">
+                    <div className="md-4">
+                      <label
+                        className="form-label tonghop-label"
+                        htmlFor="name"
+                      >
+                        Tên trạm khác
+                      </label>
+                      <input
+                        className={
+                          tentramcerror && tentramckhac
+                            ? "error form-control"
+                            : "form-control"
+                        }
+                        id="teacher"
+                        name="name"
+                        onChange={(e) => changetentramkhac(e)}
+                        value={tentramc}
+                        type="text"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                )}
+                <div className="col col-12 col-md-4  mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Chủng loại
+                    </label>
+                    <Select
+                      onChange={(e) => changechungloai(e)}
+                      className={
+                        chungloaierror && !chungloaikhac ? "error" : ""
+                      }
+                      options={optionchungloai}
+                    />
+                  </div>
+                </div>
+                {chungloaikhac && (
+                  <div className="col col-12 col-md-4  mb-4">
+                    <div className="md-4">
+                      <label
+                        className="form-label tonghop-label"
+                        htmlFor="name"
+                      >
+                        Chủng loại khác
+                      </label>
+                      <input
+                        className={
+                          chungloaierror ? "error form-control" : "form-control"
+                        }
+                        id="teacher"
+                        name="name"
+                        onChange={(e) => changechungloaikhac(e)}
+                        value={chungloai}
+                        type="text"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                )}
+                <div className="col col-12 col-md-4  mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Serial
+                    </label>
+                    <input
+                      className={
+                        serialerror ? "error form-control" : "form-control"
+                      }
+                      id="teacher"
+                      name="name"
+                      onChange={(e) => changeserial(e)}
+                      value={serial}
+                      type="text"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+                <div
+                  className={
+                    tentramckhac && chungloaikhac
+                      ? "col col-12 col-md-3 mt-4  mb-4"
+                      : "col col-12 col-md-3  mb-4"
+                  }
+                >
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Số lượng
+                    </label>
+                    <input
+                      className={
+                        soluongerror ? "error form-control" : "form-control"
+                      }
+                      id="teacher"
+                      name="name"
+                      onChange={(e) => changesoluong(e)}
+                      value={soluong}
+                      type="number"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+                <div
+                  className={
+                    tentramckhac || chungloaikhac
+                      ? "col col-12 col-md-5 mt-4  mb-4"
+                      : "col col-12 col-md-5  mb-4"
+                  }
+                >
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Đơn vị quản lí
+                    </label>
+                    <Select
+                      onChange={(e) => changedonvic(e)}
+                      options={optiondonvi}
+                      className={donvicerror ? "error " : ""}
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row mb-4 mt-5  mb-4 ">
+                <div className="col col-12 col-md-12 tonghop-label">
+                  <p class="text-center text-uppercase fs-2">
+                    Trạm nhận điều chuyển
+                  </p>
+                </div>
+              </div>
+              <div className="row mb-5">
+                <div className="col col-12 col-md-6 mb-4">
+                  <div className="md-4">
+                    <label htmlFor="code" className="form-label tonghop-label">
+                      Tên trạm nhận điều chuyển
+                    </label>
+                    <Select
+                      onChange={(e) => changetentramn(e)}
+                      options={listonptionTentram}
+                      className={tentramnerror && !tentramnkhac ? "error " : ""}
+                    />
+                  </div>
+                </div>
+                {tentramnkhac && (
+                  <div className="col col-12 col-md-6  mb-4">
+                    <div className="md-4">
+                      <label
+                        className="form-label tonghop-label"
+                        htmlFor="name"
+                      >
+                        Tên trạm khác
+                      </label>
+                      <input
+                        className={
+                          tentramnerror ? "error form-control" : "form-control"
+                        }
+                        id="teacher"
+                        name="name"
+                        onChange={(e) => changetentramnkhac(e)}
+                        value={tentramn}
+                        type="text"
+                        placeholder=""
+                      />
+                    </div>
+                  </div>
+                )}
+                <div className="col col-12 col-md-6  mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Đơn vị quản lí
+                    </label>
+                    <Select
+                      onChange={(e) => changedonvin(e)}
+                      options={optiondonvi}
+                      className={donvinerror ? "error " : ""}
+                    />
+                  </div>
+                </div>
+
+                <div className="col col-12 col-md-6  mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Ghi chú
+                    </label>
+                    <input
+                      className="form-control "
+                      id="teacher"
+                      name="name"
+                      onChange={(e) => changeghichu(e)}
+                      value={ghichu}
+                      type="text"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+                <div
+                  className={
+                    tentramnkhac
+                      ? "col col-12 col-md-6 mt-4  mb-4"
+                      : "col col-12 col-md-6"
+                  }
+                >
+                  <div className="md-4 ">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      Ngày điều chuyển
+                    </label>
+                    <input
+                      className={
+                        ngaychuyenerror ? "error form-control" : "form-control"
+                      }
+                      id="teacher"
+                      name="name"
+                      onChange={(e) => changengaychuyen(e)}
+                      value={ngaychuyen}
+                      type="date"
+                      placeholder=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col col-12 col-md-12">
+                  <div class="d-flex align-items-center justify-content-evenly">
+                    <button
+                      className="btn btn-lg d-block fs-1 btn-primary p-3"
+                      onClick={(e) => save(e)}
+                    >
+                      Lưu mới
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      {/* <a
         href="#"
         className="edit"
         data-dismiss="alert"
@@ -582,7 +876,7 @@ const ThemChuyenAcQuy = (props) => {
             </button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div> */}
     </>
   );
 };

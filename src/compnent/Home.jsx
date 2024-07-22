@@ -330,10 +330,19 @@ const Home = () => {
     setLists(listdata);
     setlistexport(listDataexport);
   };
+  const backupConfig = async () => {
+    console.log("hello");
+    const response = await fetch("http://localhost:3001/backup");
+    console.log(response);
+  };
   return (
     <>
       <Header />
+
       <main id="cabin_list" className="main">
+        <div>
+          <button onClick={backupConfig}>Backup Configuration</button>
+        </div>
         <div className="container">
           <div className="row mt-5 d-flex justify-content-between ">
             <div className="col col-md-7">

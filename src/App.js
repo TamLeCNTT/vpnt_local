@@ -18,6 +18,11 @@ import Register from "./compnent/public/Register";
 import Tonghop from "./compnent/megawa/Tonghop/Tonghop";
 import TenTram from "./compnent/Tramdien/TenTram";
 import ChuyenAcQuy from "./compnent/Tramdien/ChuyenAcQuy";
+import ThemChuyenAcQuy from "./compnent/Tramdien/ThemChuyenAcQuy";
+import ImageUploadAndDisplay from "./compnent/ImageUpload";
+import TSLCD from "./compnent/megawa/TSLCD/TSLCD";
+import Suyhao from "./compnent/thongke/Suyhao";
+import Suyhao_v2 from "./compnent/thongke/Suyhao_v2";
 function App() {
   return (
     <Router>
@@ -30,11 +35,17 @@ function App() {
             <Route path="/home" element={<Home />} />
 
             <Route path="/register" element={<Register />} />
+            {/* thongke */}
+            <Route path="/suyhao" element={<Suyhao />} />
+            <Route path="/suyhao_v2" element={<Suyhao_v2 />} />
             {/* Megawan */}
             <Route path="/tonghop" element={<Tonghop />} />
-            {/* Tram Ac quy */}
-            {/* <Route path="/tentram" element={<TenTram />} /> */}
-            <Route path="/chuyenacquy" element={<ChuyenAcQuy />} />
+            <Route path="/tslcd" element={<TSLCD />} />
+              {/* Tram Ac quy */}
+              {/* <Route path="/tentram" element={<TenTram />} /> */}
+              <Route path="/chuyenacquy" element={<ChuyenAcQuy />} />
+              <Route path="/themchuyenacquy" element={<ThemChuyenAcQuy />} />
+            <Route path="/uploadImage" element={<ImageUploadAndDisplay />} />
           </Routes>{" "}
           <ToastContainer
             position="top-right"

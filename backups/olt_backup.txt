@@ -1,0 +1,16 @@
+  Slot/  Thres-    Temp       Voltage      Current      Output       Input
+  Port   hold       (C)         (V)          (mA)        (dBm)       (dBm)
+-------+--------+----------+------------+------------+------------+------------
+  1/24   Actual    36.0        3.304       14.256       -4.387       -6.297    
+         A-High    90.0        3.650      100.000        3.000        3.000    
+         W-High    85.0        3.450       90.000        0.000        0.000    
+         W-Low    -40.0        3.135        0.100       -9.000      -21.024    
+         A-Low    -45.0        2.970        0.000      -12.000      -23.979    
+
+
+WL - Exceeds warning low limit
+WH - Exceeds warning high limit
+AL - Exceeds alarm low limit
+AH - Exceeds alarm high limit
+
+HUG.VTH.PGV.L2S.AL01

@@ -1,0 +1,96 @@
+.border-md {
+  border-width: 2px;
+}
+
+.btn-facebook {
+  background: #405d9d;
+  border: none;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: #314879;
+}
+
+.btn-twitter {
+  background: #42aeec;
+  border: none;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: #1799e4;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+#login .title {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+#login .phai {
+  margin-right: 10px;
+}
+#login body {
+  min-height: 100vh;
+  background-color: rgb(179, 230, 245);
+}
+#login .input-login {
+  height: 5rem;
+  font-size: 5rem;
+  font-weight: bolder;
+}
+#login .input-login::-moz-placeholder {
+  font-size: medium !important;
+}
+#login .input-login::placeholder {
+  font-size: medium !important;
+}
+#login .error {
+  border: solid 1px red;
+}
+#login .form-control:not(select) {
+  padding: 1 rem 0.5rem;
+}
+#login select.form-control {
+  /* height: 52px; */
+  padding-left: 0.5rem;
+}
+#login .form-control::-moz-placeholder {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#login .form-control::placeholder {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+#login .form-control:focus {
+  box-shadow: none;
+}
+#login .inputs {
+  width: 100% !important;
+}
+
+.error {
+  border: solid 1px red;
+}
+
+th {
+  background-color: #3569d8 !important;
+  color: white;
+  text-align: center;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  white-space: nowrap;
+}/*# sourceMappingURL=User.css.map */

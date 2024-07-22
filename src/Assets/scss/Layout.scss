@@ -665,3 +665,29 @@ select {
     }
   }
 }
+#upload-file {
+  input[type="file"]::file-selector-button {
+    border: 1px solid black;
+    padding: 0.65em 0.4em;
+    border-radius: 0.2em;
+    background-color: #a29bfe;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+  }
+
+  // input[type="file"]::-ms-browse:hover {
+  //   background-color: #ece181;
+  //   border: 2px solid #00cec9;
+  // }
+
+  // input[type="file"]::-webkit-file-upload-button:hover {
+  //   background-color: #81ecec;
+  //   border: 2px solid #00cec9;
+  // }
+
+  input[type="file"]::file-selector-button:hover {
+    background-color: #ecca81;
+    border: 2px solid #00cec9;
+  }
+}

@@ -89,37 +89,37 @@ const Header = (props) => {
                         </a>
                       </li>
                       <li className="sub-item">
-                        <a href="" className="sub-content">
+                        <NavLink to="/tslcd" className="sub-content">
                           TSLCD
-                        </a>
+                        </NavLink>
                       </li>
                     </ul>
                   </li>
                 )}
-                {users && (
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      FORM
-                    </a>
-                    <ul className="sub-nav modal-90w">
-                      <li className="sub-item">
-                        <NavLink to="/chuyenacquy" className="sub-content">
-                          CHUYỂN TRẠM
-                        </NavLink>{" "}
-                      </li>
-                      <li className="sub-item">
-                        <a href="" className="sub-content">
-                          S4T
-                        </a>
-                      </li>
-                      <li className="sub-item">
-                        <a href="" className="sub-content">
-                          TSLCD
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                )}
+
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    FORM
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                    <li className="sub-item">
+                      <NavLink to="/chuyenacquy" className="sub-content">
+                        CHUYỂN TRẠM
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <a href="" className="sub-content">
+                        S4T
+                      </a>
+                    </li>
+                    <li className="sub-item">
+                      <a href="" className="sub-content">
+                        TSLCD
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
                 <li className="nav-item">
                   <NavLink to="/home" className="nav-link">
                     Báo cáo
