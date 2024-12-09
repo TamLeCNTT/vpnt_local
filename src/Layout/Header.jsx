@@ -68,11 +68,12 @@ const Header = (props) => {
                     Trang chủ
                   </NavLink>
                 </li>
+              
                 {/* <li className="nav-item">
                                     <a className="nav-link" href="#">Dịch vụ</a>
 
                                 </li> */}
-                {users && users.roleId > 99 && (
+                {/* {users && users.roleId > 99 && (
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       MEGAWAN
@@ -118,33 +119,171 @@ const Header = (props) => {
                       </a>
                     </li>
                   </ul>
+                </li> */}
+                 <li className="nav-item">
+                  <a className="nav-link" href="#">
+                  GIÁM SÁT 
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                 
+                <li className="sub-item">
+                      <NavLink
+                        to="/suyhao/switch/"
+                        className="sub-content text-uppercase"
+                      >
+                      SUY HAO SWITCH VÀ OLT
+                      </NavLink>{" "}
+                    </li>
+
+                    <li className="sub-item">
+                      <NavLink
+                        to="/suyhao/mainE"
+                        className="sub-content text-uppercase"
+                      >
+                      SUY HAO MAN-E
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/port/status"
+                        className="sub-content text-uppercase"
+                      >
+                      TRẠNG THÁI PORT 
+                      </NavLink>{" "}
+                    </li>
+                  </ul>
                 </li>
 
                 <li className="nav-item">
-                  <NavLink to="/home" className="nav-link">
-                    Báo cáo
-                  </NavLink>
+                  <a className="nav-link" href="#">
+                  Danh sách thiết bị
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                 
+                <li className="sub-item">
+                      <NavLink
+                        to="/listthietbi"
+                        className="sub-content text-uppercase"
+                      >
+                        SWITCH
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/listtramolt"
+                        className="sub-content text-uppercase"
+                      >
+                        olt
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/listmainE"
+                        className="sub-content text-uppercase"
+                      >
+                       MAN-E
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/nhienlieu/list"
+                        className="sub-content text-uppercase"
+                      >
+                      Trạm máy nổ
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/port/ring"
+                        className="sub-content text-uppercase"
+                      >
+                     RING
+                      </NavLink>{" "}
+                    </li>
+                    
+                  </ul>
+                </li>
+               
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                 Tuyến kỹ thuật
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                 
+               
+                    <li className="sub-item">
+                      <NavLink
+                        to="/tuyen_kt_tt/danhsach"
+                        className="sub-content text-uppercase"
+                      >
+                     Số lượng cổng
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/tuyen_kt/danhsach"
+                        className="sub-content text-uppercase"
+                      >
+                    Danh sách Tuyến Kỹ thuật
+                      </NavLink>{" "}
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                  chuyển pon onu
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                    {/* <li className="sub-item">
+                      <NavLink to="/listtramolt" className="sub-content">
+                        DANH SÁCH OLT
+                      </NavLink>{" "}
+                    </li> */}
+                    <li className="sub-item">
+                      <NavLink
+                        to="/kichonu"
+                        className="sub-content text-uppercase"
+                      >
+                        kích một onu
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/kichonuhangloat"
+                        className="sub-content text-uppercase"
+                      >
+                      chuyển nhiều onu
+                      </NavLink>{" "}
+                    </li>
+                  
+                  </ul>
                 </li>
 
                 <li className="nav-item">
-                  <NavLink to="/home" className="nav-link">
-                    Báo cáo
+                  <a className="nav-link" href="#">
+                    BÁO CÁO
+                  </a>
+                  <ul className="sub-nav modal-90w">
+                    <li className="sub-item">
+                      <NavLink to="/baocao/suyhaobsc" className="sub-content">
+                        BÁO CÁO SUY HAO GPON NGÀY
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/thongke/solansuyhao"
+                        className="sub-content"
+                      >
+                        THỐNG KÊ SUY HAO THEO NGÀY
+                      </NavLink>{" "}
+                    </li> 
+                     <li className="sub-item">
+                  <NavLink to="/home" className="sub-content">
+                    THỐNG KÊ NHIÊN LIỆU MÁY NỔ
                   </NavLink>
                 </li>
-                <li className="nav-item">
-                  <NavLink to="/home" className="nav-link">
-                    Báo cáo
-                  </NavLink>
+                  </ul>
                 </li>
-
-                {!users && (
-                  <li className="nav-item">
-                    <NavLink className="nav-link" to="/">
-                      Đăng nhập
-                    </NavLink>
-                  </li>
-                )}
-
                 {users && (
                   <>
                     <li className="nav-item mr-3">

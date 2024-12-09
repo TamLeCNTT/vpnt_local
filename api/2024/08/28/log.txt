@@ -1,0 +1,20 @@
+2024-08-28 07:21:52.916433: kết nối thất bại: invalid literal for int() with base 10: 'undefined'
+2024-08-28 07:27:11.563030: kết nối thất bại: invalid literal for int() with base 10: 'undefined'
+2024-08-28 07:27:13.794786: kết nối thất bại: invalid literal for int() with base 10: 'undefined'
+2024-08-28 07:27:14.853706: kết nối thất bại: invalid literal for int() with base 10: 'undefined'
+2024-08-28 07:27:15.651347: kết nối thất bại: invalid literal for int() with base 10: 'undefined'
+2024-08-28 07:46:01.414762: kết nối ok
+2024-08-28 07:47:11.861570: kết nối ok
+2024-08-28 07:49:28.697874: kết nối ok
+2024-08-28 07:51:41.112084: kết nối ok
+2024-08-28 07:52:40.862986: kết nối ok
+2024-08-28 07:54:41.322365: kết nối ok
+2024-08-28 07:57:33.029333: kết nối ok
+2024-08-28 08:00:22.018466: kết nối ok
+2024-08-28 08:02:35.974797: kết nối ok
+2024-08-28 08:03:55.054989: kết nối ok
+2024-08-28 08:04:57.715767: kết nối ok
+2024-08-28 08:06:42.494205: kết nối ok
+2024-08-28 08:09:21.885721: kết nối thất bại: can only concatenate str (not "NoneType") to str
+2024-08-28 08:10:21.935231: kết nối ok
+2024-08-28 08:12:36.436506: kết nối ok

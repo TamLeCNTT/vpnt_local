@@ -87,3 +87,211 @@ tr {
 .Toastify__toast > button > svg {
   display: none;
 }
+/* Đặt các quy tắc chung cho toàn bộ trang */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home {
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-color: #0044cc;
+  padding: 20px;
+  color: white;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Điều chỉnh chiều cao banner */
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Giúp hình ảnh cân đối và không bị kéo dãn */
+}
+
+.banner-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 1); /* Làm mờ nền phía sau chữ để dễ đọc */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.banner-text h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Section chung */
+.section {
+  padding: 80px 20px; /* Tăng padding để khoảng cách giữa các phần thoáng hơn */
+}
+
+.section-title {
+  color: #0044cc;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.section-content {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Grid layout cho các phần dịch vụ và tin tức */
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap; /* Đảm bảo layout không bị tràn trên màn hình nhỏ */
+}
+
+.grid-item {
+  width: 30%;
+}
+
+.grid-item h3 {
+  color: #0044cc;
+}
+
+/* Liên hệ */
+.contact {
+  background-color: #f4f4f4;
+}
+/* Footer */
+.footer {
+  background-color: #0044cc;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Điều chỉnh chiều cao banner để phù hợp với kích thước hình */
+  overflow: hidden;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Giữ tỉ lệ hình ảnh và không bị kéo dãn */
+  filter: brightness(0.75); /* Làm tối nhẹ hình ảnh để chữ nổi bật hơn */
+}
+
+.banner-text {
+  width: 50% !important;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6); /* Nền mờ tối giúp chữ dễ đọc hơn */
+  padding: 20px 30px; /* Tăng padding để tạo khoảng cách giữa chữ và viền */
+  border-radius: 10px; /* Bo góc nhẹ cho phần văn bản */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Đổ bóng để làm nổi bật */
+}
+
+.banner-text h2 {
+  font-size: 36px; /* Kích thước tiêu đề lớn hơn để tạo điểm nhấn */
+  margin: 0;
+  letter-spacing: 1px; /* Khoảng cách giữa các chữ để trông thoáng hơn */
+}
+
+.banner-text p {
+  font-size: 18px; /* Văn bản phụ nhỏ hơn, nhưng vẫn rõ ràng */
+  margin-top: 10px;
+  letter-spacing: 0.5px;
+}
+td {
+  vertical-align: middle;
+  .donvi{
+    font-weight: bold;
+  
+  }
+  .tong{
+    color: red;
+    background-color: #e78326;
+  }
+}
+.header .sub-nav {
+  width: 300px!important;
+}

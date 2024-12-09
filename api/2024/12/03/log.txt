@@ -1,0 +1,12 @@
+2024-12-04 07:00:40.388645: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-04 07:00:40.393643: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-04 07:00:44.905671: kết nối ok
+2024-12-04 07:00:44.921673: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-04 07:00:45.333704: kết nối ok
+2024-12-04 07:00:49.489745: kết nối ok
+2024-12-04 07:00:49.500747: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-04 07:00:50.572746: kết nối ok
+2024-12-04 07:00:55.087911: kết nối ok
+2024-12-04 07:00:55.778912: kết nối ok
+2024-12-04 07:00:57.025909: kết nối ok
+2024-12-04 07:01:42.789522: kết nối thất bại: telnet connection closed

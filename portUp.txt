@@ -1,0 +1,36 @@
+   - WTR Timer is Running & Port is in wait-to-restore state
+         *   - Permanent Shutdown
+
+Slot/    Admin     Link    Violations  Recovery   Recovery      WTR            Alias
+Port     Status   Status                 Time       Max        (sec)
+------+----------+---------+----------+----------+----------+----------+-----------------------------------------
+  1/1    enable      up        none           300         10          0 ""
+  1/2    enable      up        none           300         10          0 ""
+  1/3    enable      up        none           300         10          0 ""
+  1/4    enable      up        none           300         10          0 ""
+  1/5    enable      up        none           300         10          0 ""
+  1/6    enable      up        none           300         10          0 ""
+  1/7    enable      up        none           300         10          0 "Metronet-CTY Ha Tang CMC"
+  1/8    enable      down      none           300         10          0 ""
+  1/9    enable      down      none           300         10          0 ""
+  1/10   enable      up        none           300         10          0 " Quang DP cho OLT_ALU Hoa Luu "
+  1/11   enable      up        none           300         10          0 ""
+  1/12   enable      down      none           300         10          0 ""
+  1/13   enable      down      none           300         10          0 ""
+  1/14   disable     down      none           300         10          0 ""
+  1/15   enable      up        none           300         10          0 ""
+  1/16   enable      up        none           300         10          0 ""
+  1/17   enable      down      none           300         10          0 ""
+  1/18   enable      up        none           300         10          0 ""
+  1/19   enable      up        none           300         10          0 ""
+  1/20   enable      up        none           300         10          0 ""
+  1/21   enable      down      none           300         10          0 ""
+  1/22   enable      down      none           300         10          0 ""
+  1/23   enable      down      none           300         10          0 ""
+  1/24   enable      down      none           300         10          0 ""
+  1/25   enable      down      none           300         10          0 ""
+  1/26   enable      up        none           300         10          0 ""
+  1/27   enable      down      none             0          0          0 ""
+  1/28   enable      down      none             0          0          0 ""
+
+HUG.VTH.VTH.L2S.AL05#

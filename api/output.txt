@@ -1,0 +1,5 @@
+nt-b:xfp:4show equipment diagnostics sfp nt-b:xfp:4 detail | match ex
+act:rx-po
+              rx-power : "-4.85 dBm"                                           
+          rx-power-tca : normal-value                                          
+HUG.CTH.DPU.OLT.AL01#

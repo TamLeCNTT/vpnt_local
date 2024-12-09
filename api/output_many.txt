@@ -1,0 +1,94 @@
+config
+undo service-port port 0/1/05 ont 49
+
+y
+interface gpon 0/1 
+
+HUG.NBY.V21.OLT.HM01(config-if-gpon-0/1)#interface gpon 0/1
+
+ont delete 05 49 
+  Number of ONTs that can be deleted: 1, success: 1
+
+HUG.NBY.V21.OLT.HM01(config-if-gpon-0/1)#ont delete 05 49
+
+ont add 05 49 password-auth HN04110549  [1Dalways-on omci ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name DASAN  [1D
+{ <cr>|desc<K>|fiber-route<K>|ont-type<K> }: 
+
+  Command:
+          ont add 05 49 password-auth HN04110549 always-on omci 
+ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name DASAN
+  Number of ONTs that can be added: 1, success: 1
+  PortID :5, ONTID :49
+
+HUG.NBY.V21.OLT.HM01(config-if-gpon-0/1)#ont add 05 49 password-auth HN04110549 always-on omci ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name DASAN
+
+
+
+
+
+HUG.NBY.V21.OLT.HM01(config-if-gpon-0/1)#quit
+
+quit 
+
+HUG.NBY.V21.OLT.HM01(config)#service-port vlan 583 gpon 0/1/05 ont 49 gemport 1 multi-service user-vlan 11 inbound traffic-table name HSI outbound traffic-table name HSI
+
+service-port vlan 583 gpon 0/1/05 ont 49 gemport 1  [1Dmulti-service user-vlan 11 inbound traffic-table name HSI outbound traffic-table [1D name HSI 
+
+HUG.NBY.V21.OLT.HM01(config)#service-port vlan 4001 gpon 0/1/05 ont 49 gemport 5 multi-service user-vlan 4000 inbound traffic-table name GNMS outbound traffic-table name GNMS
+
+service-port vlan 4001 gpon 0/1/05 ont 49 gemport 5 [1D multi-service user-vlan 4000 inbound traffic-table name GNMS outbound traffic-t [1Dable name GNMS 
+
+HUG.NBY.V21.OLT.HM01(config)#btv
+
+btv 
+
+HUG.NBY.V21.OLT.HM01(config-btv)#igmp user add smart-vlan 2427
+
+
+
+igmp user add smart-vlan 2427 
+{ <cr>|auth<K>|dedicated-net-id<K>|globalleave<K>|log<K>|max-bandwidth<K>|max-program<K>|no-auth<K>|quickleave<K> }: 
+
+  Command:
+          igmp user add smart-vlan 2427
+  Add 0 user(s) successfully
+
+HUG.NBY.V21.OLT.HM01(config-btv)#
+
+HUG.NBY.V21.OLT.HM01(config-btv)#multicast-vlan 99
+
+
+
+multicast-vlan 99 
+{ <cr>|dedicated-net-id<K> }: 
+
+  Command:
+          multicast-vlan 99
+
+HUG.NBY.V21.OLT.HM01(config-mvlan99)#igmp multicast-vlan member smart-vlan 2427
+
+
+
+
+
+HUG.NBY.V21.OLT.HM01(config-mvlan99)#igmp multicast-vlan member smart-vlan 2427  [1D
+{ <cr>|dedicated-net-id<K> }: 
+
+  Command:
+          igmp multicast-vlan member smart-vlan 2427
+  Add 0 multicast VLAN member(s) successfully
+
+HUG.NBY.V21.OLT.HM01(config-mvlan99)#
+
+HUG.NBY.V21.OLT.HM01(config-mvlan99)#quit 
+
+HUG.NBY.V21.OLT.HM01(config)#quit
+
+service-port vlan 0 gpon0/1/01ont01gemport4multi-se [1Drviceuser-vlan15inboundtraffic-tablenameVPNoutboundtraffic-tablenameVPN
+                                               ^
+  % Parameter error, the error locates at '^'
+
+HUG.NBY.V21.OLT.HM01(config)#service-port vlan 0 gpon 0/1/01 ont 01 gemport 4 multi-service user-vlan 15 inbound traffic-table name VPN outbound traffic-table name VPN
+
+
+

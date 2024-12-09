@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7); /* Màu trắng với độ mờ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Đảm bảo overlay ở trên cùng */
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  border-width: 0.3rem;
+}
+.swal-wide {
+  width:800px !important; /* Thay đổi kích thước theo nhu cầu */
+  max-width: 1000px !important; /* Đảm bảo modal không vượt quá kích thước màn hình */
+  font-size: larger;
+}

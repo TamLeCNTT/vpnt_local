@@ -1,0 +1,10 @@
+
+All cards temperature(deg c):
+----------------------------------------------------------------------------
+Rack Shelf Slot Temperature Temperature(5m) Temperature(1h) Optical-Temp
+----------------------------------------------------------------------------
+1    1     1    39          39              38              N/A.
+1    1     2    36          36              36              N/A.
+1    1     3    45          45              45              N/A.
+1    1     4    39          39              39              N/A.
+HUG.VTY.VTT.OLT.ZT01#

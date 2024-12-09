@@ -45,8 +45,8 @@ const ImportNhienlieu = (props) => {
     <>
       <div className="row">
         <div
-          className="col col-lg-3  col-sm-6 col-md-6 "
-          style={{ textAlign: "left" }}
+          className="col col-lg-3  col-sm-6 col-md-2 "
+         
         >
           <div className="custom-file">
             <input
@@ -67,7 +67,7 @@ const ImportNhienlieu = (props) => {
             </label>
           </div>
         </div>
-        <div className="col col-md-6  col-sm-6 col-md-3 ">
+        <div className="col col-md-2 col-sm-6 col-md-3 ">
           <button
             onClick={handleExport}
             className="btn btn-lg btn-primary float-right"

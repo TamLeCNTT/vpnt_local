@@ -1,0 +1,126 @@
+2024-11-07 09:56:15.488867: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:15.506865: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:16.683730: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-07 09:56:16.720735: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:20.134962: kết nối ok
+2024-11-07 09:56:24.029156: kết nối ok
+2024-11-07 09:56:24.078163: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:25.210157: kết nối ok
+2024-11-07 09:56:25.279154: kết nối ok
+2024-11-07 09:56:30.133686: kết nối ok
+2024-11-07 09:56:31.967680: kết nối ok
+2024-11-07 09:56:49.237731: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:49.259734: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:49.575729: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:49.588730: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:49.590735: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:49.605731: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:49.609732: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:49.646730: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:49.659730: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:49.659730: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:49.689732: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:50.449256: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-07 09:56:50.493275: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:50.527317: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:50.555193: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-07 09:56:50.582194: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:56:53.707533: kết nối ok
+2024-11-07 09:56:53.943056: kết nối ok
+2024-11-07 09:56:58.214186: kết nối ok
+2024-11-07 09:56:58.923182: kết nối ok
+2024-11-07 09:57:03.950576: kết nối ok
+2024-11-07 09:57:05.682631: kết nối ok
+2024-11-07 09:57:14.067861: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:57:14.071857: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:57:15.219439: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-07 09:57:15.257103: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:57:18.002422: kết nối thất bại: telnet connection closed
+2024-11-07 09:57:18.735723: kết nối ok
+2024-11-07 09:57:22.665517: kết nối ok
+2024-11-07 09:57:22.702518: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-07 09:57:23.967523: kết nối ok
+2024-11-07 09:57:23.991518: kết nối ok
+2024-11-07 09:57:28.709846: kết nối ok
+2024-11-07 09:57:30.523872: kết nối ok
+2024-11-07 09:57:51.764644: kết nối thất bại: telnet connection closed
+2024-11-07 09:58:08.355924: 10.102.5.10 kết nối thành công
+2024-11-07 09:58:08.969924: 10.102.4.74 kết nối thành công
+2024-11-07 09:58:09.007925: 10.102.4.149 kết nối thành công
+2024-11-07 09:58:09.339930: 10.102.4.74 kết nối thành công
+2024-11-07 09:58:09.726861: 10.102.5.10 kết nối thành công
+2024-11-07 09:58:10.747199: 10.102.4.149 kết nối thành công
+2024-11-07 09:58:11.124195: 10.102.4.74 kết nối thành công
+2024-11-07 09:58:11.374198: 10.102.4.74 kết nối thành công
+2024-11-07 09:58:12.057195: kết nối thất bại: telnet connection closed
+2024-11-07 09:58:16.561061: kết nối thất bại: telnet connection closed
+2024-11-07 10:51:21.476607: kết nối ok
+2024-11-07 10:51:21.597606: kết nối ok
+2024-11-07 10:51:21.875608: kết nối ok
+2024-11-07 10:51:22.017608: kết nối ok
+2024-11-07 10:51:22.226607: kết nối ok
+2024-11-07 10:51:22.365607: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:22.376611: kết nối ok
+2024-11-07 10:51:22.553608: kết nối ok
+2024-11-07 10:51:22.693607: kết nối ok
+2024-11-07 10:51:22.854611: kết nối ok
+2024-11-07 10:51:22.894609: kết nối ok
+2024-11-07 10:51:23.027608: kết nối ok
+2024-11-07 10:51:23.040607: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:23.044612: kết nối ok
+2024-11-07 10:51:23.317611: kết nối ok
+2024-11-07 10:51:23.395603: kết nối ok
+2024-11-07 10:51:23.556604: kết nối ok
+2024-11-07 10:51:23.600608: kết nối ok
+2024-11-07 10:51:23.703607: kết nối ok
+2024-11-07 10:51:23.721609: kết nối ok
+2024-11-07 10:51:23.882608: kết nối ok
+2024-11-07 10:51:23.913608: kết nối ok
+2024-11-07 10:51:24.126607: kết nối ok
+2024-11-07 10:51:24.134608: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:24.251611: kết nối ok
+2024-11-07 10:51:24.389122: kết nối ok
+2024-11-07 10:51:24.562121: kết nối ok
+2024-11-07 10:51:25.532121: kết nối ok
+2024-11-07 10:51:25.726121: kết nối ok
+2024-11-07 10:51:25.833120: kết nối ok
+2024-11-07 10:51:26.174125: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:26.630121: kết nối ok
+2024-11-07 10:51:27.339127: kết nối ok
+2024-11-07 10:51:28.305122: kết nối ok
+2024-11-07 10:51:28.369124: kết nối ok
+2024-11-07 10:51:28.426122: kết nối ok
+2024-11-07 10:51:28.574122: kết nối ok
+2024-11-07 10:51:28.723125: kết nối ok
+2024-11-07 10:51:28.877123: kết nối ok
+2024-11-07 10:51:29.815122: kết nối ok
+2024-11-07 10:51:30.274124: kết nối ok
+2024-11-07 10:51:30.344124: kết nối ok
+2024-11-07 10:51:31.122122: kết nối ok
+2024-11-07 10:51:31.214123: kết nối ok
+2024-11-07 10:51:31.274125: kết nối ok
+2024-11-07 10:51:31.866124: kết nối ok
+2024-11-07 10:51:31.881125: kết nối ok
+2024-11-07 10:51:32.109122: kết nối ok
+2024-11-07 10:51:32.734122: kết nối ok
+2024-11-07 10:51:32.748122: kết nối ok
+2024-11-07 10:51:33.159121: kết nối ok
+2024-11-07 10:51:33.439121: kết nối ok
+2024-11-07 10:51:33.514122: kết nối ok
+2024-11-07 10:51:33.576123: kết nối ok
+2024-11-07 10:51:34.360121: kết nối ok
+2024-11-07 10:51:35.866676: kết nối ok
+2024-11-07 10:51:35.940677: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:35.940677: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-07 10:51:36.125677: kết nối ok
+2024-11-07 10:51:36.231674: kết nối ok
+2024-11-07 10:51:37.026677: kết nối ok
+2024-11-07 10:51:38.632681: kết nối ok
+2024-11-07 10:51:38.692676: kết nối ok
+2024-11-07 10:51:38.741675: kết nối ok
+2024-11-07 10:51:39.286724: kết nối ok
+2024-11-07 10:51:42.573727: kết nối ok
+2024-11-07 10:51:42.694730: kết nối ok
+2024-11-07 10:51:43.341728: kết nối ok
+2024-11-07 10:51:45.028762: kết nối ok
+2024-11-07 10:51:57.620827: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond

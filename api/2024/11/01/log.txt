@@ -1,0 +1,48 @@
+2024-11-02 07:00:40.816275: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-02 07:00:40.818279: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-02 07:00:42.016276: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-02 07:00:42.027279: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-02 07:00:45.496405: kết nối ok
+2024-11-02 07:00:49.498389: kết nối ok
+2024-11-02 07:00:49.521392: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-02 07:00:50.651091: kết nối ok
+2024-11-02 07:00:50.789053: kết nối ok
+2024-11-02 07:00:55.539259: kết nối ok
+2024-11-02 07:00:57.514193: kết nối ok
+2024-11-02 07:01:43.315509: kết nối thất bại: telnet connection closed
+2024-11-03 07:00:20.655529: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-03 07:00:20.670525: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-03 07:00:21.927530: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-03 07:00:21.941531: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-03 07:00:25.502751: kết nối ok
+2024-11-03 07:00:29.382118: kết nối ok
+2024-11-03 07:00:29.411117: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-03 07:00:30.930297: kết nối ok
+2024-11-03 07:00:31.198256: kết nối ok
+2024-11-03 07:00:35.676909: kết nối ok
+2024-11-03 07:00:37.228927: kết nối ok
+2024-11-03 07:01:23.195717: kết nối thất bại: telnet connection closed
+2024-11-04 07:00:38.000659: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:38.050658: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:39.226328: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-04 07:00:39.246331: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:39.248331: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-04 07:00:40.460674: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:40.479674: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:42.653077: kết nối ok
+2024-11-04 07:00:42.681079: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:43.124175: kết nối ok
+2024-11-04 07:00:44.970618: kết nối ok
+2024-11-04 07:00:44.977622: kết nối ok
+2024-11-04 07:00:44.987623: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:47.921567: kết nối ok
+2024-11-04 07:00:47.956739: kết nối ok
+2024-11-04 07:00:48.942341: kết nối ok
+2024-11-04 07:00:48.951341: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-04 07:00:50.326357: kết nối ok
+2024-11-04 07:00:53.033632: kết nối ok
+2024-11-04 07:00:53.737224: kết nối ok
+2024-11-04 07:00:55.839540: kết nối ok
+2024-11-04 07:00:57.072351: kết nối ok
+2024-11-04 07:01:40.534247: kết nối thất bại: telnet connection closed
+2024-11-04 07:01:42.955884: kết nối thất bại: telnet connection closed

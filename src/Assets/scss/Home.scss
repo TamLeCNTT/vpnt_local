@@ -1,0 +1,32 @@
+.text-td {
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 10px 0px !important;
+}
+.text-al {
+  vertical-align: middle;
+  text-align: center;
+}
+.table-fixed-header {
+  height: 500px; /* Chiều cao của vùng chứa bảng */
+  overflow-y: auto; /* Tạo thanh cuộn dọc */
+  overflow-x: hidden; /* Ẩn thanh cuộn ngang nếu có */
+}
+.table-fixed-header thead th {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Màu nền của tiêu đề, có thể thay đổi */
+  z-index: 10; /* Đảm bảo tiêu đề luôn nằm trên nội dung */
+}
+
+.tong {
+  position: sticky;
+  top: 100;
+  background-color: white; /* Màu nền của tiêu đề, có thể thay đổi */
+  z-index: -100; /* Đảm bảo tiêu đề luôn nằm trên nội dung */
+}
+.obligatory {
+  color: red;
+}

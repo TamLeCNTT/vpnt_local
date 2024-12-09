@@ -1,0 +1,70 @@
+2024-10-27 07:00:32.224293: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-27 07:00:32.225291: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-27 07:00:33.095292: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-27 07:00:33.127289: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-27 07:00:36.468965: kết nối ok
+2024-10-27 07:00:36.893964: kết nối ok
+2024-10-27 07:00:36.906964: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-27 07:00:40.346261: kết nối ok
+2024-10-27 07:00:41.443263: kết nối ok
+2024-10-27 07:00:41.886259: kết nối ok
+2024-10-27 07:00:46.469323: kết nối ok
+2024-10-27 07:01:34.709908: kết nối thất bại: telnet connection closed
+2024-10-28 07:00:46.379632: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:46.492631: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:46.524631: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.540633: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.542630: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:46.566635: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.567646: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:46.604633: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:46.609636: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.610632: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.610632: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-10-28 07:00:46.626633: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:47.694632: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-28 07:00:47.695635: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-28 07:00:47.726631: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:50.538630: kết nối ok
+2024-10-28 07:00:51.050631: kết nối ok
+2024-10-28 07:00:51.123635: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-28 07:00:51.566632: kết nối ok
+2024-10-28 07:00:55.460631: kết nối ok
+2024-10-28 07:00:55.991629: kết nối ok
+2024-10-28 07:00:56.467630: kết nối ok
+2024-10-28 07:01:01.479629: kết nối ok
+2024-10-28 07:01:49.054869: kết nối thất bại: telnet connection closed
+2024-10-28 08:44:19.936146: kết nối ok
+2024-10-28 08:44:24.666691: kết nối ok
+2024-10-28 08:47:36.004389: kết nối ok
+2024-10-28 08:47:40.766968: kết nối ok
+2024-10-28 08:48:07.755633: kết nối ok
+2024-10-28 08:48:12.066118: kết nối ok
+2024-10-28 08:48:19.457730: kết nối ok
+2024-10-28 08:48:23.659833: kết nối ok
+2024-10-28 08:55:25.601941: kết nối ok
+2024-10-28 08:55:30.056804: kết nối ok
+2024-10-29 07:00:37.831297: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:38.207341: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:39.120494: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-29 07:00:39.149498: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-29 07:00:39.223496: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:40.995146: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:41.013147: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:42.571394: kết nối ok
+2024-10-29 07:00:42.603398: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:43.036159: kết nối ok
+2024-10-29 07:00:43.251659: kết nối ok
+2024-10-29 07:00:45.528131: kết nối ok
+2024-10-29 07:00:45.542131: kết nối ok
+2024-10-29 07:00:45.639134: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:48.209353: kết nối ok
+2024-10-29 07:00:49.610034: kết nối ok
+2024-10-29 07:00:49.646244: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-29 07:00:50.411211: kết nối ok
+2024-10-29 07:00:52.945738: kết nối ok
+2024-10-29 07:00:54.382065: kết nối ok
+2024-10-29 07:00:56.382511: kết nối ok
+2024-10-29 07:00:57.613415: kết nối ok
+2024-10-29 07:01:40.771183: kết nối thất bại: telnet connection closed
+2024-10-29 07:01:43.487040: kết nối thất bại: telnet connection closed

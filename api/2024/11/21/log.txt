@@ -1,0 +1,458 @@
+2024-11-22 07:00:20.150855: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:00:20.179172: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:00:24.353869: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-22 07:00:24.353869: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-22 07:00:24.353869: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-22 07:00:24.387316: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:00:24.387316: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:00:28.002063: kết nối ok
+2024-11-22 07:00:28.324096: kết nối ok
+2024-11-22 07:00:34.496820: kết nối ok
+2024-11-22 07:01:22.592246: kết nối thất bại: telnet connection closed
+2024-11-22 07:06:30.087421: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:06:30.092007: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:06:34.600915: kết nối ok
+2024-11-22 07:06:34.625810: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:06:34.751698: kết nối ok
+2024-11-22 07:06:38.790699: kết nối ok
+2024-11-22 07:06:38.806318: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-22 07:06:39.702344: kết nối ok
+2024-11-22 07:06:44.464645: kết nối ok
+2024-11-22 07:06:44.751440: kết nối ok
+2024-11-22 07:06:46.622631: kết nối ok
+2024-11-22 07:07:32.582078: kết nối thất bại: telnet connection closed
+2024-11-22 07:33:35.236192: 10.102.4.244 kết nối thành công
+2024-11-22 07:33:35.253303: 10.102.5.42 kết nối thành công
+2024-11-22 07:33:35.282619: 10.102.5.44 kết nối thành công
+2024-11-22 07:33:35.314512: 10.102.5.43 kết nối thành công
+2024-11-22 07:33:35.813412: 10.102.4.154 kết nối thành công
+2024-11-22 07:33:36.164365: 10.102.4.197 kết nối thành công
+2024-11-22 07:33:36.211264: 10.102.4.155 kết nối thành công
+2024-11-22 07:33:36.551144: 10.102.5.45 kết nối thành công
+2024-11-22 07:33:36.954663: 10.102.4.194 kết nối thành công
+2024-11-22 07:33:36.954663: 10.102.4.117 kết nối thành công
+2024-11-22 07:33:36.981309: 10.102.4.243 kết nối thành công
+2024-11-22 07:33:37.181487: 10.102.4.97 kết nối thành công
+2024-11-22 07:33:37.698070: 10.102.4.206 kết nối thành công
+2024-11-22 07:33:38.167273: 10.102.4.249 kết nối thành công
+2024-11-22 07:33:38.429986: 10.102.4.179 kết nối thành công
+2024-11-22 07:33:38.531445: 10.102.4.95 kết nối thành công
+2024-11-22 07:33:38.674765: 10.102.4.69 kết nối thành công
+2024-11-22 07:33:38.798547: 10.102.4.128 kết nối thành công
+2024-11-22 07:33:38.829811: 10.102.4.96 kết nối thành công
+2024-11-22 07:33:39.047400: 10.102.4.54 kết nối thành công
+2024-11-22 07:33:39.499956: 10.102.4.213 kết nối thành công
+2024-11-22 07:33:40.086134: 10.102.4.195 kết nối thành công
+2024-11-22 07:33:40.205362: 10.102.4.70 kết nối thành công
+2024-11-22 07:33:40.609899: 10.102.4.164 kết nối thành công
+2024-11-22 07:33:40.687185: 10.102.4.51 kết nối thất bại: list index out of range
+2024-11-22 07:33:41.172613: 10.102.4.52 kết nối thành công
+2024-11-22 07:33:41.288188: 10.102.4.142 kết nối thành công
+2024-11-22 07:33:41.593629: 10.102.4.127 kết nối thành công
+2024-11-22 07:33:41.690647: 10.102.4.110 kết nối thành công
+2024-11-22 07:33:41.690647: 10.102.4.50 kết nối thành công
+2024-11-22 07:33:41.817893: 10.102.4.40 kết nối thất bại: list index out of range
+2024-11-22 07:33:42.336847: 10.102.4.187 kết nối thành công
+2024-11-22 07:33:42.368097: 10.102.4.27 kết nối thất bại: list index out of range
+2024-11-22 07:33:42.804718: 10.102.4.126 kết nối thành công
+2024-11-22 07:33:43.516231: 10.102.4.94 kết nối thành công
+2024-11-22 07:33:43.860776: 10.102.4.141 kết nối thành công
+2024-11-22 07:33:43.899889: 10.102.4.129 kết nối thành công
+2024-11-22 07:33:44.060321: 10.102.4.156 kết nối thành công
+2024-11-22 07:33:44.597913: 10.102.4.178 kết nối thành công
+2024-11-22 07:33:44.659055: 10.102.4.152 kết nối thành công
+2024-11-22 07:33:44.878033: 10.102.4.151 kết nối thành công
+2024-11-22 07:33:45.309960: 10.102.4.153 kết nối thành công
+2024-11-22 07:33:45.845167: 10.102.4.162 kết nối thành công
+2024-11-22 07:33:46.609603: 10.102.4.161 kết nối thành công
+2024-11-22 07:33:46.697390: 10.102.4.163 kết nối thành công
+2024-11-22 07:33:46.697970: 10.102.4.118 kết nối thành công
+2024-11-22 07:33:47.048276: 10.102.4.116 kết nối thành công
+2024-11-22 07:33:47.323868: 10.102.4.59 kết nối thất bại: list index out of range
+2024-11-22 07:33:47.598314: 10.102.4.223 kết nối thành công
+2024-11-22 07:33:47.675028: 10.102.4.108 kết nối thành công
+2024-11-22 07:33:48.532697: 10.102.4.111 kết nối thành công
+2024-11-22 07:33:48.774695: 10.102.4.160 kết nối thất bại: telnet connection closed
+2024-11-22 07:33:48.800094: 10.102.4.150 kết nối thành công
+2024-11-22 07:33:48.800094: 10.102.4.112 kết nối thành công
+2024-11-22 07:33:49.518980: 10.102.4.190 kết nối thành công
+2024-11-22 07:33:49.534174: 10.102.4.114 kết nối thành công
+2024-11-22 07:33:50.063753: 10.102.5.25 kết nối thành công
+2024-11-22 07:33:50.132790: 10.102.4.73 kết nối thành công
+2024-11-22 07:33:50.721634: 10.102.4.159 kết nối thành công
+2024-11-22 07:33:50.784135: 10.102.5.26 kết nối thành công
+2024-11-22 07:33:50.903956: 10.102.4.193 kết nối thành công
+2024-11-22 07:33:50.988625: 10.102.4.76 kết nối thành công
+2024-11-22 07:33:51.521213: 10.102.4.242 kết nối thành công
+2024-11-22 07:33:51.852286: 10.102.4.191 kết nối thành công
+2024-11-22 07:33:51.952555: 10.102.4.81 kết nối thành công
+2024-11-22 07:33:51.968181: 10.102.4.83 kết nối thành công
+2024-11-22 07:33:51.983808: 10.102.4.167 kết nối thành công
+2024-11-22 07:33:52.518294: 10.102.4.120 kết nối thành công
+2024-11-22 07:33:52.518294: 10.102.4.28 kết nối thành công
+2024-11-22 07:33:52.807642: 10.102.4.192 kết nối thành công
+2024-11-22 07:33:53.971116: 10.102.4.87 kết nối thành công
+2024-11-22 07:33:54.095224: 10.102.4.189 kết nối thành công
+2024-11-22 07:33:54.158439: 10.102.4.26 kết nối thất bại: list index out of range
+2024-11-22 07:33:54.189688: 10.102.4.181 kết nối thành công
+2024-11-22 07:33:54.812448: 10.102.4.204 kết nối thành công
+2024-11-22 07:33:54.890579: 10.102.4.182 kết nối thành công
+2024-11-22 07:33:55.413288: 10.102.5.24 kết nối thành công
+2024-11-22 07:33:55.516878: 10.102.5.27 kết nối thành công
+2024-11-22 07:33:56.146670: 10.102.5.21 kết nối thành công
+2024-11-22 07:33:56.162295: 10.102.4.171 kết nối thành công
+2024-11-22 07:33:56.162295: 10.102.4.203 kết nối thành công
+2024-11-22 07:33:56.177934: 10.102.5.19 kết nối thành công
+2024-11-22 07:33:56.715712: 10.102.5.23 kết nối thành công
+2024-11-22 07:33:56.900060: 10.102.4.176 kết nối thành công
+2024-11-22 07:33:56.931324: 10.102.4.172 kết nối thành công
+2024-11-22 07:33:56.946949: 10.102.4.202 kết nối thành công
+2024-11-22 07:33:57.480375: 10.102.4.175 kết nối thành công
+2024-11-22 07:33:57.496003: 10.102.5.20 kết nối thành công
+2024-11-22 07:33:57.658064: 10.102.4.174 kết nối thành công
+2024-11-22 07:33:57.702326: 10.102.4.173 kết nối thành công
+2024-11-22 07:33:57.717964: 10.102.4.205 kết nối thành công
+2024-11-22 07:33:57.996756: 10.102.4.29 kết nối thất bại: list index out of range
+2024-11-22 07:33:58.737275: 10.102.4.79 kết nối thành công
+2024-11-22 07:33:59.377485: 10.102.4.77 kết nối thành công
+2024-11-22 07:33:59.586030: 10.102.4.35 kết nối thành công
+2024-11-22 07:33:59.586030: 10.102.4.23 kết nối thành công
+2024-11-22 07:33:59.892588: 10.102.4.166 kết nối thành công
+2024-11-22 07:34:00.742067: 10.102.4.75 kết nối thành công
+2024-11-22 07:34:01.342628: 10.102.4.67 kết nối thành công
+2024-11-22 07:34:01.735728: 10.102.4.104 kết nối thành công
+2024-11-22 07:34:02.529133: 10.102.4.103 kết nối thành công
+2024-11-22 07:34:02.645302: 10.102.5.22 kết nối thành công
+2024-11-22 07:34:03.716024: 10.102.4.65 kết nối thành công
+2024-11-22 07:34:04.332697: 10.102.4.158 kết nối thành công
+2024-11-22 07:34:04.379572: 10.102.4.101 kết nối thành công
+2024-11-22 07:34:05.566938: 10.102.4.68 kết nối thành công
+2024-11-22 07:34:05.657409: 10.102.5.29 kết nối thành công
+2024-11-22 07:34:05.673034: 10.102.5.33 kết nối thành công
+2024-11-22 07:34:06.399642: 10.102.4.215 kết nối thành công
+2024-11-22 07:34:06.854250: 10.102.5.34 kết nối thành công
+2024-11-22 07:34:07.001371: 10.102.5.28 kết nối thành công
+2024-11-22 07:34:07.101682: 10.102.4.224 kết nối thành công
+2024-11-22 07:34:07.539534: 10.102.4.219 kết nối thành công
+2024-11-22 07:34:08.241512: 10.102.5.31 kết nối thành công
+2024-11-22 07:34:08.388849: 10.102.5.32 kết nối thành công
+2024-11-22 07:34:08.843164: 10.102.4.46 kết nối thất bại: list index out of range
+2024-11-22 07:34:08.843164: 10.102.4.45 kết nối thất bại: list index out of range
+2024-11-22 07:34:08.874432: 10.102.5.30 kết nối thành công
+2024-11-22 07:34:10.609863: 10.102.4.157 kết nối thành công
+2024-11-22 07:34:11.132029: 10.102.4.102 kết nối thành công
+2024-11-22 07:34:11.416467: 10.102.4.140 kết nối thành công
+2024-11-22 07:34:11.779496: 10.102.5.46 kết nối thành công
+2024-11-22 07:34:12.029860: 10.102.4.41 kết nối thành công
+2024-11-22 07:34:12.189072: 10.102.5.47 kết nối thành công
+2024-11-22 07:34:13.068645: 10.102.5.48 kết nối thành công
+2024-11-22 07:34:13.285090: 10.102.5.49 kết nối thành công
+2024-11-22 07:34:13.501825: 10.102.4.80 kết nối thất bại: list index out of range
+2024-11-22 07:34:13.886380: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-22 07:34:13.985832: 10.102.4.222 kết nối thành công
+2024-11-22 07:34:14.291383: 10.102.4.38 kết nối thành công
+2024-11-22 07:34:14.772865: 10.102.4.39 kết nối thành công
+2024-11-22 07:34:14.925070: 10.102.4.86 kết nối thành công
+2024-11-22 07:34:15.985851: 10.102.4.24 kết nối thành công
+2024-11-22 07:34:16.236908: 10.102.4.63 kết nối thành công
+2024-11-22 07:34:16.438865: 10.102.4.32 kết nối thành công
+2024-11-22 07:34:16.623848: 10.102.4.44 kết nối thất bại: list index out of range
+2024-11-22 07:34:16.646030: 10.102.4.33 kết nối thành công
+2024-11-22 07:34:17.125152: 10.102.4.220 kết nối thành công
+2024-11-22 07:34:17.408048: 10.102.4.229 kết nối thành công
+2024-11-22 07:34:17.925399: 10.102.4.217 kết nối thành công
+2024-11-22 07:34:17.956129: 10.102.5.37 kết nối thành công
+2024-11-22 07:34:18.294795: 10.102.4.100 kết nối thành công
+2024-11-22 07:34:18.579805: 10.102.4.231 kết nối thành công
+2024-11-22 07:34:18.679933: 10.102.4.226 kết nối thành công
+2024-11-22 07:34:18.764187: 10.102.4.216 kết nối thành công
+2024-11-22 07:34:19.381848: 10.102.4.230 kết nối thành công
+2024-11-22 07:34:19.482121: 10.102.4.212 kết nối thành công
+2024-11-22 07:34:19.546200: 10.102.4.240 kết nối thành công
+2024-11-22 07:34:19.829673: 10.102.4.238 kết nối thành công
+2024-11-22 07:34:20.052433: 10.102.4.227 kết nối thành công
+2024-11-22 07:34:20.469604: 10.102.4.106 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-22 07:34:20.647935: 10.102.4.165 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-22 07:34:20.701523: 10.102.4.233 kết nối thành công
+2024-11-22 07:34:21.053096: 10.102.4.234 kết nối thành công
+2024-11-22 07:34:21.234143: 10.102.4.241 kết nối thành công
+2024-11-22 07:34:21.271924: 10.102.4.78 kết nối thành công
+2024-11-22 07:34:21.673145: 10.102.4.235 kết nối thành công
+2024-11-22 07:34:21.873124: 10.102.4.237 kết nối thành công
+2024-11-22 07:34:22.141651: 10.102.4.218 kết nối thành công
+2024-11-22 07:34:22.374788: 10.102.5.39 kết nối thành công
+2024-11-22 07:34:22.506421: 10.102.5.41 kết nối thành công
+2024-11-22 07:34:22.595042: 10.102.5.36 kết nối thành công
+2024-11-22 07:34:23.161356: 10.102.4.232 kết nối thành công
+2024-11-22 07:34:23.361635: 10.102.4.214 kết nối thành công
+2024-11-22 07:34:23.477237: 10.102.4.71 kết nối thành công
+2024-11-22 07:34:23.549416: 10.102.4.196 kết nối thành công
+2024-11-22 07:34:23.770440: 10.102.5.40 kết nối thành công
+2024-11-22 07:34:23.833816: 10.102.4.239 kết nối thành công
+2024-11-22 07:34:23.908636: 10.102.4.228 kết nối thành công
+2024-11-22 07:34:24.057292: 10.102.4.225 kết nối thành công
+2024-11-22 07:34:24.745003: 10.102.5.35 kết nối thành công
+2024-11-22 07:34:24.762083: 10.102.4.14 kết nối thành công
+2024-11-22 07:34:24.928667: 10.102.4.236 kết nối thành công
+2024-11-22 07:34:25.083710: 10.102.4.61 kết nối thành công
+2024-11-22 07:34:25.127732: 10.102.5.38 kết nối thành công
+2024-11-22 07:34:25.751172: 10.102.4.82 kết nối thành công
+2024-11-22 07:34:25.935038: 10.102.4.109 kết nối thành công
+2024-11-22 07:34:26.126365: 10.102.4.107 kết nối thành công
+2024-11-22 07:34:26.532674: 10.102.4.47 kết nối thành công
+2024-11-22 07:34:26.834124: 10.102.4.25 kết nối thành công
+2024-11-22 07:34:27.636512: 10.102.4.72 kết nối thành công
+2024-11-22 07:34:27.667761: 10.102.4.113 kết nối thành công
+2024-11-22 07:34:27.891914: 10.102.4.188 kết nối thành công
+2024-11-22 07:34:28.102156: 10.102.4.34 kết nối thành công
+2024-11-22 07:34:28.468482: 10.102.4.132 kết nối thành công
+2024-11-22 07:34:28.511791: 10.102.4.43 kết nối thành công
+2024-11-22 07:34:28.767038: 10.102.4.20 kết nối thất bại: list index out of range
+2024-11-22 07:34:29.877830: 10.102.4.92 kết nối thành công
+2024-11-22 07:34:29.893465: 10.102.4.105 kết nối thành công
+2024-11-22 07:34:30.225272: 10.102.4.42 kết nối thành công
+2024-11-22 07:34:30.563894: 10.102.4.246 kết nối thành công
+2024-11-22 07:34:30.719894: 10.102.4.31 kết nối thành công
+2024-11-22 07:34:31.057831: 10.102.4.36 kết nối thành công
+2024-11-22 07:34:31.982765: 10.102.4.115 kết nối thành công
+2024-11-22 07:34:32.398618: 10.102.4.30 kết nối thành công
+2024-11-22 07:34:32.683630: 10.102.4.149 kết nối thành công
+2024-11-22 07:34:32.733036: 10.102.4.134 kết nối thành công
+2024-11-22 07:34:32.847060: 10.102.4.37 kết nối thành công
+2024-11-22 07:34:33.834158: 10.102.4.62 kết nối thành công
+2024-11-22 07:34:33.987921: 10.102.5.11 kết nối thành công
+2024-11-22 07:34:34.505568: 10.102.4.133 kết nối thành công
+2024-11-22 07:34:34.706220: 10.102.4.148 kết nối thành công
+2024-11-22 07:34:34.721848: 10.102.4.145 kết nối thành công
+2024-11-22 07:34:35.524170: 10.102.4.146 kết nối thành công
+2024-11-22 07:34:35.672838: 10.102.4.147 kết nối thành công
+2024-11-22 07:34:36.595122: 10.102.4.136 kết nối thành công
+2024-11-22 07:34:36.857957: 10.102.4.137 kết nối thành công
+2024-11-22 07:34:37.374308: 10.102.4.211 kết nối thành công
+2024-11-22 07:34:37.458967: 10.102.4.183 kết nối thành công
+2024-11-22 07:34:37.474596: 10.102.4.48 kết nối thành công
+2024-11-22 07:34:37.509009: 10.102.4.88 kết nối thành công
+2024-11-22 07:34:37.783407: 10.102.5.12 kết nối thành công
+2024-11-22 07:34:38.647732: 10.102.4.60 kết nối thành công
+2024-11-22 07:34:38.765878: 10.102.5.10 kết nối thành công
+2024-11-22 07:34:39.268005: 10.102.4.49 kết nối thành công
+2024-11-22 07:34:39.867665: 10.102.4.53 kết nối thành công
+2024-11-22 07:34:39.869664: 10.102.4.89 kết nối thành công
+2024-11-22 07:34:39.908381: 10.102.4.98 kết nối thành công
+2024-11-22 07:34:40.451285: 10.102.4.12 kết nối thành công
+2024-11-22 07:34:40.451285: 10.102.4.99 kết nối thành công
+2024-11-22 07:34:40.526707: 10.102.4.11 kết nối thất bại: list index out of range
+2024-11-22 07:34:40.551585: 10.102.4.16 kết nối thành công
+2024-11-22 07:34:40.813984: 10.102.4.138 kết nối thành công
+2024-11-22 07:34:41.016943: 10.102.4.13 kết nối thành công
+2024-11-22 07:34:42.173270: 10.102.4.131 kết nối thành công
+2024-11-22 07:34:42.772524: 10.102.4.252 kết nối thành công
+2024-11-22 07:34:42.972488: 10.102.4.144 kết nối thành công
+2024-11-22 07:34:43.056548: 10.102.4.15 kết nối thành công
+2024-11-22 07:34:43.234933: 10.102.4.143 kết nối thành công
+2024-11-22 07:34:43.657796: 10.102.4.184 kết nối thành công
+2024-11-22 07:34:43.773690: 10.102.4.198 kết nối thành công
+2024-11-22 07:34:44.127429: 10.102.4.74 kết nối thất bại: list index out of range
+2024-11-22 07:34:44.437283: 10.102.5.14 kết nối thành công
+2024-11-22 07:34:44.559721: 10.102.4.66 kết nối thành công
+2024-11-22 07:34:44.960774: 10.102.4.21 kết nối thành công
+2024-11-22 07:34:45.107918: 10.102.5.18 kết nối thành công
+2024-11-22 07:34:45.192568: 10.102.4.209 kết nối thành công
+2024-11-22 07:34:45.247650: 10.102.4.201 kết nối thành công
+2024-11-22 07:34:45.360941: 10.102.5.13 kết nối thành công
+2024-11-22 07:34:45.761724: 10.102.4.185 kết nối thành công
+2024-11-22 07:34:45.846204: 10.102.4.208 kết nối thành công
+2024-11-22 07:34:46.236163: 10.102.4.55 kết nối thành công
+2024-11-22 07:34:46.428117: 10.102.5.16 kết nối thành công
+2024-11-22 07:34:46.985757: 10.102.4.248 kết nối thành công
+2024-11-22 07:34:47.081003: 10.102.4.210 kết nối thành công
+2024-11-22 07:34:47.482238: 10.102.4.56 kết nối thành công
+2024-11-22 07:34:47.582506: 10.102.4.17 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-11-22 07:34:47.582506: 10.102.4.170 kết nối thành công
+2024-11-22 07:34:47.598133: 10.102.4.135 kết nối thành công
+2024-11-22 07:34:48.199376: 10.102.4.186 kết nối thành công
+2024-11-22 07:34:48.399727: 10.102.5.15 kết nối thành công
+2024-11-22 07:34:48.689463: 10.102.4.57 kết nối thành công
+2024-11-22 07:34:48.953940: 10.102.4.168 kết nối thành công
+2024-11-22 07:34:49.416579: 10.102.4.169 kết nối thành công
+2024-11-22 07:34:49.416579: 10.102.4.199 kết nối thành công
+2024-11-22 07:34:49.570003: 10.102.4.58 kết nối thành công
+2024-11-22 07:34:49.654567: 10.102.4.245 kết nối thành công
+2024-11-22 07:34:49.951364: 10.102.4.19 kết nối thất bại: list index out of range
+2024-11-22 07:34:49.957367: 10.102.4.200 kết nối thành công
+2024-11-22 07:34:50.987352: 10.102.4.91 kết nối thành công
+2024-11-22 07:34:51.473503: 10.102.4.18 kết nối thành công
+2024-11-22 07:34:51.681055: 10.102.4.247 kết nối thành công
+2024-11-22 07:34:51.845956: 10.102.4.93 kết nối thành công
+2024-11-22 07:34:52.574862: kết nối ok
+2024-11-22 07:34:52.590488: kết nối ok
+2024-11-22 07:34:52.860288: kết nối ok
+2024-11-22 07:34:53.002625: kết nối ok
+2024-11-22 07:34:53.123539: kết nối ok
+2024-11-22 07:34:53.308434: kết nối ok
+2024-11-22 07:34:53.361813: kết nối ok
+2024-11-22 07:34:53.361813: kết nối ok
+2024-11-22 07:34:53.477692: kết nối ok
+2024-11-22 07:34:53.609234: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-11-22 07:34:53.609234: kết nối ok
+2024-11-22 07:34:53.710091: kết nối ok
+2024-11-22 07:34:53.751141: kết nối ok
+2024-11-22 07:34:53.762709: kết nối ok
+2024-11-22 07:34:53.946988: kết nối ok
+2024-11-22 07:34:53.994080: kết nối ok
+2024-11-22 07:34:53.994080: kết nối ok
+2024-11-22 07:34:54.111391: kết nối ok
+2024-11-22 07:34:54.237045: kết nối ok
+2024-11-22 07:34:54.263683: kết nối ok
+2024-11-22 07:34:54.279383: kết nối ok
+2024-11-22 07:34:54.294985: kết nối ok
+2024-11-22 07:34:54.326222: kết nối ok
+2024-11-22 07:34:54.542522: kết nối ok
+2024-11-22 07:34:54.558182: kết nối ok
+2024-11-22 07:34:54.665031: kết nối ok
+2024-11-22 07:34:54.780779: kết nối ok
+2024-11-22 07:34:56.284184: kết nối ok
+2024-11-22 07:34:56.399398: kết nối ok
+2024-11-22 07:34:56.468293: kết nối ok
+2024-11-22 07:34:57.017356: kết nối ok
+2024-11-22 07:34:57.032916: kết nối ok
+2024-11-22 07:34:57.485847: kết nối ok
+2024-11-22 07:34:57.610252: kết nối ok
+2024-11-22 07:34:57.950806: kết nối ok
+2024-11-22 07:34:58.688375: kết nối ok
+2024-11-22 07:34:59.152075: kết nối ok
+2024-11-22 07:34:59.422176: kết nối ok
+2024-11-22 07:34:59.907933: kết nối ok
+2024-11-22 07:34:59.956059: kết nối ok
+2024-11-22 07:35:00.126162: kết nối ok
+2024-11-22 07:35:01.159057: kết nối ok
+2024-11-22 07:35:01.177096: kết nối ok
+2024-11-22 07:35:01.633264: kết nối ok
+2024-11-22 07:35:01.681983: kết nối ok
+2024-11-22 07:35:01.829257: kết nối ok
+2024-11-22 07:35:02.610496: kết nối ok
+2024-11-22 07:35:02.684661: kết nối ok
+2024-11-22 07:35:02.747266: kết nối ok
+2024-11-22 07:35:02.785122: kết nối ok
+2024-11-22 07:35:03.164128: kết nối ok
+2024-11-22 07:35:03.846800: kết nối ok
+2024-11-22 07:35:04.766848: kết nối ok
+2024-11-22 07:35:04.936985: kết nối ok
+2024-11-22 07:35:05.056169: kết nối ok
+2024-11-22 07:35:05.626945: kết nối ok
+2024-11-22 07:35:05.907221: kết nối ok
+2024-11-22 07:35:06.508523: kết nối ok
+2024-11-22 07:35:07.439836: kết nối ok
+2024-11-22 07:35:07.439836: kết nối ok
+2024-11-22 07:35:07.613956: kết nối ok
+2024-11-22 07:35:08.412584: kết nối ok
+2024-11-22 07:35:08.813364: kết nối ok
+2024-11-22 07:35:08.954276: kết nối ok
+2024-11-22 07:35:09.955255: kết nối ok
+2024-11-22 07:35:10.034028: kết nối ok
+2024-11-22 07:35:11.435317: kết nối ok
+2024-11-23 07:00:12.910775: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.220771: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.220771: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.221770: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.221770: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-23 07:00:17.221770: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.222770: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.222770: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-23 07:00:17.411777: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.475773: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.485771: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.488772: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.489771: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.495775: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.512772: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.528771: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.532772: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.548771: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.563772: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:17.566771: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.578772: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-23 07:00:17.581773: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-23 07:00:20.546773: kết nối ok
+2024-11-23 07:00:21.513823: kết nối ok
+2024-11-23 07:00:21.891829: kết nối ok
+2024-11-23 07:00:27.588354: kết nối ok
+2024-11-23 07:01:19.897077: kết nối thất bại: telnet connection closed
+2024-11-24 07:00:28.930332: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:32.264333: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:32.265333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:32.265333: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.265333: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:32.265333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:32.265333: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.265333: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:32.266331: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.266331: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.266331: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.267333: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-24 07:00:32.784333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:32.888328: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.001331: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.067333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:33.169332: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.235332: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.320331: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.385334: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:33.468332: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.714333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:33.780334: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.820332: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:33.878332: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:33.965340: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:37.086333: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:37.165336: kết nối ok
+2024-11-24 07:00:37.485332: kết nối ok
+2024-11-24 07:00:37.498344: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:37.761331: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:37.785329: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:37.798351: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:37.868336: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:37.937340: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:37.969334: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:38.128334: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:38.170331: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-11-24 07:00:38.236334: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:38.380331: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:39.800336: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:39.898336: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:42.196633: kết nối ok
+2024-11-24 07:00:42.315639: kết nối ok
+2024-11-24 07:00:42.395636: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:42.577635: kết nối ok
+2024-11-24 07:00:42.814637: kết nối ok
+2024-11-24 07:00:44.472217: kết nối ok
+2024-11-24 07:00:44.496215: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:44.663058: kết nối ok
+2024-11-24 07:00:46.809406: kết nối ok
+2024-11-24 07:00:46.921398: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:47.625394: kết nối ok
+2024-11-24 07:00:48.280398: kết nối ok
+2024-11-24 07:00:48.648396: kết nối ok
+2024-11-24 07:00:48.729395: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-24 07:00:49.043397: kết nối ok
+2024-11-24 07:00:50.008491: kết nối ok
+2024-11-24 07:00:52.837248: kết nối ok
+2024-11-24 07:00:52.986187: kết nối ok
+2024-11-24 07:00:54.462260: kết nối ok
+2024-11-24 07:00:54.654266: kết nối ok
+2024-11-24 07:00:55.222262: kết nối ok
+2024-11-24 07:00:56.875261: kết nối ok
+2024-11-24 07:01:35.187614: kết nối thất bại: telnet connection closed
+2024-11-24 07:01:40.483687: kết nối thất bại: telnet connection closed
+2024-11-24 07:01:42.557214: kết nối thất bại: telnet connection closed
+2024-11-24 14:47:33.249368: kết nối ok
+2024-11-24 14:47:57.684632: kết nối ok

@@ -1,0 +1,35 @@
+2024-10-07 08:14:35.624450: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 08:14:37.026127: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-07 08:14:37.026127: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-07 08:14:37.372541: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 08:14:40.525208: kết nối ok
+2024-10-07 08:14:40.856875: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 08:14:41.577473: kết nối ok
+2024-10-07 08:14:46.091766: kết nối ok
+2024-10-07 08:14:49.920434: kết nối ok
+2024-10-07 08:14:52.324950: kết nối ok
+2024-10-07 08:15:38.429132: kết nối thất bại: telnet connection closed
+2024-10-07 17:09:28.347203: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:28.760435: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:29.619658: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-10-07 17:09:29.947775: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:33.094024: kết nối ok
+2024-10-07 17:09:33.570136: kết nối ok
+2024-10-07 17:09:33.893066: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:37.248700: kết nối ok
+2024-10-07 17:09:37.587156: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:37.794893: kết nối ok
+2024-10-07 17:09:38.107447: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:38.901850: kết nối ok
+2024-10-07 17:09:39.211179: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:39.520244: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-10-07 17:09:42.445679: kết nối ok
+2024-10-07 17:09:42.634038: kết nối ok
+2024-10-07 17:09:42.866112: kết nối ok
+2024-10-07 17:09:43.689443: kết nối ok
+2024-10-07 17:09:51.097880: kết nối ok
+2024-10-07 17:09:51.678547: kết nối ok
+2024-10-07 17:09:52.065511: kết nối ok
+2024-10-07 17:09:57.510359: kết nối ok
+2024-10-07 17:10:31.542348: kết nối thất bại: telnet connection closed
+2024-10-07 17:10:56.981981: kết nối thất bại: telnet connection closed

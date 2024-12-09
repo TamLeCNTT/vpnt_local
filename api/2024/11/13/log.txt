@@ -1,0 +1,12 @@
+2024-11-13 07:00:50.766987: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-13 07:00:50.767973: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-13 07:00:50.768974: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-13 07:00:50.768974: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-13 07:00:50.769971: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-11-13 07:00:50.806978: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-13 07:00:50.826972: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-11-13 07:00:54.167798: kết nối ok
+2024-11-13 07:00:54.702626: kết nối ok
+2024-11-13 07:00:55.348221: kết nối ok
+2024-11-13 07:00:59.579546: kết nối ok
+2024-11-13 07:01:53.266161: kết nối thất bại: telnet connection closed

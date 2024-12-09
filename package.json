@@ -16,6 +16,7 @@
     "express": "^4.19.2",
     "file-saver": "^2.0.5",
     "firebase": "^10.12.3",
+    "install": "^0.13.0",
     "node-telnet-client": "^1.0.0-8",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
@@ -24,9 +25,11 @@
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
     "react-select": "^5.8.0",
+    "react-sweetalert2": "^0.6.0",
     "react-toastify": "^10.0.5",
     "redux": "^5.0.1",
     "sass": "^1.77.6",
+    "sweetalert2": "^11.14.0",
     "telnet-client": "^2.2.1",
     "web-vitals": "^2.1.4",
     "xlsx": "^0.18.5",
@@ -55,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "browser": {
+    "crypto": false
   }
 }
