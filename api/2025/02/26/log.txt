@@ -1,0 +1,757 @@
+2025-02-26 08:32:38.319463: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 08:32:38.319463: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 08:32:44.619499: kết nối ok
+2025-02-26 08:32:44.639601: kết nối ok
+2025-02-26 08:32:44.649246: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 08:32:45.371590: kết nối ok
+2025-02-26 08:32:45.404360: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 08:32:49.309121: kết nối ok
+2025-02-26 08:32:52.819398: kết nối ok
+2025-02-26 08:33:01.963939: kết nối ok
+2025-02-26 08:33:02.785815: kết nối ok
+2025-02-26 08:33:03.319844: kết nối ok
+2025-02-26 15:34:21.962736: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 15:34:21.972710: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 15:34:22.727823: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-02-26 15:34:22.742910: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 15:34:27.297483: kết nối ok
+2025-02-26 15:34:28.169374: kết nối ok
+2025-02-26 15:34:28.183010: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-26 15:34:31.932790: kết nối ok
+2025-02-26 15:34:36.652670: kết nối ok
+2025-02-26 15:34:40.092884: kết nối ok
+2025-02-26 15:34:46.407579: kết nối ok
+2025-02-26 15:34:46.962589: kết nối ok
+2025-02-26 19:43:37.824759: kết nối ok
+2025-02-26 19:43:37.863848: kết nối ok
+2025-02-26 19:43:38.161439: kết nối ok
+2025-02-26 19:43:38.337444: kết nối ok
+2025-02-26 19:43:38.612292: kết nối ok
+2025-02-26 19:43:38.790079: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2025-02-26 19:43:38.800077: kết nối ok
+2025-02-26 19:43:38.903077: kết nối ok
+2025-02-26 19:43:39.197438: kết nối ok
+2025-02-26 19:43:39.212435: kết nối ok
+2025-02-26 19:43:39.256433: kết nối ok
+2025-02-26 19:43:39.302436: kết nối ok
+2025-02-26 19:43:39.397435: kết nối ok
+2025-02-26 19:43:39.571432: kết nối ok
+2025-02-26 19:43:39.645429: kết nối ok
+2025-02-26 19:43:39.714431: kết nối ok
+2025-02-26 19:43:39.717432: kết nối ok
+2025-02-26 19:43:39.729435: kết nối ok
+2025-02-26 19:43:39.862429: kết nối ok
+2025-02-26 19:43:40.031020: kết nối ok
+2025-02-26 19:43:40.033021: kết nối ok
+2025-02-26 19:43:40.055024: kết nối ok
+2025-02-26 19:43:40.099020: kết nối ok
+2025-02-26 19:43:40.311021: kết nối ok
+2025-02-26 19:43:40.328021: kết nối ok
+2025-02-26 19:43:40.335023: kết nối ok
+2025-02-26 19:43:40.337020: kết nối ok
+2025-02-26 19:43:40.617553: kết nối ok
+2025-02-26 19:43:41.621548: kết nối ok
+2025-02-26 19:43:41.775550: kết nối ok
+2025-02-26 19:43:42.223545: kết nối ok
+2025-02-26 19:43:42.973839: kết nối ok
+2025-02-26 19:43:43.034843: kết nối ok
+2025-02-26 19:43:43.056418: kết nối ok
+2025-02-26 19:43:43.821491: kết nối ok
+2025-02-26 19:43:43.910391: kết nối ok
+2025-02-26 19:43:43.914404: kết nối ok
+2025-02-26 19:43:44.043338: kết nối ok
+2025-02-26 19:43:44.300810: kết nối ok
+2025-02-26 19:43:45.154304: kết nối ok
+2025-02-26 19:43:45.714684: kết nối ok
+2025-02-26 19:43:45.787869: kết nối ok
+2025-02-26 19:43:45.910867: kết nối ok
+2025-02-26 19:43:45.940871: kết nối ok
+2025-02-26 19:43:45.968869: kết nối ok
+2025-02-26 19:43:47.488083: kết nối ok
+2025-02-26 19:43:47.547471: kết nối ok
+2025-02-26 19:43:47.890732: kết nối ok
+2025-02-26 19:43:47.912469: kết nối ok
+2025-02-26 19:43:48.370079: kết nối ok
+2025-02-26 19:43:48.429591: kết nối ok
+2025-02-26 19:43:48.835557: kết nối ok
+2025-02-26 19:43:49.966100: kết nối ok
+2025-02-26 19:43:49.968100: kết nối ok
+2025-02-26 19:43:50.003097: kết nối ok
+2025-02-26 19:43:50.312311: kết nối ok
+2025-02-26 19:43:51.306715: kết nối ok
+2025-02-26 19:43:51.853943: kết nối ok
+2025-02-26 19:43:52.457275: kết nối ok
+2025-02-26 19:43:52.508570: kết nối ok
+2025-02-26 19:43:52.792542: kết nối ok
+2025-02-26 19:43:52.933273: kết nối ok
+2025-02-26 19:43:54.043685: kết nối ok
+2025-02-26 19:43:54.462790: kết nối ok
+2025-02-26 19:43:54.889961: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2025-02-26 19:43:54.996690: kết nối ok
+2025-02-26 19:43:55.517870: kết nối ok
+2025-02-26 19:43:57.253009: kết nối ok
+2025-02-26 19:43:57.470605: kết nối ok
+2025-02-26 19:43:57.701555: kết nối ok
+2025-02-26 19:43:57.810229: kết nối ok
+2025-02-26 19:43:58.068796: kết nối ok
+2025-02-26 19:43:58.303836: 10.102.4.190 kết nối thành công
+2025-02-26 19:43:58.985640: 10.102.4.244 kết nối thành công
+2025-02-26 19:43:59.135645: 10.102.5.44 kết nối thành công
+2025-02-26 19:43:59.431169: 10.102.5.43 kết nối thành công
+2025-02-26 19:43:59.537291: 10.102.5.42 kết nối thành công
+2025-02-26 19:43:59.894173: 10.102.4.154 kết nối thành công
+2025-02-26 19:44:00.088167: 10.102.4.197 kết nối thành công
+2025-02-26 19:44:00.357287: 10.102.5.45 kết nối thành công
+2025-02-26 19:44:00.994518: 10.102.4.194 kết nối thành công
+2025-02-26 19:44:01.402737: 10.102.4.117 kết nối thành công
+2025-02-26 19:44:02.210959: 10.102.4.128 kết nối thành công
+2025-02-26 19:44:02.226960: 10.102.4.97 kết nối thành công
+2025-02-26 19:44:02.646807: 10.102.4.95 kết nối thành công
+2025-02-26 19:44:02.995826: 10.102.4.206 kết nối thành công
+2025-02-26 19:44:03.447589: 10.102.4.249 kết nối thành công
+2025-02-26 19:44:03.797916: 10.102.4.179 kết nối thành công
+2025-02-26 19:44:03.954604: 10.102.4.69 kết nối thành công
+2025-02-26 19:44:04.532016: 10.102.4.96 kết nối thành công
+2025-02-26 19:44:04.757834: 10.102.4.54 kết nối thành công
+2025-02-26 19:44:05.454842: 10.102.4.213 kết nối thành công
+2025-02-26 19:44:05.665836: 10.102.4.195 kết nối thành công
+2025-02-26 19:44:05.685839: 10.102.4.70 kết nối thành công
+2025-02-26 19:44:06.198323: 10.102.4.243 kết nối thành công
+2025-02-26 19:44:06.992236: 10.102.4.127 kết nối thành công
+2025-02-26 19:44:07.118236: 10.102.4.164 kết nối thành công
+2025-02-26 19:44:07.442746: 10.102.4.51 kết nối thất bại: list index out of range
+2025-02-26 19:44:07.459748: 10.102.4.110 kết nối thành công
+2025-02-26 19:44:07.798750: 10.102.4.52 kết nối thành công
+2025-02-26 19:44:08.229748: 10.102.4.187 kết nối thành công
+2025-02-26 19:44:08.336750: 10.102.4.142 kết nối thành công
+2025-02-26 19:44:08.418753: 10.102.4.40 kết nối thất bại: list index out of range
+2025-02-26 19:44:09.009280: 10.102.4.27 kết nối thất bại: list index out of range
+2025-02-26 19:44:10.234057: 10.102.4.94 kết nối thành công
+2025-02-26 19:44:10.568056: 10.102.4.141 kết nối thành công
+2025-02-26 19:44:10.606056: 10.102.4.126 kết nối thành công
+2025-02-26 19:44:10.963057: 10.102.4.129 kết nối thành công
+2025-02-26 19:44:12.609302: 10.102.4.156 kết nối thành công
+2025-02-26 19:44:12.774300: 10.102.4.151 kết nối thành công
+2025-02-26 19:44:12.931300: 10.102.4.152 kết nối thành công
+2025-02-26 19:44:13.184646: 10.102.4.153 kết nối thành công
+2025-02-26 19:44:13.319677: 10.102.4.178 kết nối thành công
+2025-02-26 19:44:14.605190: 10.102.4.161 kết nối thành công
+2025-02-26 19:44:14.959516: 10.102.4.118 kết nối thành công
+2025-02-26 19:44:15.311299: 10.102.4.50 kết nối thành công
+2025-02-26 19:44:15.634494: 10.102.4.162 kết nối thành công
+2025-02-26 19:44:16.254581: 10.102.4.59 kết nối thất bại: list index out of range
+2025-02-26 19:44:17.062775: 10.102.4.223 kết nối thành công
+2025-02-26 19:44:17.981039: 10.102.4.111 kết nối thành công
+2025-02-26 19:44:18.862446: 10.102.4.155 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:19.595364: 10.102.4.150 kết nối thành công
+2025-02-26 19:44:21.772814: 10.102.4.73 kết nối thành công
+2025-02-26 19:44:34.383647: 10.102.4.116 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:35.671304: 10.102.4.163 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:36.353300: 10.102.4.108 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:37.693829: 10.102.5.25 kết nối thành công
+2025-02-26 19:44:38.029177: 10.102.4.76 kết nối thành công
+2025-02-26 19:44:39.064542: 10.102.5.26 kết nối thành công
+2025-02-26 19:44:39.139449: 10.102.4.112 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:39.768991: 10.102.4.193 kết nối thành công
+2025-02-26 19:44:39.901002: 10.102.4.167 kết nối thành công
+2025-02-26 19:44:39.915005: 10.102.4.160 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:40.580136: 10.102.4.242 kết nối thành công
+2025-02-26 19:44:40.927469: 10.102.4.83 kết nối thành công
+2025-02-26 19:44:41.081242: 10.102.4.81 kết nối thành công
+2025-02-26 19:44:41.666446: 10.102.4.191 kết nối thành công
+2025-02-26 19:44:41.722576: 10.102.4.120 kết nối thành công
+2025-02-26 19:44:42.342890: 10.102.4.28 kết nối thành công
+2025-02-26 19:44:42.358890: 10.102.4.192 kết nối thành công
+2025-02-26 19:44:42.947539: 10.102.4.114 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:43.773630: 10.102.4.26 kết nối thất bại: list index out of range
+2025-02-26 19:44:44.446669: 10.102.4.182 kết nối thành công
+2025-02-26 19:44:44.514667: 10.102.4.189 kết nối thành công
+2025-02-26 19:44:44.689668: 10.102.4.87 kết nối thành công
+2025-02-26 19:44:45.228671: 10.102.4.204 kết nối thành công
+2025-02-26 19:44:45.834940: 10.102.5.27 kết nối thành công
+2025-02-26 19:44:46.492232: 10.102.5.24 kết nối thành công
+2025-02-26 19:44:46.975086: 10.102.4.171 kết nối thành công
+2025-02-26 19:44:47.066082: 10.102.5.21 kết nối thành công
+2025-02-26 19:44:47.719284: 10.102.4.203 kết nối thành công
+2025-02-26 19:44:47.729284: 10.102.5.19 kết nối thành công
+2025-02-26 19:44:48.286395: 10.102.5.23 kết nối thành công
+2025-02-26 19:44:48.508396: 10.102.4.202 kết nối thành công
+2025-02-26 19:44:48.538402: 10.102.4.176 kết nối thành công
+2025-02-26 19:44:49.120393: 10.102.4.172 kết nối thành công
+2025-02-26 19:44:49.279399: 10.102.4.175 kết nối thành công
+2025-02-26 19:44:49.757392: 10.102.5.20 kết nối thành công
+2025-02-26 19:44:49.879393: 10.102.4.173 kết nối thành công
+2025-02-26 19:44:50.145399: 10.102.4.174 kết nối thành công
+2025-02-26 19:44:50.478402: 10.102.4.205 kết nối thành công
+2025-02-26 19:44:50.718395: 10.102.4.29 kết nối thất bại: list index out of range
+2025-02-26 19:44:51.671298: 10.102.4.79 kết nối thành công
+2025-02-26 19:44:53.258666: 10.102.4.35 kết nối thành công
+2025-02-26 19:44:54.175829: 10.102.4.23 kết nối thành công
+2025-02-26 19:44:55.439459: 10.102.4.159 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:44:55.942544: 10.102.4.166 kết nối thành công
+2025-02-26 19:44:56.285495: 10.102.4.75 kết nối thành công
+2025-02-26 19:45:02.025846: 10.102.4.181 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:04.389507: 10.102.4.104 kết nối thành công
+2025-02-26 19:45:04.857483: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:06.258831: 10.102.5.22 kết nối thành công
+2025-02-26 19:45:08.055259: 10.102.4.65 kết nối thành công
+2025-02-26 19:45:09.978253: 10.102.4.101 kết nối thành công
+2025-02-26 19:45:10.948546: 10.102.4.77 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:12.045103: 10.102.4.158 kết nối thành công
+2025-02-26 19:45:13.352595: 10.102.5.33 kết nối thành công
+2025-02-26 19:45:13.513823: 10.102.4.68 kết nối thành công
+2025-02-26 19:45:14.650643: 10.102.5.29 kết nối thành công
+2025-02-26 19:45:14.819979: 10.102.5.34 kết nối thành công
+2025-02-26 19:45:15.472974: 10.102.4.215 kết nối thành công
+2025-02-26 19:45:15.878976: 10.102.5.28 kết nối thành công
+2025-02-26 19:45:16.211973: 10.102.4.224 kết nối thành công
+2025-02-26 19:45:16.507973: 10.102.4.106 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:16.573978: 10.102.4.219 kết nối thành công
+2025-02-26 19:45:16.996936: 10.102.4.165 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:17.336793: 10.102.4.67 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:17.478904: 10.102.5.31 kết nối thành công
+2025-02-26 19:45:17.686381: 10.102.4.45 kết nối thất bại: list index out of range
+2025-02-26 19:45:17.786353: 10.102.5.32 kết nối thành công
+2025-02-26 19:45:17.862350: 10.102.5.30 kết nối thành công
+2025-02-26 19:45:17.921345: 10.102.4.46 kết nối thất bại: list index out of range
+2025-02-26 19:45:19.053814: 10.102.5.46 kết nối thành công
+2025-02-26 19:45:19.158849: 10.102.5.47 kết nối thành công
+2025-02-26 19:45:19.415464: 10.102.4.102 kết nối thành công
+2025-02-26 19:45:19.539990: 10.102.4.41 kết nối thành công
+2025-02-26 19:45:19.601988: 10.102.4.140 kết nối thành công
+2025-02-26 19:45:19.938532: 10.102.4.157 kết nối thành công
+2025-02-26 19:45:20.083507: 10.102.4.80 kết nối thất bại: list index out of range
+2025-02-26 19:45:20.444773: 10.102.5.48 kết nối thành công
+2025-02-26 19:45:20.620476: 10.102.4.222 kết nối thành công
+2025-02-26 19:45:20.741714: 10.102.5.49 kết nối thành công
+2025-02-26 19:45:20.877252: 10.102.4.38 kết nối thành công
+2025-02-26 19:45:21.406921: 10.102.4.39 kết nối thành công
+2025-02-26 19:45:21.958130: 10.102.4.63 kết nối thành công
+2025-02-26 19:45:22.520092: 10.102.4.32 kết nối thành công
+2025-02-26 19:45:22.563094: 10.102.4.44 kết nối thất bại: list index out of range
+2025-02-26 19:45:22.950091: 10.102.4.24 kết nối thành công
+2025-02-26 19:45:23.179093: 10.102.4.33 kết nối thành công
+2025-02-26 19:45:23.290096: 10.102.4.220 kết nối thành công
+2025-02-26 19:45:23.677731: 10.102.4.229 kết nối thành công
+2025-02-26 19:45:24.093729: 10.102.4.217 kết nối thành công
+2025-02-26 19:45:24.521726: 10.102.5.37 kết nối thành công
+2025-02-26 19:45:24.682730: 10.102.4.100 kết nối thành công
+2025-02-26 19:45:24.873728: 10.102.4.226 kết nối thành công
+2025-02-26 19:45:24.886728: 10.102.4.231 kết nối thành công
+2025-02-26 19:45:25.241729: 10.102.4.216 kết nối thành công
+2025-02-26 19:45:25.456729: 10.102.4.103 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:25.567728: 10.102.4.230 kết nối thành công
+2025-02-26 19:45:25.943414: 10.102.4.212 kết nối thành công
+2025-02-26 19:45:25.951415: 10.102.4.240 kết nối thành công
+2025-02-26 19:45:26.085419: 10.102.4.238 kết nối thành công
+2025-02-26 19:45:26.155418: 10.102.4.227 kết nối thành công
+2025-02-26 19:45:27.146487: 10.102.4.234 kết nối thành công
+2025-02-26 19:45:27.149487: 10.102.4.233 kết nối thành công
+2025-02-26 19:45:27.299489: 10.102.4.235 kết nối thành công
+2025-02-26 19:45:27.299489: 10.102.4.78 kết nối thành công
+2025-02-26 19:45:27.301491: 10.102.4.241 kết nối thành công
+2025-02-26 19:45:28.356009: 10.102.4.237 kết nối thành công
+2025-02-26 19:45:28.591004: 10.102.4.218 kết nối thành công
+2025-02-26 19:45:28.632006: 10.102.5.36 kết nối thành công
+2025-02-26 19:45:28.648005: 10.102.5.39 kết nối thành công
+2025-02-26 19:45:28.693003: 10.102.5.41 kết nối thành công
+2025-02-26 19:45:29.733589: 10.102.4.232 kết nối thành công
+2025-02-26 19:45:29.796039: 10.102.4.214 kết nối thành công
+2025-02-26 19:45:29.826597: 10.102.4.71 kết nối thành công
+2025-02-26 19:45:30.033683: 10.102.5.40 kết nối thành công
+2025-02-26 19:45:30.133655: 10.102.4.196 kết nối thành công
+2025-02-26 19:45:30.463665: 10.102.4.228 kết nối thành công
+2025-02-26 19:45:30.614667: 10.102.4.225 kết nối thành công
+2025-02-26 19:45:30.920232: 10.102.4.239 kết nối thành công
+2025-02-26 19:45:31.351225: 10.102.4.236 kết nối thành công
+2025-02-26 19:45:31.381795: 10.102.5.35 kết nối thành công
+2025-02-26 19:45:31.811954: 10.102.5.38 kết nối thành công
+2025-02-26 19:45:32.039089: 10.102.4.14 kết nối thành công
+2025-02-26 19:45:32.074086: 10.102.4.61 kết nối thành công
+2025-02-26 19:45:32.625002: 10.102.4.82 kết nối thành công
+2025-02-26 19:45:33.042008: 10.102.4.109 kết nối thành công
+2025-02-26 19:45:33.111622: 10.102.4.107 kết nối thành công
+2025-02-26 19:45:33.277617: 10.102.4.47 kết nối thành công
+2025-02-26 19:45:34.039736: 10.102.4.25 kết nối thành công
+2025-02-26 19:45:34.337985: 10.102.4.113 kết nối thành công
+2025-02-26 19:45:35.311805: 10.102.4.188 kết nối thành công
+2025-02-26 19:45:35.702798: 10.102.4.132 kết nối thành công
+2025-02-26 19:45:36.071303: 10.102.4.43 kết nối thành công
+2025-02-26 19:45:36.231301: 10.102.4.34 kết nối thành công
+2025-02-26 19:45:36.765303: 10.102.4.20 kết nối thất bại: list index out of range
+2025-02-26 19:45:37.381302: 10.102.4.92 kết nối thành công
+2025-02-26 19:45:38.762895: 10.102.4.36 kết nối thành công
+2025-02-26 19:45:38.843900: 10.102.4.105 kết nối thành công
+2025-02-26 19:45:39.458996: 10.102.4.42 kết nối thành công
+2025-02-26 19:45:40.186968: 10.102.4.246 kết nối thành công
+2025-02-26 19:45:40.635980: 10.102.4.86 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:40.749979: 10.102.4.115 kết nối thành công
+2025-02-26 19:45:40.842977: 10.102.4.31 kết nối thành công
+2025-02-26 19:45:41.802454: 10.102.4.149 kết nối thành công
+2025-02-26 19:45:42.430171: 10.102.4.30 kết nối thành công
+2025-02-26 19:45:42.548690: 10.102.4.37 kết nối thành công
+2025-02-26 19:45:43.528949: 10.102.4.148 kết nối thành công
+2025-02-26 19:45:43.707930: 10.102.4.62 kết nối thành công
+2025-02-26 19:45:44.926538: 10.102.5.11 kết nối thành công
+2025-02-26 19:45:45.406535: 10.102.4.145 kết nối thành công
+2025-02-26 19:45:47.289480: 10.102.4.147 kết nối thành công
+2025-02-26 19:45:47.433479: 10.102.4.146 kết nối thành công
+2025-02-26 19:45:49.364470: 10.102.4.88 kết nối thành công
+2025-02-26 19:45:54.101428: 10.102.4.72 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:55.106991: 10.102.4.17 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:45:57.535382: 10.102.4.48 kết nối thành công
+2025-02-26 19:45:58.791519: 10.102.5.12 kết nối thành công
+2025-02-26 19:45:59.319360: 10.102.4.183 kết nối thành công
+2025-02-26 19:46:01.313815: 10.102.4.49 kết nối thành công
+2025-02-26 19:46:01.702814: 10.102.4.134 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:02.600627: 10.102.5.10 kết nối thành công
+2025-02-26 19:46:02.819264: 10.102.4.60 kết nối thành công
+2025-02-26 19:46:03.474868: 10.102.4.133 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:05.293081: 10.102.4.89 kết nối thành công
+2025-02-26 19:46:05.332078: 10.102.4.53 kết nối thành công
+2025-02-26 19:46:05.744499: 10.102.4.98 kết nối thành công
+2025-02-26 19:46:06.340097: 10.102.4.99 kết nối thành công
+2025-02-26 19:46:06.990787: 10.102.4.11 kết nối thất bại: list index out of range
+2025-02-26 19:46:07.649860: 10.102.4.12 kết nối thành công
+2025-02-26 19:46:08.182521: 10.102.4.13 kết nối thành công
+2025-02-26 19:46:08.360426: 10.102.4.136 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:10.440707: 10.102.4.137 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:10.441712: 10.102.4.252 kết nối thành công
+2025-02-26 19:46:10.898084: 10.102.4.131 kết nối thành công
+2025-02-26 19:46:12.550589: 10.102.4.144 kết nối thành công
+2025-02-26 19:46:12.672589: 10.102.4.143 kết nối thành công
+2025-02-26 19:46:12.882587: 10.102.4.15 kết nối thành công
+2025-02-26 19:46:13.521840: 10.102.4.198 kết nối thành công
+2025-02-26 19:46:14.481841: 10.102.4.74 kết nối thất bại: list index out of range
+2025-02-26 19:46:14.618840: 10.102.4.66 kết nối thành công
+2025-02-26 19:46:14.794466: 10.102.5.14 kết nối thành công
+2025-02-26 19:46:14.886464: 10.102.4.184 kết nối thành công
+2025-02-26 19:46:15.233064: 10.102.4.211 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:15.882284: 10.102.4.209 kết nối thành công
+2025-02-26 19:46:15.920280: 10.102.5.18 kết nối thành công
+2025-02-26 19:46:16.001432: 10.102.4.21 kết nối thành công
+2025-02-26 19:46:16.158836: 10.102.5.13 kết nối thành công
+2025-02-26 19:46:16.549810: 10.102.4.201 kết nối thành công
+2025-02-26 19:46:16.834811: 10.102.4.208 kết nối thành công
+2025-02-26 19:46:17.026670: 10.102.4.55 kết nối thành công
+2025-02-26 19:46:17.227668: 10.102.5.16 kết nối thành công
+2025-02-26 19:46:17.466571: 10.102.4.185 kết nối thành công
+2025-02-26 19:46:18.300234: 10.102.4.170 kết nối thành công
+2025-02-26 19:46:18.383715: 10.102.4.248 kết nối thành công
+2025-02-26 19:46:18.576710: 10.102.4.56 kết nối thành công
+2025-02-26 19:46:18.719705: 10.102.4.135 kết nối thành công
+2025-02-26 19:46:19.047711: 10.102.4.210 kết nối thành công
+2025-02-26 19:46:19.654711: 10.102.4.186 kết nối thành công
+2025-02-26 19:46:19.913784: 10.102.5.15 kết nối thành công
+2025-02-26 19:46:20.858970: 10.102.4.168 kết nối thành công
+2025-02-26 19:46:21.019969: 10.102.4.57 kết nối thành công
+2025-02-26 19:46:21.445009: 10.102.4.245 kết nối thành công
+2025-02-26 19:46:22.125043: 10.102.4.58 kết nối thành công
+2025-02-26 19:46:22.160063: 10.102.4.199 kết nối thành công
+2025-02-26 19:46:23.026698: 10.102.4.200 kết nối thành công
+2025-02-26 19:46:23.486928: 10.102.4.19 kết nối thất bại: list index out of range
+2025-02-26 19:46:23.740929: 10.102.4.91 kết nối thành công
+2025-02-26 19:46:24.429964: 10.102.4.247 kết nối thành công
+2025-02-26 19:46:24.554491: 10.102.4.16 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:25.182769: kết nối ok
+2025-02-26 19:46:25.271766: 10.102.4.18 kết nối thành công
+2025-02-26 19:46:25.640403: 10.102.5.52 kết nối thành công
+2025-02-26 19:46:26.370670: 10.102.4.138 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:40.114449: 10.102.4.169 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:46:44.798735: 10.102.4.93 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:58:37.365246: kết nối ok
+2025-02-26 19:58:37.628954: kết nối ok
+2025-02-26 19:58:37.888456: kết nối ok
+2025-02-26 19:58:37.975452: kết nối ok
+2025-02-26 19:58:38.314454: kết nối ok
+2025-02-26 19:58:38.315453: kết nối ok
+2025-02-26 19:58:38.519450: kết nối ok
+2025-02-26 19:58:38.567450: kết nối ok
+2025-02-26 19:58:38.574420: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2025-02-26 19:58:38.582423: kết nối ok
+2025-02-26 19:58:38.608993: kết nối ok
+2025-02-26 19:58:38.826311: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2025-02-26 19:58:38.829309: kết nối ok
+2025-02-26 19:58:38.954173: kết nối ok
+2025-02-26 19:58:39.075169: kết nối ok
+2025-02-26 19:58:39.093174: kết nối ok
+2025-02-26 19:58:39.144173: kết nối ok
+2025-02-26 19:58:39.200170: kết nối ok
+2025-02-26 19:58:39.215171: kết nối ok
+2025-02-26 19:58:39.387209: kết nối ok
+2025-02-26 19:58:39.533209: kết nối ok
+2025-02-26 19:58:39.552209: kết nối ok
+2025-02-26 19:58:39.553210: kết nối ok
+2025-02-26 19:58:39.575208: kết nối ok
+2025-02-26 19:58:39.620213: kết nối ok
+2025-02-26 19:58:39.669214: kết nối ok
+2025-02-26 19:58:39.835241: kết nối ok
+2025-02-26 19:58:39.922080: kết nối ok
+2025-02-26 19:58:39.927848: kết nối ok
+2025-02-26 19:58:40.032325: kết nối ok
+2025-02-26 19:58:40.047320: kết nối ok
+2025-02-26 19:58:40.187321: kết nối ok
+2025-02-26 19:58:41.595434: kết nối ok
+2025-02-26 19:58:41.789592: kết nối ok
+2025-02-26 19:58:42.042843: kết nối ok
+2025-02-26 19:58:42.222386: kết nối ok
+2025-02-26 19:58:42.545366: kết nối ok
+2025-02-26 19:58:42.980386: kết nối ok
+2025-02-26 19:58:43.664441: kết nối ok
+2025-02-26 19:58:44.002498: kết nối ok
+2025-02-26 19:58:44.324926: kết nối ok
+2025-02-26 19:58:44.343926: kết nối ok
+2025-02-26 19:58:44.727927: kết nối ok
+2025-02-26 19:58:44.765933: kết nối ok
+2025-02-26 19:58:45.907596: kết nối ok
+2025-02-26 19:58:46.740407: kết nối ok
+2025-02-26 19:58:46.940452: kết nối ok
+2025-02-26 19:58:47.208960: kết nối ok
+2025-02-26 19:58:47.350964: kết nối ok
+2025-02-26 19:58:47.370964: kết nối ok
+2025-02-26 19:58:47.426108: kết nối ok
+2025-02-26 19:58:48.468106: kết nối ok
+2025-02-26 19:58:48.508103: kết nối ok
+2025-02-26 19:58:48.571110: kết nối ok
+2025-02-26 19:58:49.601336: kết nối ok
+2025-02-26 19:58:49.758710: kết nối ok
+2025-02-26 19:58:49.932260: kết nối ok
+2025-02-26 19:58:50.001187: kết nối ok
+2025-02-26 19:58:50.214290: kết nối ok
+2025-02-26 19:58:51.354429: kết nối ok
+2025-02-26 19:58:51.884627: kết nối ok
+2025-02-26 19:58:52.581229: kết nối ok
+2025-02-26 19:58:52.643610: kết nối ok
+2025-02-26 19:58:52.719163: kết nối ok
+2025-02-26 19:58:52.751088: kết nối ok
+2025-02-26 19:58:53.796110: kết nối ok
+2025-02-26 19:58:54.371118: kết nối ok
+2025-02-26 19:58:55.077097: kết nối ok
+2025-02-26 19:58:55.170991: kết nối ok
+2025-02-26 19:58:55.198622: kết nối ok
+2025-02-26 19:58:55.243167: kết nối ok
+2025-02-26 19:58:57.627484: kết nối ok
+2025-02-26 19:58:58.406490: 10.102.4.190 kết nối thành công
+2025-02-26 19:58:59.037560: 10.102.4.244 kết nối thành công
+2025-02-26 19:58:59.146884: 10.102.5.44 kết nối thành công
+2025-02-26 19:58:59.421111: 10.102.4.154 kết nối thành công
+2025-02-26 19:58:59.554111: 10.102.5.42 kết nối thành công
+2025-02-26 19:58:59.699110: 10.102.5.43 kết nối thành công
+2025-02-26 19:59:00.414111: 10.102.4.197 kết nối thành công
+2025-02-26 19:59:00.421112: 10.102.5.45 kết nối thành công
+2025-02-26 19:59:00.618109: 10.102.4.117 kết nối thành công
+2025-02-26 19:59:00.903109: 10.102.4.243 kết nối thành công
+2025-02-26 19:59:01.280112: 10.102.4.194 kết nối thành công
+2025-02-26 19:59:01.668122: 10.102.4.97 kết nối thành công
+2025-02-26 19:59:02.223134: 10.102.4.206 kết nối thành công
+2025-02-26 19:59:02.253134: 10.102.4.128 kết nối thành công
+2025-02-26 19:59:02.337177: 10.102.4.95 kết nối thành công
+2025-02-26 19:59:02.848946: 10.102.4.249 kết nối thành công
+2025-02-26 19:59:03.151942: 10.102.4.69 kết nối thành công
+2025-02-26 19:59:03.168945: 10.102.4.179 kết nối thành công
+2025-02-26 19:59:03.775207: 10.102.4.54 kết nối thành công
+2025-02-26 19:59:03.805205: 10.102.4.96 kết nối thành công
+2025-02-26 19:59:04.706309: 10.102.4.213 kết nối thành công
+2025-02-26 19:59:04.996304: 10.102.4.70 kết nối thành công
+2025-02-26 19:59:05.071307: 10.102.4.195 kết nối thành công
+2025-02-26 19:59:05.155306: 10.102.4.127 kết nối thành công
+2025-02-26 19:59:05.874305: 10.102.4.51 kết nối thất bại: list index out of range
+2025-02-26 19:59:06.434307: 10.102.4.164 kết nối thành công
+2025-02-26 19:59:06.461305: 10.102.4.52 kết nối thành công
+2025-02-26 19:59:06.538306: 10.102.4.142 kết nối thành công
+2025-02-26 19:59:06.749306: 10.102.4.110 kết nối thành công
+2025-02-26 19:59:07.152303: 10.102.4.40 kết nối thất bại: list index out of range
+2025-02-26 19:59:07.436308: 10.102.4.187 kết nối thành công
+2025-02-26 19:59:07.844003: 10.102.4.27 kết nối thất bại: list index out of range
+2025-02-26 19:59:08.258003: 10.102.4.50 kết nối thành công
+2025-02-26 19:59:08.750021: 10.102.4.94 kết nối thành công
+2025-02-26 19:59:08.848016: 10.102.4.126 kết nối thành công
+2025-02-26 19:59:09.995725: 10.102.4.156 kết nối thành công
+2025-02-26 19:59:10.044733: 10.102.4.141 kết nối thành công
+2025-02-26 19:59:10.592409: 10.102.4.151 kết nối thành công
+2025-02-26 19:59:10.676926: 10.102.4.152 kết nối thành công
+2025-02-26 19:59:10.805950: 10.102.4.129 kết nối thành công
+2025-02-26 19:59:10.935977: 10.102.4.178 kết nối thành công
+2025-02-26 19:59:12.464757: 10.102.4.161 kết nối thành công
+2025-02-26 19:59:12.598384: 10.102.4.153 kết nối thành công
+2025-02-26 19:59:12.611265: 10.102.4.118 kết nối thành công
+2025-02-26 19:59:12.948350: 10.102.4.162 kết nối thành công
+2025-02-26 19:59:13.680527: 10.102.4.59 kết nối thất bại: list index out of range
+2025-02-26 19:59:14.855849: 10.102.4.223 kết nối thành công
+2025-02-26 19:59:15.458548: 10.102.4.111 kết nối thành công
+2025-02-26 19:59:16.839892: 10.102.4.150 kết nối thành công
+2025-02-26 19:59:18.725156: 10.102.4.155 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:21.877308: 10.102.4.73 kết nối thành công
+2025-02-26 19:59:32.007247: 10.102.4.116 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:33.530070: 10.102.4.163 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:33.684060: 10.102.4.108 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:34.959872: 10.102.5.25 kết nối thành công
+2025-02-26 19:59:35.651516: 10.102.4.76 kết nối thành công
+2025-02-26 19:59:36.259543: 10.102.5.26 kết nối thành công
+2025-02-26 19:59:36.518492: 10.102.4.112 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:37.391861: 10.102.4.193 kết nối thành công
+2025-02-26 19:59:37.431863: 10.102.4.167 kết nối thành công
+2025-02-26 19:59:37.903752: 10.102.4.160 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:37.919751: 10.102.4.242 kết nối thành công
+2025-02-26 19:59:38.522129: 10.102.4.83 kết nối thành công
+2025-02-26 19:59:38.980617: 10.102.4.191 kết nối thành công
+2025-02-26 19:59:39.112618: 10.102.4.81 kết nối thành công
+2025-02-26 19:59:39.724382: 10.102.4.192 kết nối thành công
+2025-02-26 19:59:39.725385: 10.102.4.120 kết nối thành công
+2025-02-26 19:59:40.267184: 10.102.4.28 kết nối thành công
+2025-02-26 19:59:41.408718: 10.102.4.26 kết nối thất bại: list index out of range
+2025-02-26 19:59:42.257001: 10.102.4.182 kết nối thành công
+2025-02-26 19:59:42.619266: 10.102.4.87 kết nối thành công
+2025-02-26 19:59:42.952014: 10.102.4.114 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:42.982897: 10.102.4.189 kết nối thành công
+2025-02-26 19:59:43.840370: 10.102.4.204 kết nối thành công
+2025-02-26 19:59:44.306785: 10.102.5.27 kết nối thành công
+2025-02-26 19:59:44.967423: 10.102.4.171 kết nối thành công
+2025-02-26 19:59:45.109419: 10.102.5.24 kết nối thành công
+2025-02-26 19:59:45.545752: 10.102.5.21 kết nối thành công
+2025-02-26 19:59:46.223982: 10.102.5.19 kết nối thành công
+2025-02-26 19:59:46.300999: 10.102.5.23 kết nối thành công
+2025-02-26 19:59:46.398989: 10.102.4.203 kết nối thành công
+2025-02-26 19:59:47.157899: 10.102.4.202 kết nối thành công
+2025-02-26 19:59:47.282900: 10.102.4.176 kết nối thành công
+2025-02-26 19:59:47.336902: 10.102.4.172 kết nối thành công
+2025-02-26 19:59:48.219997: 10.102.4.175 kết nối thành công
+2025-02-26 19:59:48.270996: 10.102.4.173 kết nối thành công
+2025-02-26 19:59:48.481883: 10.102.5.20 kết nối thành công
+2025-02-26 19:59:49.178209: 10.102.4.174 kết nối thành công
+2025-02-26 19:59:49.268443: 10.102.4.205 kết nối thành công
+2025-02-26 19:59:49.683182: 10.102.4.29 kết nối thất bại: list index out of range
+2025-02-26 19:59:50.438384: 10.102.4.79 kết nối thành công
+2025-02-26 19:59:51.515609: 10.102.4.35 kết nối thành công
+2025-02-26 19:59:52.318929: 10.102.4.23 kết nối thành công
+2025-02-26 19:59:53.058271: 10.102.4.159 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 19:59:53.518449: 10.102.4.166 kết nối thành công
+2025-02-26 19:59:54.190411: 10.102.4.75 kết nối thành công
+2025-02-26 19:59:59.582157: 10.102.4.181 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:01.962669: 10.102.4.104 kết nối thành công
+2025-02-26 20:00:03.321984: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:04.778106: 10.102.5.22 kết nối thành công
+2025-02-26 20:00:07.360409: 10.102.4.65 kết nối thành công
+2025-02-26 20:00:09.320416: 10.102.4.101 kết nối thành công
+2025-02-26 20:00:09.541900: 10.102.4.77 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:11.255641: 10.102.4.158 kết nối thành công
+2025-02-26 20:00:11.315641: 10.102.4.68 kết nối thành công
+2025-02-26 20:00:12.556438: 10.102.5.33 kết nối thành công
+2025-02-26 20:00:12.649247: 10.102.5.29 kết nối thành công
+2025-02-26 20:00:13.828238: 10.102.5.34 kết nối thành công
+2025-02-26 20:00:13.920361: 10.102.5.28 kết nối thành công
+2025-02-26 20:00:14.118887: 10.102.4.106 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:14.582462: 10.102.4.165 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:14.832464: 10.102.4.224 kết nối thất bại: [Errno 13] Permission denied: 'outputests.txt'
+2025-02-26 20:00:15.122464: 10.102.4.219 kết nối thành công
+2025-02-26 20:00:15.284034: 10.102.4.67 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:15.713869: 10.102.4.45 kết nối thất bại: list index out of range
+2025-02-26 20:00:15.950260: 10.102.4.46 kết nối thất bại: list index out of range
+2025-02-26 20:00:15.978261: 10.102.5.31 kết nối thành công
+2025-02-26 20:00:16.177546: 10.102.5.32 kết nối thành công
+2025-02-26 20:00:16.254769: 10.102.5.30 kết nối thành công
+2025-02-26 20:00:17.291875: 10.102.5.46 kết nối thành công
+2025-02-26 20:00:17.462819: 10.102.5.47 kết nối thành công
+2025-02-26 20:00:17.656821: 10.102.4.102 kết nối thành công
+2025-02-26 20:00:17.886996: 10.102.4.157 kết nối thành công
+2025-02-26 20:00:17.942996: 10.102.4.41 kết nối thành công
+2025-02-26 20:00:17.966994: 10.102.4.140 kết nối thành công
+2025-02-26 20:00:18.391212: 10.102.4.80 kết nối thất bại: list index out of range
+2025-02-26 20:00:18.606216: 10.102.4.222 kết nối thành công
+2025-02-26 20:00:18.746902: 10.102.5.48 kết nối thành công
+2025-02-26 20:00:19.065897: 10.102.4.38 kết nối thành công
+2025-02-26 20:00:19.085723: 10.102.5.49 kết nối thành công
+2025-02-26 20:00:19.730407: 10.102.4.39 kết nối thành công
+2025-02-26 20:00:20.152239: 10.102.4.63 kết nối thành công
+2025-02-26 20:00:20.355420: 10.102.4.24 kết nối thành công
+2025-02-26 20:00:20.692015: 10.102.4.32 kết nối thành công
+2025-02-26 20:00:20.759018: 10.102.4.44 kết nối thất bại: list index out of range
+2025-02-26 20:00:21.486847: 10.102.4.33 kết nối thành công
+2025-02-26 20:00:21.651848: 10.102.4.220 kết nối thành công
+2025-02-26 20:00:21.704850: 10.102.4.229 kết nối thành công
+2025-02-26 20:00:22.491807: 10.102.4.100 kết nối thành công
+2025-02-26 20:00:22.617808: 10.102.4.217 kết nối thành công
+2025-02-26 20:00:22.728348: 10.102.5.37 kết nối thành công
+2025-02-26 20:00:22.804495: 10.102.4.231 kết nối thành công
+2025-02-26 20:00:23.033824: 10.102.4.103 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:23.386685: 10.102.4.226 kết nối thành công
+2025-02-26 20:00:23.587687: 10.102.4.216 kết nối thành công
+2025-02-26 20:00:23.899482: 10.102.4.230 kết nối thành công
+2025-02-26 20:00:23.904519: 10.102.4.238 kết nối thành công
+2025-02-26 20:00:23.962622: 10.102.4.240 kết nối thành công
+2025-02-26 20:00:24.352136: 10.102.4.212 kết nối thành công
+2025-02-26 20:00:24.521137: 10.102.4.227 kết nối thành công
+2025-02-26 20:00:25.236077: 10.102.4.234 kết nối thành công
+2025-02-26 20:00:25.254074: 10.102.4.233 kết nối thành công
+2025-02-26 20:00:25.617040: 10.102.4.241 kết nối thành công
+2025-02-26 20:00:25.664152: 10.102.4.235 kết nối thành công
+2025-02-26 20:00:26.471957: 10.102.4.237 kết nối thành công
+2025-02-26 20:00:26.508957: 10.102.4.78 kết nối thành công
+2025-02-26 20:00:26.817958: 10.102.4.218 kết nối thành công
+2025-02-26 20:00:26.961058: 10.102.5.41 kết nối thành công
+2025-02-26 20:00:26.992052: 10.102.5.39 kết nối thành công
+2025-02-26 20:00:27.760653: 10.102.5.36 kết nối thành công
+2025-02-26 20:00:27.970246: 10.102.4.232 kết nối thành công
+2025-02-26 20:00:28.144302: 10.102.4.214 kết nối thành công
+2025-02-26 20:00:28.252087: 10.102.4.71 kết nối thành công
+2025-02-26 20:00:28.289223: 10.102.4.196 kết nối thành công
+2025-02-26 20:00:28.999848: 10.102.4.228 kết nối thành công
+2025-02-26 20:00:29.053848: 10.102.5.40 kết nối thành công
+2025-02-26 20:00:29.177846: 10.102.4.225 kết nối thành công
+2025-02-26 20:00:29.195842: 10.102.4.239 kết nối thành công
+2025-02-26 20:00:29.619845: 10.102.5.35 kết nối thành công
+2025-02-26 20:00:30.196850: 10.102.4.14 kết nối thành công
+2025-02-26 20:00:30.295845: 10.102.4.236 kết nối thành công
+2025-02-26 20:00:30.320844: 10.102.4.61 kết nối thành công
+2025-02-26 20:00:30.459848: 10.102.5.38 kết nối thành công
+2025-02-26 20:00:31.143847: 10.102.4.82 kết nối thành công
+2025-02-26 20:00:31.505845: 10.102.4.107 kết nối thành công
+2025-02-26 20:00:31.601848: 10.102.4.109 kết nối thành công
+2025-02-26 20:00:32.308871: 10.102.4.25 kết nối thành công
+2025-02-26 20:00:32.909870: 10.102.4.47 kết nối thành công
+2025-02-26 20:00:33.533892: 10.102.4.132 kết nối thành công
+2025-02-26 20:00:33.625890: 10.102.4.113 kết nối thành công
+2025-02-26 20:00:34.148578: 10.102.4.43 kết nối thành công
+2025-02-26 20:00:34.592022: 10.102.4.34 kết nối thành công
+2025-02-26 20:00:34.788029: 10.102.4.188 kết nối thành công
+2025-02-26 20:00:35.189293: 10.102.4.20 kết nối thất bại: list index out of range
+2025-02-26 20:00:35.882776: 10.102.4.92 kết nối thành công
+2025-02-26 20:00:36.501070: 10.102.4.105 kết nối thành công
+2025-02-26 20:00:36.966171: 10.102.4.36 kết nối thành công
+2025-02-26 20:00:37.507035: 10.102.4.42 kết nối thành công
+2025-02-26 20:00:38.400574: 10.102.4.246 kết nối thành công
+2025-02-26 20:00:38.482572: 10.102.4.31 kết nối thành công
+2025-02-26 20:00:38.716912: 10.102.4.115 kết nối thành công
+2025-02-26 20:00:38.973588: 10.102.4.86 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:40.548353: 10.102.4.30 kết nối thành công
+2025-02-26 20:00:40.710009: 10.102.4.37 kết nối thành công
+2025-02-26 20:00:41.061746: 10.102.4.149 kết nối thành công
+2025-02-26 20:00:42.247844: 10.102.4.62 kết nối thành công
+2025-02-26 20:00:42.842592: 10.102.4.148 kết nối thành công
+2025-02-26 20:00:44.040991: 10.102.5.11 kết nối thành công
+2025-02-26 20:00:44.901802: 10.102.4.145 kết nối thành công
+2025-02-26 20:00:45.749319: 10.102.4.146 kết nối thành công
+2025-02-26 20:00:46.560895: 10.102.4.147 kết nối thành công
+2025-02-26 20:00:48.723303: 10.102.4.88 kết nối thành công
+2025-02-26 20:00:52.786244: 10.102.4.72 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:54.072550: 10.102.4.17 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:00:55.768917: 10.102.4.48 kết nối thành công
+2025-02-26 20:00:57.018114: 10.102.5.12 kết nối thành công
+2025-02-26 20:00:57.691055: 10.102.4.183 kết nối thành công
+2025-02-26 20:00:59.404721: 10.102.4.49 kết nối thành công
+2025-02-26 20:00:59.821881: 10.102.4.134 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:00.702927: 10.102.5.10 kết nối thành công
+2025-02-26 20:01:00.952079: 10.102.4.60 kết nối thành công
+2025-02-26 20:01:01.804974: 10.102.4.133 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:02.658955: 10.102.4.53 kết nối thành công
+2025-02-26 20:01:02.922961: 10.102.4.89 kết nối thành công
+2025-02-26 20:01:03.377388: 10.102.4.98 kết nối thành công
+2025-02-26 20:01:03.761193: 10.102.4.99 kết nối thành công
+2025-02-26 20:01:04.380260: 10.102.4.11 kết nối thất bại: list index out of range
+2025-02-26 20:01:04.859599: 10.102.4.12 kết nối thành công
+2025-02-26 20:01:05.343414: 10.102.4.13 kết nối thành công
+2025-02-26 20:01:06.813648: 10.102.4.136 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:07.604999: 10.102.4.252 kết nối thành công
+2025-02-26 20:01:08.987332: 10.102.4.131 kết nối thành công
+2025-02-26 20:01:09.804047: 10.102.4.137 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:10.773261: 10.102.4.143 kết nối thành công
+2025-02-26 20:01:10.993277: 10.102.4.144 kết nối thành công
+2025-02-26 20:01:12.453660: 10.102.4.15 kết nối thành công
+2025-02-26 20:01:12.840336: 10.102.4.74 kết nối thất bại: list index out of range
+2025-02-26 20:01:12.947850: 10.102.4.66 kết nối thành công
+2025-02-26 20:01:13.306881: 10.102.4.198 kết nối thành công
+2025-02-26 20:01:13.548851: 10.102.4.184 kết nối thành công
+2025-02-26 20:01:13.887375: 10.102.4.211 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:14.074857: 10.102.5.14 kết nối thành công
+2025-02-26 20:01:14.602749: 10.102.5.18 kết nối thành công
+2025-02-26 20:01:14.672752: 10.102.4.21 kết nối thành công
+2025-02-26 20:01:14.948752: 10.102.4.209 kết nối thành công
+2025-02-26 20:01:15.149754: 10.102.5.13 kết nối thành công
+2025-02-26 20:01:15.482326: 10.102.4.201 kết nối thành công
+2025-02-26 20:01:15.918326: 10.102.4.55 kết nối thành công
+2025-02-26 20:01:16.016330: 10.102.4.208 kết nối thành công
+2025-02-26 20:01:16.178981: 10.102.5.16 kết nối thành công
+2025-02-26 20:01:16.517537: 10.102.4.185 kết nối thành công
+2025-02-26 20:01:17.371033: 10.102.4.248 kết nối thành công
+2025-02-26 20:01:17.556749: 10.102.4.170 kết nối thành công
+2025-02-26 20:01:17.692074: 10.102.4.56 kết nối thành công
+2025-02-26 20:01:18.006057: 10.102.4.135 kết nối thành công
+2025-02-26 20:01:18.347059: 10.102.4.210 kết nối thành công
+2025-02-26 20:01:18.951063: 10.102.4.186 kết nối thành công
+2025-02-26 20:01:19.057059: 10.102.5.15 kết nối thành công
+2025-02-26 20:01:20.138480: 10.102.4.57 kết nối thành công
+2025-02-26 20:01:20.162475: 10.102.4.168 kết nối thành công
+2025-02-26 20:01:20.744012: 10.102.4.245 kết nối thành công
+2025-02-26 20:01:21.208724: 10.102.4.58 kết nối thành công
+2025-02-26 20:01:21.639233: 10.102.4.199 kết nối thành công
+2025-02-26 20:01:21.938233: 10.102.4.91 kết nối thành công
+2025-02-26 20:01:22.069235: 10.102.4.200 kết nối thành công
+2025-02-26 20:01:22.582232: 10.102.4.19 kết nối thất bại: list index out of range
+2025-02-26 20:01:22.878230: 10.102.4.16 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:23.731230: 10.102.4.138 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:24.087233: 10.102.4.247 kết nối thành công
+2025-02-26 20:01:24.197176: kết nối ok
+2025-02-26 20:01:24.239821: 10.102.5.52 kết nối thành công
+2025-02-26 20:01:24.592156: kết nối ok
+2025-02-26 20:01:24.914266: 10.102.4.18 kết nối thành công
+2025-02-26 20:01:39.409326: 10.102.4.169 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-26 20:01:43.689623: 10.102.4.93 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-02-27 09:19:44.851734: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:19:50.289465: kết nối ok
+2025-02-27 09:19:50.372622: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:19:50.920648: kết nối ok
+2025-02-27 09:19:51.663296: kết nối ok
+2025-02-27 09:19:51.678921: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:19:55.631871: kết nối ok
+2025-02-27 09:19:59.523567: kết nối ok
+2025-02-27 09:20:07.585481: kết nối ok
+2025-02-27 09:20:09.248459: kết nối ok
+2025-02-27 09:20:09.634326: kết nối ok
+2025-02-27 09:20:51.261896: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:20:51.277570: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:20:56.739492: kết nối ok
+2025-02-27 09:20:56.839785: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:20:57.163689: kết nối ok
+2025-02-27 09:20:58.026731: kết nối ok
+2025-02-27 09:20:58.057924: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:21:01.803899: kết nối ok
+2025-02-27 09:21:05.766110: kết nối ok
+2025-02-27 09:21:14.244659: kết nối ok
+2025-02-27 09:21:16.073099: kết nối ok
+2025-02-27 09:21:16.274034: kết nối ok
+2025-02-27 09:21:44.624135: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:21:44.624135: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:21:49.887744: kết nối ok
+2025-02-27 09:21:49.913894: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:21:50.459245: kết nối ok
+2025-02-27 09:21:51.446964: kết nối ok
+2025-02-27 09:21:51.462531: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:21:55.100523: kết nối ok
+2025-02-27 09:21:59.108484: kết nối ok
+2025-02-27 09:22:07.460923: kết nối ok
+2025-02-27 09:22:09.435826: kết nối ok
+2025-02-27 09:22:09.476453: kết nối ok
+2025-02-27 09:50:43.373529: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:50:43.373529: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:50:48.710726: kết nối ok
+2025-02-27 09:50:48.819498: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:50:49.695094: kết nối ok
+2025-02-27 09:50:50.233048: kết nối ok
+2025-02-27 09:50:50.252407: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:50:54.475720: kết nối ok
+2025-02-27 09:50:58.037877: kết nối ok
+2025-02-27 09:51:06.242923: kết nối ok
+2025-02-27 09:51:08.310559: kết nối ok
+2025-02-27 09:51:08.627143: kết nối ok
+2025-02-27 09:51:30.361556: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:51:30.361556: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:51:35.649377: kết nối ok
+2025-02-27 09:51:35.788646: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:51:36.774022: kết nối ok
+2025-02-27 09:51:37.151960: kết nối ok
+2025-02-27 09:51:37.163003: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-02-27 09:51:41.491581: kết nối ok
+2025-02-27 09:51:45.052164: kết nối ok
+2025-02-27 09:51:53.320497: kết nối ok
+2025-02-27 09:51:54.605262: kết nối ok
+2025-02-27 09:51:55.418753: kết nối ok

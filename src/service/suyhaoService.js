@@ -18,6 +18,19 @@ class suyhaoService {
   get_rx_power_by_SW2724(ip, username, passoword, port) {
     return axios.get(EMPLOYEE_API_BASE_URL + "get_rx_power_by_SW2724?eth_ports=" + port + "&switch_ip=" + ip + "&user=" + username + "&password=" + passoword);
   }
+  get_rx_power_by_SWS5800(ip, username, passoword, port) {
+    return axios.get(EMPLOYEE_API_BASE_URL + "get_rx_power_by_S5800?eth_ports=" + port + "&switch_ip=" + ip + "&user=" + username + "&password=" + passoword);
+  }
+
+
+
+  getstatus_port_by_A6400(ip, username, passoword) {
+    return axios.get(EMPLOYEE_API_BASE_URL + "get_status_port_by_A6400?switch_ip=" + ip + "&user=" + username + "&password=" + passoword);
+  }
+  getstatus_port_by_SW2224(ip, username, passoword) {
+    return axios.get(EMPLOYEE_API_BASE_URL + "get_status_port_SW2224?switch_ip=" + ip + "&user=" + username + "&password=" + passoword);
+  }
+
 
   get_degree_by_ECS(ip, username, passoword) {
     console.log(EMPLOYEE_API_BASE_URL + "get_degree_by_ECS?switch_ip=" + ip + "&user=" + username + "&password=" + passoword);

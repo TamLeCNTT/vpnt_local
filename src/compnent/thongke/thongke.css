@@ -1,0 +1,28 @@
+.tr-backgroud {
+  background-color: rgba(193, 115, 172, 0.4588235294) !important;
+}
+
+.tr-backgroud-alu {
+  background-color: chocolate !important;
+}
+
+.large-popup {
+  width: 32em !important;
+  font-size: 1em;
+}
+
+.label {
+  color: blue;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select {
+  font-size: 14px;
+}/*# sourceMappingURL=thongke.css.map */

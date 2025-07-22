@@ -1,0 +1,86 @@
+2025-03-05 08:11:11.491798: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 08:11:16.827773: kết nối ok
+2025-03-05 08:11:16.842266: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 08:11:18.007595: kết nối ok
+2025-03-05 08:11:18.458845: kết nối ok
+2025-03-05 08:11:18.494588: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 08:11:22.991057: kết nối ok
+2025-03-05 08:11:26.499948: kết nối ok
+2025-03-05 08:11:34.388515: kết nối ok
+2025-03-05 08:11:35.854227: kết nối ok
+2025-03-05 08:11:36.119204: kết nối ok
+2025-03-05 15:09:16.450226: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:09:16.450226: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:09:21.807177: kết nối ok
+2025-03-05 15:09:21.847487: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:09:22.770885: kết nối ok
+2025-03-05 15:09:23.253163: kết nối ok
+2025-03-05 15:09:23.274805: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:09:27.638452: kết nối ok
+2025-03-05 15:09:31.050132: kết nối ok
+2025-03-05 15:09:39.316825: kết nối ok
+2025-03-05 15:09:40.955961: kết nối ok
+2025-03-05 15:09:41.142627: kết nối ok
+2025-03-05 15:42:48.689832: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:42:48.745730: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:42:49.463295: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-03-05 15:42:49.478920: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:42:54.108903: kết nối ok
+2025-03-05 15:42:55.053010: kết nối ok
+2025-03-05 15:42:55.095412: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-05 15:42:58.832517: kết nối ok
+2025-03-05 15:43:03.226130: kết nối ok
+2025-03-05 15:43:06.915851: kết nối ok
+2025-03-05 15:43:13.112195: kết nối ok
+2025-03-05 15:43:13.534269: kết nối ok
+2025-03-07 08:40:21.137060: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:21.183948: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:21.939431: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-03-07 08:40:21.981881: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:26.452788: kết nối ok
+2025-03-07 08:40:27.938254: kết nối ok
+2025-03-07 08:40:27.955957: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:28.006817: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:31.117042: kết nối ok
+2025-03-07 08:40:31.139186: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:34.813011: kết nối ok
+2025-03-07 08:40:35.886434: kết nối ok
+2025-03-07 08:40:35.920845: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:35.957588: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 08:40:37.751679: kết nối ok
+2025-03-07 08:40:39.670945: kết nối ok
+2025-03-07 08:40:40.096816: kết nối ok
+2025-03-07 08:40:40.655718: kết nối ok
+2025-03-07 08:40:45.784070: kết nối ok
+2025-03-07 08:40:45.953990: kết nối ok
+2025-03-07 08:40:52.256952: kết nối ok
+2025-03-07 08:40:57.250856: kết nối ok
+2025-03-07 08:41:10.640800: kết nối ok
+2025-03-07 08:41:11.504093: kết nối ok
+2025-03-07 10:41:57.521646: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:41:57.939610: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:42:03.249734: kết nối ok
+2025-03-07 10:42:03.287260: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:42:04.287972: kết nối ok
+2025-03-07 10:42:04.551377: kết nối ok
+2025-03-07 10:42:04.551377: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:42:08.991993: kết nối ok
+2025-03-07 10:42:11.999770: kết nối ok
+2025-03-07 10:42:20.795523: kết nối ok
+2025-03-07 10:42:21.930768: kết nối ok
+2025-03-07 10:42:22.282881: kết nối ok
+2025-03-07 10:51:26.631286: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:51:26.646912: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:51:31.910314: kết nối ok
+2025-03-07 10:51:31.948077: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:51:33.313664: kết nối ok
+2025-03-07 10:51:33.512105: kết nối ok
+2025-03-07 10:51:33.527713: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-03-07 10:51:38.012914: kết nối ok
+2025-03-07 10:51:41.161990: kết nối ok
+2025-03-07 10:51:49.498669: kết nối ok
+2025-03-07 10:51:51.494639: kết nối ok
+2025-03-07 13:00:55.881088: kết nối ok
+2025-03-07 13:01:17.744670: kết nối ok
+2025-03-07 13:02:05.040448: kết nối ok
+2025-03-07 13:02:13.783832: kết nối ok

@@ -1,29 +1,29 @@
 import axios from "axios";
 const URL =
-  "https://vnpt-fb65e-default-rtdb.firebaseio.com/";
+    "https://vnpt-c3591-default-rtdb.firebaseio.com";
 const axiosClient = axios.create({
-  baseURL: URL,
-  headers: {
-    "Content-Type": "application/json",
-  },
+    baseURL: URL,
+    headers: {
+        "Content-Type": "application/json",
+    },
 });
 
 axiosClient.interceptors.request.use(
-  function (config) {
-    return config;
-  },
-  function (error) {
-    return Promise.reject(error);
-  }
+    function(config) {
+        return config;
+    },
+    function(error) {
+        return Promise.reject(error);
+    }
 );
 
 axiosClient.interceptors.response.use(
-  function (response) {
-    return response;
-  },
-  function (error) {
-    return Promise.reject(error);
-  }
+    function(response) {
+        return response;
+    },
+    function(error) {
+        return Promise.reject(error);
+    }
 );
 
 export default axiosClient;

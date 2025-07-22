@@ -1,0 +1,11 @@
+ show status power
+
+Power A     : Installed
+       mode : DC
+     status : OK
+Power B     : Installed
+     status : Fault
+
+
+Power Consumption : 11.6W
+HUG.VTY.V44.L2S.DZ01#

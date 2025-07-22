@@ -1,0 +1,4 @@
+2025-07-22 15:49:13.586024: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-07-22 15:49:15.925999: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-07-22 15:49:50.369531: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-07-22 15:51:24.707288: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value

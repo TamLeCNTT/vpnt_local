@@ -1,0 +1,26 @@
+2025-04-08 10:46:13.730366: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:13.730366: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:25.300693: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:25.300693: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:25.316303: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:54.177601: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:54.193224: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:46:54.193224: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:08.443474: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:08.451637: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:08.459644: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:29.789923: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:29.789923: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:48:29.789923: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:50:18.860901: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:50:18.860901: 10.102.5.61 kết nối thất bại: [Errno 13] Permission denied: './s5800.txt'
+2025-04-08 10:50:18.876526: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:52:02.429975: 10.102.5.62 kết nối thất bại: [Errno 13] Permission denied: './s5800.txt'
+2025-04-08 10:52:02.434973: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:52:02.437972: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:52:22.856163: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:52:22.856163: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:52:22.871788: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:54:09.721815: 10.102.5.62 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:54:09.726822: 10.102.5.60 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value
+2025-04-08 10:54:09.727818: 10.102.5.61 kết nối thất bại: cannot access local variable 'current_rx_power' where it is not associated with a value

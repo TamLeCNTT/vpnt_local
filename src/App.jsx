@@ -3,7 +3,6 @@ import { ToastContainer, toast } from "react-toastify";
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-
 import {
   BrowserRouter as Router,
   Routes,
@@ -38,8 +37,15 @@ import ThongkeSoLanSuyHao from "./compnent/baocao/ThongkeSoLanSuyHao";
 import Trangchu from "./compnent/TrangChu";
 import ListPort from "./compnent/port/ListPort";
 import ListRing from "./compnent/port/ListRing";
-function App() {
+import TrangThaiNguon from "./compnent/giamsat/TrangThaiNguon";
+import ListNhanVien from "./compnent/nhanvien/ListNhanVien";
+import RealTime_Telnet from "./compnent/RealTime_Telnet";
+import DoKiem from "./compnent/giamsat/DoKiem";
+import ListTramdidong from "./compnent/tramdidong/ListTramdidong";
+import List_status_port from "./compnent/thongke/List_status_port";
+import DieuchinhOnu from "./compnent/olt/DieuchinhOnu";
 
+function App() {
   return (
     <Router>
       <div className="App">
@@ -49,13 +55,22 @@ function App() {
             {/* status port  */}
             <Route path="/port/status" element={<ListPort />} />
             <Route path="/port/ring" element={<ListRing />} />
+            {/*  Do kiem*/}
+            <Route path="/dokiem/status" element={<DoKiem />} />
+            {/* Nguồn */}
+
+            <Route path="/nguon/trangthai" element={<TrangThaiNguon />} />
+            {/* Trạm di dông */}
+            <Route path="/tramdidong/list" element={<ListTramdidong />} />
             {/*  */}
             <Route path="/kichonu" element={<KichONU />} />
             <Route path="/listtramolt" element={<ListTramOLT />} />
             <Route path="/kichonuhangloat" element={<KichONU_HangLoat />} />
+            <Route path="/dieuchinhonu" element={<DieuchinhOnu />} />
             <Route path="/suyhao/switch" element={<Suyhao_v2 />} />
             <Route path="/suyhao/mainE" element={<Suyhao_mainE_v2 />} />
             <Route path="/listthietbi" element={<List_Thietbị />} />
+            <Route path="/liststatusport" element={<List_status_port />} />
             <Route path="/listmainE" element={<List_mainE />} />
             <Route path="/home" element={<Home />} />
             <Route path="/nhienlieu/list" element={<Nhienlieu />} />
@@ -64,19 +79,14 @@ function App() {
             {/* bao cao */}
             <Route path="/tuyen_kt/danhsach" element={<ListTuyenKT />} />
             <Route path="/tuyen_kt_tt/danhsach" element={<ListTuyenKT_TT />} />
-            <Route path="/thongke/solansuyhao" element={<ThongkeSoLanSuyHao />} />
+            <Route
+              path="/thongke/solansuyhao"
+              element={<ThongkeSoLanSuyHao />}
+            />
             <Route path="/baocao/suyhaobsc" element={<SuyHaoBSC />} />
-            {/* thongke */}
-            {/* <Route path="/suyhao" element={<Suyhao />} />
-            <Route path="/suyhao_v2" element={<Suyhao_v2 />} /> */}
-            {/* Megawan */}
-            {/* <Route path="/tonghop" element={<Tonghop />} />
-            <Route path="/tslcd" element={<TSLCD />} /> */}
-              {/* Tram Ac quy */}
-              {/* <Route path="/tentram" element={<TenTram />} /> */}
-              {/* <Route path="/chuyenacquy" element={<ChuyenAcQuy />} />
-              <Route path="/themchuyenacquy" element={<ThemChuyenAcQuy />} />
-            <Route path="/uploadImage" element={<ImageUploadAndDisplay />} /> */}
+            <Route path="/realtime" element={<RealTime_Telnet />} />
+            {/* Nhân viên */}
+            <Route path="/nhanvien/danhsach" element={<ListNhanVien />} />
           </Routes>{" "}
           <ToastContainer
             position="top-right"

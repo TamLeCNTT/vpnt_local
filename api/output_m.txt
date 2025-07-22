@@ -1,0 +1,21 @@
+configure equipment ont interface 1/1/2//01 admin-state down
+
+configure equipment ont no interface 1/1/2//01
+exit all
+configure equipment ont interface 1/1/2//01 sw-ver-pland disabled sernum ALCL:00000000 subslocid AVTH320201 sw-dnload-version disabled plnd-var SIP enable-aes enable voip-allowed enable
+configure equipment ont interface 1/1/2//01 admin-state up
+configure equipment ont slot 1/1/2//01/14 planned-card-type veip plndnumdataports 1 plndnumvoiceports 0 port-type uni admin-state up
+configure interface port uni:1/1/2//01/14/1 admin-up
+configure bridge port 1/1/2//01/14/1 max-unicast-mac 10
+exit all
+configure qos interface 1/1/2//01/14/1 queue 0 shaper-profile name:1000M_HSI_Down
+configure qos interface 1/1/2//01/14/1 upstream-queue 0 bandwidth-profile name:1000M_HSI_Up bandwidth-sharing uni-sharing
+configure bridge port 1/1/2//01/14/1 vlan-id 11 tag single-tagged network-vlan 423 vlan-scope local
+configure bridge port 1/1/2//01/14/1 vlan-id 4000 tag single-tagged network-vlan 4001 vlan-scope local
+exit all
+configure qos interface 1/1/2//01/14/1 queue 4 shaper-profile name:12M_IPTV_Down
+configure qos interface 1/1/2//01/14/1 upstream-queue 4 bandwidth-profile name:18M_IPTV_Up bandwidth-sharing uni-sharing
+configure igmp channel vlan:1/1/2//01/14/1:12 max-num-group 254
+exit all
+
+

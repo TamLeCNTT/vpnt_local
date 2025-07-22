@@ -17,9 +17,9 @@ const ListTuyenKT = () => {
   const [lists, setLists] = useState([]);
   const [listOld, setListOld] = useState([]);
   const [listPg, setListPg] = useState([]);
-  const [loading,setLoading]=useState(false)
-  const [flag,setlag]=useState(false)
-  const [text,settext]=useState("")
+  const [loading, setLoading] = useState(false);
+  const [flag, setlag] = useState(false);
+  const [text, settext] = useState("");
   const header = [
     ["id", "tenhethong", "ip", "pon", "tuyenkt", "trungtamvienthong"],
   ];
@@ -31,13 +31,13 @@ const ListTuyenKT = () => {
     });
     setLists(e);
   };
-  const search=(e)=>{
-    settext(e)
-   let listSearch = listOld.filter(
+  const search = (e) => {
+    settext(e);
+    console.log(listOld);
+    let listSearch = listOld.filter(
       (item) =>
-        String((item.ip)).indexOf(String(e)) !=
-          -1 ||
-        String((item.tenhethong))
+        String(item.id).indexOf(String(e)) != -1 ||
+        String(item.tenhethong)
           .toLocaleLowerCase()
           .indexOf(String(e).toLocaleLowerCase()) != -1 ||
         String(item.tuyenkt)
@@ -45,56 +45,53 @@ const ListTuyenKT = () => {
           .indexOf(String(e).toLocaleLowerCase()) != -1 ||
         String(item.trungtamvienthong).indexOf(String(e)) != -1
     );
-    setLists(listSearch)
-  }
+    setLists(listSearch);
+  };
   useEffect(() => {
-  setLoading(true)
+    setLoading(true);
     TuyenKTService.getdata()
       .then((res) => {
-      setLoading(false)
+        setLoading(false);
         setLists(res.data);
         setListOld(res.data);
-        console.log(res.data)
+        console.log(res.data);
       })
       .catch((e) => {
         setLists([]);
       });
   }, [flag]);
-  const save=(status,item)=>{
-    setLoading(true)
-   if (status=="add"){
-    let listSave=lists
-    listSave.push(item)
-    setLists([...listSave])
-    setListOld([...listSave])
-    if (text){
-      search(text)
+  const save = (status, item) => {
+    setLoading(true);
+    if (status == "add") {
+      let listSave = lists;
+      listSave.push(item);
+      setLists([...listSave]);
+      setListOld([...listSave]);
+      if (text) {
+        search(text);
+      }
+      setLoading(false);
+    } else {
+      let listSave = lists;
+      console.log(item);
+      let index = listSave.findIndex((e) => e.id == item.id);
+      listSave[index].ip = item.ip;
+      listSave[index].pon = item.pon;
+      listSave[index].tuyenkt = item.tuyenkt;
+      listSave[index].tenhethong = item.tenhethong;
+      listSave[index].trungtamvienthong = item.trungtamvienthong;
+      console.log(listSave[index]);
+      setLists([...listSave]);
+      setListOld([...listSave]);
+      setLoading(false);
+      if (text) {
+        search(text);
+      }
     }
-    setLoading(false)
-   }
-   else{
-
-    let listSave=lists
-    console.log(item)
-    let index=listSave.findIndex(e=>e.id==item.id)
-    listSave[index].ip=item.ip
-    listSave[index].pon=item.pon
-    listSave[index].tuyenkt=item.tuyenkt
-    listSave[index].tenhethong=item.tenhethong
-    listSave[index].trungtamvienthong=item.trungtamvienthong
-    console.log(listSave[index])
-    setLists([...listSave])
-    setListOld([...listSave])
-    setLoading(false)
-    if (text){
-      search(text)
-    }
-   }
-  }
+  };
   const getlist = (e) => {
     setListPg(e);
   };
-
 
   const Delete_TuyenKT = async (id) => {
     console.log(id);
@@ -108,27 +105,24 @@ const ListTuyenKT = () => {
       confirmButtonText: "Xóa",
       cancelButtonText: "Hủy",
       customClass: {
-        popup: 'swal-wide' // Thêm lớp tùy chỉnh
+        popup: "swal-wide", // Thêm lớp tùy chỉnh
       },
     });
 
     if (result.isConfirmed) {
       TuyenKTService.DeleteDataTuyenKt(id).then((res) => {
         setLists(lists.filter((e) => e.id != id));
-        setListOld(listOld.filter((e) => e.id != id))
+        setListOld(listOld.filter((e) => e.id != id));
         toast.success("Xóa tuyến kĩ thuật thành công");
-        if (text){
-          search(text)
+        if (text) {
+          search(text);
         }
       });
     }
   };
   return (
     <>
-     {loading && (
-       
-        <Loading />
-      )}
+      {loading && <Loading />}
       <Header />
       <main id="cabin_list" className="main">
         <div className="container">
@@ -144,10 +138,7 @@ const ListTuyenKT = () => {
               />
             </div>
             <div className="col col-md-1">
-            <AddorEditTuyenKT
-                status="add"
-                save={save}
-              />
+              <AddorEditTuyenKT status="add" save={save} />
             </div>
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
@@ -176,7 +167,6 @@ const ListTuyenKT = () => {
               <tr>
                 <th>STT</th>
                 <th scope="col">IP</th>
-               
 
                 <th scope="col">Tên hệ thống</th>
 
@@ -192,27 +182,26 @@ const ListTuyenKT = () => {
                     <tr className="alert " role="alert" key={index}>
                       <td className="text-center">{index + 1}</td>
                       <td className="text-center">{item.id}</td>
-                     
 
                       <td className="text-center">{item.tenhethong}</td>
 
                       <td className="text-center">{item.tuyenkt}</td>
                       <td className="text-center">{item.trungtamvienthong}</td>
 
-                      <td className="text-center"> <AddorEditTuyenKT
-                status="edit"
-                data={item}
-                save={save}
-              />
-               <button
-                              className="btn btn-lg  fs-2 btn-danger"
-                              onClick={() => 
-                                Delete_TuyenKT(item.id)}
-                            >
-                              <i class="fa-solid fa-trash"></i>
-                            </button>
-              
-              </td>
+                      <td className="text-center">
+                        {" "}
+                        <AddorEditTuyenKT
+                          status="edit"
+                          data={item}
+                          save={save}
+                        />
+                        <button
+                          className="btn btn-lg  fs-2 btn-danger"
+                          onClick={() => Delete_TuyenKT(item.id)}
+                        >
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </td>
                     </tr>
                   );
                 })}

@@ -68,7 +68,7 @@ const Header = (props) => {
                     Trang chủ
                   </NavLink>
                 </li>
-              
+
                 {/* <li className="nav-item">
                                     <a className="nav-link" href="#">Dịch vụ</a>
 
@@ -120,18 +120,17 @@ const Header = (props) => {
                     </li>
                   </ul>
                 </li> */}
-                 <li className="nav-item">
+                <li className="nav-item">
                   <a className="nav-link" href="#">
-                  GIÁM SÁT 
+                    GIÁM SÁT
                   </a>
                   <ul className="sub-nav modal-90w">
-                 
-                <li className="sub-item">
+                    <li className="sub-item">
                       <NavLink
                         to="/suyhao/switch/"
                         className="sub-content text-uppercase"
                       >
-                      SUY HAO SWITCH VÀ OLT
+                        SUY HAO SWITCH VÀ OLT
                       </NavLink>{" "}
                     </li>
 
@@ -140,7 +139,7 @@ const Header = (props) => {
                         to="/suyhao/mainE"
                         className="sub-content text-uppercase"
                       >
-                      SUY HAO MAN-E
+                        SUY HAO MAN-E
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
@@ -148,7 +147,23 @@ const Header = (props) => {
                         to="/port/status"
                         className="sub-content text-uppercase"
                       >
-                      TRẠNG THÁI PORT 
+                        TRẠNG THÁI PORT
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/nguon/trangthai"
+                        className="sub-content text-uppercase"
+                      >
+                        TRẠNG THÁI NGUỒN
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/dokiem/status"
+                        className="sub-content text-uppercase"
+                      >
+                        SPEED TEST BOX ĐO
                       </NavLink>{" "}
                     </li>
                   </ul>
@@ -156,16 +171,23 @@ const Header = (props) => {
 
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                  Danh sách thiết bị
+                    Danh sách thiết bị
                   </a>
                   <ul className="sub-nav modal-90w">
-                 
-                <li className="sub-item">
+                    <li className="sub-item">
                       <NavLink
                         to="/listthietbi"
                         className="sub-content text-uppercase"
                       >
                         SWITCH
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/liststatusport"
+                        className="sub-content text-uppercase"
+                      >
+                        STATUS PORT SWITCH
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
@@ -181,7 +203,7 @@ const Header = (props) => {
                         to="/listmainE"
                         className="sub-content text-uppercase"
                       >
-                       MAN-E
+                        MAN-E
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
@@ -189,7 +211,7 @@ const Header = (props) => {
                         to="/nhienlieu/list"
                         className="sub-content text-uppercase"
                       >
-                      Trạm máy nổ
+                        Trạm máy nổ
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
@@ -197,26 +219,31 @@ const Header = (props) => {
                         to="/port/ring"
                         className="sub-content text-uppercase"
                       >
-                     RING
+                        RING
                       </NavLink>{" "}
                     </li>
-                    
+                    <li className="sub-item">
+                      <NavLink
+                        to="/tramdidong/list"
+                        className="sub-content text-uppercase"
+                      >
+                        Trạm di động
+                      </NavLink>{" "}
+                    </li>
                   </ul>
                 </li>
-               
+
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                 Tuyến kỹ thuật
+                    Tuyến kỹ thuật
                   </a>
                   <ul className="sub-nav modal-90w">
-                 
-               
                     <li className="sub-item">
                       <NavLink
                         to="/tuyen_kt_tt/danhsach"
                         className="sub-content text-uppercase"
                       >
-                     Số lượng cổng
+                        Số lượng cổng
                       </NavLink>{" "}
                     </li>
                     <li className="sub-item">
@@ -224,14 +251,22 @@ const Header = (props) => {
                         to="/tuyen_kt/danhsach"
                         className="sub-content text-uppercase"
                       >
-                    Danh sách Tuyến Kỹ thuật
+                        Danh sách Tuyến Kỹ thuật
+                      </NavLink>{" "}
+                    </li>
+                    <li className="sub-item">
+                      <NavLink
+                        to="/nhanvien/danhsach"
+                        className="sub-content text-uppercase"
+                      >
+                        Danh sách Nhân viên
                       </NavLink>{" "}
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">
-                  chuyển pon onu
+                    chuyển pon onu
                   </a>
                   <ul className="sub-nav modal-90w">
                     {/* <li className="sub-item">
@@ -252,10 +287,17 @@ const Header = (props) => {
                         to="/kichonuhangloat"
                         className="sub-content text-uppercase"
                       >
-                      chuyển nhiều onu
+                        chuyển nhiều onu
                       </NavLink>{" "}
                     </li>
-                  
+                     <li className="sub-item">
+                      <NavLink
+                        to="/dieuchinhonu"
+                        className="sub-content text-uppercase"
+                      >
+                        Văn bản 820
+                      </NavLink>{" "}
+                    </li>
                   </ul>
                 </li>
 
@@ -276,12 +318,12 @@ const Header = (props) => {
                       >
                         THỐNG KÊ SUY HAO THEO NGÀY
                       </NavLink>{" "}
-                    </li> 
-                     <li className="sub-item">
-                  <NavLink to="/home" className="sub-content">
-                    THỐNG KÊ NHIÊN LIỆU MÁY NỔ
-                  </NavLink>
-                </li>
+                    </li>
+                    <li className="sub-item">
+                      <NavLink to="/home" className="sub-content">
+                        THỐNG KÊ NHIÊN LIỆU MÁY NỔ
+                      </NavLink>
+                    </li>
                   </ul>
                 </li>
                 {users && (

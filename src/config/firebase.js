@@ -7,23 +7,15 @@ import { getStorage } from 'firebase/storage';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey : "AIzaSyCej27cjTKlfUlnGr7Aqux0-mgA0gIwbNg" , 
-  authDomain : "vnpt-fb65e.firebaseapp.com" , 
-  projectId : "vnpt-fb65e" , 
-  storageBucket : "vnpt-fb65e.appspot.com" , 
-  messagingSenderId : "723985455079" , 
-  appId : "1:723985455079:web:8cb2e21c7e34e16eaf4f42" , 
-  measurementId : "G-D8GFC5V0WH" 
-  // apiKey: "AIzaSyDhe9BP4WoThrwU_5uG5f0iiArAJuM0-Rc",
-  // authDomain: "crud-hungthinh.firebaseapp.com",
-  // databaseURL:
-  //   "https://crud-hungthinh-default-rtdb.asia-southeast1.firebasedatabase.app",
-  // projectId: "crud-hungthinh",
-  // storageBucket: "crud-hungthinh.appspot.com",
-  // messagingSenderId: "688414898512",
-  // appId: "1:688414898512:web:fa06adfa5992b2c45d1455",
+  apiKey: "AIzaSyDC71dOd2tVPYGWitFsoLzUblB-h5FCUAc",
+  authDomain: "vnpt-c3591.firebaseapp.com",
+  databaseURL: "https://vnpt-c3591-default-rtdb.firebaseio.com",
+  projectId: "vnpt-c3591",
+  storageBucket: "vnpt-c3591.firebasestorage.app",
+  messagingSenderId: "384936659926",
+  appId: "1:384936659926:web:ff7b9f63e32a5bf15cf277",
+  measurementId: "G-R9NQGCX9GT"
 };
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const storage = getStorage(app);

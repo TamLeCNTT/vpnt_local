@@ -1,0 +1,30 @@
+2025-01-01 07:00:18.757773: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:18.773773: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:19.395985: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:19.426140: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:19.432727: kết nối thất bại: 
+2025-01-01 07:00:19.463209: kết nối thất bại: 
+2025-01-01 07:00:19.495697: kết nối thất bại: 
+2025-01-01 07:00:19.501238: kết nối thất bại: 
+2025-01-01 07:00:19.505834: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:19.513917: kết nối thất bại: 
+2025-01-01 07:00:19.513917: kết nối thất bại: 
+2025-01-01 07:00:19.591300: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:19.994763: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-01-01 07:00:20.025602: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:20.181232: kết nối thất bại: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-01 07:00:20.231700: kết nối thất bại: 
+2025-01-01 07:00:20.259900: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-01 07:00:24.071804: kết nối ok
+2025-01-01 07:00:24.603450: kết nối ok
+2025-01-01 07:00:26.216067: kết nối ok
+2025-01-01 07:00:34.591141: kết nối ok
+2025-01-01 07:00:36.066072: kết nối ok
+2025-01-01 07:00:44.050158: kết nối ok
+2025-01-01 07:00:44.167049: kết nối ok
+2025-01-02 07:00:43.788971: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-02 07:00:43.966870: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-02 07:00:45.095885: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-02 07:00:45.347296: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-02 07:00:45.811191: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-02 07:00:45.971701: kết nối thất bại: [Errno 11001] getaddrinfo failed

@@ -1,267 +1,91 @@
-display ont info  05 49 
+show gpon onu baseinfo gpon-olt_1/1/04 24
 
-display ont info  05 49 
-{ <cr>||<K> }: 
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:24 ZLP2110424
 
-  Command:
-          display ont info  05 49
-  -----------------------------------------------------------------------------
-  F/S/P                   : 0/1/5
-  ONT-ID                  : 49
-  Control flag            : active
-  Run state               : offline
-  Config state            : initial
-  Match state             : initial
-  DBA type                : -
-  ONT distance(m)         : -
-  ONT last distance(m)    : -
-  ONT battery state       : -
-  ONT power type          : -
-  Memory occupation       : -
-  CPU occupation          : -
-  Temperature             : -
-  Authentic type          : password-auth
-  Discovery mode          : always-on mode
-  Discovery state         : on
-  Password                : 0x484E3034313130353439(HN04110549)
-  Used mutual auth        : no
-  Management mode         : OMCI
-  Software work mode      : normal
-  Isolation state         : normal
-  Description             : ONT_NO_DESCRIPTION
-  Last down cause         : -
-  Last up time            : -
-  Last down time          : -
-  Last dying gasp time    : -
-  Last restart reason     : -
-  ONT online duration     : -
-  ONT system up duration  : -
-  Type C support          : -
-  Interoperability-mode   : Unknown
-  Power reduction status  : -
-  FEC upstream state      : use-profile-config
-  Fiber route             : none
-  -----------------------------------------------------------------------------
-  VoIP configure method   : Default
-  -----------------------------------------------------------------------------
-  Line profile ID      : 1
-  Line profile name    : HSI_IPTV_VOIP_VPN
-  -----------------------------------------------------------------------------
-  FEC upstream switch :Disable 
-  OMCC encrypt switch :On
-  Qos mode            :PQ
-  Mapping mode        :VLAN
-  TR069 management    :Disable
-  TR069 IP index      :0
-  ------------------------------------------------------------------------------
-  Notes: * indicates Discrete TCONT(TCONT Unbound)
-  ------------------------------------------------------------------------------
-  <T-CONT   0>          DBA Profile-ID:1
-  <T-CONT   1>          DBA Profile-ID:11
-   <Gem Index 1>
-   --------------------------------------------------------------------
-   |Serv-Type:ETH |Encrypt:on  |Cascade:off |GEM-CAR:-            |
-   |Upstream-priority-queue:0  |Downstream-priority-queue:-       |
-   --------------------------------------------------------------------
-    Mapping VLAN  Priority Port    Port  Bundle  Flow  Transparent
-    index                  type    ID    ID      CAR   
-   --------------------------------------------------------------------
-    0       11    -        -       -     -       -     -          
-   --------------------------------------------------------------------
-  <T-CONT   2>          DBA Profile-ID:12
-   <Gem Index 2>
-   --------------------------------------------------------------------
-   |Serv-Type:ETH |Encrypt:on  |Cascade:off |GEM-CAR:-            |
-   |Upstream-priority-queue:0  |Downstream-priority-queue:-       |
-   --------------------------------------------------------------------
-    Mapping VLAN  Priority Port    Port  Bundle  Flow  Transparent
-    index                  type    ID    ID      CAR   
-   --------------------------------------------------------------------
-    0       12    -        -       -     -       -     -          
-   --------------------------------------------------------------------
-  <T-CONT   3>          DBA Profile-ID:13
-   <Gem Index 3>
-   --------------------------------------------------------------------
-   |Serv-Type:ETH |Encrypt:on  |Cascade:off |GEM-CAR:-            |
-   |Upstream-priority-queue:0  |Downstream-priority-queue:-       |
-   --------------------------------------------------------------------
-    Mapping VLAN  Priority Port    Port  Bundle  Flow  Transparent
-    index                  type    ID    ID      CAR   
-   --------------------------------------------------------------------
-    0       13    -        -       -     -       -     -          
-   --------------------------------------------------------------------
-  <T-CONT   4>          DBA Profile-ID:14
-   <Gem Index 4>
-   --------------------------------------------------------------------
-   |Serv-Type:ETH |Encrypt:on  |Cascade:off |GEM-CAR:-            |
-   |Upstream-priority-queue:0  |Downstream-priority-queue:-       |
-   --------------------------------------------------------------------
-    Mapping VLAN  Priority Port    Port  Bundle  Flow  Transparent
-    index                  type    ID    ID      CAR   
-   --------------------------------------------------------------------
-    0       15    -        -       -     -       -     -          
-   --------------------------------------------------------------------
-  <T-CONT   5>          DBA Profile-ID:10
-   <Gem Index 5>
-   --------------------------------------------------------------------
-   |Serv-Type:ETH |Encrypt:on  |Cascade:off |GEM-CAR:-            |
-   |Upstream-priority-queue:0  |Downstream-priority-queue:-       |
-   --------------------------------------------------------------------
-    Mapping VLAN  Priority Port    Port  Bundle  Flow  Transparent
-    index                  type    ID    ID      CAR   
-   --------------------------------------------------------------------
-    0       4000  -        -       -     -       -     -          
-   --------------------------------------------------------------------
-  ------------------------------------------------------------------------------
-  Notes: Run the display traffic table ip command to query 
-         traffic table configuration
-  -----------------------------------------------------------------------------
-  Service profile ID   : 2
-  Service profile name : DASAN
-  -----------------------------------------------------------------------------
-  Port-type     Port-number     Max-adaptive-number
-  -----------------------------------------------------------------------------
-  POTS          adaptive        32
-  ETH           adaptive        8
-  VDSL          0               -
-  TDM           0               -
-  MOCA          0               -
-  CATV          0               -
-  -----------------------------------------------------------------------------
-  TDM port type                     : E1
-  TDM service type                  : TDMoGem
-  MAC learning function switch      : Enable
-  ONT transparent function switch   : Disable
-  Ring check switch                 : Disable
-  Ring port auto-shutdown           : Enable
-  Ring detect frequency             : 8 (pps)
-  Ring resume interval              : 300 (s)
-  Ring detect period                : 0 (s)
-  Multicast forward mode            : Unconcern
-  Multicast forward VLAN            : -
-  Multicast mode                    : Unconcern
-  Upstream IGMP packet forward mode : Unconcern
-  Upstream IGMP packet forward VLAN : -
-  Upstream IGMP packet priority     : -
-  Native VLAN option                : Unconcern
-  Upstream PQ color policy          : -
-  Downstream PQ color policy        : -
-  Monitor link                      : Unconcern
-  MTU(byte)                         : Unconcern
-  L2-isolate                        : Unconcern
-  -----------------------------------------------------------------------------
-  Port-type Port-ID QinQmode  PriorityPolicy Inbound     Outbound
-  -----------------------------------------------------------------------------
-  ETH       1       unconcern unconcern      unconcern   unconcern
-  ETH       2       unconcern unconcern      unconcern   unconcern
-  ETH       3       unconcern unconcern      unconcern   unconcern
-  ETH       4       unconcern unconcern      unconcern   unconcern
-  ETH       5       unconcern unconcern      unconcern   unconcern
-  ETH       6       unconcern unconcern      unconcern   unconcern
-  ETH       7       unconcern unconcern      unconcern   unconcern
-  ETH       8       unconcern unconcern      unconcern   unconcern
-  IPHOST    1       unconcern unconcern      unconcern   unconcern
-  -----------------------------------------------------------------------------
-  Notes: * indicates the discretely configured traffic profile,
-         run the display traffic table ip command to query
-         traffic table configuration.
-  -----------------------------------------------------------------------------
-  Port-type Port-ID  DownstreamMode  MismatchPolicy
-  -----------------------------------------------------------------------------
-  ETH             1  operation       discard       
-  ETH             2  operation       discard       
-  ETH             3  operation       discard       
-  ETH             4  operation       discard       
-  ETH             5  operation       discard       
-  ETH             6  operation       discard       
-  ETH             7  operation       discard       
-  ETH             8  operation       discard       
-  -----------------------------------------------------------------------------
-  Port-type Port-ID Dscp-mapping-table-index Classification-profile-id
-  -----------------------------------------------------------------------------
-  ETH       1       0                        -        
-  ETH       2       0                        -        
-  ETH       3       0                        -        
-  ETH       4       0                        -        
-  ETH       5       0                        -        
-  ETH       6       0                        -        
-  ETH       7       0                        -        
-  ETH       8       0                        -        
-  IPHOST    1       0                        -
-  -----------------------------------------------------------------------------
-  Port    Port   Service-type Index S-VLAN S-PRI C-VLAN C-PRI ENCAP      S-PRI
-  type    ID                                                             POLICY
-  -----------------------------------------------------------------------------
-  ETH     1      Translation  1     11     -     11     -     -          -     
-  ETH     1      Translation  2     12     -     12     -     -          -     
-  ETH     2      Translation  1     11     -     11     -     -          -     
-  ETH     2      Translation  2     12     -     12     -     -          -     
-  ETH     3      Translation  1     11     -     11     -     -          -     
-  ETH     3      Translation  2     12     -     12     -     -          -     
-  ETH     4      Translation  1     11     -     11     -     -          -     
-  ETH     4      Translation  2     12     -     12     -     -          -     
-  -----------------------------------------------------------------------------
-  Notes: * indicates transparent attribute of the vlan
-  -----------------------------------------------------------------------------
-  Port-type  Port-ID    IGMP-mode         IGMP-VLAN  IGMP-PRI  Max-MAC-Count
-  -----------------------------------------------------------------------------
-  ETH              1    -                         -         -      Unlimited
-  ETH              2    -                         -         -      Unlimited
-  ETH              3    -                         -         -      Unlimited
-  ETH              4    -                         -         -      Unlimited
-  ETH              5    -                         -         -      Unlimited
-  ETH              6    -                         -         -      Unlimited
-  ETH              7    -                         -         -      Unlimited
-  ETH              8    -                         -         -      Unlimited
-  IPHOST           1    -                         -         -      Unlimited
-  -----------------------------------------------------------------------------
-  Port-type Port-ID   Traffic-suppress   Traffic-suppress   Traffic-suppress
-                      unicast(kbps)      multicast(kpbs)    broadcast(kbps)
-  -----------------------------------------------------------------------------
-  ETH             1   -                  -                  -               
-  ETH             2   -                  -                  -               
-  ETH             3   -                  -                  -               
-  ETH             4   -                  -                  -               
-  ETH             5   -                  -                  -               
-  ETH             6   -                  -                  -               
-  ETH             7   -                  -                  -               
-  ETH             8   -                  -                  -               
-  -----------------------------------------------------------------------------
-  Port-type  Port-ID  L2-isolate      Multicast-source
-  -----------------------------------------------------------------------------
-  ETH              1  unconcern       disable             
-  ETH              2  unconcern       disable             
-  ETH              3  unconcern       disable             
-  ETH              4  unconcern       disable             
-  ETH              5  unconcern       disable             
-  ETH              6  unconcern       disable             
-  ETH              7  unconcern       disable             
-  ETH              8  unconcern       disable             
-  -----------------------------------------------------------------------------
-  Port  Port  PoE        PoE        PoE       Max Power  Max Power  Force Power
-  type  ID    Switch     Mode       Priority  Class      Value(mW)  Switch
-  -----------------------------------------------------------------------------
-  ETH      1  unconcern  signal     high      default    -          disable
-  ETH      2  unconcern  signal     high      default    -          disable
-  ETH      3  unconcern  signal     high      default    -          disable
-  ETH      4  unconcern  signal     high      default    -          disable
-  ETH      5  unconcern  signal     high      default    -          disable
-  ETH      6  unconcern  signal     high      default    -          disable
-  ETH      7  unconcern  signal     high      default    -          disable
-  ETH      8  unconcern  signal     high      default    -          disable
-  -----------------------------------------------------------------------------
-  Alarm policy profile ID      : 0
-  Alarm policy profile name    : alarm-policy_0
-  -----------------------------------------------------------------------------
 
-HUG.NBY.V21.OLT.HM01(config-if-gpon-0/1)#
-subslocid:49 HN04110549
-config
-undo service-port port 0/1/05 ont 49
+configure terminal
+interface gpon-olt_1/1/04
+no onu 24
+end
 
-y
-interface gpon 0/1
-ont delete 05 49
-quit
+
+show gpon onu baseinfo gpon-olt_1/1/04 20
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:20 ZLP2110420
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 20
+end
+
+
+show gpon onu baseinfo gpon-olt_1/1/04 10
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:10 ZLP2110410
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 10
+end
+
+
+show gpon onu baseinfo gpon-olt_1/1/04 01
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:01 ZLP2110401
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 01
+end
+
+
+show gpon onu baseinfo gpon-olt_1/1/04 30
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:30 ZLP2110430
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 30
+end
+
+
+show gpon onu baseinfo gpon-olt_1/1/04 09
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:09 ZLP2110409
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 09
+end
+
+
+show gpon onu baseinfo gpon-olt_1/1/04 38
+
+%Code 62331-GPONSRV : ONU data is null.
+HUG.LMY.LP2.OLT.ZT01#
+subslocid:38 ZLP2110438
+
+
+configure terminal
+interface gpon-olt_1/1/04
+no onu 38
+end
 
 

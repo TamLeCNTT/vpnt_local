@@ -1,0 +1,70 @@
+2024-12-13 07:00:27.427981: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:00:27.453978: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:00:48.649931: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:00:48.650939: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:00:48.650939: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:00:48.650939: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:00:48.709491: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:00:48.727474: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:00:48.728474: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:01:09.759214: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-13 07:44:15.023352: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:44:15.090889: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:44:15.315326: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.326045: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:44:15.332176: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.359990: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.370375: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 07:44:15.394630: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.408123: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.417527: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.608214: kết nối thất bại: telnet connection closed
+2024-12-13 07:44:15.643871: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:19.720106: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 09:55:19.913529: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 09:55:19.990173: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.010442: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 09:55:20.016440: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.035620: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.056289: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-13 09:55:20.071897: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.219918: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.319906: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.340661: kết nối thất bại: telnet connection closed
+2024-12-13 09:55:20.499833: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:27.444952: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:27.498444: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:27.582083: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:27.633396: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:27.703725: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:27.747211: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:27.750213: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:27.795377: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:27.862046: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:27.884694: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:27.889695: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:27.907693: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:27.946998: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:28.024563: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:28.054036: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:28.090955: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:28.117626: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:28.135821: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:28.146097: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2024-12-14 07:00:28.166068: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:28.218869: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:28.226860: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:28.377507: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:28.410577: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:30.920840: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:30.972840: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:31.202866: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.232846: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.300850: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:31.303840: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.309837: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.313836: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.337851: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.395849: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-14 07:00:31.618838: kết nối thất bại: telnet connection closed
+2024-12-14 07:00:31.680841: kết nối thất bại: telnet connection closed

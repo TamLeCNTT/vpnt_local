@@ -92,7 +92,9 @@ const AddorEditSL_Cong = (props) => {
             toast.success("Cập nhật dữ liệu thành công");
             let time=new Date()
             let date=time.getDate()+"/"+ (Number(time.getMonth())+1)
-            mainEService.writeDatainFile("timeUpdateSL_cong.txt", date)
+            let file_path = "F:\\Vi La\\suyhao\\api\\timeUpdateSL_cong.txt"
+
+            mainEService.writeDatainFile(file_path, date)
             props.save("edit", itemm);
             setshow(false);
           })

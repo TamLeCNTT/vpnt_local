@@ -9,9 +9,10 @@ import ImportNhienlieu from "../../support/ImportNhienlieu";
 import AddTramOlt from "./AddTramOlt";
 const ListTramOLT = () => {
   const [lists, setLists] = useState([]);
+  const [listexport, setListexport] = useState([]);
   const [listold, setListold] = useState([]);
   const [text, setText] = useState([]);
-  const header = [["STT"]];
+  const header = [["matram","tentram","tenhethong","his","mytv","ims","loai","username","password","ip","port"]];
   const getdata = (e) => {
     let listdata = [];
     let data = {};
@@ -25,13 +26,37 @@ const ListTramOLT = () => {
     });
 
     setLists(e);
+    setListexport(e)
     
   };
+  const setdata=(list)=>{
+    let listSave=[]
+    list.map((data,index)=>{
+      let item={}
+      item.matram=data.matram
+      item.tentram=data.tentram
+      item.tenhethong=data.tenhethong
+      item.his=data.his
+      item.mytv=data.mytv
+      item.ims=data.ims
+      item.loai=data.loai
+      item.username=data.username
+      item.password=data.password
+      item.ip=data.ip
+      item.port=data.port
+
+      listSave.push(item)
+    })
+    setListexport(listSave)
+    
+  }
   useEffect(() => {
     TramOLtService.getdata().then((res) => {
       setLists(res.data);
-      console.log(res.data)
       setListold(res.data)
+      console.log(res.data)
+      setListexport(res.data)
+      setdata(res.data)
     });
   }, []);
   const search=(e)=>{
@@ -59,15 +84,21 @@ const ListTramOLT = () => {
           String(item.his).indexOf(String(e)) != -1
       );
     }
-    if (!e) setLists(listold);
-    else setLists(listSearch);
+    if (!e) {
+      setLists(listold);
+      setListexport(listold);
+    }
+    else {
+      setLists(listSearch);
+      setListexport(listSearch);
+    }
   }
   const save=()=>{
    
       TramOLtService.getdata().then((res) => {
         
       
-        setListold(res.data)
+        setdata(res.data)
         let listfiilter = res.data;
         let listSearch = [];
        
@@ -86,8 +117,15 @@ const ListTramOLT = () => {
               String(item.his).indexOf(String(text)) != -1
           );
         }
-        if (!text) setLists(res.data);
-        else setLists(listSearch);
+        if (!text) {
+          setLists(res.data);
+          setListexport(res.data)
+        }
+        else {
+          setLists(listSearch);
+          setListexport(listSearch);
+        
+        }
       });
     
   }
@@ -111,6 +149,8 @@ const ListTramOLT = () => {
     if (result.isConfirmed) {
       TramOLtService.deletedata(id).then((res) => {
         setLists(lists.filter((e) => e.id != id));
+        setListold(listold.filter((e) => e.id != id))
+        setListexport(lists.filter((e) => e.id != id));
         toast.success("Xóa thiết bị thành công");
       });
     }
@@ -144,6 +184,7 @@ const ListTramOLT = () => {
                   <ImportNhienlieu
                     getdata={getdata}
                     header={header}
+                    data={listexport}
                     row={0}
                     name={
                       "DanhSach_Tram_OLT_" +

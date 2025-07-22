@@ -6,10 +6,10 @@ import Loading from "./Loading";
 import { saveAs } from "file-saver";
 import { useState } from "react";
 const ImportBSCs = (props) => {
-  const [load,setload]=useState(false)
+  const [load, setload] = useState(false);
   // Hàm xử lý import file Excel
   const handleImport = ($event) => {
-    setload(true)
+    setload(true);
     const files = $event.target.files;
     if (files.length) {
       const file = files[0];
@@ -85,13 +85,12 @@ const ImportBSCs = (props) => {
             "An error occurred while processing the file. Please try again."
           );
         }
-        setload(false)
+        setload(false);
       };
 
       reader.readAsArrayBuffer(file); // Đọc file dưới dạng ArrayBuffer
-     
     }
-    $event.target.value=null;
+    $event.target.value = null;
   };
 
   // Hàm xử lý export file Excel
@@ -126,7 +125,7 @@ const ImportBSCs = (props) => {
           worksheet.mergeCells("A1:K1"); // Gộp từ cột A đến J
           const cell = worksheet.getCell("A1");
           cell.value = "TỔNG HỢP SUY HAO THEO GIAO BSC NGÀY " + props.ngay;
-          cell.font = {  name: "Times New Roman",bold: true, size: 14, };
+          cell.font = { name: "Times New Roman", bold: true, size: 14 };
           cell.alignment = { horizontal: "center", vertical: "middle" };
           cell.fill = {
             type: "pattern",
@@ -138,22 +137,23 @@ const ImportBSCs = (props) => {
           updatedHeader = [
             "Đơn vị",
             "Tuyến KT",
-            "SL cổng đến "+props.dateUpdate,
-            "SL Cổng kém ONU RX,TX",
-            "SL Cổng kém OLT RX,TX",
+            "SL Thuê bao GPON đến " + props.dateUpdate,
+            "SL Thuê bao không đạt ONU RX,TX",
+            "SL Thuê bao không đạt OLT RX,TX",
 
-            "SL Cổng Kém 8362",
+            "SL Thuê báo GPON kém 8362",
 
-            "SL Cổng kém (Dự phòng 1dBm)",
+            "SL Thuê bao kém (Dự phòng 2dBm)",
             "Tổng SL cổng kém so với chỉ tiêu SL cho phép",
-            "Tỷ lệ cổng kém trong ngày (%)",
-            "Tỉ lệ bình quân tính BSC(Lũy kế %)",
+            "Tỷ lệ Thuê bao kém trong ngày theo 8362 (%)",
+            "Tỷ lệ Thuê bao kém DP 2dBm trong ngày (%)",
+            // "Tỉ lệ bình quân tính BSC(Lũy kế %)",
             "NVKT",
           ];
 
           worksheet.addRow(updatedHeader); // Thêm header vào sheet
           worksheet.getRow(worksheet.lastRow.number).eachCell((cell) => {
-            cell.font = {  name: "Times New Roman", bold: true,size: 12 }; // In đậm chữ
+            cell.font = { name: "Times New Roman", bold: true, size: 12 }; // In đậm chữ
             cell.alignment = { horizontal: "center", vertical: "middle" }; // Căn giữa nội dung
           });
           // Định dạng tiêu đề đặc biệt
@@ -187,12 +187,10 @@ const ImportBSCs = (props) => {
             const cell = worksheet.getCell(`A${rowIndex}`);
             cell.font = {
               name: "Times New Roman",
-          
             };
             // In đậm và căn giữa nội dung
             cell.font = { bold: true };
             cell.alignment = { horizontal: "center", vertical: "middle" };
-           
           }
           // Giả sử cột "Tuyến KT" là cột B, bắt đầu từ hàng 2 đến hàng 27
           for (let rowIndex = 2; rowIndex <= 27; rowIndex++) {
@@ -203,7 +201,8 @@ const ImportBSCs = (props) => {
               const row = worksheet.getRow(rowIndex);
               row.eachCell({ includeEmpty: true }, (cell) => {
                 cell.font = {
-                 name: "Times New Roman",  bold: true, 
+                  name: "Times New Roman",
+                  bold: true,
                   color: { argb: "FF0000" }, // Màu đỏ
                 };
                 cell.alignment = { horizontal: "center", vertical: "middle" };
@@ -219,7 +218,8 @@ const ImportBSCs = (props) => {
               const row = worksheet.getRow(rowIndex);
               row.eachCell({ includeEmpty: true }, (cell) => {
                 cell.font = {
-                 name: "Times New Roman",  bold: true, 
+                  name: "Times New Roman",
+                  bold: true,
                   color: { argb: "FF0000" }, // Màu đỏ
                 };
                 cell.alignment = { horizontal: "center", vertical: "middle" };
@@ -243,17 +243,27 @@ const ImportBSCs = (props) => {
           if (startRow < data.length) {
             worksheet.mergeCells(`A${startRow}:A${data.length + 2}`);
           }
-
-
-
-          
-        } else {
+        } 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        else {
           if (sheetIndex === 3 || sheetIndex === 4) {
             // Xử lý sheet đặc biệt với header riêng và ô gộp
             worksheet.mergeCells("A1:AH1"); // Gộp từ cột A đến J
             const cell = worksheet.getCell("A1");
             cell.value = "TỔNG HỢP SUY HAO THÁNG " + props.month;
-            cell.font = {  name: "Times New Roman" ,bold: true, size: 14};
+            cell.font = { name: "Times New Roman", bold: true, size: 14 };
             cell.alignment = { horizontal: "center", vertical: "middle" };
             cell.fill = {
               type: "pattern",
@@ -263,7 +273,7 @@ const ImportBSCs = (props) => {
             worksheet.mergeCells("AI1:AJ1"); // Gộp từ cột A đến J
             const cells = worksheet.getCell("AI1");
             cells.value = "Bình quân	";
-            cells.font ={  name: "Times New Roman" ,bold: true, size: 14};
+            cells.font = { name: "Times New Roman", bold: true, size: 14 };
             cells.alignment = { horizontal: "center", vertical: "middle" };
             cells.fill = {
               type: "pattern",
@@ -274,7 +284,7 @@ const ImportBSCs = (props) => {
             updatedHeader = [
               "Đơn vị",
               "Tuyến KT",
-              "SL cổng đến "+props.dateUpdate,
+              "SL cổng đến " + props.dateUpdate,
               "1",
               "2",
               "3",
@@ -334,7 +344,6 @@ const ImportBSCs = (props) => {
 
                   // Nếu cần, bạn có thể thêm các thuộc tính khác, như căn giữa và xuống dòng
                 }
-                
               });
             });
 
@@ -370,7 +379,7 @@ const ImportBSCs = (props) => {
                     name: "Times New Roman",
                     bold: true,
                     size: 12,
-                    
+
                     color: { argb: "FF0000" }, // Màu đỏ
                   };
                   cell.height = 18;
@@ -452,18 +461,22 @@ const ImportBSCs = (props) => {
           worksheet.columns.forEach((column, index) => {
             if (index === 0) {
               // Set column A width to 20
-          
+
               column.font = {
                 name: "Times New Roman",
-                size: 12,  bold: true,// Bạn có thể điều chỉnh kích thước font nếu muốn
+                size: 12,
+                bold: true, // Bạn có thể điều chỉnh kích thước font nếu muốn
               };
               column.width = 25.15;
-            } else if ((index >= 1 && index <= 2) ||(index >= 34 && index <= 35)) {
+            } else if (
+              (index >= 1 && index <= 2) ||
+              (index >= 34 && index <= 35)
+            ) {
               // Set columns B to J width to 15
-              column.width = 10;
-            } else  {
+              column.width = 12;
+            } else {
               // Set column K width to 20
-              column.width = 3.3;
+              column.width = 5;
             }
 
             // Kích hoạt wrapText cho tất cả các ô trong cột
@@ -475,49 +488,47 @@ const ImportBSCs = (props) => {
               };
             });
             const cell = worksheet.getCell("A1");
-            cell.font={ bold: true, name: "Times New Roman", size: 14 };
+            cell.font = { bold: true, name: "Times New Roman", size: 14 };
           });
-          
-        else{
-         
-        worksheet.columns.forEach((column, index) => {
-          if (index === 0) {
-            // Set column A width to 20
-        
-            column.font = {
-              name: "Times New Roman",
-              size: 12,  bold: true,// Bạn có thể điều chỉnh kích thước font nếu muốn
-            };
-            column.width = 25.15;
-          } else if (index >= 1 && index <= 9) {
-            // Set columns B to J width to 15
-            column.width = 12;
-          } else if (index === 10) {
-            // Set column K width to 20
-            column.width = 20;
-          }
-        
-          // Enable wrapText for all cells in the column
-          column.eachCell({ includeEmpty: true }, (cell) => {
-            cell.alignment = {
-              wrapText: true,
-              horizontal: "center",
-              vertical: "middle",
-            };
+        else {
+          worksheet.columns.forEach((column, index) => {
+            if (index === 0) {
+              // Set column A width to 20
+
+              column.font = {
+                name: "Times New Roman",
+                size: 12,
+                bold: true, // Bạn có thể điều chỉnh kích thước font nếu muốn
+              };
+              column.width = 25.15;
+            } else if (index >= 1 && index <= 9) {
+              // Set columns B to J width to 15
+              column.width = 12;
+            } else if (index === 10) {
+              // Set column K width to 20
+              column.width = 20;
+            }
+
+            // Enable wrapText for all cells in the column
+            column.eachCell({ includeEmpty: true }, (cell) => {
+              cell.alignment = {
+                wrapText: true,
+                horizontal: "center",
+                vertical: "middle",
+              };
+            });
           });
-        });
-     
-        if (sheetIndex === 2){   
-          worksheet.eachRow({ includeEmpty: true }, (row, rowIndex) => {
-          if (rowIndex >= 3 && rowIndex <= 27) {
-            row.height = 18;
+
+          if (sheetIndex === 2) {
+            worksheet.eachRow({ includeEmpty: true }, (row, rowIndex) => {
+              if (rowIndex >= 3 && rowIndex <= 27) {
+                row.height = 18;
+              }
+              const cell = worksheet.getCell("A1");
+              cell.font = { bold: true, name: "Times New Roman", size: 14 };
+            });
           }
-          const cell = worksheet.getCell("A1");
-          cell.font={ bold: true, name: "Times New Roman", size: 14 };
-        });
-      }
-          
-      }
+        }
       });
 
       // Lưu file Excel với tên được truyền từ props, nếu không có thì sử dụng tên mặc định
@@ -538,11 +549,11 @@ const ImportBSCs = (props) => {
 
   return (
     <>
-    {load&&(
-      <>
-      <Loading/>
-      </>
-    )}
+      {load && (
+        <>
+          <Loading />
+        </>
+      )}
       <div className="row">
         {/* Khu vực import file */}
         <div
@@ -554,7 +565,7 @@ const ImportBSCs = (props) => {
               type="file"
               name="file"
               hidden={true}
-              className="custom-file-input"
+              className="custom-file-input p-3"
               id="inputGroupFile"
               required
               onChange={handleImport} // Gọi hàm import khi chọn file

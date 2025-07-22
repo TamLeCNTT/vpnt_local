@@ -1,0 +1,12 @@
+ show status power
+
+Power A     : Installed
+       mode : DC
+     status : OK
+Power B     : Installed
+       mode : DC
+     status : OK
+
+
+Power Consumption : 20.7W
+HUG.VTH.V36.L2S.DZ01#

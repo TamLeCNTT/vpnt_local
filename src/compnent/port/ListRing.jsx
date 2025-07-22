@@ -1,37 +1,19 @@
 import Header from "../../Layout/Header";
 import { useState, useEffect } from "react";
 
-import Paginations from "../../support/Paginations";
-// import Cabin_edit from "./Cabin_edit";
-import { useNavigate } from "react-router-dom";
-import { toast } from "react-toastify";
 import ImportNhienlieu from "../../support/ImportNhienlieu";
-import { da } from "date-fns/locale";
 
 import portService from "../../service/portService";
-import { Modal } from "react-bootstrap";
-import suyhaoService from "../../service/suyhaoService";
+import AddAndEditRing from "./AddAndEditRing";
+import { toast } from "react-toastify";
+import Swal from "sweetalert2";
 const ListRing = () => {
   const [lists, setLists] = useState([]);
-  const [show, setshow] = useState(false);
 
-  const [tenthietbi, settenthietbi] = useState("");
-  const [loaithietbi, setloaithietbi] = useState("");
-  const [listthietbi, setlistthietbi] = useState([]);
-  const openModal = () => {
-    setshow(true);
-  };
-  const ChangeTypeDevice = (e) => {
-    console.log(e);
-    setloaithietbi(e.target.value);
-  };
-  const ChangeNameDevice = (e) => {
-    settenthietbi(e.target.value);
-  };
   useEffect(() => {
-    portService.getdataRing().then(res => {
-      setLists(res.data)
-    })
+    portService.getdataRing().then((res) => {
+      setLists(res.data);
+    });
   }, []);
   const RandomString = (length) => {
     const characters =
@@ -43,12 +25,39 @@ const ListRing = () => {
     }
     return result;
   };
-  const save = () => {
-
-  };
+  const save = () => {};
   const getdata = (e) => {
     console.log(e);
     portService.addDataRing(e).then((res) => {
+      console.log(res.data);
+    });
+  };
+  const deleteThietbi = async (id) => {
+    console.log(id);
+    const result = await Swal.fire({
+      title: "Bạn có chắc chắn muốn xóa ?",
+      text: "Dữ liệu sẽ xóa vĩnh viễn và không thể khôi phục.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Xóa",
+      cancelButtonText: "Hủy",
+      customClass: {
+        popup: "swal-wide", // Thêm lớp tùy chỉnh
+      },
+    });
+
+    if (result.isConfirmed) {
+      portService.deletedata_ring(id).then((res) => {
+        setLists(lists.filter((e) => e.id != id));
+        toast.success("Xóa thiết bị thành công");
+      });
+    }
+  };
+  const addoredit = () => {
+    portService.getdataRing().then((res) => {
+      setLists(res.data);
       console.log(res.data);
     });
   };
@@ -70,20 +79,15 @@ const ListRing = () => {
             </div>
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-sm-1">
-
-              <button
-                className="btn btn-lg btn-primary mx-1 float-right"
-                onClick={() => openModal()}
-              >
-                {/* <i className="fa fa-plus" aria-hidden="true"></i> */}
-                Thêm <i className="fa fa-plus" aria-hidden="true"></i>
-              </button>
-
+              <AddAndEditRing
+                status="add"
+                addoredit={addoredit}
+                // listthietbi={listthietbi}
+              />
             </div>
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
               <div className="row">
-
                 <div className="col col-md-10">
                   <ImportNhienlieu
                     getdata={getdata}
@@ -107,7 +111,7 @@ const ListRing = () => {
               <tr>
                 <th scope="col">Tên Ring</th>
                 <th scope="col">Đơn vị</th>
-
+                <th scope="col">Quản lý</th>
               </tr>
             </thead>
             <tbody>
@@ -118,24 +122,39 @@ const ListRing = () => {
                     const result = a.donvi.localeCompare(b.donvi);
                     if (result !== 0) return result;
                     // Nếu attribute1 bằng nhau, sắp xếp theo attribute2 (số)
-                    return a.ten.localeCompare(b.ten);;
+                    return a.ten.localeCompare(b.ten);
                   })
                   .map((item, index) => {
                     return (
                       <tr
                         className={
                           item.status == "down" ||
-                            item.status == "Down" ||
-                            Number(item.rx) < Number(item.low)
+                          item.status == "Down" ||
+                          Number(item.rx) < Number(item.low)
                             ? "alert tr-backgroud "
                             : "alert"
                         }
                         role="alert"
                         key={index}
                       >
-
                         <td className="text-center">{item.ten}</td>
                         <td className="text-center">{item.donvi}</td>
+                        <td>
+                          <div class="d-flex justify-content-center mx-2">
+                            <AddAndEditRing
+                              status="edit"
+                              data={item}
+                              addoredit={addoredit}
+                              // listthietbi={listthietbi}
+                            />
+                            <button
+                              className="btn btn-lg  fs-2 btn-danger"
+                              onClick={() => deleteThietbi(item.id)}
+                            >
+                              <i class="fa-solid fa-trash"></i>
+                            </button>
+                          </div>
+                        </td>
                       </tr>
                     );
                   })}

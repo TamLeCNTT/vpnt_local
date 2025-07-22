@@ -1,0 +1,2780 @@
+2024-12-23 08:44:24.068218: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.314598: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.404769: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.500608: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.616607: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.732606: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:24.893606: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.000606: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.109606: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.241610: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.315609: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.378606: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.392607: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.416609: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.438609: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.438609: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.570607: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.642606: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.714608: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.771605: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.832610: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.857608: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.942607: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:25.994607: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.058606: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.069606: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.090607: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.111612: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.128610: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.158608: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.210605: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.228606: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.255605: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.262608: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.263607: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.301607: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.310612: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.422608: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.443607: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.444605: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.448610: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.449609: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.467611: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.591606: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.606608: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.606608: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.632607: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.650609: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.707605: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.752607: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.792617: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.897605: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:26.916606: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.015612: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.099607: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.135611: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.206605: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.269606: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.293606: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.365606: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.441607: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.552607: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.652609: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.770606: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.841606: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.943605: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:27.976608: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:28.059130: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:28.164130: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.741493: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.832928: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.855300: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.870967: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.954247: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.968250: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.975188: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:53.983315: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.003819: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.016782: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.126107: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.196970: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.228044: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.277821: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.331583: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.354123: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.393932: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.461399: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.515398: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.540983: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.581426: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.645331: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.663514: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.663514: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.732285: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.782734: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.788582: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.806826: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.846177: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.862478: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.938324: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.955693: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:54.955693: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.010375: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.081293: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.137036: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.154823: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.203368: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.229448: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.310498: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.357811: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.400170: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.430093: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.438918: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.460308: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.494121: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.530024: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.610164: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.657847: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.790291: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.871411: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:55.924240: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.056283: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.155228: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.372145: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.458915: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.469554: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.556922: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.690326: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.756863: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.805178: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.890901: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:56.943577: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.049197: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.097964: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.187179: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.286350: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.356064: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.395233: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:44:57.535919: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:45:01.350061: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:05.783718: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:05.905172: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.041760: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.054762: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.061757: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.138759: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.174758: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.180760: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.207757: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.219760: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.278759: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.314762: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.333755: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.345757: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.375757: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.472756: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.539758: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.546759: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.587759: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.591765: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.653755: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.704757: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.743758: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.785757: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.821755: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.854755: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.863759: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.895766: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:06.908758: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.000758: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.010760: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.014757: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.027762: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.127757: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.127757: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.127757: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.149757: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.264870: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.264870: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.269871: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.277877: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.363876: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.378875: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.384875: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.399872: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.460882: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.542939: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.545933: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.564943: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.569935: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.654934: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.657935: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.664938: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.724934: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.765937: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.770938: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.813936: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.858939: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.866934: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.973938: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:07.998462: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.021460: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.101459: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.137457: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.157461: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.220457: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.286459: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:08.315459: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:11.864860: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:11.869906: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.455954: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.526320: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.720478: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.744351: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.800356: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.842746: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.871847: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.935574: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:12.980365: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.053998: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.087418: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.122290: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.199042: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.244797: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.300247: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.328513: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.375739: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.390303: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.476220: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.545222: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.620217: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.694220: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.737222: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.793220: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.819218: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.820218: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.887222: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.889220: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.895219: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:13.986221: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.026219: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.056221: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.069222: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.107218: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.107218: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.130221: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.202218: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.247223: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.369219: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.382217: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.394219: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.402218: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.409224: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.419230: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.448221: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.504219: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.558217: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.584221: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.614221: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.701221: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.709220: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.727219: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.746221: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.770220: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.819224: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.878220: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.904220: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.947219: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:14.992221: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.037222: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.044221: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.169219: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.214221: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.255219: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.335219: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.477218: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.507217: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.521220: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.537220: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.537220: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:47:15.550225: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:16.136260: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:16.514649: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:16.633647: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:16.757653: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:16.932645: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.094648: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.239647: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.332648: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.449648: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.611651: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.816650: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.956653: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:17.995648: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.145648: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.356648: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.522649: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.599656: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.744648: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.868650: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.944648: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.995654: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:18.999651: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.047648: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.139651: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.212648: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.258650: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.322650: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.393651: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.458649: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.511648: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.581649: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.651648: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.668649: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.674652: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:19.871648: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.025650: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.025650: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.057648: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.072655: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.094649: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.230649: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.397647: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.507647: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.563650: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.709648: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.871648: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:20.932649: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.017648: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.031649: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.049651: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.079654: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.133648: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.150650: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.150650: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.164651: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.173649: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.208653: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.344651: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.657647: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.753571: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:21.938822: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.061545: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.147750: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.368855: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.462234: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.650890: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.800806: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:22.897398: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:23.038673: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:23.205378: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:48:25.035306: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:12.505210: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:12.543580: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:12.619842: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:12.676036: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:12.785897: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.203040: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.490566: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.752578: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.886691: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.894773: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:13.940749: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.050506: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.055516: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.092321: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.211375: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.245582: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.294845: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.338031: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.436919: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.475201: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.497114: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.530413: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.610515: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.633407: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.678082: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.744018: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.771821: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.772917: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.785839: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.864358: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.906302: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:14.977211: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.070304: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.101942: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.154852: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.230332: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.320342: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.328341: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.330340: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.335913: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.354321: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.355322: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.445549: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.465213: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.480668: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+
+2024-12-23 08:49:15.490020: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.508805: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.540297: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.601197: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.647246: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.654757: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.673353: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.720325: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.759972: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.771792: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.793205: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.798657: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.821309: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.839306: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.904139: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.916145: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.916145: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.922999: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.957113: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:15.957113: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:16.085579: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:16.135598: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:16.305432: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:16.352207: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:46.960491: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.110615: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.150625: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.225011: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.246240: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.299202: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.332219: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.403744: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.465066: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.527933: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.563929: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.620643: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.674616: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.785359: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.812981: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.844113: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.881460: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.926835: 10.102.5.20 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.934007: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.983682: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:47.996600: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.023848: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.066924: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.070465: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.081693: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.097098: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.102787: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.118084: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.241136: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.247136: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.250139: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.263719: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.263719: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.265720: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.357881: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.379752: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.379752: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.380755: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.398479: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.400951: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.507693: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.516695: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.520695: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.536670: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.540913: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.542898: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.695750: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.712178: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.712178: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.712178: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.741854: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.744844: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.893373: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:48.908405: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.022383: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.200773: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.228011: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.296276: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.427058: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.514648: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.612773: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.724846: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.760714: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.891802: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:49.974244: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.058788: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.316682: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.460293: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.576057: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.594427: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:50.645169: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:56.835544: 10.102.4.244 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:56.937600: 10.102.5.44 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.021581: 10.102.5.42 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.122586: 10.102.5.45 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.371589: 10.102.4.243 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.454585: 10.102.4.249 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.524587: 10.102.5.25 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.579584: 10.102.5.26 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.639586: 10.102.4.83 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.698586: 10.102.4.81 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.848584: 10.102.4.189 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:57.921584: 10.102.5.27 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.000585: 10.102.5.24 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.027587: 10.102.5.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.048584: 10.102.5.19 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.121586: 10.102.5.23 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.163587: 10.102.4.79 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.195603: 10.102.5.22 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.228596: 10.102.5.33 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.337583: 10.102.5.29 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.481582: 10.102.5.34 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.550584: 10.102.5.28 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.672584: 10.102.5.31 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.794582: 10.102.5.32 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:58.885585: 10.102.5.30 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.086583: 10.102.5.46 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.092585: 10.102.5.47 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.118590: 10.102.5.48 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.133586: 10.102.5.49 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.143586: 10.102.5.37 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.290589: 10.102.4.231 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.314584: 10.102.4.240 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.314584: 10.102.4.238 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.359585: 10.102.4.233 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.472587: 10.102.4.234 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.573586: 10.102.4.241 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.683581: 10.102.4.235 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.743584: 10.102.4.237 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.877585: 10.102.5.39 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:49:59.901585: 10.102.5.41 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.011586: 10.102.5.36 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.084583: 10.102.4.232 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.144584: 10.102.4.214 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.246585: 10.102.4.71 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.296587: 10.102.5.40 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.344584: 10.102.4.239 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.468104: 10.102.5.35 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.607105: 10.102.4.236 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.651104: 10.102.5.38 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.731103: 10.102.4.61 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.774106: 10.102.4.109 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.826105: 10.102.4.107 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.880106: 10.102.4.62 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:00.996108: 10.102.5.11 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.128105: 10.102.5.12 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.133109: 10.102.5.10 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.138104: 10.102.4.60 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.170108: 10.102.4.252 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.204107: 10.102.5.14 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.327103: 10.102.4.21 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.327103: 10.102.5.18 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.346630: 10.102.4.55 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.347628: 10.102.5.13 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.347628: 10.102.5.16 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.445628: 10.102.4.248 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.464627: 10.102.4.56 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.466627: 10.102.5.15 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.511627: 10.102.4.57 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.547630: 10.102.4.58 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:50:01.986626: 10.102.5.43 kết nối thất bại: 'NoneType' object has no attribute 'encode'
+2024-12-23 08:51:03.469952: 10.102.5.44 kết nối thành công
+2024-12-23 08:51:03.469952: 10.102.4.244 kết nối thành công
+2024-12-23 08:51:03.572949: 10.102.5.45 kết nối thành công
+2024-12-23 08:51:03.572949: 10.102.5.43 kết nối thành công
+2024-12-23 08:51:03.618948: 10.102.5.42 kết nối thành công
+2024-12-23 08:51:03.682949: 10.102.4.243 kết nối thành công
+2024-12-23 08:51:04.653950: 10.102.4.249 kết nối thành công
+2024-12-23 08:51:04.697945: 10.102.4.83 kết nối thành công
+2024-12-23 08:51:04.787948: 10.102.5.25 kết nối thành công
+2024-12-23 08:51:04.814948: 10.102.5.26 kết nối thành công
+2024-12-23 08:51:04.849965: 10.102.4.81 kết nối thành công
+2024-12-23 08:51:04.860947: 10.102.4.189 kết nối thành công
+2024-12-23 08:51:05.998950: 10.102.5.27 kết nối thành công
+2024-12-23 08:51:06.261946: 10.102.5.24 kết nối thành công
+2024-12-23 08:51:06.372947: 10.102.5.19 kết nối thành công
+2024-12-23 08:51:06.372947: 10.102.5.23 kết nối thành công
+2024-12-23 08:51:06.372947: 10.102.5.21 kết nối thành công
+2024-12-23 08:51:06.372947: 10.102.5.20 kết nối thành công
+2024-12-23 08:51:07.096945: 10.102.4.79 kết nối thành công
+2024-12-23 08:51:07.595945: 10.102.5.22 kết nối thành công
+2024-12-23 08:51:07.692948: 10.102.5.29 kết nối thành công
+2024-12-23 08:51:07.711948: 10.102.5.34 kết nối thành công
+2024-12-23 08:51:07.766950: 10.102.5.28 kết nối thành công
+2024-12-23 08:51:07.766950: 10.102.5.33 kết nối thành công
+2024-12-23 08:51:08.408946: 10.102.5.31 kết nối thành công
+2024-12-23 08:51:08.830688: 10.102.5.32 kết nối thành công
+2024-12-23 08:51:09.145366: 10.102.5.47 kết nối thành công
+2024-12-23 08:51:09.165389: 10.102.5.46 kết nối thành công
+2024-12-23 08:51:09.195463: 10.102.5.30 kết nối thành công
+2024-12-23 08:51:09.200287: 10.102.5.48 kết nối thành công
+2024-12-23 08:51:09.590388: 10.102.5.49 kết nối thành công
+2024-12-23 08:51:10.080365: 10.102.5.37 kết nối thành công
+2024-12-23 08:51:10.264372: 10.102.4.231 kết nối thành công
+2024-12-23 08:51:10.333516: 10.102.4.238 kết nối thành công
+2024-12-23 08:51:10.383532: 10.102.4.240 kết nối thành công
+2024-12-23 08:51:10.383532: 10.102.4.233 kết nối thành công
+2024-12-23 08:51:10.702464: 10.102.4.234 kết nối thành công
+2024-12-23 08:51:11.195178: 10.102.4.241 kết nối thành công
+2024-12-23 08:51:11.358480: 10.102.4.235 kết nối thành công
+2024-12-23 08:51:11.460473: 10.102.4.237 kết nối thành công
+2024-12-23 08:51:11.647635: 10.102.5.41 kết nối thành công
+2024-12-23 08:51:11.664301: 10.102.5.39 kết nối thành công
+2024-12-23 08:51:11.955388: 10.102.5.36 kết nối thành công
+2024-12-23 08:51:12.315601: 10.102.4.232 kết nối thành công
+2024-12-23 08:51:12.445599: 10.102.4.214 kết nối thành công
+2024-12-23 08:51:12.565392: 10.102.4.71 kết nối thành công
+2024-12-23 08:51:12.775131: 10.102.4.239 kết nối thành công
+2024-12-23 08:51:12.910414: 10.102.5.40 kết nối thành công
+2024-12-23 08:51:13.150741: 10.102.5.35 kết nối thành công
+2024-12-23 08:51:13.615212: 10.102.4.236 kết nối thành công
+2024-12-23 08:51:13.745502: 10.102.4.61 kết nối thành công
+2024-12-23 08:51:13.765778: 10.102.5.38 kết nối thành công
+2024-12-23 08:51:13.915742: 10.102.4.109 kết nối thành công
+2024-12-23 08:51:13.983249: 10.102.4.107 kết nối thành công
+2024-12-23 08:51:14.305240: 10.102.4.62 kết nối thành công
+2024-12-23 08:51:14.812065: 10.102.5.11 kết nối thành công
+2024-12-23 08:51:14.981176: 10.102.5.10 kết nối thành công
+2024-12-23 08:51:14.986178: 10.102.5.12 kết nối thành công
+2024-12-23 08:51:15.115282: 10.102.4.60 kết nối thành công
+2024-12-23 08:51:15.495579: 10.102.5.14 kết nối thành công
+2024-12-23 08:51:16.053150: 10.102.4.21 kết nối thành công
+2024-12-23 08:51:16.101678: 10.102.4.252 kết nối thành công
+2024-12-23 08:51:16.162248: 10.102.5.18 kết nối thành công
+2024-12-23 08:51:16.204880: 10.102.4.55 kết nối thành công
+2024-12-23 08:51:16.296412: 10.102.5.13 kết nối thành công
+2024-12-23 08:51:16.700758: 10.102.5.16 kết nối thành công
+2024-12-23 08:51:17.205426: 10.102.4.248 kết nối thành công
+2024-12-23 08:51:17.296560: 10.102.4.56 kết nối thành công
+2024-12-23 08:51:17.353929: 10.102.4.57 kết nối thành công
+2024-12-23 08:51:17.425906: 10.102.5.15 kết nối thành công
+2024-12-23 08:51:17.428907: 10.102.4.58 kết nối thành công
+2024-12-23 08:51:41.424230: 10.102.4.244 kết nối thành công
+2024-12-23 08:51:41.613226: 10.102.5.45 kết nối thành công
+2024-12-23 08:51:41.659228: 10.102.5.42 kết nối thành công
+2024-12-23 08:51:41.755228: 10.102.5.44 kết nối thành công
+2024-12-23 08:51:41.756228: 10.102.5.43 kết nối thành công
+2024-12-23 08:51:41.756228: 10.102.4.243 kết nối thành công
+2024-12-23 08:51:42.525225: 10.102.4.249 kết nối thành công
+2024-12-23 08:51:42.873227: 10.102.5.25 kết nối thành công
+2024-12-23 08:51:42.877229: 10.102.5.26 kết nối thành công
+2024-12-23 08:51:42.918227: 10.102.4.81 kết nối thành công
+2024-12-23 08:51:42.947227: 10.102.4.83 kết nối thành công
+2024-12-23 08:51:42.983226: 10.102.4.189 kết nối thành công
+2024-12-23 08:51:43.729182: 10.102.5.27 kết nối thành công
+2024-12-23 08:51:44.124182: 10.102.5.24 kết nối thành công
+2024-12-23 08:51:44.140183: 10.102.5.21 kết nối thành công
+2024-12-23 08:51:44.140183: 10.102.5.19 kết nối thành công
+2024-12-23 08:51:44.177185: 10.102.5.23 kết nối thành công
+2024-12-23 08:51:44.201185: 10.102.5.20 kết nối thành công
+2024-12-23 08:51:44.882185: 10.102.4.79 kết nối thành công
+2024-12-23 08:51:45.319185: 10.102.5.22 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:51:45.389184: 10.102.5.29 kết nối thành công
+2024-12-23 08:51:45.415184: 10.102.5.34 kết nối thành công
+2024-12-23 08:51:45.483182: 10.102.5.33 kết nối thành công
+2024-12-23 08:51:45.483182: 10.102.5.28 kết nối thành công
+2024-12-23 08:51:46.290180: 10.102.5.31 kết nối thành công
+2024-12-23 08:51:46.585706: 10.102.5.32 kết nối thành công
+2024-12-23 08:51:46.728635: 10.102.5.46 kết nối thành công
+2024-12-23 08:51:46.806559: 10.102.5.48 kết nối thành công
+2024-12-23 08:51:46.873783: 10.102.5.30 kết nối thành công
+2024-12-23 08:51:47.087938: 10.102.5.47 kết nối thành công
+2024-12-23 08:51:47.536781: 10.102.5.49 kết nối thành công
+2024-12-23 08:51:47.975592: 10.102.4.240 kết nối thành công
+2024-12-23 08:51:47.975592: 10.102.4.231 kết nối thành công
+2024-12-23 08:51:47.988046: 10.102.5.37 kết nối thành công
+2024-12-23 08:51:48.257089: 10.102.4.238 kết nối thành công
+2024-12-23 08:51:48.385742: 10.102.4.233 kết nối thành công
+2024-12-23 08:51:48.792865: 10.102.4.234 kết nối thành công
+2024-12-23 08:51:49.370268: 10.102.4.237 kết nối thành công
+2024-12-23 08:51:49.371264: 10.102.4.235 kết nối thành công
+2024-12-23 08:51:49.387461: 10.102.4.241 kết nối thành công
+2024-12-23 08:51:49.555453: 10.102.5.39 kết nối thành công
+2024-12-23 08:51:49.790067: 10.102.5.41 kết nối thành công
+2024-12-23 08:51:50.195518: 10.102.5.36 kết nối thành công
+2024-12-23 08:51:50.489487: 10.102.4.214 kết nối thành công
+2024-12-23 08:51:50.535714: 10.102.4.71 kết nối thành công
+2024-12-23 08:51:50.790691: 10.102.4.232 kết nối thành công
+2024-12-23 08:51:50.845229: 10.102.5.40 kết nối thành công
+2024-12-23 08:51:51.155526: 10.102.4.239 kết nối thành công
+2024-12-23 08:51:51.665991: 10.102.5.35 kết nối thành công
+2024-12-23 08:51:51.990677: 10.102.4.236 kết nối thành công
+2024-12-23 08:51:52.181959: 10.102.4.61 kết nối thành công
+2024-12-23 08:51:52.370546: 10.102.5.38 kết nối thành công
+2024-12-23 08:51:52.574712: 10.102.4.109 kết nối thành công
+2024-12-23 08:51:52.688685: 10.102.4.107 kết nối thành công
+2024-12-23 08:51:53.400069: 10.102.4.62 kết nối thành công
+2024-12-23 08:51:53.780649: 10.102.5.11 kết nối thành công
+2024-12-23 08:51:53.820371: 10.102.5.10 kết nối thành công
+2024-12-23 08:51:53.820371: 10.102.5.12 kết nối thành công
+2024-12-23 08:51:54.083112: 10.102.4.60 kết nối thành công
+2024-12-23 08:51:54.875456: 10.102.5.14 kết nối thành công
+2024-12-23 08:51:55.120505: 10.102.4.252 kết nối thành công
+2024-12-23 08:51:55.120505: 10.102.5.13 kết nối thành công
+2024-12-23 08:51:55.270483: 10.102.5.18 kết nối thành công
+2024-12-23 08:51:55.556173: 10.102.4.55 kết nối thành công
+2024-12-23 08:51:56.211934: 10.102.4.56 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:51:56.370503: 10.102.5.16 kết nối thành công
+2024-12-23 08:51:56.393800: 10.102.5.15 kết nối thành công
+2024-12-23 08:51:56.440481: 10.102.4.248 kết nối thành công
+2024-12-23 08:51:56.585923: 10.102.4.57 kết nối thành công
+2024-12-23 08:51:57.081694: 10.102.4.58 kết nối thành công
+2024-12-23 08:53:37.109541: 10.102.4.244 kết nối thành công
+2024-12-23 08:53:37.281542: 10.102.5.44 kết nối thành công
+2024-12-23 08:53:37.476543: 10.102.5.43 kết nối thành công
+2024-12-23 08:53:37.780542: 10.102.4.243 kết nối thành công
+2024-12-23 08:53:37.797544: 10.102.5.42 kết nối thành công
+2024-12-23 08:53:37.798544: 10.102.5.45 kết nối thành công
+2024-12-23 08:53:38.446540: 10.102.4.249 kết nối thành công
+2024-12-23 08:53:38.705543: 10.102.5.25 kết nối thành công
+2024-12-23 08:53:38.846546: 10.102.5.26 kết nối thành công
+2024-12-23 08:53:39.382541: 10.102.4.81 kết nối thành công
+2024-12-23 08:53:39.402543: 10.102.4.83 kết nối thành công
+2024-12-23 08:53:39.590543: 10.102.4.189 kết nối thành công
+2024-12-23 08:53:39.810546: 10.102.5.27 kết nối thành công
+2024-12-23 08:53:40.012542: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:53:40.213540: 10.102.5.24 kết nối thành công
+2024-12-23 08:53:40.818541: 10.102.5.23 kết nối thành công
+2024-12-23 08:53:41.008544: 10.102.5.20 kết nối thành công
+2024-12-23 08:53:41.012543: 10.102.5.19 kết nối thành công
+2024-12-23 08:53:41.183544: 10.102.4.79 kết nối thành công
+2024-12-23 08:53:41.371540: 10.102.5.22 kết nối thành công
+2024-12-23 08:53:41.552543: 10.102.5.33 kết nối thành công
+2024-12-23 08:53:42.300767: 10.102.5.28 kết nối thành công
+2024-12-23 08:53:42.340816: 10.102.5.29 kết nối thành công
+2024-12-23 08:53:42.499642: 10.102.5.34 kết nối thành công
+2024-12-23 08:53:42.600757: 10.102.5.31 kết nối thành công
+2024-12-23 08:53:42.801273: 10.102.5.32 kết nối thành công
+2024-12-23 08:53:42.883988: 10.102.5.30 kết nối thành công
+2024-12-23 08:53:43.705712: 10.102.5.46 kết nối thành công
+2024-12-23 08:53:43.734748: 10.102.5.47 kết nối thành công
+2024-12-23 08:53:43.900773: 10.102.5.48 kết nối thành công
+2024-12-23 08:53:43.992335: 10.102.5.49 kết nối thành công
+2024-12-23 08:53:44.083326: 10.102.4.231 kết nối thành công
+2024-12-23 08:53:44.346474: 10.102.5.37 kết nối thành công
+2024-12-23 08:53:45.200347: 10.102.4.240 kết nối thành công
+2024-12-23 08:53:45.200347: 10.102.4.238 kết nối thành công
+2024-12-23 08:53:45.250814: 10.102.4.234 kết nối thành công
+2024-12-23 08:53:45.385350: 10.102.4.233 kết nối thành công
+2024-12-23 08:53:45.407841: 10.102.4.241 kết nối thành công
+2024-12-23 08:53:45.603311: 10.102.4.235 kết nối thành công
+2024-12-23 08:53:46.443601: 10.102.4.237 kết nối thành công
+2024-12-23 08:53:46.780628: 10.102.5.41 kết nối thành công
+2024-12-23 08:53:46.800798: 10.102.4.232 kết nối thành công
+2024-12-23 08:53:46.800798: 10.102.5.39 kết nối thành công
+2024-12-23 08:53:46.883248: 10.102.4.214 kết nối thành công
+2024-12-23 08:53:46.932758: 10.102.5.36 kết nối thành công
+2024-12-23 08:53:47.713646: 10.102.4.71 kết nối thành công
+2024-12-23 08:53:48.145864: 10.102.5.35 kết nối thành công
+2024-12-23 08:53:48.199408: 10.102.4.236 kết nối thành công
+2024-12-23 08:53:48.300778: 10.102.4.239 kết nối thành công
+2024-12-23 08:53:48.300778: 10.102.5.38 kết nối thành công
+2024-12-23 08:53:48.540634: 10.102.5.40 kết nối thành công
+2024-12-23 08:53:48.898739: 10.102.4.61 kết nối thành công
+2024-12-23 08:53:49.346750: 10.102.4.109 kết nối thành công
+2024-12-23 08:53:49.546447: 10.102.4.107 kết nối thành công
+2024-12-23 08:53:49.645386: 10.102.4.62 kết nối thành công
+2024-12-23 08:53:49.784712: 10.102.5.11 kết nối thành công
+2024-12-23 08:53:49.960577: 10.102.5.12 kết nối thành công
+2024-12-23 08:53:50.550629: 10.102.5.10 kết nối thành công
+2024-12-23 08:53:50.613301: 10.102.4.60 kết nối thành công
+2024-12-23 08:53:51.295526: 10.102.5.14 kết nối thành công
+2024-12-23 08:53:51.314194: 10.102.5.18 kết nối thành công
+2024-12-23 08:53:51.435571: 10.102.4.21 kết nối thành công
+2024-12-23 08:53:51.770507: 10.102.4.252 kết nối thành công
+2024-12-23 08:53:51.905014: 10.102.5.13 kết nối thành công
+2024-12-23 08:53:52.233438: 10.102.4.55 kết nối thành công
+2024-12-23 08:53:52.541637: 10.102.4.248 kết nối thành công
+2024-12-23 08:53:52.644816: 10.102.5.16 kết nối thành công
+2024-12-23 08:53:52.836642: 10.102.4.56 kết nối thành công
+2024-12-23 08:53:53.182534: 10.102.5.15 kết nối thành công
+2024-12-23 08:53:53.496928: 10.102.4.58 kết nối thành công
+2024-12-23 08:53:53.496928: 10.102.4.57 kết nối thành công
+2024-12-23 08:54:14.439662: 10.102.4.244 kết nối thành công
+2024-12-23 08:54:14.495668: 10.102.5.44 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:54:14.562674: 10.102.5.43 kết nối thành công
+2024-12-23 08:54:14.583675: 10.102.4.243 kết nối thành công
+2024-12-23 08:54:14.589664: 10.102.5.42 kết nối thành công
+2024-12-23 08:54:14.618665: 10.102.5.45 kết nối thành công
+2024-12-23 08:54:16.240673: 10.102.4.249 kết nối thành công
+2024-12-23 08:54:16.301673: 10.102.4.83 kết nối thành công
+2024-12-23 08:54:16.331674: 10.102.4.81 kết nối thành công
+2024-12-23 08:54:16.434671: 10.102.5.25 kết nối thành công
+2024-12-23 08:54:16.473676: 10.102.5.26 kết nối thành công
+2024-12-23 08:54:16.530675: 10.102.4.189 kết nối thành công
+2024-12-23 08:54:17.485673: 10.102.5.27 kết nối thành công
+2024-12-23 08:54:17.561672: 10.102.5.21 kết nối thành công
+2024-12-23 08:54:17.604675: 10.102.5.24 kết nối thành công
+2024-12-23 08:54:17.624672: 10.102.5.19 kết nối thành công
+2024-12-23 08:54:17.762673: 10.102.5.23 kết nối thành công
+2024-12-23 08:54:17.762673: 10.102.5.20 kết nối thành công
+2024-12-23 08:54:18.743672: 10.102.4.79 kết nối thành công
+2024-12-23 08:54:18.884674: 10.102.5.29 kết nối thành công
+2024-12-23 08:54:18.909672: 10.102.5.22 kết nối thành công
+2024-12-23 08:54:18.934673: 10.102.5.33 kết nối thành công
+2024-12-23 08:54:18.977675: 10.102.5.28 kết nối thành công
+2024-12-23 08:54:18.992673: 10.102.5.34 kết nối thành công
+2024-12-23 08:54:20.115500: 10.102.5.31 kết nối thành công
+2024-12-23 08:54:20.188077: 10.102.5.46 kết nối thành công
+2024-12-23 08:54:20.246651: 10.102.5.32 kết nối thành công
+2024-12-23 08:54:20.246651: 10.102.5.47 kết nối thành công
+2024-12-23 08:54:20.271637: 10.102.5.48 kết nối thành công
+2024-12-23 08:54:20.298920: 10.102.5.30 kết nối thành công
+2024-12-23 08:54:21.292321: 10.102.5.49 kết nối thành công
+2024-12-23 08:54:21.426328: 10.102.4.231 kết nối thành công
+2024-12-23 08:54:21.465004: 10.102.4.238 kết nối thành công
+2024-12-23 08:54:21.465004: 10.102.4.233 kết nối thành công
+2024-12-23 08:54:21.517503: 10.102.4.240 kết nối thành công
+2024-12-23 08:54:21.518482: 10.102.5.37 kết nối thành công
+2024-12-23 08:54:22.481104: 10.102.4.234 kết nối thành công
+2024-12-23 08:54:22.553301: 10.102.4.235 kết nối thành công
+2024-12-23 08:54:22.571464: 10.102.4.237 kết nối thành công
+2024-12-23 08:54:22.591727: 10.102.4.241 kết nối thành công
+2024-12-23 08:54:22.760801: 10.102.5.41 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:54:22.843106: 10.102.5.39 kết nối thành công
+2024-12-23 08:54:23.705568: 10.102.4.232 kết nối thành công
+2024-12-23 08:54:23.752418: 10.102.4.71 kết nối thành công
+2024-12-23 08:54:23.752418: 10.102.5.36 kết nối thành công
+2024-12-23 08:54:23.775418: 10.102.4.214 kết nối thành công
+2024-12-23 08:54:23.883341: 10.102.4.239 kết nối thành công
+2024-12-23 08:54:24.075229: 10.102.5.40 kết nối thành công
+2024-12-23 08:54:24.965377: 10.102.4.236 kết nối thành công
+2024-12-23 08:54:24.965377: 10.102.5.35 kết nối thành công
+2024-12-23 08:54:24.995598: 10.102.4.61 kết nối thành công
+2024-12-23 08:54:25.015583: 10.102.5.38 kết nối thành công
+2024-12-23 08:54:25.042734: 10.102.4.109 kết nối thành công
+2024-12-23 08:54:25.235558: 10.102.4.107 kết nối thành công
+2024-12-23 08:54:26.115583: 10.102.4.60 kết nối thành công
+2024-12-23 08:54:26.145561: 10.102.4.62 kết nối thành công
+2024-12-23 08:54:26.158508: 10.102.5.11 kết nối thành công
+2024-12-23 08:54:26.176452: 10.102.5.12 kết nối thành công
+2024-12-23 08:54:26.225568: 10.102.5.10 kết nối thành công
+2024-12-23 08:54:27.315939: 10.102.4.252 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:54:27.368847: 10.102.4.21 kết nối thành công
+2024-12-23 08:54:27.395772: 10.102.5.14 kết nối thành công
+2024-12-23 08:54:27.436976: 10.102.4.55 kết nối thành công
+2024-12-23 08:54:27.540639: 10.102.5.13 kết nối thành công
+2024-12-23 08:54:27.540639: 10.102.5.18 kết nối thành công
+2024-12-23 08:54:28.530413: 10.102.5.16 kết nối thành công
+2024-12-23 08:54:28.540468: 10.102.4.56 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:54:28.605335: 10.102.4.248 kết nối thành công
+2024-12-23 08:54:28.730376: 10.102.5.15 kết nối thành công
+2024-12-23 08:54:28.791222: 10.102.4.58 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:54:28.856206: 10.102.4.57 kết nối thành công
+2024-12-23 08:55:02.314758: 10.102.4.244 kết nối thành công
+2024-12-23 08:55:02.487786: 10.102.5.44 kết nối thành công
+2024-12-23 08:55:02.677787: 10.102.5.43 kết nối thành công
+2024-12-23 08:55:02.751789: 10.102.5.45 kết nối thành công
+2024-12-23 08:55:02.794786: 10.102.4.243 kết nối thành công
+2024-12-23 08:55:03.640796: 10.102.4.249 kết nối thành công
+2024-12-23 08:55:03.934785: 10.102.5.25 kết nối thành công
+2024-12-23 08:55:03.980786: 10.102.4.83 kết nối thành công
+2024-12-23 08:55:04.040788: 10.102.4.81 kết nối thành công
+2024-12-23 08:55:04.088789: 10.102.4.189 kết nối thành công
+2024-12-23 08:55:04.338799: 10.102.5.26 kết nối thành công
+2024-12-23 08:55:04.972803: 10.102.5.27 kết nối thành công
+2024-12-23 08:55:05.188802: 10.102.5.24 kết nối thành công
+2024-12-23 08:55:05.191800: 10.102.5.21 kết nối thành công
+2024-12-23 08:55:05.299802: 10.102.5.19 kết nối thành công
+2024-12-23 08:55:05.351801: 10.102.5.23 kết nối thành công
+2024-12-23 08:55:05.838800: 10.102.5.20 kết nối thành công
+2024-12-23 08:55:06.437820: 10.102.4.79 kết nối thành công
+2024-12-23 08:55:06.484761: 10.102.5.22 kết nối thành công
+2024-12-23 08:55:06.641520: 10.102.5.33 kết nối thành công
+2024-12-23 08:55:06.786112: 10.102.5.34 kết nối thành công
+2024-12-23 08:55:06.786112: 10.102.5.29 kết nối thành công
+2024-12-23 08:55:07.181174: 10.102.5.28 kết nối thành công
+2024-12-23 08:55:07.615816: 10.102.5.31 kết nối thành công
+2024-12-23 08:55:07.744891: 10.102.5.32 kết nối thành công
+2024-12-23 08:55:07.850797: 10.102.5.30 kết nối thành công
+2024-12-23 08:55:07.937328: 10.102.5.46 kết nối thành công
+2024-12-23 08:55:07.990482: 10.102.5.47 kết nối thành công
+2024-12-23 08:55:08.598602: 10.102.5.48 kết nối thành công
+2024-12-23 08:55:08.835696: 10.102.5.49 kết nối thành công
+2024-12-23 08:55:08.955735: 10.102.4.231 kết nối thành công
+2024-12-23 08:55:09.003627: 10.102.5.37 kết nối thành công
+2024-12-23 08:55:09.105250: 10.102.4.238 kết nối thành công
+2024-12-23 08:55:09.300799: 10.102.4.240 kết nối thành công
+2024-12-23 08:55:09.715602: 10.102.4.233 kết nối thành công
+2024-12-23 08:55:10.015572: 10.102.4.241 kết nối thành công
+2024-12-23 08:55:10.102270: 10.102.4.235 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:10.171716: 10.102.4.234 kết nối thành công
+2024-12-23 08:55:10.221577: 10.102.4.237 kết nối thành công
+2024-12-23 08:55:10.510734: 10.102.5.39 kết nối thành công
+2024-12-23 08:55:10.975582: 10.102.5.41 kết nối thành công
+2024-12-23 08:55:11.259486: 10.102.4.214 kết nối thành công
+2024-12-23 08:55:11.259486: 10.102.4.232 kết nối thành công
+2024-12-23 08:55:11.353446: 10.102.4.71 kết nối thành công
+2024-12-23 08:55:11.355449: 10.102.5.36 kết nối thành công
+2024-12-23 08:55:11.710752: 10.102.5.40 kết nối thành công
+2024-12-23 08:55:12.230417: 10.102.4.239 kết nối thành công
+2024-12-23 08:55:12.360665: 10.102.4.236 kết nối thành công
+2024-12-23 08:55:12.455394: 10.102.5.35 kết nối thành công
+2024-12-23 08:55:12.560510: 10.102.4.61 kết nối thành công
+2024-12-23 08:55:12.634896: 10.102.5.38 kết nối thành công
+2024-12-23 08:55:12.790544: 10.102.4.109 kết nối thành công
+2024-12-23 08:55:13.329362: 10.102.4.107 kết nối thành công
+2024-12-23 08:55:13.438846: 10.102.4.62 kết nối thành công
+2024-12-23 08:55:13.671313: 10.102.5.11 kết nối thành công
+2024-12-23 08:55:13.700733: 10.102.5.10 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:13.755856: 10.102.5.12 kết nối thành công
+2024-12-23 08:55:13.994909: 10.102.4.60 kết nối thành công
+2024-12-23 08:55:14.797950: 10.102.5.14 kết nối thành công
+2024-12-23 08:55:15.076902: 10.102.4.21 kết nối thành công
+2024-12-23 08:55:15.185539: 10.102.5.18 kết nối thành công
+2024-12-23 08:55:15.352646: 10.102.5.13 kết nối thành công
+2024-12-23 08:55:15.586233: 10.102.4.55 kết nối thành công
+2024-12-23 08:55:15.685035: 10.102.4.252 kết nối thành công
+2024-12-23 08:55:16.132880: 10.102.5.16 kết nối thành công
+2024-12-23 08:55:16.326839: 10.102.4.248 kết nối thành công
+2024-12-23 08:55:16.435789: 10.102.4.56 kết nối thành công
+2024-12-23 08:55:16.571827: 10.102.5.15 kết nối thành công
+2024-12-23 08:55:16.826585: 10.102.4.58 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:16.950590: 10.102.4.57 kết nối thành công
+2024-12-23 08:55:39.644415: 10.102.4.244 kết nối thành công
+2024-12-23 08:55:39.687415: 10.102.5.43 kết nối thành công
+2024-12-23 08:55:39.816415: 10.102.5.45 kết nối thành công
+2024-12-23 08:55:39.890415: 10.102.4.243 kết nối thành công
+2024-12-23 08:55:39.895415: 10.102.5.44 kết nối thành công
+2024-12-23 08:55:39.932415: 10.102.5.42 kết nối thành công
+2024-12-23 08:55:41.384382: 10.102.4.249 kết nối thành công
+2024-12-23 08:55:41.477381: 10.102.4.81 kết nối thành công
+2024-12-23 08:55:41.478385: 10.102.4.83 kết nối thành công
+2024-12-23 08:55:41.540381: 10.102.5.25 kết nối thành công
+2024-12-23 08:55:41.649384: 10.102.4.189 kết nối thành công
+2024-12-23 08:55:41.837381: 10.102.5.26 kết nối thành công
+2024-12-23 08:55:42.578378: 10.102.5.27 kết nối thành công
+2024-12-23 08:55:42.681381: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:42.737380: 10.102.5.24 kết nối thành công
+2024-12-23 08:55:42.820380: 10.102.5.23 kết nối thành công
+2024-12-23 08:55:43.022381: 10.102.5.20 kết nối thành công
+2024-12-23 08:55:43.075385: 10.102.5.19 kết nối thành công
+2024-12-23 08:55:43.713413: 10.102.4.79 kết nối thành công
+2024-12-23 08:55:43.979412: 10.102.5.22 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:44.031684: 10.102.5.33 kết nối thành công
+2024-12-23 08:55:44.081220: 10.102.5.29 kết nối thành công
+2024-12-23 08:55:44.395675: 10.102.5.28 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:44.492786: 10.102.5.34 kết nối thành công
+2024-12-23 08:55:45.135746: 10.102.5.31 kết nối thành công
+2024-12-23 08:55:45.216177: 10.102.5.32 kết nối thành công
+2024-12-23 08:55:45.287716: 10.102.5.46 kết nối thành công
+2024-12-23 08:55:45.294117: 10.102.5.30 kết nối thành công
+2024-12-23 08:55:48.516887: 10.102.4.244 kết nối thành công
+2024-12-23 08:55:48.776885: 10.102.5.44 kết nối thành công
+2024-12-23 08:55:48.908888: 10.102.5.42 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:49.075887: 10.102.4.243 kết nối thành công
+2024-12-23 08:55:49.095888: 10.102.5.43 kết nối thành công
+2024-12-23 08:55:49.200888: 10.102.5.45 kết nối thành công
+2024-12-23 08:55:49.978888: 10.102.4.249 kết nối thành công
+2024-12-23 08:55:50.135888: 10.102.5.25 kết nối thành công
+2024-12-23 08:55:50.155888: 10.102.4.81 kết nối thành công
+2024-12-23 08:55:50.213885: 10.102.5.26 kết nối thành công
+2024-12-23 08:55:50.274889: 10.102.4.83 kết nối thành công
+2024-12-23 08:55:50.524889: 10.102.4.189 kết nối thành công
+2024-12-23 08:55:51.188069: 10.102.5.27 kết nối thành công
+2024-12-23 08:55:51.289587: 10.102.5.24 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:51.341588: 10.102.5.21 kết nối thành công
+2024-12-23 08:55:51.417580: 10.102.5.19 kết nối thành công
+2024-12-23 08:55:51.482584: 10.102.5.23 kết nối thành công
+2024-12-23 08:55:51.661580: 10.102.5.20 kết nối thành công
+2024-12-23 08:55:52.336900: 10.102.4.79 kết nối thành công
+2024-12-23 08:55:52.483901: 10.102.5.22 kết nối thành công
+2024-12-23 08:55:52.586903: 10.102.5.33 kết nối thành công
+2024-12-23 08:55:52.711903: 10.102.5.29 kết nối thành công
+2024-12-23 08:55:52.849906: 10.102.5.34 kết nối thành công
+2024-12-23 08:55:52.908900: 10.102.5.28 kết nối thành công
+2024-12-23 08:55:53.530429: 10.102.5.31 kết nối thành công
+2024-12-23 08:55:53.740625: 10.102.5.32 kết nối thành công
+2024-12-23 08:55:53.806316: 10.102.5.46 kết nối thành công
+2024-12-23 08:55:53.894680: 10.102.5.30 kết nối thành công
+2024-12-23 08:55:54.025552: 10.102.5.47 kết nối thành công
+2024-12-23 08:55:54.035201: 10.102.5.48 kết nối thành công
+2024-12-23 08:55:54.644388: 10.102.5.49 kết nối thành công
+2024-12-23 08:55:54.956498: 10.102.5.37 kết nối thành công
+2024-12-23 08:55:54.966614: 10.102.4.231 kết nối thành công
+2024-12-23 08:55:55.108355: 10.102.4.240 kết nối thành công
+2024-12-23 08:55:55.160961: 10.102.4.238 kết nối thành công
+2024-12-23 08:55:55.181444: 10.102.4.233 kết nối thành công
+2024-12-23 08:55:56.090745: 10.102.4.234 kết nối thành công
+2024-12-23 08:55:56.256579: 10.102.4.241 kết nối thành công
+2024-12-23 08:55:56.304845: 10.102.4.235 kết nối thành công
+2024-12-23 08:55:56.450744: 10.102.5.41 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:56.528143: 10.102.5.39 kết nối thành công
+2024-12-23 08:55:57.357184: 10.102.4.232 kết nối thành công
+2024-12-23 08:55:57.370327: 10.102.5.36 kết nối thành công
+2024-12-23 08:55:57.413688: 10.102.4.214 kết nối thành công
+2024-12-23 08:55:57.435106: 10.102.4.71 kết nối thành công
+2024-12-23 08:55:57.664719: 10.102.4.239 kết nối thành công
+2024-12-23 08:55:57.738234: 10.102.5.40 kết nối thành công
+2024-12-23 08:55:58.606065: 10.102.4.61 kết nối thành công
+2024-12-23 08:55:58.655705: 10.102.4.236 kết nối thành công
+2024-12-23 08:55:58.689296: 10.102.4.109 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:58.692194: 10.102.5.38 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:55:58.755386: 10.102.5.35 kết nối thành công
+2024-12-23 08:55:58.839831: 10.102.4.107 kết nối thành công
+2024-12-23 08:55:59.685397: 10.102.4.62 kết nối thành công
+2024-12-23 08:55:59.860974: 10.102.5.11 kết nối thành công
+2024-12-23 08:55:59.877187: 10.102.5.12 kết nối thành công
+2024-12-23 08:55:59.877187: 10.102.5.10 kết nối thành công
+2024-12-23 08:55:59.926227: 10.102.4.60 kết nối thành công
+2024-12-23 08:56:00.944459: 10.102.5.14 kết nối thành công
+2024-12-23 08:56:00.967713: 10.102.4.252 kết nối thành công
+2024-12-23 08:56:01.051833: 10.102.4.21 kết nối thành công
+2024-12-23 08:56:01.154536: 10.102.4.55 kết nối thành công
+2024-12-23 08:56:01.223523: 10.102.5.13 kết nối thành công
+2024-12-23 08:56:01.225527: 10.102.5.18 kết nối thành công
+2024-12-23 08:56:02.087782: 10.102.4.248 kết nối thành công
+2024-12-23 08:56:02.140725: 10.102.4.56 kết nối thành công
+2024-12-23 08:56:02.175386: 10.102.5.16 kết nối thành công
+2024-12-23 08:56:02.342920: 10.102.5.15 kết nối thành công
+2024-12-23 08:56:02.358205: 10.102.4.57 kết nối thành công
+2024-12-23 08:56:02.376776: 10.102.4.58 kết nối thành công
+2024-12-23 08:56:31.675763: 10.102.4.244 kết nối thành công
+2024-12-23 08:56:31.684764: 10.102.5.44 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:31.684764: 10.102.5.45 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:31.750757: 10.102.4.243 kết nối thành công
+2024-12-23 08:56:31.752762: 10.102.5.43 kết nối thành công
+2024-12-23 08:56:31.779759: 10.102.5.42 kết nối thành công
+2024-12-23 08:56:32.808389: 10.102.4.249 kết nối thành công
+2024-12-23 08:56:32.939909: 10.102.4.83 kết nối thành công
+2024-12-23 08:56:32.975919: 10.102.4.81 kết nối thành công
+2024-12-23 08:56:32.992945: 10.102.5.25 kết nối thành công
+2024-12-23 08:56:33.003912: 10.102.4.189 kết nối thành công
+2024-12-23 08:56:33.129908: 10.102.5.26 kết nối thành công
+2024-12-23 08:56:34.066909: 10.102.5.27 kết nối thành công
+2024-12-23 08:56:34.219912: 10.102.5.21 kết nối thành công
+2024-12-23 08:56:34.235911: 10.102.5.24 kết nối thành công
+2024-12-23 08:56:34.395912: 10.102.5.20 kết nối thành công
+2024-12-23 08:56:34.395912: 10.102.5.23 kết nối thành công
+2024-12-23 08:56:34.395912: 10.102.5.19 kết nối thành công
+2024-12-23 08:56:35.246910: 10.102.4.79 kết nối thành công
+2024-12-23 08:56:35.477910: 10.102.5.22 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:35.536910: 10.102.5.33 kết nối thành công
+2024-12-23 08:56:35.753909: 10.102.5.28 kết nối thành công
+2024-12-23 08:56:35.814912: 10.102.5.29 kết nối thành công
+2024-12-23 08:56:35.885910: 10.102.5.34 kết nối thành công
+2024-12-23 08:56:36.594153: 10.102.5.31 kết nối thành công
+2024-12-23 08:56:36.745061: 10.102.5.32 kết nối thành công
+2024-12-23 08:56:36.807724: 10.102.5.30 kết nối thành công
+2024-12-23 08:56:36.910759: 10.102.5.46 kết nối thành công
+2024-12-23 08:56:37.105422: 10.102.5.47 kết nối thành công
+2024-12-23 08:56:37.251061: 10.102.5.48 kết nối thành công
+2024-12-23 08:56:37.805659: 10.102.5.49 kết nối thành công
+2024-12-23 08:56:37.910822: 10.102.4.231 kết nối thành công
+2024-12-23 08:56:38.195705: 10.102.5.37 kết nối thành công
+2024-12-23 08:56:38.315572: 10.102.4.238 kết nối thành công
+2024-12-23 08:56:38.378815: 10.102.4.240 kết nối thành công
+2024-12-23 08:56:38.510982: 10.102.4.233 kết nối thành công
+2024-12-23 08:56:38.902114: 10.102.4.234 kết nối thành công
+2024-12-23 08:56:39.150790: 10.102.4.241 kết nối thành công
+2024-12-23 08:56:39.720747: 10.102.4.237 kết nối thành công
+2024-12-23 08:56:39.884434: 10.102.4.235 kết nối thành công
+2024-12-23 08:56:40.000482: 10.102.5.39 kết nối thành công
+2024-12-23 08:56:40.210777: 10.102.5.41 kết nối thành công
+2024-12-23 08:56:40.273201: 10.102.4.232 kết nối thành công
+2024-12-23 08:56:40.400597: 10.102.5.36 kết nối thành công
+2024-12-23 08:56:40.985637: 10.102.4.71 kết nối thành công
+2024-12-23 08:56:41.083359: 10.102.4.214 kết nối thành công
+2024-12-23 08:56:41.290806: 10.102.5.40 kết nối thành công
+2024-12-23 08:56:41.411048: 10.102.4.239 kết nối thành công
+2024-12-23 08:56:41.575659: 10.102.4.236 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:41.640550: 10.102.5.35 kết nối thành công
+2024-12-23 08:56:42.210841: 10.102.4.61 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:42.400759: 10.102.5.38 kết nối thành công
+2024-12-23 08:56:42.522551: 10.102.4.109 kết nối thành công
+2024-12-23 08:56:42.820975: 10.102.4.107 kết nối thành công
+2024-12-23 08:56:42.988984: 10.102.5.11 kết nối thành công
+2024-12-23 08:56:43.085874: 10.102.4.62 kết nối thành công
+2024-12-23 08:56:43.450826: 10.102.5.12 kết nối thành công
+2024-12-23 08:56:43.707776: 10.102.4.60 kết nối thành công
+2024-12-23 08:56:43.755801: 10.102.5.10 kết nối thành công
+2024-12-23 08:56:44.140666: 10.102.5.14 kết nối thành công
+2024-12-23 08:56:44.280786: 10.102.5.18 kết nối thành công
+2024-12-23 08:56:44.895850: 10.102.4.21 kết nối thành công
+2024-12-23 08:56:45.071015: 10.102.4.252 kết nối thành công
+2024-12-23 08:56:45.088792: 10.102.4.55 kết nối thành công
+2024-12-23 08:56:45.240431: 10.102.5.13 kết nối thành công
+2024-12-23 08:56:45.400674: 10.102.5.16 kết nối thành công
+2024-12-23 08:56:45.585693: 10.102.4.248 kết nối thành công
+2024-12-23 08:56:46.180886: 10.102.4.56 kết nối thành công
+2024-12-23 08:56:46.290627: 10.102.4.57 kết nối thành công
+2024-12-23 08:56:46.319048: 10.102.4.58 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:56:46.375861: 10.102.5.15 kết nối thành công
+2024-12-23 08:57:37.229666: 10.102.5.44 kết nối thành công
+2024-12-23 08:57:37.308667: 10.102.4.244 kết nối thành công
+2024-12-23 08:57:37.342666: 10.102.5.42 kết nối thành công
+2024-12-23 08:57:37.345668: 10.102.5.43 kết nối thành công
+2024-12-23 08:57:37.348669: 10.102.4.243 kết nối thành công
+2024-12-23 08:57:37.416667: 10.102.5.45 kết nối thành công
+2024-12-23 08:57:38.508665: 10.102.4.249 kết nối thành công
+2024-12-23 08:57:38.620666: 10.102.4.83 kết nối thành công
+2024-12-23 08:57:38.622671: 10.102.5.25 kết nối thành công
+2024-12-23 08:57:38.803664: 10.102.4.189 kết nối thành công
+2024-12-23 08:57:38.823667: 10.102.4.81 kết nối thành công
+2024-12-23 08:57:38.908666: 10.102.5.26 kết nối thành công
+2024-12-23 08:57:39.907664: 10.102.5.24 kết nối thành công
+2024-12-23 08:57:39.907664: 10.102.5.27 kết nối thành công
+2024-12-23 08:57:40.029663: 10.102.5.19 kết nối thành công
+2024-12-23 08:57:40.031666: 10.102.5.21 kết nối thành công
+2024-12-23 08:57:40.292664: 10.102.5.23 kết nối thành công
+2024-12-23 08:57:40.292664: 10.102.5.20 kết nối thành công
+2024-12-23 08:57:41.038665: 10.102.4.79 kết nối thành công
+2024-12-23 08:57:41.120666: 10.102.5.22 kết nối thành công
+2024-12-23 08:57:41.272664: 10.102.5.33 kết nối thành công
+2024-12-23 08:57:41.302672: 10.102.5.29 kết nối thành công
+2024-12-23 08:57:41.597664: 10.102.5.28 kết nối thành công
+2024-12-23 08:57:41.659663: 10.102.5.34 kết nối thành công
+2024-12-23 08:57:42.280837: 10.102.5.31 kết nối thành công
+2024-12-23 08:57:42.385505: 10.102.5.46 kết nối thành công
+2024-12-23 08:57:42.410851: 10.102.5.32 kết nối thành công
+2024-12-23 08:57:42.580913: 10.102.5.30 kết nối thành công
+2024-12-23 08:57:42.875499: 10.102.5.47 kết nối thành công
+2024-12-23 08:57:43.010666: 10.102.5.48 kết nối thành công
+2024-12-23 08:57:43.410635: 10.102.5.49 kết nối thành công
+2024-12-23 08:57:43.544915: 10.102.4.231 kết nối thành công
+2024-12-23 08:57:43.721041: 10.102.4.240 kết nối thành công
+2024-12-23 08:57:43.721041: 10.102.5.37 kết nối thành công
+2024-12-23 08:57:44.170959: 10.102.4.238 kết nối thành công
+2024-12-23 08:57:44.327874: 10.102.4.233 kết nối thành công
+2024-12-23 08:57:44.460996: 10.102.4.234 kết nối thành công
+2024-12-23 08:57:44.655855: 10.102.4.241 kết nối thành công
+2024-12-23 08:57:44.809325: 10.102.4.237 kết nối thành công
+2024-12-23 08:57:44.838329: 10.102.4.235 kết nối thành công
+2024-12-23 08:57:45.490558: 10.102.5.39 kết nối thành công
+2024-12-23 08:57:45.584648: 10.102.5.41 kết nối thành công
+2024-12-23 08:57:45.710733: 10.102.5.36 kết nối thành công
+2024-12-23 08:57:45.820973: 10.102.4.232 kết nối thành công
+2024-12-23 08:57:45.870575: 10.102.4.71 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:57:45.920585: 10.102.4.214 kết nối thành công
+2024-12-23 08:57:46.685649: 10.102.5.40 kết nối thành công
+2024-12-23 08:57:46.715081: 10.102.4.239 kết nối thành công
+2024-12-23 08:57:46.990700: 10.102.5.35 kết nối thành công
+2024-12-23 08:57:47.042369: 10.102.4.236 kết nối thành công
+2024-12-23 08:57:47.058430: 10.102.4.61 kết nối thành công
+2024-12-23 08:57:47.073934: 10.102.5.38 kết nối thành công
+2024-12-23 08:57:47.844791: 10.102.4.109 kết nối thành công
+2024-12-23 08:57:47.866418: 10.102.4.107 kết nối thành công
+2024-12-23 08:57:48.150853: 10.102.4.62 kết nối thành công
+2024-12-23 08:57:48.236457: 10.102.5.10 kết nối thành công
+2024-12-23 08:57:48.272096: 10.102.5.11 kết nối thành công
+2024-12-23 08:57:48.366462: 10.102.5.12 kết nối thành công
+2024-12-23 08:57:49.059679: 10.102.4.60 kết nối thành công
+2024-12-23 08:57:49.360675: 10.102.4.21 kết nối thành công
+2024-12-23 08:57:49.360675: 10.102.5.14 kết nối thành công
+2024-12-23 08:57:49.454562: 10.102.5.18 kết nối thành công
+2024-12-23 08:57:49.565923: 10.102.5.13 kết nối thành công
+2024-12-23 08:57:50.170797: 10.102.4.55 kết nối thành công
+2024-12-23 08:57:50.190644: 10.102.4.252 kết nối thành công
+2024-12-23 08:57:50.493520: 10.102.4.56 kết nối thành công
+2024-12-23 08:57:50.493520: 10.102.4.248 kết nối thành công
+2024-12-23 08:57:50.648314: 10.102.5.16 kết nối thành công
+2024-12-23 08:57:50.811887: 10.102.5.15 kết nối thành công
+2024-12-23 08:57:51.413306: 10.102.4.57 kết nối thành công
+2024-12-23 08:57:51.413306: 10.102.4.58 kết nối thành công
+2024-12-23 08:59:46.123263: 10.102.4.244 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:59:46.182937: 10.102.5.42 kết nối thành công
+2024-12-23 08:59:46.201939: 10.102.5.44 kết nối thành công
+2024-12-23 08:59:46.248939: 10.102.4.243 kết nối thành công
+2024-12-23 08:59:46.279943: 10.102.5.45 kết nối thành công
+2024-12-23 08:59:46.325939: 10.102.5.43 kết nối thành công
+2024-12-23 08:59:47.251429: 10.102.4.249 kết nối thành công
+2024-12-23 08:59:47.422429: 10.102.4.83 kết nối thành công
+2024-12-23 08:59:47.468428: 10.102.4.81 kết nối thành công
+2024-12-23 08:59:47.469427: 10.102.5.25 kết nối thành công
+2024-12-23 08:59:47.503428: 10.102.4.189 kết nối thành công
+2024-12-23 08:59:47.503428: 10.102.5.26 kết nối thành công
+2024-12-23 08:59:48.503429: 10.102.5.27 kết nối thành công
+2024-12-23 08:59:48.673427: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:59:48.737428: 10.102.5.23 kết nối thành công
+2024-12-23 08:59:48.737428: 10.102.5.24 kết nối thành công
+2024-12-23 08:59:48.750428: 10.102.5.19 kết nối thành công
+2024-12-23 08:59:48.750428: 10.102.5.20 kết nối thành công
+2024-12-23 08:59:49.606428: 10.102.4.79 kết nối thành công
+2024-12-23 08:59:50.166428: 10.102.5.29 kết nối thành công
+2024-12-23 08:59:50.186429: 10.102.5.28 kết nối thành công
+2024-12-23 08:59:50.221435: 10.102.5.22 kết nối thành công
+2024-12-23 08:59:50.246435: 10.102.5.34 kết nối thành công
+2024-12-23 08:59:50.940963: 10.102.5.31 kết nối thành công
+2024-12-23 08:59:51.405834: 10.102.5.48 kết nối thành công
+2024-12-23 08:59:51.466197: 10.102.5.47 kết nối thành công
+2024-12-23 08:59:51.492807: 10.102.5.46 kết nối thành công
+2024-12-23 08:59:51.497185: 10.102.5.32 kết nối thành công
+2024-12-23 08:59:51.628463: 10.102.5.30 kết nối thành công
+2024-12-23 08:59:52.134004: 10.102.5.49 kết nối thành công
+2024-12-23 08:59:52.685828: 10.102.4.238 kết nối thành công
+2024-12-23 08:59:52.685828: 10.102.5.37 kết nối thành công
+2024-12-23 08:59:52.720669: 10.102.4.231 kết nối thành công
+2024-12-23 08:59:52.786810: 10.102.4.233 kết nối thành công
+2024-12-23 08:59:52.808047: 10.102.4.240 kết nối thành công
+2024-12-23 08:59:53.220973: 10.102.4.234 kết nối thành công
+2024-12-23 08:59:53.841066: 10.102.4.241 kết nối thành công
+2024-12-23 08:59:53.861554: 10.102.4.235 kết nối thành công
+2024-12-23 08:59:53.910551: 10.102.4.237 kết nối thành công
+2024-12-23 08:59:54.040869: 10.102.5.41 kết nối thành công
+2024-12-23 08:59:54.126431: 10.102.5.39 kết nối thành công
+2024-12-23 08:59:54.610847: 10.102.5.36 kết nối thành công
+2024-12-23 08:59:54.910870: 10.102.4.214 kết nối thành công
+2024-12-23 08:59:54.945029: 10.102.4.232 kết nối thành công
+2024-12-23 08:59:55.042216: 10.102.4.71 kết nối thành công
+2024-12-23 08:59:55.213373: 10.102.5.40 kết nối thành công
+2024-12-23 08:59:55.287281: 10.102.4.239 kết nối thành công
+2024-12-23 08:59:55.840993: 10.102.5.35 kết nối thành công
+2024-12-23 08:59:56.055782: 10.102.4.236 kết nối thành công
+2024-12-23 08:59:56.127028: 10.102.4.61 kết nối thành công
+2024-12-23 08:59:56.180719: 10.102.5.38 kết nối thành công
+2024-12-23 08:59:56.255827: 10.102.4.109 kết nối thành công
+2024-12-23 08:59:56.375877: 10.102.4.107 kết nối thành công
+2024-12-23 08:59:56.981287: 10.102.4.62 kết nối thành công
+2024-12-23 08:59:57.251028: 10.102.5.12 kết nối thành công
+2024-12-23 08:59:57.251028: 10.102.5.11 kết nối thành công
+2024-12-23 08:59:57.335489: 10.102.5.10 kết nối thành công
+2024-12-23 08:59:57.521076: 10.102.4.60 kết nối thành công
+2024-12-23 08:59:58.385868: 10.102.4.21 kết nối thành công
+2024-12-23 08:59:58.546022: 10.102.5.18 kết nối thành công
+2024-12-23 08:59:58.584225: 10.102.5.13 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:59:58.674492: 10.102.4.252 kết nối thành công
+2024-12-23 08:59:58.726723: 10.102.4.55 kết nối thành công
+2024-12-23 08:59:59.634603: 10.102.5.16 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:59:59.634603: 10.102.4.248 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 08:59:59.694903: 10.102.4.56 kết nối thành công
+2024-12-23 08:59:59.811133: 10.102.4.57 kết nối thành công
+2024-12-23 08:59:59.857102: 10.102.5.15 kết nối thành công
+2024-12-23 09:00:00.735938: 10.102.4.58 kết nối thành công
+2024-12-23 09:00:03.145739: 10.102.5.14 kết nối thành công
+2024-12-23 09:01:26.175120: 10.102.4.244 kết nối thành công
+2024-12-23 09:01:26.206126: 10.102.5.44 kết nối thành công
+2024-12-23 09:01:26.384124: 10.102.5.42 kết nối thành công
+2024-12-23 09:01:26.487120: 10.102.5.43 kết nối thành công
+2024-12-23 09:01:26.487120: 10.102.5.45 kết nối thành công
+2024-12-23 09:01:26.568122: 10.102.4.243 kết nối thành công
+2024-12-23 09:01:27.321845: 10.102.4.249 kết nối thành công
+2024-12-23 09:01:27.416743: 10.102.5.25 kết nối thành công
+2024-12-23 09:01:27.541745: 10.102.4.83 kết nối thành công
+2024-12-23 09:01:27.634745: 10.102.4.81 kết nối thành công
+2024-12-23 09:01:27.656567: 10.102.5.26 kết nối thành công
+2024-12-23 09:01:27.684568: 10.102.4.189 kết nối thành công
+2024-12-23 09:01:28.529326: 10.102.5.27 kết nối thành công
+2024-12-23 09:01:28.583324: 10.102.5.24 kết nối thành công
+2024-12-23 09:01:28.753322: 10.102.5.21 kết nối thành công
+2024-12-23 09:01:28.813324: 10.102.5.23 kết nối thành công
+2024-12-23 09:01:28.831331: 10.102.5.19 kết nối thành công
+2024-12-23 09:01:29.575739: 10.102.4.79 kết nối thành công
+2024-12-23 09:01:29.837025: 10.102.5.22 kết nối thành công
+2024-12-23 09:01:29.962714: 10.102.5.33 kết nối thành công
+2024-12-23 09:01:30.101675: 10.102.5.34 kết nối thành công
+2024-12-23 09:01:30.825126: 10.102.5.28 kết nối thành công
+2024-12-23 09:01:31.010858: 10.102.5.31 kết nối thành công
+2024-12-23 09:01:31.153968: 10.102.5.32 kết nối thành công
+2024-12-23 09:01:31.370831: 10.102.5.30 kết nối thành công
+2024-12-23 09:01:31.934438: 10.102.5.46 kết nối thành công
+2024-12-23 09:01:32.141157: 10.102.5.47 kết nối thành công
+2024-12-23 09:01:32.326871: 10.102.5.48 kết nối thành công
+2024-12-23 09:01:32.534886: 10.102.5.49 kết nối thành công
+2024-12-23 09:01:33.186116: 10.102.5.37 kết nối thành công
+2024-12-23 09:01:33.220945: 10.102.4.231 kết nối thành công
+2024-12-23 09:01:33.500999: 10.102.4.240 kết nối thành công
+2024-12-23 09:01:33.578094: 10.102.4.238 kết nối thành công
+2024-12-23 09:01:33.840944: 10.102.5.20 kết nối thành công
+2024-12-23 09:01:34.250870: 10.102.4.233 kết nối thành công
+2024-12-23 09:01:34.310339: 10.102.4.234 kết nối thành công
+2024-12-23 09:01:34.580984: 10.102.4.241 kết nối thành công
+2024-12-23 09:01:34.661287: 10.102.4.235 kết nối thành công
+2024-12-23 09:01:34.950902: 10.102.4.237 kết nối thành công
+2024-12-23 09:01:35.060913: 10.102.5.29 kết nối thành công
+2024-12-23 09:01:35.481072: 10.102.5.39 kết nối thành công
+2024-12-23 09:01:35.591120: 10.102.5.41 kết nối thành công
+2024-12-23 09:01:35.743760: 10.102.4.232 kết nối thành công
+2024-12-23 09:01:35.863913: 10.102.5.36 kết nối thành công
+2024-12-23 09:01:36.080829: 10.102.4.214 kết nối thành công
+2024-12-23 09:01:36.180802: 10.102.4.71 kết nối thành công
+2024-12-23 09:01:36.706114: 10.102.5.40 kết nối thành công
+2024-12-23 09:01:36.725725: 10.102.4.239 kết nối thành công
+2024-12-23 09:01:36.990768: 10.102.5.35 kết nối thành công
+2024-12-23 09:01:37.025626: 10.102.4.236 kết nối thành công
+2024-12-23 09:01:37.255753: 10.102.4.61 kết nối thành công
+2024-12-23 09:01:37.255753: 10.102.5.38 kết nối thành công
+2024-12-23 09:01:37.805766: 10.102.4.107 kết nối thành công
+2024-12-23 09:01:37.860912: 10.102.4.109 kết nối thành công
+2024-12-23 09:01:38.115639: 10.102.4.62 kết nối thành công
+2024-12-23 09:01:38.161068: 10.102.5.11 kết nối thành công
+2024-12-23 09:01:38.385694: 10.102.5.12 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:01:38.442429: 10.102.5.10 kết nối thành công
+2024-12-23 09:01:38.985817: 10.102.4.60 kết nối thành công
+2024-12-23 09:01:39.291018: 10.102.5.18 kết nối thành công
+2024-12-23 09:01:39.312007: 10.102.5.14 kết nối thành công
+2024-12-23 09:01:39.488772: 10.102.4.21 kết nối thành công
+2024-12-23 09:01:39.670891: 10.102.5.13 kết nối thành công
+2024-12-23 09:01:40.036021: 10.102.4.252 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:01:40.093701: 10.102.4.55 kết nối thành công
+2024-12-23 09:01:40.445966: 10.102.4.248 kết nối thành công
+2024-12-23 09:01:40.540957: 10.102.5.16 kết nối thành công
+2024-12-23 09:01:40.592662: 10.102.4.56 kết nối thành công
+2024-12-23 09:01:40.915825: 10.102.5.15 kết nối thành công
+2024-12-23 09:01:41.205893: 10.102.4.57 kết nối thành công
+2024-12-23 09:01:41.366160: 10.102.4.58 kết nối thành công
+2024-12-23 09:03:52.365519: 10.102.4.244 kết nối thành công
+2024-12-23 09:03:52.474522: 10.102.5.43 kết nối thành công
+2024-12-23 09:03:52.506527: 10.102.5.42 kết nối thành công
+2024-12-23 09:03:52.522525: 10.102.4.243 kết nối thành công
+2024-12-23 09:03:52.561521: 10.102.5.45 kết nối thành công
+2024-12-23 09:03:52.567532: 10.102.5.44 kết nối thành công
+2024-12-23 09:03:53.531339: 10.102.4.249 kết nối thành công
+2024-12-23 09:03:53.691339: 10.102.4.83 kết nối thành công
+2024-12-23 09:03:53.743864: 10.102.5.25 kết nối thành công
+2024-12-23 09:03:53.801865: 10.102.4.81 kết nối thành công
+2024-12-23 09:03:53.822862: 10.102.4.189 kết nối thành công
+2024-12-23 09:03:53.856862: 10.102.5.26 kết nối thành công
+2024-12-23 09:03:54.957383: 10.102.5.24 kết nối thành công
+2024-12-23 09:03:55.057384: 10.102.5.21 kết nối thành công
+2024-12-23 09:03:55.176382: 10.102.5.20 kết nối thành công
+2024-12-23 09:03:55.197387: 10.102.5.23 kết nối thành công
+2024-12-23 09:03:55.198385: 10.102.5.19 kết nối thành công
+2024-12-23 09:03:56.060381: 10.102.4.79 kết nối thành công
+2024-12-23 09:03:56.326140: 10.102.5.22 kết nối thành công
+2024-12-23 09:03:56.436819: 10.102.5.29 kết nối thành công
+2024-12-23 09:03:56.463863: 10.102.5.33 kết nối thành công
+2024-12-23 09:03:56.475823: 10.102.5.34 kết nối thành công
+2024-12-23 09:03:57.280916: 10.102.5.28 kết nối thành công
+2024-12-23 09:03:57.500931: 10.102.5.31 kết nối thành công
+2024-12-23 09:03:57.615869: 10.102.5.46 kết nối thành công
+2024-12-23 09:03:57.765575: 10.102.5.32 kết nối thành công
+2024-12-23 09:03:57.813133: 10.102.5.30 kết nối thành công
+2024-12-23 09:03:58.496241: 10.102.5.47 kết nối thành công
+2024-12-23 09:03:58.696118: 10.102.5.48 kết nối thành công
+2024-12-23 09:03:58.980994: 10.102.5.49 kết nối thành công
+2024-12-23 09:03:59.078766: 10.102.4.231 kết nối thành công
+2024-12-23 09:03:59.080802: 10.102.5.37 kết nối thành công
+2024-12-23 09:03:59.756137: 10.102.5.27 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:03:59.820152: 10.102.4.240 kết nối thành công
+2024-12-23 09:03:59.865645: 10.102.4.238 kết nối thành công
+2024-12-23 09:04:00.095148: 10.102.4.233 kết nối thành công
+2024-12-23 09:04:00.146419: 10.102.4.234 kết nối thành công
+2024-12-23 09:04:00.197294: 10.102.4.241 kết nối thành công
+2024-12-23 09:04:00.888648: 10.102.4.235 kết nối thành công
+2024-12-23 09:04:00.915156: 10.102.4.237 kết nối thành công
+2024-12-23 09:04:01.151297: 10.102.5.39 kết nối thành công
+2024-12-23 09:04:01.233057: 10.102.5.41 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:04:01.284679: 10.102.4.232 kết nối thành công
+2024-12-23 09:04:01.348235: 10.102.5.36 kết nối thành công
+2024-12-23 09:04:02.132207: 10.102.4.214 kết nối thành công
+2024-12-23 09:04:02.132207: 10.102.4.71 kết nối thành công
+2024-12-23 09:04:02.371133: 10.102.4.239 kết nối thành công
+2024-12-23 09:04:02.371133: 10.102.5.40 kết nối thành công
+2024-12-23 09:04:02.500879: 10.102.4.236 kết nối thành công
+2024-12-23 09:04:02.532825: 10.102.5.35 kết nối thành công
+2024-12-23 09:04:03.291083: 10.102.4.61 kết nối thành công
+2024-12-23 09:04:03.366975: 10.102.5.38 kết nối thành công
+2024-12-23 09:04:03.397980: 10.102.4.107 kết nối thành công
+2024-12-23 09:04:03.422050: 10.102.4.109 kết nối thành công
+2024-12-23 09:04:03.611846: 10.102.4.62 kết nối thành công
+2024-12-23 09:04:03.780030: 10.102.5.11 kết nối thành công
+2024-12-23 09:04:04.506069: 10.102.5.10 kết nối thành công
+2024-12-23 09:04:04.511082: 10.102.5.12 kết nối thành công
+2024-12-23 09:04:04.693522: 10.102.4.60 kết nối thành công
+2024-12-23 09:04:04.811186: 10.102.5.14 kết nối thành công
+2024-12-23 09:04:05.051060: 10.102.5.18 kết nối thành công
+2024-12-23 09:04:05.585819: 10.102.4.252 kết nối thành công
+2024-12-23 09:04:05.645057: 10.102.4.21 kết nối thành công
+2024-12-23 09:04:05.811065: 10.102.4.55 kết nối thành công
+2024-12-23 09:04:05.843393: 10.102.5.13 kết nối thành công
+2024-12-23 09:04:06.016238: 10.102.5.16 kết nối thành công
+2024-12-23 09:04:06.141148: 10.102.4.248 kết nối thành công
+2024-12-23 09:04:06.696214: 10.102.4.56 kết nối thành công
+2024-12-23 09:04:06.861282: 10.102.5.15 kết nối thành công
+2024-12-23 09:04:06.985819: 10.102.4.58 kết nối thành công
+2024-12-23 09:04:07.061131: 10.102.4.57 kết nối thành công
+2024-12-23 09:04:07.270947: 10.102.5.27 kết nối thành công
+2024-12-23 09:04:07.421151: 10.102.5.41 kết nối thành công
+2024-12-23 09:04:56.938292: 10.102.4.244 kết nối thành công
+2024-12-23 09:04:57.146088: 10.102.5.44 kết nối thành công
+2024-12-23 09:04:57.329294: 10.102.5.43 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:04:57.436794: 10.102.4.243 kết nối thành công
+2024-12-23 09:04:57.436794: 10.102.5.42 kết nối thành công
+2024-12-23 09:04:57.690780: 10.102.5.45 kết nối thành công
+2024-12-23 09:04:58.273917: 10.102.4.249 kết nối thành công
+2024-12-23 09:04:58.412715: 10.102.5.25 kết nối thành công
+2024-12-23 09:04:58.488192: 10.102.4.83 kết nối thành công
+2024-12-23 09:04:58.581192: 10.102.5.26 kết nối thành công
+2024-12-23 09:04:58.583191: 10.102.4.81 kết nối thành công
+2024-12-23 09:04:58.955905: 10.102.4.189 kết nối thành công
+2024-12-23 09:04:59.478857: 10.102.5.27 kết nối thành công
+2024-12-23 09:04:59.617821: 10.102.5.24 kết nối thành công
+2024-12-23 09:04:59.728323: 10.102.5.21 kết nối thành công
+2024-12-23 09:04:59.773866: 10.102.5.19 kết nối thành công
+2024-12-23 09:04:59.834862: 10.102.5.23 kết nối thành công
+2024-12-23 09:05:00.135877: 10.102.5.20 kết nối thành công
+2024-12-23 09:05:00.543622: 10.102.4.79 kết nối thành công
+2024-12-23 09:05:00.874635: 10.102.5.22 kết nối thành công
+2024-12-23 09:05:00.964539: 10.102.5.29 kết nối thành công
+2024-12-23 09:05:00.964539: 10.102.5.33 kết nối thành công
+2024-12-23 09:05:01.087540: 10.102.5.34 kết nối thành công
+2024-12-23 09:05:01.347543: 10.102.5.28 kết nối thành công
+2024-12-23 09:05:01.750310: 10.102.5.31 kết nối thành công
+2024-12-23 09:05:02.096142: 10.102.5.46 kết nối thành công
+2024-12-23 09:05:02.101181: 10.102.5.32 kết nối thành công
+2024-12-23 09:05:02.142642: 10.102.5.30 kết nối thành công
+2024-12-23 09:05:02.311279: 10.102.5.47 kết nối thành công
+2024-12-23 09:05:02.479324: 10.102.5.48 kết nối thành công
+2024-12-23 09:05:02.900862: 10.102.5.49 kết nối thành công
+2024-12-23 09:05:03.288373: 10.102.4.231 kết nối thành công
+2024-12-23 09:05:03.374474: 10.102.4.240 kết nối thành công
+2024-12-23 09:05:03.399594: 10.102.5.37 kết nối thành công
+2024-12-23 09:05:03.505948: 10.102.4.238 kết nối thành công
+2024-12-23 09:05:03.576921: 10.102.4.233 kết nối thành công
+2024-12-23 09:05:03.911285: 10.102.4.234 kết nối thành công
+2024-12-23 09:05:04.365966: 10.102.4.241 kết nối thành công
+2024-12-23 09:05:04.475944: 10.102.4.237 kết nối thành công
+2024-12-23 09:05:04.561186: 10.102.4.235 kết nối thành công
+2024-12-23 09:05:04.766419: 10.102.5.39 kết nối thành công
+2024-12-23 09:05:04.785750: 10.102.5.41 kết nối thành công
+2024-12-23 09:05:05.140927: 10.102.5.36 kết nối thành công
+2024-12-23 09:05:05.504030: 10.102.4.232 kết nối thành công
+2024-12-23 09:05:05.594689: 10.102.4.214 kết nối thành công
+2024-12-23 09:05:05.613950: 10.102.4.71 kết nối thành công
+2024-12-23 09:05:05.881546: 10.102.4.239 kết nối thành công
+2024-12-23 09:05:06.043270: 10.102.5.40 kết nối thành công
+2024-12-23 09:05:06.411557: 10.102.5.35 kết nối thành công
+2024-12-23 09:05:06.790879: 10.102.4.61 kết nối thành công
+2024-12-23 09:05:06.864052: 10.102.4.236 kết nối thành công
+2024-12-23 09:05:07.005205: 10.102.5.38 kết nối thành công
+2024-12-23 09:05:07.058338: 10.102.4.109 kết nối thành công
+2024-12-23 09:05:07.391237: 10.102.4.107 kết nối thành công
+2024-12-23 09:05:07.591001: 10.102.4.62 kết nối thành công
+2024-12-23 09:05:07.946173: 10.102.5.11 kết nối thành công
+2024-12-23 09:05:08.122636: 10.102.5.12 kết nối thành công
+2024-12-23 09:05:08.122636: 10.102.4.60 kết nối thành công
+2024-12-23 09:05:08.236150: 10.102.5.10 kết nối thành công
+2024-12-23 09:05:08.865361: 10.102.5.14 kết nối thành công
+2024-12-23 09:05:09.181145: 10.102.5.18 kết nối thành công
+2024-12-23 09:05:09.391032: 10.102.4.21 kết nối thành công
+2024-12-23 09:05:09.416994: 10.102.4.55 kết nối thành công
+2024-12-23 09:05:09.506108: 10.102.5.13 kết nối thành công
+2024-12-23 09:05:09.527003: 10.102.4.252 kết nối thành công
+2024-12-23 09:05:10.110862: 10.102.5.16 kết nối thành công
+2024-12-23 09:05:10.250023: 10.102.4.248 kết nối thành công
+2024-12-23 09:05:10.473331: 10.102.4.56 kết nối thành công
+2024-12-23 09:05:10.585884: 10.102.4.58 kết nối thành công
+2024-12-23 09:05:10.605098: 10.102.5.15 kết nối thành công
+2024-12-23 09:05:10.631305: 10.102.4.57 kết nối thành công
+2024-12-23 09:05:12.111371: 10.102.5.43 kết nối thành công
+2024-12-23 09:05:12.190661: 10.102.5.43 kết nối thành công
+2024-12-23 09:05:39.570256: 10.102.4.244 kết nối thành công
+2024-12-23 09:05:39.757259: 10.102.5.44 kết nối thành công
+2024-12-23 09:05:39.856260: 10.102.5.42 kết nối thành công
+2024-12-23 09:05:39.856260: 10.102.5.43 kết nối thành công
+2024-12-23 09:05:40.247356: 10.102.5.45 kết nối thành công
+2024-12-23 09:05:40.352356: 10.102.4.243 kết nối thành công
+2024-12-23 09:05:41.353783: 10.102.4.249 kết nối thành công
+2024-12-23 09:05:41.381789: 10.102.5.25 kết nối thành công
+2024-12-23 09:05:41.562123: 10.102.4.81 kết nối thành công
+2024-12-23 09:05:41.562123: 10.102.4.83 kết nối thành công
+2024-12-23 09:05:41.593120: 10.102.5.26 kết nối thành công
+2024-12-23 09:05:41.876621: 10.102.4.189 kết nối thành công
+2024-12-23 09:05:42.644771: 10.102.5.27 kết nối thành công
+2024-12-23 09:05:42.644771: 10.102.5.24 kết nối thành công
+2024-12-23 09:05:42.848545: 10.102.5.21 kết nối thành công
+2024-12-23 09:05:42.882549: 10.102.5.19 kết nối thành công
+2024-12-23 09:05:43.063712: 10.102.5.20 kết nối thành công
+2024-12-23 09:05:43.771672: 10.102.4.79 kết nối thành công
+2024-12-23 09:05:43.897676: 10.102.5.22 kết nối thành công
+2024-12-23 09:05:44.050964: 10.102.5.34 kết nối thành công
+2024-12-23 09:05:44.114967: 10.102.5.33 kết nối thành công
+2024-12-23 09:05:44.135968: 10.102.5.29 kết nối thành công
+2024-12-23 09:05:44.235968: 10.102.5.28 kết nối thành công
+2024-12-23 09:05:45.071323: 10.102.5.31 kết nối thành công
+2024-12-23 09:05:45.071323: 10.102.5.32 kết nối thành công
+2024-12-23 09:05:45.286085: 10.102.5.47 kết nối thành công
+2024-12-23 09:05:45.335928: 10.102.5.46 kết nối thành công
+2024-12-23 09:05:45.380105: 10.102.5.48 kết nối thành công
+2024-12-23 09:05:45.395570: 10.102.5.30 kết nối thành công
+2024-12-23 09:05:46.306130: 10.102.5.37 kết nối thành công
+2024-12-23 09:05:46.306130: 10.102.5.49 kết nối thành công
+2024-12-23 09:05:46.393623: 10.102.4.231 kết nối thành công
+2024-12-23 09:05:46.494293: 10.102.4.238 kết nối thành công
+2024-12-23 09:05:46.532028: 10.102.4.233 kết nối thành công
+2024-12-23 09:05:46.546213: 10.102.4.240 kết nối thành công
+2024-12-23 09:05:47.466174: 10.102.4.241 kết nối thành công
+2024-12-23 09:05:47.491205: 10.102.4.234 kết nối thành công
+2024-12-23 09:05:47.551003: 10.102.4.235 kết nối thành công
+2024-12-23 09:05:47.551003: 10.102.4.237 kết nối thành công
+2024-12-23 09:05:47.776496: 10.102.5.41 kết nối thành công
+2024-12-23 09:05:47.776496: 10.102.5.39 kết nối thành công
+2024-12-23 09:05:48.681265: 10.102.4.71 kết nối thành công
+2024-12-23 09:05:48.747978: 10.102.4.214 kết nối thành công
+2024-12-23 09:05:48.782519: 10.102.5.36 kết nối thành công
+2024-12-23 09:05:48.911158: 10.102.4.239 kết nối thành công
+2024-12-23 09:05:49.051134: 10.102.5.40 kết nối thành công
+2024-12-23 09:05:49.881084: 10.102.4.236 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:05:49.937937: 10.102.5.35 kết nối thành công
+2024-12-23 09:05:49.976467: 10.102.5.38 kết nối thành công
+2024-12-23 09:05:50.065987: 10.102.4.61 kết nối thành công
+2024-12-23 09:05:50.181164: 10.102.4.109 kết nối thành công
+2024-12-23 09:05:51.049364: 10.102.4.107 kết nối thành công
+2024-12-23 09:05:51.095852: 10.102.4.62 kết nối thành công
+2024-12-23 09:05:51.183433: 10.102.5.11 kết nối thành công
+2024-12-23 09:05:51.190431: 10.102.5.12 kết nối thành công
+2024-12-23 09:05:51.406341: 10.102.5.10 kết nối thành công
+2024-12-23 09:05:52.301149: 10.102.4.60 kết nối thành công
+2024-12-23 09:05:52.374033: 10.102.5.18 kết nối thành công
+2024-12-23 09:05:52.433084: 10.102.5.14 kết nối thành công
+2024-12-23 09:05:52.466187: 10.102.4.21 kết nối thành công
+2024-12-23 09:05:53.300940: 10.102.4.252 kết nối thành công
+2024-12-23 09:05:53.436626: 10.102.4.55 kết nối thành công
+2024-12-23 09:05:53.541418: 10.102.5.13 kết nối thành công
+2024-12-23 09:05:53.596265: 10.102.4.248 kết nối thành công
+2024-12-23 09:05:53.659479: 10.102.5.16 kết nối thành công
+2024-12-23 09:05:53.775967: 10.102.4.232 kết nối thành công
+2024-12-23 09:05:54.376128: 10.102.4.56 kết nối thành công
+2024-12-23 09:05:54.641459: 10.102.5.15 kết nối thành công
+2024-12-23 09:05:54.675704: 10.102.4.58 kết nối thành công
+2024-12-23 09:05:54.711193: 10.102.4.57 kết nối thành công
+2024-12-23 09:10:31.930903: 10.102.4.244 kết nối thành công
+2024-12-23 09:10:31.964901: 10.102.5.44 kết nối thành công
+2024-12-23 09:10:31.988906: 10.102.5.43 kết nối thành công
+2024-12-23 09:10:32.083905: 10.102.5.45 kết nối thành công
+2024-12-23 09:10:32.088907: 10.102.5.42 kết nối thành công
+2024-12-23 09:10:32.174908: 10.102.4.243 kết nối thành công
+2024-12-23 09:10:33.048904: 10.102.4.249 kết nối thành công
+2024-12-23 09:10:33.217902: 10.102.5.25 kết nối thành công
+2024-12-23 09:10:33.279905: 10.102.4.81 kết nối thành công
+2024-12-23 09:10:33.286908: 10.102.4.83 kết nối thành công
+2024-12-23 09:10:33.351905: 10.102.5.26 kết nối thành công
+2024-12-23 09:10:33.539908: 10.102.4.189 kết nối thành công
+2024-12-23 09:10:34.412817: 10.102.5.27 kết nối thành công
+2024-12-23 09:10:34.534814: 10.102.5.19 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:10:34.583819: 10.102.5.24 kết nối thành công
+2024-12-23 09:10:34.615822: 10.102.5.21 kết nối thành công
+2024-12-23 09:10:34.615822: 10.102.5.23 kết nối thành công
+2024-12-23 09:10:34.738814: 10.102.5.20 kết nối thành công
+2024-12-23 09:10:35.523177: 10.102.4.79 kết nối thành công
+2024-12-23 09:10:35.808173: 10.102.5.22 kết nối thành công
+2024-12-23 09:10:35.808173: 10.102.5.33 kết nối thành công
+2024-12-23 09:10:35.868172: 10.102.5.34 kết nối thành công
+2024-12-23 09:10:35.890176: 10.102.5.29 kết nối thành công
+2024-12-23 09:10:35.975175: 10.102.5.28 kết nối thành công
+2024-12-23 09:10:36.774173: 10.102.5.31 kết nối thành công
+2024-12-23 09:10:36.971329: 10.102.5.46 kết nối thành công
+2024-12-23 09:10:36.971329: 10.102.5.47 kết nối thành công
+2024-12-23 09:10:37.051421: 10.102.5.30 kết nối thành công
+2024-12-23 09:10:37.101275: 10.102.5.32 kết nối thành công
+2024-12-23 09:10:37.141211: 10.102.5.48 kết nối thành công
+2024-12-23 09:10:37.895721: 10.102.5.49 kết nối thành công
+2024-12-23 09:10:38.084589: 10.102.4.231 kết nối thành công
+2024-12-23 09:10:38.167889: 10.102.4.240 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:10:38.221588: 10.102.4.238 kết nối thành công
+2024-12-23 09:10:38.251433: 10.102.5.37 kết nối thành công
+2024-12-23 09:10:38.286464: 10.102.4.233 kết nối thành công
+2024-12-23 09:10:38.999036: 10.102.4.234 kết nối thành công
+2024-12-23 09:10:39.227100: 10.102.4.241 kết nối thành công
+2024-12-23 09:10:39.287696: 10.102.4.235 kết nối thành công
+2024-12-23 09:10:39.338920: 10.102.4.237 kết nối thành công
+2024-12-23 09:10:39.464254: 10.102.5.39 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:10:39.514780: 10.102.5.41 kết nối thành công
+2024-12-23 09:10:40.324641: 10.102.4.214 kết nối thành công
+2024-12-23 09:10:40.350101: 10.102.4.232 kết nối thành công
+2024-12-23 09:10:40.401516: 10.102.4.71 kết nối thành công
+2024-12-23 09:10:40.533565: 10.102.5.36 kết nối thành công
+2024-12-23 09:10:40.560646: 10.102.4.239 kết nối thành công
+2024-12-23 09:10:40.700758: 10.102.5.40 kết nối thành công
+2024-12-23 09:10:41.548650: 10.102.4.236 kết nối thành công
+2024-12-23 09:10:41.602983: 10.102.5.35 kết nối thành công
+2024-12-23 09:10:41.681057: 10.102.4.61 kết nối thành công
+2024-12-23 09:10:41.724360: 10.102.5.38 kết nối thành công
+2024-12-23 09:10:41.724360: 10.102.4.109 kết nối thành công
+2024-12-23 09:10:41.751545: 10.102.4.107 kết nối thành công
+2024-12-23 09:10:42.767023: 10.102.4.62 kết nối thành công
+2024-12-23 09:10:42.878884: 10.102.5.11 kết nối thành công
+2024-12-23 09:10:43.071622: 10.102.5.12 kết nối thành công
+2024-12-23 09:10:43.093142: 10.102.4.60 kết nối thành công
+2024-12-23 09:10:43.156301: 10.102.5.10 kết nối thành công
+2024-12-23 09:10:44.078653: 10.102.4.252 kết nối thành công
+2024-12-23 09:10:44.099279: 10.102.5.14 kết nối thành công
+2024-12-23 09:10:44.200739: 10.102.5.18 kết nối thành công
+2024-12-23 09:10:44.280597: 10.102.4.55 kết nối thành công
+2024-12-23 09:10:44.285595: 10.102.4.21 kết nối thành công
+2024-12-23 09:10:44.336315: 10.102.5.13 kết nối thành công
+2024-12-23 09:10:45.246276: 10.102.4.248 kết nối thành công
+2024-12-23 09:10:45.351358: 10.102.4.56 kết nối thành công
+2024-12-23 09:10:45.368985: 10.102.5.16 kết nối thành công
+2024-12-23 09:10:45.428166: 10.102.4.58 kết nối thành công
+2024-12-23 09:10:45.465336: 10.102.4.57 kết nối thành công
+2024-12-23 09:10:45.471419: 10.102.5.15 kết nối thành công
+2024-12-23 09:10:52.806039: 10.102.4.244 kết nối thành công
+2024-12-23 09:10:52.821992: 10.102.5.44 kết nối thành công
+2024-12-23 09:10:52.883992: 10.102.5.42 kết nối thành công
+2024-12-23 09:10:52.899988: 10.102.5.43 kết nối thành công
+2024-12-23 09:10:52.901991: 10.102.5.45 kết nối thành công
+2024-12-23 09:10:52.987988: 10.102.4.243 kết nối thành công
+2024-12-23 09:10:53.875361: 10.102.4.249 kết nối thành công
+2024-12-23 09:10:53.995358: 10.102.4.83 kết nối thành công
+2024-12-23 09:10:54.070358: 10.102.5.25 kết nối thành công
+2024-12-23 09:10:54.070358: 10.102.4.81 kết nối thành công
+2024-12-23 09:10:54.183362: 10.102.5.26 kết nối thành công
+2024-12-23 09:10:54.221378: 10.102.4.189 kết nối thành công
+2024-12-23 09:10:55.071717: 10.102.5.27 kết nối thành công
+2024-12-23 09:10:55.320720: 10.102.5.24 kết nối thành công
+2024-12-23 09:10:55.393723: 10.102.5.20 kết nối thành công
+2024-12-23 09:10:55.412720: 10.102.5.21 kết nối thành công
+2024-12-23 09:10:55.453719: 10.102.5.19 kết nối thành công
+2024-12-23 09:10:55.453719: 10.102.5.23 kết nối thành công
+2024-12-23 09:10:56.225302: 10.102.4.79 kết nối thành công
+2024-12-23 09:10:56.845824: 10.102.5.29 kết nối thành công
+2024-12-23 09:10:56.845824: 10.102.5.22 kết nối thành công
+2024-12-23 09:10:56.888822: 10.102.5.28 kết nối thành công
+2024-12-23 09:10:56.909829: 10.102.5.34 kết nối thành công
+2024-12-23 09:10:56.981350: 10.102.5.33 kết nối thành công
+2024-12-23 09:10:57.530367: 10.102.5.31 kết nối thành công
+2024-12-23 09:10:58.051348: 10.102.5.46 kết nối thành công
+2024-12-23 09:10:58.074333: 10.102.5.32 kết nối thành công
+2024-12-23 09:10:58.125750: 10.102.5.30 kết nối thành công
+2024-12-23 09:10:58.161839: 10.102.5.47 kết nối thành công
+2024-12-23 09:10:58.180447: 10.102.5.48 kết nối thành công
+2024-12-23 09:10:58.691315: 10.102.5.49 kết nối thành công
+2024-12-23 09:10:59.111460: 10.102.4.231 kết nối thành công
+2024-12-23 09:10:59.178394: 10.102.4.238 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:10:59.224485: 10.102.4.233 kết nối thành công
+2024-12-23 09:10:59.246139: 10.102.5.37 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:10:59.314112: 10.102.4.240 kết nối thành công
+2024-12-23 09:10:59.881166: 10.102.4.234 kết nối thành công
+2024-12-23 09:11:00.211658: 10.102.4.241 kết nối thành công
+2024-12-23 09:11:00.308812: 10.102.4.235 kết nối thành công
+2024-12-23 09:11:00.377579: 10.102.4.237 kết nối thành công
+2024-12-23 09:11:00.481040: 10.102.5.39 kết nối thành công
+2024-12-23 09:11:00.606388: 10.102.5.41 kết nối thành công
+2024-12-23 09:11:01.161772: 10.102.5.36 kết nối thành công
+2024-12-23 09:11:01.374368: 10.102.4.232 kết nối thành công
+2024-12-23 09:11:02.277031: 10.102.4.71 kết nối thành công
+2024-12-23 09:11:02.302645: 10.102.4.214 kết nối thành công
+2024-12-23 09:11:02.622988: 10.102.4.239 kết nối thành công
+2024-12-23 09:11:02.656479: 10.102.5.40 kết nối thành công
+2024-12-23 09:11:02.824496: 10.102.5.35 kết nối thành công
+2024-12-23 09:11:02.951193: 10.102.4.236 kết nối thành công
+2024-12-23 09:11:03.692728: 10.102.4.61 kết nối thành công
+2024-12-23 09:11:03.792677: 10.102.5.38 kết nối thành công
+2024-12-23 09:11:03.874713: 10.102.4.109 kết nối thành công
+2024-12-23 09:11:04.005180: 10.102.4.62 kết nối thành công
+2024-12-23 09:11:04.057787: 10.102.4.107 kết nối thành công
+2024-12-23 09:11:04.340555: 10.102.5.11 kết nối thành công
+2024-12-23 09:11:04.924512: 10.102.5.12 kết nối thành công
+2024-12-23 09:11:05.056130: 10.102.5.10 kết nối thành công
+2024-12-23 09:11:05.063126: 10.102.4.60 kết nối thành công
+2024-12-23 09:11:05.244065: 10.102.5.14 kết nối thành công
+2024-12-23 09:11:05.441110: 10.102.5.18 kết nối thành công
+2024-12-23 09:11:06.008062: 10.102.4.21 kết nối thành công
+2024-12-23 09:11:06.094719: 10.102.4.252 kết nối thành công
+2024-12-23 09:11:06.126471: 10.102.4.55 kết nối thành công
+2024-12-23 09:11:06.274009: 10.102.5.13 kết nối thành công
+2024-12-23 09:11:06.455213: 10.102.5.16 kết nối thành công
+2024-12-23 09:11:06.524563: 10.102.4.248 kết nối thành công
+2024-12-23 09:11:07.140972: 10.102.4.56 kết nối thành công
+2024-12-23 09:11:07.266247: 10.102.4.57 kết nối thành công
+2024-12-23 09:11:07.356906: 10.102.4.58 kết nối thành công
+2024-12-23 09:11:07.360906: 10.102.5.15 kết nối thành công
+2024-12-23 09:11:18.006178: 10.102.4.244 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:11:18.069176: 10.102.5.44 kết nối thành công
+2024-12-23 09:11:18.184179: 10.102.5.43 kết nối thành công
+2024-12-23 09:11:18.208176: 10.102.5.42 kết nối thành công
+2024-12-23 09:11:18.343180: 10.102.4.243 kết nối thành công
+2024-12-23 09:11:18.441181: 10.102.5.45 kết nối thành công
+2024-12-23 09:11:19.523282: 10.102.4.83 kết nối thành công
+2024-12-23 09:11:19.553314: 10.102.4.249 kết nối thành công
+2024-12-23 09:11:19.572320: 10.102.4.81 kết nối thành công
+2024-12-23 09:11:19.674312: 10.102.5.25 kết nối thành công
+2024-12-23 09:11:19.739311: 10.102.5.26 kết nối thành công
+2024-12-23 09:11:19.847445: 10.102.4.189 kết nối thành công
+2024-12-23 09:11:20.773729: 10.102.5.27 kết nối thành công
+2024-12-23 09:11:20.802734: 10.102.5.21 kết nối thành công
+2024-12-23 09:11:20.837731: 10.102.5.24 kết nối thành công
+2024-12-23 09:11:20.846730: 10.102.5.19 kết nối thành công
+2024-12-23 09:11:20.913734: 10.102.5.23 kết nối thành công
+2024-12-23 09:11:20.986731: 10.102.5.20 kết nối thành công
+2024-12-23 09:11:22.000560: 10.102.4.79 kết nối thành công
+2024-12-23 09:11:22.140559: 10.102.5.22 kết nối thành công
+2024-12-23 09:11:22.160561: 10.102.5.34 kết nối thành công
+2024-12-23 09:11:22.187562: 10.102.5.28 kết nối thành công
+2024-12-23 09:11:22.197561: 10.102.5.29 kết nối thành công
+2024-12-23 09:11:22.197561: 10.102.5.33 kết nối thành công
+2024-12-23 09:11:23.336276: 10.102.5.31 kết nối thành công
+2024-12-23 09:11:23.419579: 10.102.5.46 kết nối thành công
+2024-12-23 09:11:23.473054: 10.102.5.32 kết nối thành công
+2024-12-23 09:11:23.503580: 10.102.5.48 kết nối thành công
+2024-12-23 09:11:23.524031: 10.102.5.47 kết nối thành công
+2024-12-23 09:11:23.526036: 10.102.5.30 kết nối thành công
+2024-12-23 09:11:24.502085: 10.102.5.49 kết nối thành công
+2024-12-23 09:11:24.549823: 10.102.4.231 kết nối thành công
+2024-12-23 09:11:24.585809: 10.102.4.238 kết nối thành công
+2024-12-23 09:11:24.652454: 10.102.4.233 kết nối thành công
+2024-12-23 09:11:24.699842: 10.102.5.37 kết nối thành công
+2024-12-23 09:11:24.767003: 10.102.4.240 kết nối thành công
+2024-12-23 09:11:25.571376: 10.102.4.234 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:11:25.629168: 10.102.4.235 kết nối thành công
+2024-12-23 09:11:25.728266: 10.102.4.237 kết nối thành công
+2024-12-23 09:11:25.739468: 10.102.4.241 kết nối thành công
+2024-12-23 09:11:25.941441: 10.102.5.39 kết nối thành công
+2024-12-23 09:11:26.093873: 10.102.5.41 kết nối thành công
+2024-12-23 09:11:26.814388: 10.102.4.232 kết nối thành công
+2024-12-23 09:11:26.913767: 10.102.4.71 kết nối thành công
+2024-12-23 09:11:26.921350: 10.102.5.36 kết nối thành công
+2024-12-23 09:11:26.921350: 10.102.4.214 kết nối thành công
+2024-12-23 09:11:27.151421: 10.102.4.239 kết nối thành công
+2024-12-23 09:11:27.201887: 10.102.5.40 kết nối thành công
+2024-12-23 09:11:28.101644: 10.102.5.35 kết nối thành công
+2024-12-23 09:11:28.122293: 10.102.4.61 kết nối thành công
+2024-12-23 09:11:28.154485: 10.102.4.236 kết nối thành công
+2024-12-23 09:11:28.168891: 10.102.5.38 kết nối thành công
+2024-12-23 09:11:28.223864: 10.102.4.109 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:11:28.290887: 10.102.4.107 kết nối thành công
+2024-12-23 09:11:29.481670: 10.102.5.11 kết nối thành công
+2024-12-23 09:11:29.486681: 10.102.5.10 kết nối thành công
+2024-12-23 09:11:29.508648: 10.102.4.62 kết nối thành công
+2024-12-23 09:11:29.512643: 10.102.4.60 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:11:29.583596: 10.102.5.12 kết nối thành công
+2024-12-23 09:11:30.526589: 10.102.4.252 kết nối thành công
+2024-12-23 09:11:30.693699: 10.102.4.21 kết nối thành công
+2024-12-23 09:11:30.717530: 10.102.4.55 kết nối thành công
+2024-12-23 09:11:30.752423: 10.102.5.14 kết nối thành công
+2024-12-23 09:11:30.756439: 10.102.5.18 kết nối thành công
+2024-12-23 09:11:30.801521: 10.102.5.13 kết nối thành công
+2024-12-23 09:11:31.731508: 10.102.5.16 kết nối thành công
+2024-12-23 09:11:31.834512: 10.102.4.56 kết nối thành công
+2024-12-23 09:11:31.859618: 10.102.4.248 kết nối thành công
+2024-12-23 09:11:31.891469: 10.102.4.57 kết nối thành công
+2024-12-23 09:11:31.891469: 10.102.4.58 kết nối thành công
+2024-12-23 09:11:31.951586: 10.102.5.15 kết nối thành công
+2024-12-23 09:12:35.388684: 10.102.5.44 kết nối thành công
+2024-12-23 09:12:35.388684: 10.102.4.243 kết nối thành công
+2024-12-23 09:12:35.412683: 10.102.5.42 kết nối thành công
+2024-12-23 09:12:35.589514: 10.102.4.244 kết nối thành công
+2024-12-23 09:12:35.589514: 10.102.5.45 kết nối thành công
+2024-12-23 09:12:35.590512: 10.102.5.43 kết nối thành công
+2024-12-23 09:12:36.611684: 10.102.4.249 kết nối thành công
+2024-12-23 09:12:36.613688: 10.102.5.25 kết nối thành công
+2024-12-23 09:12:36.659690: 10.102.5.26 kết nối thành công
+2024-12-23 09:12:36.687683: 10.102.4.83 kết nối thành công
+2024-12-23 09:12:36.721684: 10.102.4.81 kết nối thành công
+2024-12-23 09:12:36.793684: 10.102.4.189 kết nối thành công
+2024-12-23 09:12:37.858470: 10.102.5.27 kết nối thành công
+2024-12-23 09:12:37.863470: 10.102.5.24 kết nối thành công
+2024-12-23 09:12:37.919473: 10.102.5.19 kết nối thành công
+2024-12-23 09:12:37.939473: 10.102.5.21 kết nối thành công
+2024-12-23 09:12:37.948472: 10.102.5.23 kết nối thành công
+2024-12-23 09:12:38.006468: 10.102.5.20 kết nối thành công
+2024-12-23 09:12:38.993545: 10.102.4.79 kết nối thành công
+2024-12-23 09:12:39.191543: 10.102.5.33 kết nối thành công
+2024-12-23 09:12:39.202543: 10.102.5.22 kết nối thành công
+2024-12-23 09:12:39.204548: 10.102.5.34 kết nối thành công
+2024-12-23 09:12:39.217543: 10.102.5.29 kết nối thành công
+2024-12-23 09:12:39.321541: 10.102.5.28 kết nối thành công
+2024-12-23 09:12:40.266494: 10.102.5.31 kết nối thành công
+2024-12-23 09:12:40.396545: 10.102.5.47 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:12:40.396545: 10.102.5.32 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:12:40.401581: 10.102.5.48 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:12:40.451648: 10.102.5.46 kết nối thành công
+2024-12-23 09:12:40.541047: 10.102.5.30 kết nối thành công
+2024-12-23 09:12:41.416490: 10.102.5.49 kết nối thành công
+2024-12-23 09:12:41.521857: 10.102.4.238 kết nối thành công
+2024-12-23 09:12:41.523903: 10.102.4.231 kết nối thành công
+2024-12-23 09:12:41.683653: 10.102.4.233 kết nối thành công
+2024-12-23 09:12:41.683653: 10.102.4.240 kết nối thành công
+2024-12-23 09:12:41.744383: 10.102.5.37 kết nối thành công
+2024-12-23 09:12:42.521467: 10.102.4.234 kết nối thành công
+2024-12-23 09:12:42.594885: 10.102.4.235 kết nối thành công
+2024-12-23 09:12:42.662908: 10.102.4.241 kết nối thành công
+2024-12-23 09:12:42.851615: 10.102.4.237 kết nối thành công
+2024-12-23 09:12:42.985524: 10.102.5.41 kết nối thành công
+2024-12-23 09:12:43.041561: 10.102.5.39 kết nối thành công
+2024-12-23 09:12:43.741908: 10.102.4.232 kết nối thành công
+2024-12-23 09:12:43.773925: 10.102.4.214 kết nối thành công
+2024-12-23 09:12:43.843749: 10.102.5.36 kết nối thành công
+2024-12-23 09:12:43.981356: 10.102.4.71 kết nối thành công
+2024-12-23 09:12:44.055942: 10.102.4.239 kết nối thành công
+2024-12-23 09:12:44.211497: 10.102.5.40 kết nối thành công
+2024-12-23 09:12:45.011661: 10.102.4.236 kết nối thành công
+2024-12-23 09:12:45.031420: 10.102.5.35 kết nối thành công
+2024-12-23 09:12:45.033435: 10.102.4.61 kết nối thành công
+2024-12-23 09:12:45.145264: 10.102.5.38 kết nối thành công
+2024-12-23 09:12:45.175015: 10.102.4.109 kết nối thành công
+2024-12-23 09:12:45.276701: 10.102.4.107 kết nối thành công
+2024-12-23 09:12:46.076546: 10.102.4.62 kết nối thành công
+2024-12-23 09:12:46.171266: 10.102.5.11 kết nối thành công
+2024-12-23 09:12:46.243295: 10.102.4.60 kết nối thành công
+2024-12-23 09:12:46.273710: 10.102.5.12 kết nối thành công
+2024-12-23 09:12:46.315162: 10.102.5.10 kết nối thành công
+2024-12-23 09:12:47.296612: 10.102.5.14 kết nối thành công
+2024-12-23 09:12:47.319278: 10.102.5.18 kết nối thành công
+2024-12-23 09:12:47.396570: 10.102.4.252 kết nối thành công
+2024-12-23 09:12:47.443125: 10.102.4.21 kết nối thành công
+2024-12-23 09:12:47.551676: 10.102.4.55 kết nối thành công
+2024-12-23 09:12:47.606857: 10.102.5.13 kết nối thành công
+2024-12-23 09:12:48.561466: 10.102.4.56 kết nối thành công
+2024-12-23 09:12:48.561466: 10.102.4.248 kết nối thành công
+2024-12-23 09:12:48.681591: 10.102.4.57 kết nối thành công
+2024-12-23 09:12:48.691717: 10.102.5.15 kết nối thành công
+2024-12-23 09:12:48.691717: 10.102.5.16 kết nối thành công
+2024-12-23 09:12:48.746264: 10.102.4.58 kết nối thành công
+2024-12-23 09:14:06.078246: 10.102.5.43 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:14:06.138230: 10.102.4.244 kết nối thành công
+2024-12-23 09:14:06.170243: 10.102.5.45 kết nối thành công
+2024-12-23 09:14:06.216233: 10.102.5.44 kết nối thành công
+2024-12-23 09:14:06.216233: 10.102.5.42 kết nối thành công
+2024-12-23 09:14:06.264231: 10.102.4.243 kết nối thành công
+2024-12-23 09:14:07.205516: 10.102.4.249 kết nối thành công
+2024-12-23 09:14:07.316517: 10.102.4.83 kết nối thành công
+2024-12-23 09:14:07.358515: 10.102.4.81 kết nối thành công
+2024-12-23 09:14:07.418513: 10.102.5.26 kết nối thành công
+2024-12-23 09:14:07.418513: 10.102.5.25 kết nối thành công
+2024-12-23 09:14:07.477514: 10.102.4.189 kết nối thành công
+2024-12-23 09:14:08.494337: 10.102.5.27 kết nối thành công
+2024-12-23 09:14:08.586339: 10.102.5.24 kết nối thành công
+2024-12-23 09:14:08.636341: 10.102.5.21 kết nối thành công
+2024-12-23 09:14:08.670342: 10.102.5.19 kết nối thành công
+2024-12-23 09:14:08.692344: 10.102.5.23 kết nối thành công
+2024-12-23 09:14:08.701346: 10.102.5.20 kết nối thành công
+2024-12-23 09:14:09.633365: 10.102.4.79 kết nối thành công
+2024-12-23 09:14:09.832360: 10.102.5.33 kết nối thành công
+2024-12-23 09:14:09.911362: 10.102.5.29 kết nối thành công
+2024-12-23 09:14:09.939365: 10.102.5.22 kết nối thành công
+2024-12-23 09:14:10.034362: 10.102.5.34 kết nối thành công
+2024-12-23 09:14:10.036365: 10.102.5.28 kết nối thành công
+2024-12-23 09:14:10.901665: 10.102.5.31 kết nối thành công
+2024-12-23 09:14:11.192041: 10.102.5.30 kết nối thành công
+2024-12-23 09:14:11.217069: 10.102.5.32 kết nối thành công
+2024-12-23 09:14:11.274702: 10.102.5.46 kết nối thành công
+2024-12-23 09:14:11.316655: 10.102.5.47 kết nối thành công
+2024-12-23 09:14:11.335390: 10.102.5.48 kết nối thành công
+2024-12-23 09:14:12.155416: 10.102.5.49 kết nối thành công
+2024-12-23 09:14:12.395329: 10.102.4.231 kết nối thành công
+2024-12-23 09:14:12.399326: 10.102.4.238 kết nối thành công
+2024-12-23 09:14:12.441505: 10.102.5.37 kết nối thành công
+2024-12-23 09:14:12.487799: 10.102.4.240 kết nối thành công
+2024-12-23 09:14:12.487799: 10.102.4.233 kết nối thành công
+2024-12-23 09:14:13.647620: 10.102.4.241 kết nối thành công
+2024-12-23 09:14:13.829547: 10.102.4.234 kết nối thành công
+2024-12-23 09:14:13.867664: 10.102.4.235 kết nối thành công
+2024-12-23 09:14:13.871745: 10.102.4.237 kết nối thành công
+2024-12-23 09:14:14.143573: 10.102.5.41 kết nối thành công
+2024-12-23 09:14:14.186599: 10.102.5.39 kết nối thành công
+2024-12-23 09:14:15.147417: 10.102.4.232 kết nối thành công
+2024-12-23 09:14:15.229040: 10.102.5.36 kết nối thành công
+2024-12-23 09:14:15.265037: 10.102.4.71 kết nối thành công
+2024-12-23 09:14:15.342369: 10.102.4.214 kết nối thành công
+2024-12-23 09:14:15.493094: 10.102.4.239 kết nối thành công
+2024-12-23 09:14:15.663193: 10.102.5.40 kết nối thành công
+2024-12-23 09:14:16.561645: 10.102.5.35 kết nối thành công
+2024-12-23 09:14:16.582082: 10.102.4.61 kết nối thành công
+2024-12-23 09:14:16.653374: 10.102.4.236 kết nối thành công
+2024-12-23 09:14:16.653374: 10.102.5.38 kết nối thành công
+2024-12-23 09:14:16.761937: 10.102.4.109 kết nối thành công
+2024-12-23 09:14:16.959170: 10.102.4.107 kết nối thành công
+2024-12-23 09:14:17.761262: 10.102.4.62 kết nối thành công
+2024-12-23 09:14:17.825913: 10.102.5.12 kết nối thành công
+2024-12-23 09:14:17.866555: 10.102.5.10 kết nối thành công
+2024-12-23 09:14:18.031761: 10.102.5.11 kết nối thành công
+2024-12-23 09:14:18.127257: 10.102.4.60 kết nối thành công
+2024-12-23 09:14:18.977748: 10.102.4.21 kết nối thành công
+2024-12-23 09:14:19.205084: 10.102.4.252 kết nối thành công
+2024-12-23 09:14:19.243034: 10.102.5.14 kết nối thành công
+2024-12-23 09:14:19.346931: 10.102.5.18 kết nối thành công
+2024-12-23 09:14:19.414738: 10.102.5.13 kết nối thành công
+2024-12-23 09:14:19.414738: 10.102.4.55 kết nối thành công
+2024-12-23 09:14:20.431545: 10.102.5.16 kết nối thành công
+2024-12-23 09:14:20.431545: 10.102.4.248 kết nối thành công
+2024-12-23 09:14:20.621788: 10.102.4.56 kết nối thành công
+2024-12-23 09:14:20.842458: 10.102.5.15 kết nối thành công
+2024-12-23 09:14:21.321897: 10.102.4.57 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:14:21.433874: 10.102.4.58 kết nối thành công
+2024-12-23 09:15:03.612640: 10.102.5.42 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:15:03.674642: 10.102.4.244 kết nối thành công
+2024-12-23 09:15:03.704641: 10.102.5.44 kết nối thành công
+2024-12-23 09:15:03.707639: 10.102.5.45 kết nối thành công
+2024-12-23 09:15:03.736641: 10.102.5.43 kết nối thành công
+2024-12-23 09:15:03.768641: 10.102.4.243 kết nối thành công
+2024-12-23 09:15:04.717640: 10.102.4.249 kết nối thành công
+2024-12-23 09:15:05.032640: 10.102.5.25 kết nối thành công
+2024-12-23 09:15:05.040638: 10.102.4.83 kết nối thành công
+2024-12-23 09:15:05.104638: 10.102.4.81 kết nối thành công
+2024-12-23 09:15:05.104638: 10.102.5.26 kết nối thành công
+2024-12-23 09:15:05.166644: 10.102.4.189 kết nối thành công
+2024-12-23 09:15:06.129639: 10.102.5.27 kết nối thành công
+2024-12-23 09:15:06.263638: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:15:06.323641: 10.102.5.24 kết nối thành công
+2024-12-23 09:15:06.339640: 10.102.5.20 kết nối thành công
+2024-12-23 09:15:06.356641: 10.102.5.19 kết nối thành công
+2024-12-23 09:15:06.384639: 10.102.5.23 kết nối thành công
+2024-12-23 09:15:07.263734: 10.102.4.79 kết nối thành công
+2024-12-23 09:15:07.497499: 10.102.5.22 kết nối thành công
+2024-12-23 09:15:07.532506: 10.102.5.33 kết nối thành công
+2024-12-23 09:15:07.560499: 10.102.5.29 kết nối thành công
+2024-12-23 09:15:07.579501: 10.102.5.28 kết nối thành công
+2024-12-23 09:15:07.635496: 10.102.5.34 kết nối thành công
+2024-12-23 09:15:08.490531: 10.102.5.31 kết nối thành công
+2024-12-23 09:15:08.650288: 10.102.5.47 kết nối thành công
+2024-12-23 09:15:08.681445: 10.102.5.46 kết nối thành công
+2024-12-23 09:15:08.701022: 10.102.5.30 kết nối thành công
+2024-12-23 09:15:08.779837: 10.102.5.32 kết nối thành công
+2024-12-23 09:15:08.831469: 10.102.5.48 kết nối thành công
+2024-12-23 09:15:09.643673: 10.102.5.49 kết nối thành công
+2024-12-23 09:15:09.775727: 10.102.4.231 kết nối thành công
+2024-12-23 09:15:09.860125: 10.102.5.37 kết nối thành công
+2024-12-23 09:15:09.860125: 10.102.4.240 kết nối thành công
+2024-12-23 09:15:09.960130: 10.102.4.238 kết nối thành công
+2024-12-23 09:15:10.033145: 10.102.4.233 kết nối thành công
+2024-12-23 09:15:10.734556: 10.102.4.234 kết nối thành công
+2024-12-23 09:15:10.935482: 10.102.4.241 kết nối thành công
+2024-12-23 09:15:10.994558: 10.102.4.237 kết nối thành công
+2024-12-23 09:15:11.095171: 10.102.4.235 kết nối thành công
+2024-12-23 09:15:11.184122: 10.102.5.39 kết nối thành công
+2024-12-23 09:15:11.235546: 10.102.5.41 kết nối thành công
+2024-12-23 09:15:12.091830: 10.102.5.36 kết nối thành công
+2024-12-23 09:15:12.152103: 10.102.4.232 kết nối thành công
+2024-12-23 09:15:12.212322: 10.102.4.214 kết nối thành công
+2024-12-23 09:15:12.372589: 10.102.4.71 kết nối thành công
+2024-12-23 09:15:12.654922: 10.102.5.40 kết nối thành công
+2024-12-23 09:15:12.727570: 10.102.4.239 kết nối thành công
+2024-12-23 09:15:13.721852: 10.102.4.236 kết nối thành công
+2024-12-23 09:15:13.787590: 10.102.5.35 kết nối thành công
+2024-12-23 09:15:14.126031: 10.102.4.61 kết nối thành công
+2024-12-23 09:15:14.175056: 10.102.5.38 kết nối thành công
+2024-12-23 09:15:14.258700: 10.102.4.109 kết nối thành công
+2024-12-23 09:15:14.682362: 10.102.4.107 kết nối thành công
+2024-12-23 09:15:15.346600: 10.102.4.62 kết nối thành công
+2024-12-23 09:15:15.457773: 10.102.5.12 kết nối thành công
+2024-12-23 09:15:15.457773: 10.102.5.11 kết nối thành công
+2024-12-23 09:15:15.596665: 10.102.4.60 kết nối thành công
+2024-12-23 09:15:15.674878: 10.102.5.10 kết nối thành công
+2024-12-23 09:15:16.706451: 10.102.5.14 kết nối thành công
+2024-12-23 09:15:16.798683: 10.102.4.21 kết nối thành công
+2024-12-23 09:15:16.861542: 10.102.5.13 kết nối thành công
+2024-12-23 09:15:16.956423: 10.102.5.18 kết nối thành công
+2024-12-23 09:15:16.977800: 10.102.4.252 kết nối thành công
+2024-12-23 09:15:17.074495: 10.102.4.55 kết nối thành công
+2024-12-23 09:15:17.821620: 10.102.5.16 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:15:17.879531: 10.102.4.248 kết nối thành công
+2024-12-23 09:15:17.956920: 10.102.4.56 kết nối thành công
+2024-12-23 09:15:18.101556: 10.102.4.57 kết nối thành công
+2024-12-23 09:15:18.148943: 10.102.5.15 kết nối thành công
+2024-12-23 09:15:18.211626: 10.102.4.58 kết nối thành công
+2024-12-23 09:15:19.091752: 10.102.4.244 kết nối thành công
+2024-12-23 09:15:19.176753: 10.102.5.44 kết nối thành công
+2024-12-23 09:15:19.267752: 10.102.5.42 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:15:19.342755: 10.102.5.43 kết nối thành công
+2024-12-23 09:15:19.377754: 10.102.4.243 kết nối thành công
+2024-12-23 09:15:19.396754: 10.102.5.45 kết nối thành công
+2024-12-23 09:15:20.206310: 10.102.4.249 kết nối thành công
+2024-12-23 09:15:20.347489: 10.102.5.25 kết nối thành công
+2024-12-23 09:15:20.410070: 10.102.4.83 kết nối thành công
+2024-12-23 09:15:20.457839: 10.102.5.26 kết nối thành công
+2024-12-23 09:15:20.502838: 10.102.4.81 kết nối thành công
+2024-12-23 09:15:20.599845: 10.102.4.189 kết nối thành công
+2024-12-23 09:15:21.500430: 10.102.5.27 kết nối thành công
+2024-12-23 09:15:21.597431: 10.102.5.24 kết nối thành công
+2024-12-23 09:15:21.600433: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:15:21.657432: 10.102.5.19 kết nối thành công
+2024-12-23 09:15:21.744433: 10.102.5.23 kết nối thành công
+2024-12-23 09:15:21.761435: 10.102.5.20 kết nối thành công
+2024-12-23 09:15:22.683431: 10.102.4.79 kết nối thành công
+2024-12-23 09:15:22.885427: 10.102.5.22 kết nối thành công
+2024-12-23 09:15:22.885427: 10.102.5.33 kết nối thành công
+2024-12-23 09:15:22.942446: 10.102.5.29 kết nối thành công
+2024-12-23 09:15:23.030429: 10.102.5.28 kết nối thành công
+2024-12-23 09:15:23.073432: 10.102.5.34 kết nối thành công
+2024-12-23 09:15:24.003759: 10.102.5.31 kết nối thành công
+2024-12-23 09:15:24.022762: 10.102.5.46 kết nối thành công
+2024-12-23 09:15:24.110759: 10.102.5.30 kết nối thành công
+2024-12-23 09:15:24.143185: 10.102.5.32 kết nối thành công
+2024-12-23 09:15:24.176010: 10.102.5.47 kết nối thành công
+2024-12-23 09:15:24.239831: 10.102.5.48 kết nối thành công
+2024-12-23 09:15:25.106735: 10.102.5.49 kết nối thành công
+2024-12-23 09:15:25.221567: 10.102.4.231 kết nối thành công
+2024-12-23 09:15:25.290428: 10.102.5.37 kết nối thành công
+2024-12-23 09:15:25.311487: 10.102.4.238 kết nối thành công
+2024-12-23 09:15:25.336069: 10.102.4.240 kết nối thành công
+2024-12-23 09:15:25.391766: 10.102.4.233 kết nối thành công
+2024-12-23 09:15:26.238763: 10.102.4.234 kết nối thành công
+2024-12-23 09:15:26.356771: 10.102.4.241 kết nối thành công
+2024-12-23 09:15:26.409122: 10.102.4.237 kết nối thành công
+2024-12-23 09:15:26.430196: 10.102.4.235 kết nối thành công
+2024-12-23 09:15:26.571333: 10.102.5.39 kết nối thành công
+2024-12-23 09:15:26.671457: 10.102.5.41 kết nối thành công
+2024-12-23 09:15:27.532992: 10.102.5.36 kết nối thành công
+2024-12-23 09:15:27.549925: 10.102.4.71 kết nối thành công
+2024-12-23 09:15:27.594463: 10.102.4.232 kết nối thành công
+2024-12-23 09:15:27.594463: 10.102.4.214 kết nối thành công
+2024-12-23 09:15:27.809589: 10.102.4.239 kết nối thành công
+2024-12-23 09:15:27.884821: 10.102.5.40 kết nối thành công
+2024-12-23 09:15:28.755591: 10.102.4.61 kết nối thành công
+2024-12-23 09:15:28.780822: 10.102.5.35 kết nối thành công
+2024-12-23 09:15:28.807493: 10.102.4.236 kết nối thành công
+2024-12-23 09:15:28.905277: 10.102.5.38 kết nối thành công
+2024-12-23 09:15:28.989119: 10.102.4.109 kết nối thành công
+2024-12-23 09:15:29.021977: 10.102.4.107 kết nối thành công
+2024-12-23 09:15:29.911458: 10.102.4.62 kết nối thành công
+2024-12-23 09:15:30.004703: 10.102.5.12 kết nối thành công
+2024-12-23 09:15:30.004703: 10.102.5.11 kết nối thành công
+2024-12-23 09:15:30.056722: 10.102.5.10 kết nối thành công
+2024-12-23 09:15:30.141595: 10.102.4.60 kết nối thành công
+2024-12-23 09:15:31.101442: 10.102.5.14 kết nối thành công
+2024-12-23 09:15:31.206628: 10.102.4.252 kết nối thành công
+2024-12-23 09:15:31.206628: 10.102.4.21 kết nối thành công
+2024-12-23 09:15:31.331619: 10.102.5.18 kết nối thành công
+2024-12-23 09:15:31.372012: 10.102.4.55 kết nối thành công
+2024-12-23 09:15:31.394590: 10.102.5.13 kết nối thành công
+2024-12-23 09:15:32.292351: 10.102.4.248 kết nối thành công
+2024-12-23 09:15:32.318368: 10.102.5.16 kết nối thành công
+2024-12-23 09:15:32.389888: 10.102.4.56 kết nối thành công
+2024-12-23 09:15:32.423403: 10.102.4.58 kết nối thành công
+2024-12-23 09:15:32.489243: 10.102.5.15 kết nối thành công
+2024-12-23 09:15:32.505986: 10.102.4.57 kết nối thành công
+2024-12-23 09:15:53.722636: 10.102.5.43 kết nối thành công
+2024-12-23 09:15:53.754041: 10.102.5.44 kết nối thành công
+2024-12-23 09:15:53.801039: 10.102.4.243 kết nối thành công
+2024-12-23 09:15:53.858038: 10.102.5.42 kết nối thành công
+2024-12-23 09:15:54.059153: 10.102.4.244 kết nối thành công
+2024-12-23 09:15:54.244251: 10.102.5.45 kết nối thành công
+2024-12-23 09:15:54.846393: 10.102.4.249 kết nối thành công
+2024-12-23 09:15:54.958388: 10.102.4.83 kết nối thành công
+2024-12-23 09:15:54.987391: 10.102.5.26 kết nối thành công
+2024-12-23 09:15:55.019393: 10.102.5.25 kết nối thành công
+2024-12-23 09:15:55.163515: 10.102.4.81 kết nối thành công
+2024-12-23 09:15:55.445647: 10.102.4.189 kết nối thành công
+2024-12-23 09:15:56.070074: 10.102.5.27 kết nối thành công
+2024-12-23 09:15:56.103075: 10.102.5.21 kết nối thành công
+2024-12-23 09:15:56.214075: 10.102.5.19 kết nối thành công
+2024-12-23 09:15:56.404075: 10.102.5.23 kết nối thành công
+2024-12-23 09:15:56.607076: 10.102.5.20 kết nối thành công
+2024-12-23 09:15:57.183427: 10.102.4.79 kết nối thành công
+2024-12-23 09:15:57.310426: 10.102.5.22 kết nối thành công
+2024-12-23 09:15:57.417423: 10.102.5.33 kết nối thành công
+2024-12-23 09:15:57.637426: 10.102.5.29 kết nối thành công
+2024-12-23 09:15:57.858424: 10.102.5.34 kết nối thành công
+2024-12-23 09:15:58.421641: 10.102.5.28 kết nối thành công
+2024-12-23 09:15:58.541559: 10.102.5.31 kết nối thành công
+2024-12-23 09:15:58.742470: 10.102.5.32 kết nối thành công
+2024-12-23 09:15:58.925735: 10.102.5.30 kết nối thành công
+2024-12-23 09:15:58.984026: 10.102.5.46 kết nối thành công
+2024-12-23 09:15:59.561818: 10.102.5.47 kết nối thành công
+2024-12-23 09:15:59.686382: 10.102.5.48 kết nối thành công
+2024-12-23 09:15:59.956759: 10.102.5.49 kết nối thành công
+2024-12-23 09:16:00.042690: 10.102.4.231 kết nối thành công
+2024-12-23 09:16:00.221657: 10.102.5.37 kết nối thành công
+2024-12-23 09:16:00.764831: 10.102.4.240 kết nối thành công
+2024-12-23 09:16:00.894248: 10.102.4.238 kết nối thành công
+2024-12-23 09:16:01.043947: 10.102.4.233 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:16:01.122976: 10.102.4.234 kết nối thành công
+2024-12-23 09:16:01.144355: 10.102.5.24 kết nối thành công
+2024-12-23 09:16:01.320532: 10.102.4.241 kết nối thành công
+2024-12-23 09:16:01.976689: 10.102.4.235 kết nối thành công
+2024-12-23 09:16:02.025400: 10.102.4.237 kết nối thành công
+2024-12-23 09:16:02.286586: 10.102.5.39 kết nối thành công
+2024-12-23 09:16:02.401729: 10.102.5.36 kết nối thành công
+2024-12-23 09:16:02.431446: 10.102.4.232 kết nối thành công
+2024-12-23 09:16:02.431446: 10.102.5.41 kết nối thành công
+2024-12-23 09:16:03.126729: 10.102.4.71 kết nối thành công
+2024-12-23 09:16:03.166419: 10.102.4.214 kết nối thành công
+2024-12-23 09:16:03.536613: 10.102.4.239 kết nối thành công
+2024-12-23 09:16:03.556163: 10.102.5.40 kết nối thành công
+2024-12-23 09:16:03.640695: 10.102.4.236 kết nối thành công
+2024-12-23 09:16:03.709012: 10.102.5.35 kết nối thành công
+2024-12-23 09:16:04.291428: 10.102.4.61 kết nối thành công
+2024-12-23 09:16:04.411652: 10.102.5.38 kết nối thành công
+2024-12-23 09:16:04.666837: 10.102.4.109 kết nối thành công
+2024-12-23 09:16:04.685653: 10.102.4.107 kết nối thành công
+2024-12-23 09:16:04.728229: 10.102.4.62 kết nối thành công
+2024-12-23 09:16:04.891890: 10.102.5.11 kết nối thành công
+2024-12-23 09:16:05.516604: 10.102.5.12 kết nối thành công
+2024-12-23 09:16:05.589809: 10.102.5.10 kết nối thành công
+2024-12-23 09:16:05.811491: 10.102.4.60 kết nối thành công
+2024-12-23 09:16:05.875142: 10.102.5.14 kết nối thành công
+2024-12-23 09:16:06.051905: 10.102.5.18 kết nối thành công
+2024-12-23 09:16:06.626532: 10.102.4.21 kết nối thành công
+2024-12-23 09:16:06.736790: 10.102.5.13 kết nối thành công
+2024-12-23 09:16:06.837429: 10.102.4.252 kết nối thành công
+2024-12-23 09:16:06.923056: 10.102.4.55 kết nối thành công
+2024-12-23 09:16:07.036613: 10.102.5.16 kết nối thành công
+2024-12-23 09:16:07.166708: 10.102.4.248 kết nối thành công
+2024-12-23 09:16:07.756615: 10.102.4.56 kết nối thành công
+2024-12-23 09:16:07.856118: 10.102.4.57 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:16:07.911875: 10.102.5.15 kết nối thành công
+2024-12-23 09:16:08.005618: 10.102.4.58 kết nối thành công
+2024-12-23 09:17:05.861689: 10.102.5.44 kết nối thành công
+2024-12-23 09:17:05.896693: 10.102.4.244 kết nối thành công
+2024-12-23 09:17:06.002691: 10.102.4.243 kết nối thành công
+2024-12-23 09:17:06.097691: 10.102.5.43 kết nối thành công
+2024-12-23 09:17:06.097691: 10.102.5.45 kết nối thành công
+2024-12-23 09:17:06.097691: 10.102.5.42 kết nối thành công
+2024-12-23 09:17:07.118688: 10.102.5.25 kết nối thành công
+2024-12-23 09:17:07.146694: 10.102.4.81 kết nối thành công
+2024-12-23 09:17:07.180689: 10.102.4.83 kết nối thành công
+2024-12-23 09:17:07.201693: 10.102.4.249 kết nối thành công
+2024-12-23 09:17:07.329687: 10.102.4.189 kết nối thành công
+2024-12-23 09:17:07.393688: 10.102.5.26 kết nối thành công
+2024-12-23 09:17:08.368236: 10.102.5.27 kết nối thành công
+2024-12-23 09:17:08.368236: 10.102.5.19 kết nối thành công
+2024-12-23 09:17:08.428234: 10.102.5.21 kết nối thành công
+2024-12-23 09:17:08.428234: 10.102.5.24 kết nối thành công
+2024-12-23 09:17:08.518234: 10.102.5.23 kết nối thành công
+2024-12-23 09:17:08.594233: 10.102.5.20 kết nối thành công
+2024-12-23 09:17:09.594911: 10.102.4.79 kết nối thành công
+2024-12-23 09:17:09.673912: 10.102.5.29 kết nối thành công
+2024-12-23 09:17:09.679912: 10.102.5.33 kết nối thành công
+2024-12-23 09:17:09.708912: 10.102.5.22 kết nối thành công
+2024-12-23 09:17:09.802913: 10.102.5.34 kết nối thành công
+2024-12-23 09:17:09.913913: 10.102.5.28 kết nối thành công
+2024-12-23 09:17:10.936901: 10.102.5.31 kết nối thành công
+2024-12-23 09:17:11.021891: 10.102.5.32 kết nối thành công
+2024-12-23 09:17:11.094698: 10.102.5.30 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:17:11.156373: 10.102.5.47 kết nối thành công
+2024-12-23 09:17:11.173881: 10.102.5.46 kết nối thành công
+2024-12-23 09:17:11.207907: 10.102.5.48 kết nối thành công
+2024-12-23 09:17:12.186234: 10.102.5.49 kết nối thành công
+2024-12-23 09:17:12.251961: 10.102.4.231 kết nối thành công
+2024-12-23 09:17:12.251961: 10.102.5.37 kết nối thành công
+2024-12-23 09:17:12.310352: 10.102.4.233 kết nối thành công
+2024-12-23 09:17:12.311893: 10.102.4.240 kết nối thành công
+2024-12-23 09:17:12.346147: 10.102.4.238 kết nối thành công
+2024-12-23 09:17:13.361648: 10.102.4.237 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:17:13.421583: 10.102.4.234 kết nối thành công
+2024-12-23 09:17:13.469017: 10.102.4.241 kết nối thành công
+2024-12-23 09:17:13.492103: 10.102.4.235 kết nối thành công
+2024-12-23 09:17:13.572279: 10.102.5.41 kết nối thành công
+2024-12-23 09:17:13.614862: 10.102.5.39 kết nối thành công
+2024-12-23 09:17:14.571864: 10.102.5.36 kết nối thành công
+2024-12-23 09:17:14.571864: 10.102.4.232 kết nối thành công
+2024-12-23 09:17:14.586668: 10.102.4.71 kết nối thành công
+2024-12-23 09:17:14.629384: 10.102.4.214 kết nối thành công
+2024-12-23 09:17:14.696721: 10.102.4.239 kết nối thành công
+2024-12-23 09:17:14.868079: 10.102.5.40 kết nối thành công
+2024-12-23 09:17:15.787186: 10.102.4.61 kết nối thành công
+2024-12-23 09:17:15.827699: 10.102.4.109 kết nối thành công
+2024-12-23 09:17:15.855319: 10.102.5.35 kết nối thành công
+2024-12-23 09:17:15.862047: 10.102.4.236 kết nối thành công
+2024-12-23 09:17:15.942590: 10.102.5.38 kết nối thành công
+2024-12-23 09:17:15.972615: 10.102.4.107 kết nối thành công
+2024-12-23 09:17:17.036949: 10.102.4.62 kết nối thành công
+2024-12-23 09:17:17.201715: 10.102.5.11 kết nối thành công
+2024-12-23 09:17:17.268685: 10.102.5.12 kết nối thành công
+2024-12-23 09:17:17.268685: 10.102.5.10 kết nối thành công
+2024-12-23 09:17:17.372284: 10.102.4.60 kết nối thành công
+2024-12-23 09:17:18.194187: 10.102.5.14 kết nối thành công
+2024-12-23 09:17:18.251819: 10.102.4.252 kết nối thành công
+2024-12-23 09:17:18.417934: 10.102.4.55 kết nối thành công
+2024-12-23 09:17:18.439449: 10.102.5.13 kết nối thành công
+2024-12-23 09:17:18.481786: 10.102.5.18 kết nối thành công
+2024-12-23 09:17:18.491667: 10.102.4.21 kết nối thành công
+2024-12-23 09:17:19.482731: 10.102.4.248 kết nối thành công
+2024-12-23 09:17:19.571666: 10.102.5.16 kết nối thành công
+2024-12-23 09:17:19.590925: 10.102.4.56 kết nối thành công
+2024-12-23 09:17:19.641599: 10.102.4.57 kết nối thành công
+2024-12-23 09:17:19.660564: 10.102.4.58 kết nối thành công
+2024-12-23 09:17:19.721181: 10.102.5.15 kết nối thành công
+2024-12-23 09:18:01.917033: 10.102.4.244 kết nối thành công
+2024-12-23 09:18:01.917033: 10.102.5.43 kết nối thành công
+2024-12-23 09:18:01.996034: 10.102.5.45 kết nối thành công
+2024-12-23 09:18:01.996034: 10.102.5.44 kết nối thành công
+2024-12-23 09:18:01.996034: 10.102.4.243 kết nối thành công
+2024-12-23 09:18:02.071561: 10.102.5.42 kết nối thành công
+2024-12-23 09:18:03.765554: 10.102.5.25 kết nối thành công
+2024-12-23 09:18:03.886557: 10.102.4.249 kết nối thành công
+2024-12-23 09:18:04.064551: 10.102.4.189 kết nối thành công
+2024-12-23 09:18:04.159554: 10.102.5.26 kết nối thành công
+2024-12-23 09:18:04.285557: 10.102.4.81 kết nối thành công
+2024-12-23 09:18:04.288553: 10.102.4.83 kết nối thành công
+2024-12-23 09:18:05.211490: 10.102.5.27 kết nối thành công
+2024-12-23 09:18:05.227898: 10.102.5.24 kết nối thành công
+2024-12-23 09:18:05.232897: 10.102.5.21 kết nối thành công
+2024-12-23 09:18:05.368515: 10.102.5.19 kết nối thành công
+2024-12-23 09:18:05.525497: 10.102.5.23 kết nối thành công
+2024-12-23 09:18:05.542506: 10.102.5.20 kết nối thành công
+2024-12-23 09:18:06.360665: 10.102.4.79 kết nối thành công
+2024-12-23 09:18:06.477666: 10.102.5.22 kết nối thành công
+2024-12-23 09:18:06.538696: 10.102.5.33 kết nối thành công
+2024-12-23 09:18:06.677615: 10.102.5.29 kết nối thành công
+2024-12-23 09:18:06.706462: 10.102.5.34 kết nối thành công
+2024-12-23 09:18:06.855080: 10.102.5.28 kết nối thành công
+2024-12-23 09:18:07.669143: 10.102.5.31 kết nối thành công
+2024-12-23 09:18:07.721364: 10.102.5.32 kết nối thành công
+2024-12-23 09:18:07.804479: 10.102.5.30 kết nối thành công
+2024-12-23 09:18:07.824678: 10.102.5.47 kết nối thành công
+2024-12-23 09:18:07.855488: 10.102.5.46 kết nối thành công
+2024-12-23 09:18:08.056573: 10.102.5.48 kết nối thành công
+2024-12-23 09:18:08.841489: 10.102.5.49 kết nối thành công
+2024-12-23 09:18:08.957420: 10.102.5.37 kết nối thành công
+2024-12-23 09:18:08.986858: 10.102.4.231 kết nối thành công
+2024-12-23 09:18:09.011587: 10.102.4.238 kết nối thành công
+2024-12-23 09:18:09.056958: 10.102.4.240 kết nối thành công
+2024-12-23 09:18:09.138416: 10.102.4.233 kết nối thành công
+2024-12-23 09:18:10.051646: 10.102.4.234 kết nối thành công
+2024-12-23 09:18:10.154821: 10.102.4.241 kết nối thành công
+2024-12-23 09:18:10.154821: 10.102.4.235 kết nối thành công
+2024-12-23 09:18:10.206619: 10.102.4.237 kết nối thành công
+2024-12-23 09:18:10.306569: 10.102.5.39 kết nối thành công
+2024-12-23 09:18:10.396667: 10.102.5.41 kết nối thành công
+2024-12-23 09:18:11.266182: 10.102.4.214 kết nối thành công
+2024-12-23 09:18:11.289701: 10.102.4.232 kết nối thành công
+2024-12-23 09:18:11.293677: 10.102.4.71 kết nối thành công
+2024-12-23 09:18:11.401433: 10.102.5.36 kết nối thành công
+2024-12-23 09:18:11.544747: 10.102.4.239 kết nối thành công
+2024-12-23 09:18:11.569081: 10.102.5.40 kết nối thành công
+2024-12-23 09:18:12.483351: 10.102.4.236 kết nối thành công
+2024-12-23 09:18:12.511580: 10.102.5.35 kết nối thành công
+2024-12-23 09:18:12.561776: 10.102.4.61 kết nối thành công
+2024-12-23 09:18:12.616954: 10.102.5.38 kết nối thành công
+2024-12-23 09:18:12.616954: 10.102.4.109 kết nối thành công
+2024-12-23 09:18:12.638124: 10.102.4.107 kết nối thành công
+2024-12-23 09:18:13.648897: 10.102.4.62 kết nối thành công
+2024-12-23 09:18:13.736572: 10.102.5.12 kết nối thành công
+2024-12-23 09:18:13.736572: 10.102.5.11 kết nối thành công
+2024-12-23 09:18:13.833710: 10.102.4.60 kết nối thành công
+2024-12-23 09:18:13.849466: 10.102.5.10 kết nối thành công
+2024-12-23 09:18:14.781975: 10.102.4.21 kết nối thành công
+2024-12-23 09:18:14.851884: 10.102.4.252 kết nối thành công
+2024-12-23 09:18:14.904881: 10.102.5.14 kết nối thành công
+2024-12-23 09:18:14.951308: 10.102.5.18 kết nối thành công
+2024-12-23 09:18:14.983905: 10.102.5.13 kết nối thành công
+2024-12-23 09:18:14.983905: 10.102.4.55 kết nối thành công
+2024-12-23 09:18:15.881513: 10.102.4.248 kết nối thành công
+2024-12-23 09:18:15.965307: 10.102.5.16 kết nối thành công
+2024-12-23 09:18:16.016176: 10.102.4.56 kết nối thành công
+2024-12-23 09:18:16.052215: 10.102.4.57 kết nối thành công
+2024-12-23 09:18:16.131570: 10.102.5.15 kết nối thành công
+2024-12-23 09:18:16.183810: 10.102.4.58 kết nối thành công
+2024-12-23 09:18:58.835777: 10.102.4.244 kết nối thành công
+2024-12-23 09:18:58.880775: 10.102.5.45 kết nối thành công
+2024-12-23 09:18:58.881777: 10.102.5.42 kết nối thành công
+2024-12-23 09:18:58.887796: 10.102.5.43 kết nối thành công
+2024-12-23 09:18:58.890779: 10.102.5.44 kết nối thành công
+2024-12-23 09:18:59.022775: 10.102.4.243 kết nối thành công
+2024-12-23 09:19:00.050072: 10.102.4.249 kết nối thành công
+2024-12-23 09:19:00.082069: 10.102.4.83 kết nối thành công
+2024-12-23 09:19:00.110070: 10.102.4.81 kết nối thành công
+2024-12-23 09:19:00.379543: 10.102.5.26 kết nối thành công
+2024-12-23 09:19:00.379543: 10.102.4.189 kết nối thành công
+2024-12-23 09:19:00.379543: 10.102.5.25 kết nối thành công
+2024-12-23 09:19:01.386239: 10.102.5.27 kết nối thành công
+2024-12-23 09:19:01.416243: 10.102.5.24 kết nối thành công
+2024-12-23 09:19:01.422241: 10.102.5.21 kết nối thành công
+2024-12-23 09:19:01.590240: 10.102.5.19 kết nối thành công
+2024-12-23 09:19:01.608242: 10.102.5.23 kết nối thành công
+2024-12-23 09:19:02.575241: 10.102.4.79 kết nối thành công
+2024-12-23 09:19:02.669243: 10.102.5.22 kết nối thành công
+2024-12-23 09:19:02.759241: 10.102.5.33 kết nối thành công
+2024-12-23 09:19:02.821240: 10.102.5.34 kết nối thành công
+2024-12-23 09:19:02.842242: 10.102.5.29 kết nối thành công
+2024-12-23 09:19:02.855249: 10.102.5.28 kết nối thành công
+2024-12-23 09:19:03.851625: 10.102.5.31 kết nối thành công
+2024-12-23 09:19:03.915736: 10.102.5.46 kết nối thành công
+2024-12-23 09:19:03.940003: 10.102.5.32 kết nối thành công
+2024-12-23 09:19:03.959233: 10.102.5.30 kết nối thành công
+2024-12-23 09:19:03.991787: 10.102.5.48 kết nối thành công
+2024-12-23 09:19:04.006655: 10.102.5.47 kết nối thành công
+2024-12-23 09:19:05.064927: 10.102.5.49 kết nối thành công
+2024-12-23 09:19:05.093179: 10.102.4.238 kết nối thành công
+2024-12-23 09:19:05.121615: 10.102.4.233 kết nối thành công
+2024-12-23 09:19:05.139900: 10.102.4.240 kết nối thành công
+2024-12-23 09:19:05.140902: 10.102.4.231 kết nối thành công
+2024-12-23 09:19:05.155237: 10.102.5.37 kết nối thành công
+2024-12-23 09:19:06.181840: 10.102.4.234 kết nối thành công
+2024-12-23 09:19:06.186849: 10.102.4.241 kết nối thành công
+2024-12-23 09:19:06.233881: 10.102.4.235 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:19:06.301216: 10.102.4.237 kết nối thành công
+2024-12-23 09:19:06.411660: 10.102.5.41 kết nối thành công
+2024-12-23 09:19:06.461984: 10.102.5.39 kết nối thành công
+2024-12-23 09:19:07.347543: 10.102.4.214 kết nối thành công
+2024-12-23 09:19:07.391586: 10.102.4.232 kết nối thành công
+2024-12-23 09:19:07.420206: 10.102.5.36 kết nối thành công
+2024-12-23 09:19:07.451760: 10.102.4.71 kết nối thành công
+2024-12-23 09:19:07.563538: 10.102.4.239 kết nối thành công
+2024-12-23 09:19:07.664004: 10.102.5.40 kết nối thành công
+2024-12-23 09:19:08.597628: 10.102.4.61 kết nối thành công
+2024-12-23 09:19:08.641622: 10.102.4.236 kết nối thành công
+2024-12-23 09:19:08.684894: 10.102.5.35 kết nối thành công
+2024-12-23 09:19:08.684894: 10.102.4.109 kết nối thành công
+2024-12-23 09:19:08.731500: 10.102.5.38 kết nối thành công
+2024-12-23 09:19:08.867819: 10.102.4.107 kết nối thành công
+2024-12-23 09:19:09.763555: 10.102.4.62 kết nối thành công
+2024-12-23 09:19:09.851675: 10.102.5.11 kết nối thành công
+2024-12-23 09:19:09.947152: 10.102.5.12 kết nối thành công
+2024-12-23 09:19:09.951151: 10.102.4.60 kết nối thành công
+2024-12-23 09:19:09.951151: 10.102.5.10 kết nối thành công
+2024-12-23 09:19:10.964074: 10.102.5.14 kết nối thành công
+2024-12-23 09:19:11.047192: 10.102.4.252 kết nối thành công
+2024-12-23 09:19:11.047192: 10.102.4.21 kết nối thành công
+2024-12-23 09:19:11.075457: 10.102.5.18 kết nối thành công
+2024-12-23 09:19:11.090581: 10.102.4.55 kết nối thành công
+2024-12-23 09:19:11.213357: 10.102.5.13 kết nối thành công
+2024-12-23 09:19:12.231763: 10.102.4.248 kết nối thành công
+2024-12-23 09:19:12.231763: 10.102.4.57 kết nối thành công
+2024-12-23 09:19:12.250919: 10.102.4.56 kết nối thành công
+2024-12-23 09:19:12.255499: 10.102.5.16 kết nối thành công
+2024-12-23 09:19:12.349341: 10.102.4.58 kết nối thành công
+2024-12-23 09:19:12.433516: 10.102.5.15 kết nối thành công
+2024-12-23 09:19:41.339335: 10.102.5.44 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:19:41.432330: 10.102.4.244 kết nối thành công
+2024-12-23 09:19:41.466334: 10.102.5.43 kết nối thành công
+2024-12-23 09:19:41.523330: 10.102.5.42 kết nối thành công
+2024-12-23 09:19:41.541333: 10.102.5.45 kết nối thành công
+2024-12-23 09:19:41.629331: 10.102.4.243 kết nối thành công
+2024-12-23 09:19:42.740331: 10.102.4.249 kết nối thành công
+2024-12-23 09:19:42.769333: 10.102.5.25 kết nối thành công
+2024-12-23 09:19:42.786334: 10.102.5.26 kết nối thành công
+2024-12-23 09:19:42.990866: 10.102.4.83 kết nối thành công
+2024-12-23 09:19:42.990866: 10.102.4.81 kết nối thành công
+2024-12-23 09:19:43.190866: 10.102.4.189 kết nối thành công
+2024-12-23 09:19:44.041210: 10.102.5.21 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:19:44.139208: 10.102.5.24 kết nối thành công
+2024-12-23 09:19:44.232203: 10.102.5.23 kết nối thành công
+2024-12-23 09:19:44.308202: 10.102.5.20 kết nối thành công
+2024-12-23 09:19:44.341204: 10.102.5.19 kết nối thành công
+2024-12-23 09:19:44.341204: 10.102.5.27 kết nối thành công
+2024-12-23 09:19:45.137609: 10.102.4.79 kết nối thành công
+2024-12-23 09:19:45.388606: 10.102.5.22 kết nối thành công
+2024-12-23 09:19:45.483607: 10.102.5.33 kết nối thành công
+2024-12-23 09:19:45.530607: 10.102.5.29 kết nối thành công
+2024-12-23 09:19:45.623608: 10.102.5.28 kết nối thành công
+2024-12-23 09:19:45.672612: 10.102.5.34 kết nối thành công
+2024-12-23 09:19:46.372026: 10.102.5.31 kết nối thành công
+2024-12-23 09:19:46.611912: 10.102.5.46 kết nối thành công
+2024-12-23 09:19:46.670358: 10.102.5.30 kết nối thành công
+2024-12-23 09:19:46.689264: 10.102.5.32 kết nối thành công
+2024-12-23 09:19:46.723842: 10.102.5.47 kết nối thành công
+2024-12-23 09:19:46.861912: 10.102.5.48 kết nối thành công
+2024-12-23 09:19:47.634593: 10.102.5.49 kết nối thành công
+2024-12-23 09:19:47.796344: 10.102.4.231 kết nối thành công
+2024-12-23 09:19:47.846804: 10.102.4.238 kết nối thành công
+2024-12-23 09:19:47.888606: 10.102.4.240 kết nối thành công
+2024-12-23 09:19:47.907830: 10.102.5.37 kết nối thành công
+2024-12-23 09:19:47.970999: 10.102.4.233 kết nối thành công
+2024-12-23 09:19:48.767246: 10.102.4.234 kết nối thành công
+2024-12-23 09:19:49.066847: 10.102.4.241 kết nối thành công
+2024-12-23 09:19:49.153416: 10.102.4.235 kết nối thành công
+2024-12-23 09:19:49.192052: 10.102.4.237 kết nối thành công
+2024-12-23 09:19:49.254687: 10.102.5.39 kết nối thành công
+2024-12-23 09:19:49.276681: 10.102.5.41 kết nối thành công
+2024-12-23 09:19:50.017037: 10.102.5.36 kết nối thành công
+2024-12-23 09:19:50.391764: 10.102.4.232 kết nối thành công
+2024-12-23 09:19:50.397845: 10.102.4.214 kết nối thành công
+2024-12-23 09:19:50.476653: 10.102.4.71 kết nối thành công
+2024-12-23 09:19:50.500351: 10.102.4.239 kết nối thành công
+2024-12-23 09:19:50.602046: 10.102.5.40 kết nối thành công
+2024-12-23 09:19:51.251857: 10.102.5.35 kết nối thành công
+2024-12-23 09:19:51.626753: 10.102.4.61 kết nối thành công
+2024-12-23 09:19:51.646367: 10.102.4.109 kết nối thành công
+2024-12-23 09:19:51.677058: 10.102.4.236 kết nối thành công
+2024-12-23 09:19:51.687001: 10.102.4.107 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:19:51.753943: 10.102.5.38 kết nối thành công
+2024-12-23 09:19:52.406574: 10.102.4.62 kết nối thành công
+2024-12-23 09:19:52.853444: 10.102.4.60 kết nối thành công
+2024-12-23 09:19:52.887218: 10.102.5.11 kết nối thành công
+2024-12-23 09:19:52.951993: 10.102.5.12 kết nối thành công
+2024-12-23 09:19:52.953530: 10.102.5.10 kết nối thành công
+2024-12-23 09:19:53.648848: 10.102.5.14 kết nối thành công
+2024-12-23 09:19:53.966617: 10.102.4.252 kết nối thành công
+2024-12-23 09:19:53.991585: 10.102.4.55 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:19:54.051174: 10.102.4.21 kết nối thành công
+2024-12-23 09:19:54.071223: 10.102.5.18 kết nối thành công
+2024-12-23 09:19:54.182036: 10.102.5.13 kết nối thành công
+2024-12-23 09:19:54.783345: 10.102.5.16 kết nối thành công
+2024-12-23 09:19:55.066782: 10.102.4.56 kết nối thành công
+2024-12-23 09:19:55.089474: 10.102.4.248 kết nối thành công
+2024-12-23 09:19:55.181762: 10.102.5.15 kết nối thành công
+2024-12-23 09:19:55.264968: 10.102.4.58 kết nối thành công
+2024-12-23 09:20:00.172106: 10.102.4.57 kết nối thành công
+2024-12-23 09:20:38.162788: 10.102.5.43 kết nối thành công
+2024-12-23 09:20:38.233784: 10.102.5.44 kết nối thành công
+2024-12-23 09:20:38.372786: 10.102.4.244 kết nối thành công
+2024-12-23 09:20:38.408786: 10.102.5.42 kết nối thành công
+2024-12-23 09:20:38.637786: 10.102.4.243 kết nối thành công
+2024-12-23 09:20:38.794785: 10.102.5.45 kết nối thành công
+2024-12-23 09:20:40.227783: 10.102.4.249 kết nối thành công
+2024-12-23 09:20:40.321785: 10.102.5.25 kết nối thành công
+2024-12-23 09:20:40.634784: 10.102.5.26 kết nối thành công
+2024-12-23 09:20:41.029786: 10.102.4.81 kết nối thành công
+2024-12-23 09:20:41.070788: 10.102.4.83 kết nối thành công
+2024-12-23 09:20:41.070788: 10.102.4.189 kết nối thành công
+2024-12-23 09:20:41.758789: 10.102.5.24 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:41.868786: 10.102.5.27 kết nối thành công
+2024-12-23 09:20:41.902785: 10.102.5.21 kết nối thành công
+2024-12-23 09:20:42.626785: 10.102.5.20 kết nối thành công
+2024-12-23 09:20:42.685786: 10.102.5.19 kết nối thành công
+2024-12-23 09:20:42.857544: 10.102.5.23 kết nối thành công
+2024-12-23 09:20:43.016741: 10.102.4.79 kết nối thành công
+2024-12-23 09:20:43.301654: 10.102.5.22 kết nối thành công
+2024-12-23 09:20:43.518292: 10.102.5.33 kết nối thành công
+2024-12-23 09:20:44.185907: 10.102.5.29 kết nối thành công
+2024-12-23 09:20:44.368973: 10.102.5.31 kết nối thành công
+2024-12-23 09:20:44.391833: 10.102.5.34 kết nối thành công
+2024-12-23 09:20:44.622133: 10.102.5.32 kết nối thành công
+2024-12-23 09:20:44.936909: 10.102.5.30 kết nối thành công
+2024-12-23 09:20:45.572062: 10.102.5.49 kết nối thành công
+2024-12-23 09:20:45.572062: 10.102.5.48 kết nối thành công
+2024-12-23 09:20:45.618390: 10.102.5.46 kết nối thành công
+2024-12-23 09:20:45.720468: 10.102.5.47 kết nối thành công
+2024-12-23 09:20:46.031514: 10.102.5.37 kết nối thành công
+2024-12-23 09:20:46.589218: 10.102.4.231 kết nối thành công
+2024-12-23 09:20:46.932225: 10.102.4.238 kết nối thành công
+2024-12-23 09:20:47.080684: 10.102.4.240 kết nối thành công
+2024-12-23 09:20:47.102797: 10.102.4.233 kết nối thành công
+2024-12-23 09:20:47.307186: 10.102.4.234 kết nối thành công
+2024-12-23 09:20:47.370035: 10.102.4.241 kết nối thành công
+2024-12-23 09:20:48.499243: 10.102.4.235 kết nối thành công
+2024-12-23 09:20:49.202083: 10.102.4.237 kết nối thành công
+2024-12-23 09:20:49.315419: 10.102.5.39 kết nối thành công
+2024-12-23 09:20:49.720202: 10.102.5.41 kết nối thành công
+2024-12-23 09:20:49.738511: 10.102.5.36 kết nối thành công
+2024-12-23 09:20:49.761938: 10.102.4.232 kết nối thành công
+2024-12-23 09:20:50.468659: 10.102.4.214 kết nối thành công
+2024-12-23 09:20:51.206977: 10.102.4.71 kết nối thành công
+2024-12-23 09:20:51.416392: 10.102.4.239 kết nối thành công
+2024-12-23 09:20:51.709744: 10.102.5.35 kết nối thành công
+2024-12-23 09:20:51.969063: 10.102.5.14 kết nối thành công
+2024-12-23 09:20:52.218458: 10.102.4.57 kết nối thành công
+2024-12-23 09:20:52.826049: 10.102.4.252 kết nối thành công
+2024-12-23 09:20:53.304049: 10.102.4.244 kết nối thành công
+2024-12-23 09:20:53.308051: 10.102.5.43 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:53.487053: 10.102.5.44 kết nối thành công
+2024-12-23 09:20:53.491051: 10.102.5.42 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:53.596083: 10.102.5.45 kết nối thành công
+2024-12-23 09:20:53.720049: 10.102.4.243 kết nối thành công
+2024-12-23 09:20:54.608050: 10.102.4.249 kết nối thành công
+2024-12-23 09:20:54.799050: 10.102.5.25 kết nối thành công
+2024-12-23 09:20:54.990051: 10.102.4.81 kết nối thành công
+2024-12-23 09:20:54.990051: 10.102.4.83 kết nối thành công
+2024-12-23 09:20:55.018050: 10.102.5.26 kết nối thành công
+2024-12-23 09:20:55.116051: 10.102.4.189 kết nối thành công
+2024-12-23 09:20:55.994050: 10.102.5.24 kết nối thành công
+2024-12-23 09:20:56.139053: 10.102.5.27 kết nối thành công
+2024-12-23 09:20:56.202050: 10.102.5.23 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:56.400050: 10.102.5.19 kết nối thành công
+2024-12-23 09:20:56.597052: 10.102.5.21 kết nối thành công
+2024-12-23 09:20:56.600054: 10.102.5.20 kết nối thành công
+2024-12-23 09:20:57.098051: 10.102.4.21 kết nối thành công
+2024-12-23 09:20:57.397054: 10.102.4.79 kết nối thành công
+2024-12-23 09:20:57.567050: 10.102.5.22 kết nối thành công
+2024-12-23 09:20:57.600050: 10.102.5.33 kết nối thành công
+2024-12-23 09:20:57.802506: 10.102.5.29 kết nối thành công
+2024-12-23 09:20:57.916590: 10.102.5.28 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:58.021665: 10.102.5.34 kết nối thành công
+2024-12-23 09:20:58.611671: 10.102.5.31 kết nối thành công
+2024-12-23 09:20:58.852162: 10.102.5.32 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:20:58.930696: 10.102.5.46 kết nối thành công
+2024-12-23 09:20:58.965018: 10.102.5.30 kết nối thành công
+2024-12-23 09:20:59.177462: 10.102.5.47 kết nối thành công
+2024-12-23 09:20:59.461939: 10.102.5.48 kết nối thành công
+2024-12-23 09:20:59.871821: 10.102.5.49 kết nối thành công
+2024-12-23 09:21:00.092108: 10.102.4.231 kết nối thành công
+2024-12-23 09:21:00.131798: 10.102.5.37 kết nối thành công
+2024-12-23 09:21:00.234073: 10.102.4.240 kết nối thành công
+2024-12-23 09:21:00.332058: 10.102.4.238 kết nối thành công
+2024-12-23 09:21:00.561964: 10.102.4.233 kết nối thành công
+2024-12-23 09:21:00.976915: 10.102.4.234 kết nối thành công
+2024-12-23 09:21:01.332449: 10.102.4.241 kết nối thành công
+2024-12-23 09:21:01.375782: 10.102.4.235 kết nối thành công
+2024-12-23 09:21:01.503095: 10.102.4.237 kết nối thành công
+2024-12-23 09:21:01.711893: 10.102.5.39 kết nối thành công
+2024-12-23 09:21:01.744327: 10.102.5.41 kết nối thành công
+2024-12-23 09:21:02.441268: 10.102.5.36 kết nối thành công
+2024-12-23 09:21:02.601703: 10.102.4.232 kết nối thành công
+2024-12-23 09:21:02.617067: 10.102.4.214 kết nối thành công
+2024-12-23 09:21:02.633846: 10.102.4.71 kết nối thành công
+2024-12-23 09:21:02.834294: 10.102.4.239 kết nối thành công
+2024-12-23 09:21:03.010922: 10.102.5.40 kết nối thành công
+2024-12-23 09:21:03.776031: 10.102.5.35 kết nối thành công
+2024-12-23 09:21:03.851740: 10.102.4.61 kết nối thành công
+2024-12-23 09:21:03.882025: 10.102.4.236 kết nối thành công
+2024-12-23 09:21:03.946683: 10.102.5.38 kết nối thành công
+2024-12-23 09:21:03.961845: 10.102.4.109 kết nối thành công
+2024-12-23 09:21:04.132098: 10.102.4.107 kết nối thành công
+2024-12-23 09:21:04.875781: 10.102.4.62 kết nối thành công
+2024-12-23 09:21:05.013779: 10.102.5.11 kết nối thành công
+2024-12-23 09:21:05.078201: 10.102.5.12 kết nối thành công
+2024-12-23 09:21:05.078201: 10.102.4.60 kết nối thành công
+2024-12-23 09:21:05.144667: 10.102.5.10 kết nối thành công
+2024-12-23 09:21:06.115697: 10.102.5.14 kết nối thành công
+2024-12-23 09:21:06.125976: 10.102.4.21 kết nối thành công
+2024-12-23 09:21:06.246097: 10.102.4.55 kết nối thành công
+2024-12-23 09:21:06.248097: 10.102.5.18 kết nối thành công
+2024-12-23 09:21:06.311898: 10.102.4.252 kết nối thành công
+2024-12-23 09:21:06.312896: 10.102.5.13 kết nối thành công
+2024-12-23 09:21:07.242034: 10.102.4.248 kết nối thành công
+2024-12-23 09:21:07.406724: 10.102.4.57 kết nối thành công
+2024-12-23 09:21:07.411763: 10.102.5.16 kết nối thành công
+2024-12-23 09:21:07.416774: 10.102.4.56 kết nối thành công
+2024-12-23 09:21:07.429266: 10.102.5.15 kết nối thành công
+2024-12-23 09:21:07.434136: 10.102.4.58 kết nối thành công
+2024-12-23 09:21:46.482323: 10.102.4.244 kết nối thành công
+2024-12-23 09:21:47.048822: 10.102.5.44 kết nối thành công
+2024-12-23 09:21:47.049822: 10.102.5.45 kết nối thành công
+2024-12-23 09:21:47.053578: 10.102.5.42 kết nối thành công
+2024-12-23 09:21:47.053578: 10.102.5.43 kết nối thành công
+2024-12-23 09:21:47.053578: 10.102.4.243 kết nối thành công
+2024-12-23 09:21:48.031182: 10.102.4.249 kết nối thành công
+2024-12-23 09:21:48.931983: 10.102.5.25 kết nối thành công
+2024-12-23 09:21:48.936996: 10.102.5.26 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:21:48.936996: 10.102.4.83 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:21:49.133063: 10.102.4.81 kết nối thành công
+2024-12-23 09:21:49.226860: 10.102.4.189 kết nối thành công
+2024-12-23 09:21:49.421804: 10.102.5.27 kết nối thành công
+2024-12-23 09:21:50.131696: 10.102.5.19 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:21:50.230998: 10.102.5.21 kết nối thành công
+2024-12-23 09:21:50.546739: 10.102.5.20 kết nối thành công
+2024-12-23 09:21:50.627991: 10.102.4.79 kết nối thành công
+2024-12-23 09:21:50.727347: 10.102.5.23 kết nối thành công
+2024-12-23 09:21:51.446329: 10.102.5.33 kết nối thành công
+2024-12-23 09:21:51.468277: 10.102.5.22 kết nối thành công
+2024-12-23 09:21:51.666846: 10.102.5.29 kết nối thành công
+2024-12-23 09:21:51.762238: 10.102.5.34 kết nối thành công
+2024-12-23 09:21:52.055753: 10.102.5.28 kết nối thành công
+2024-12-23 09:21:52.156895: 10.102.5.31 kết nối thành công
+2024-12-23 09:21:52.796834: 10.102.5.46 kết nối thành công
+2024-12-23 09:21:52.796834: 10.102.5.32 kết nối thành công
+2024-12-23 09:21:52.813825: 10.102.5.30 kết nối thành công
+2024-12-23 09:21:52.912128: 10.102.5.47 kết nối thành công
+2024-12-23 09:21:53.461696: 10.102.5.48 kết nối thành công
+2024-12-23 09:21:53.661638: 10.102.5.49 kết nối thành công
+2024-12-23 09:21:54.062008: 10.102.4.240 kết nối thành công
+2024-12-23 09:21:54.062008: 10.102.4.238 kết nối thành công
+2024-12-23 09:21:54.131095: 10.102.5.37 kết nối thành công
+2024-12-23 09:21:54.131095: 10.102.4.231 kết nối thành công
+2024-12-23 09:21:54.826314: 10.102.4.233 kết nối thành công
+2024-12-23 09:21:54.867053: 10.102.4.234 kết nối thành công
+2024-12-23 09:21:55.171815: 10.102.4.241 kết nối thành công
+2024-12-23 09:21:55.200710: 10.102.4.237 kết nối thành công
+2024-12-23 09:21:55.234595: 10.102.4.235 kết nối thành công
+2024-12-23 09:21:55.347064: 10.102.5.39 kết nối thành công
+2024-12-23 09:21:56.166833: 10.102.5.41 kết nối thành công
+2024-12-23 09:21:56.363787: 10.102.5.36 kết nối thành công
+2024-12-23 09:21:56.461930: 10.102.4.232 kết nối thành công
+2024-12-23 09:21:56.516268: 10.102.4.214 kết nối thành công
+2024-12-23 09:21:56.668533: 10.102.4.71 kết nối thành công
+2024-12-23 09:21:56.862077: 10.102.5.40 kết nối thành công
+2024-12-23 09:21:57.411955: 10.102.4.239 kết nối thành công
+2024-12-23 09:21:57.626775: 10.102.5.35 kết nối thành công
+2024-12-23 09:21:57.775221: 10.102.5.38 kết nối thành công
+2024-12-23 09:21:57.921108: 10.102.4.61 kết nối thành công
+2024-12-23 09:21:57.967103: 10.102.4.236 kết nối thành công
+2024-12-23 09:21:58.375928: 10.102.4.109 kết nối thành công
+2024-12-23 09:21:58.538530: 10.102.4.107 kết nối thành công
+2024-12-23 09:21:58.732258: 10.102.4.62 kết nối thành công
+2024-12-23 09:21:59.132297: 10.102.5.11 kết nối thành công
+2024-12-23 09:21:59.331948: 10.102.5.10 kết nối thành công
+2024-12-23 09:21:59.725491: 10.102.5.12 kết nối thành công
+2024-12-23 09:21:59.813162: 10.102.4.60 kết nối thành công
+2024-12-23 09:22:00.332978: 10.102.5.14 kết nối thành công
+2024-12-23 09:22:00.626487: 10.102.5.18 kết nối thành công
+2024-12-23 09:22:00.714660: 10.102.4.21 kết nối thành công
+2024-12-23 09:22:01.056195: 10.102.4.252 kết nối thành công
+2024-12-23 09:22:01.126741: 10.102.4.55 kết nối thành công
+2024-12-23 09:22:01.162657: 10.102.5.13 kết nối thành công
+2024-12-23 09:22:01.860435: 10.102.5.16 kết nối thành công
+2024-12-23 09:22:02.506806: 10.102.4.248 kết nối thành công
+2024-12-23 09:22:02.526401: 10.102.4.56 kết nối thành công
+2024-12-23 09:22:02.618949: 10.102.5.15 kết nối thành công
+2024-12-23 09:22:02.627971: 10.102.4.57 kết nối thành công
+2024-12-23 09:22:02.627971: 10.102.4.58 kết nối thành công
+2024-12-23 09:22:14.112085: 10.102.4.244 kết nối thành công
+2024-12-23 09:22:14.231084: 10.102.5.44 kết nối thành công
+2024-12-23 09:22:14.302087: 10.102.5.43 kết nối thành công
+2024-12-23 09:22:14.415104: 10.102.5.42 kết nối thành công
+2024-12-23 09:22:14.429085: 10.102.5.45 kết nối thành công
+2024-12-23 09:22:14.627086: 10.102.4.243 kết nối thành công
+2024-12-23 09:22:15.526084: 10.102.4.249 kết nối thành công
+2024-12-23 09:22:15.875090: 10.102.5.25 kết nối thành công
+2024-12-23 09:22:15.924086: 10.102.5.26 kết nối thành công
+2024-12-23 09:22:15.929114: 10.102.4.81 kết nối thành công
+2024-12-23 09:22:15.945092: 10.102.4.83 kết nối thành công
+2024-12-23 09:22:16.166085: 10.102.4.189 kết nối thành công
+2024-12-23 09:22:17.080492: 10.102.5.27 kết nối thành công
+2024-12-23 09:22:17.268497: 10.102.5.24 kết nối thành công
+2024-12-23 09:22:17.411490: 10.102.5.23 kết nối thành công
+2024-12-23 09:22:17.413492: 10.102.5.19 kết nối thành công
+2024-12-23 09:22:17.506491: 10.102.5.20 kết nối thành công
+2024-12-23 09:22:17.614493: 10.102.5.21 kết nối thành công
+2024-12-23 09:22:18.521492: 10.102.4.79 kết nối thành công
+2024-12-23 09:22:18.906747: 10.102.5.33 kết nối thành công
+2024-12-23 09:22:18.973607: 10.102.5.22 kết nối thành công
+2024-12-23 09:22:19.011780: 10.102.5.34 kết nối thành công
+2024-12-23 09:22:19.011780: 10.102.5.29 kết nối thành công
+2024-12-23 09:22:19.226761: 10.102.5.28 kết nối thành công
+2024-12-23 09:22:19.822287: 10.102.5.31 kết nối thành công
+2024-12-23 09:22:20.407012: 10.102.5.32 kết nối thành công
+2024-12-23 09:22:20.471629: 10.102.5.47 kết nối thành công
+2024-12-23 09:22:20.507631: 10.102.5.30 kết nối thành công
+2024-12-23 09:22:20.707783: 10.102.5.48 kết nối thành công
+2024-12-23 09:22:21.121824: 10.102.5.49 kết nối thành công
+2024-12-23 09:22:21.822385: 10.102.5.37 kết nối thành công
+2024-12-23 09:22:21.976227: 10.102.4.240 kết nối thành công
+2024-12-23 09:22:22.006509: 10.102.4.231 kết nối thành công
+2024-12-23 09:22:22.072165: 10.102.4.238 kết nối thành công
+2024-12-23 09:22:22.372260: 10.102.4.233 kết nối thành công
+2024-12-23 09:22:23.111865: 10.102.4.234 kết nối thành công
+2024-12-23 09:22:23.317063: 10.102.4.241 kết nối thành công
+2024-12-23 09:22:23.385717: 10.102.4.235 kết nối thành công
+2024-12-23 09:22:23.385717: 10.102.4.237 kết nối thành công
+2024-12-23 09:22:23.837179: 10.102.5.39 kết nối thành công
+2024-12-23 09:22:24.602205: 10.102.4.232 kết nối thành công
+2024-12-23 09:22:24.637299: 10.102.4.214 kết nối thành công
+2024-12-23 09:22:24.702874: 10.102.5.41 kết nối thành công
+2024-12-23 09:22:24.896977: 10.102.5.36 kết nối thành công
+2024-12-23 09:22:24.978799: 10.102.4.71 kết nối thành công
+2024-12-23 09:22:25.211924: 10.102.5.46 kết nối thành công
+2024-12-23 09:22:25.750442: 10.102.4.239 kết nối thành công
+2024-12-23 09:22:25.894292: 10.102.5.40 kết nối thành công
+2024-12-23 09:22:25.934229: 10.102.5.35 kết nối thành công
+2024-12-23 09:22:26.082002: 10.102.4.236 kết nối thành công
+2024-12-23 09:22:26.205900: 10.102.5.38 kết nối thành công
+2024-12-23 09:22:26.242054: 10.102.4.61 kết nối thành công
+2024-12-23 09:22:26.881820: 10.102.4.109 kết nối thành công
+2024-12-23 09:22:26.964605: 10.102.4.107 kết nối thành công
+2024-12-23 09:22:27.018077: 10.102.4.62 kết nối thành công
+2024-12-23 09:22:27.241851: 10.102.5.11 kết nối thành công
+2024-12-23 09:22:27.331717: 10.102.5.12 kết nối thành công
+2024-12-23 09:22:27.466684: 10.102.5.10 kết nối thành công
+2024-12-23 09:22:28.031961: 10.102.4.60 kết nối thành công
+2024-12-23 09:22:28.215497: 10.102.5.14 kết nối thành công
+2024-12-23 09:22:28.411884: 10.102.4.21 kết nối thành công
+2024-12-23 09:22:28.450731: 10.102.5.18 kết nối thành công
+2024-12-23 09:22:28.669603: 10.102.5.13 kết nối thành công
+2024-12-23 09:22:29.096830: 10.102.4.252 kết nối thành công
+2024-12-23 09:22:29.122569: 10.102.4.55 kết nối thành công
+2024-12-23 09:22:29.451991: 10.102.5.16 kết nối thành công
+2024-12-23 09:22:29.657131: 10.102.4.56 kết nối thành công
+2024-12-23 09:22:29.702257: 10.102.4.248 kết nối thành công
+2024-12-23 09:22:29.926972: 10.102.5.15 kết nối thành công
+2024-12-23 09:22:30.246663: 10.102.4.57 kết nối thành công
+2024-12-23 09:22:30.267720: 10.102.4.58 kết nối thành công
+2024-12-23 09:22:46.329956: 10.102.4.244 kết nối thành công
+2024-12-23 09:22:46.368956: 10.102.5.45 kết nối thành công
+2024-12-23 09:22:46.375968: 10.102.5.43 kết nối thành công
+2024-12-23 09:22:46.519956: 10.102.5.42 kết nối thành công
+2024-12-23 09:22:46.577954: 10.102.4.243 kết nối thành công
+2024-12-23 09:22:46.577954: 10.102.5.44 kết nối thành công
+2024-12-23 09:22:48.095011: 10.102.5.26 kết nối thành công
+2024-12-23 09:22:48.155011: 10.102.5.25 kết nối thành công
+2024-12-23 09:22:48.201010: 10.102.4.249 kết nối thành công
+2024-12-23 09:22:48.206014: 10.102.4.81 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:22:48.319009: 10.102.4.83 kết nối thành công
+2024-12-23 09:22:48.359042: 10.102.4.189 kết nối thành công
+2024-12-23 09:22:49.529805: 10.102.5.19 kết nối thành công
+2024-12-23 09:22:49.529805: 10.102.5.21 kết nối thành công
+2024-12-23 09:22:49.568335: 10.102.5.27 kết nối thành công
+2024-12-23 09:22:49.620335: 10.102.5.24 kết nối thành công
+2024-12-23 09:22:49.644335: 10.102.5.23 kết nối thành công
+2024-12-23 09:22:49.646335: 10.102.5.20 kết nối thành công
+2024-12-23 09:22:50.663876: 10.102.4.79 kết nối thành công
+2024-12-23 09:22:50.817875: 10.102.5.22 kết nối thành công
+2024-12-23 09:22:50.835880: 10.102.5.29 kết nối thành công
+2024-12-23 09:22:50.865883: 10.102.5.33 kết nối thành công
+2024-12-23 09:22:50.871880: 10.102.5.34 kết nối thành công
+2024-12-23 09:22:50.931883: 10.102.5.28 kết nối thành công
+2024-12-23 09:22:51.912189: 10.102.5.31 kết nối thành công
+2024-12-23 09:22:52.026797: 10.102.5.47 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:22:52.095108: 10.102.5.46 kết nối thành công
+2024-12-23 09:22:52.095108: 10.102.5.30 kết nối thành công
+2024-12-23 09:22:52.116874: 10.102.5.48 kết nối thành công
+2024-12-23 09:22:52.128819: 10.102.5.32 kết nối thành công
+2024-12-23 09:22:53.097141: 10.102.5.49 kết nối thành công
+2024-12-23 09:22:53.273409: 10.102.5.37 kết nối thành công
+2024-12-23 09:22:53.273409: 10.102.4.238 kết nối thành công
+2024-12-23 09:22:53.297338: 10.102.4.231 kết nối thành công
+2024-12-23 09:22:53.314099: 10.102.4.233 kết nối thành công
+2024-12-23 09:22:53.428036: 10.102.4.240 kết nối thành công
+2024-12-23 09:22:54.191765: 10.102.4.234 kết nối thành công
+2024-12-23 09:22:54.373511: 10.102.4.235 kết nối thành công
+2024-12-23 09:22:54.456333: 10.102.4.237 kết nối thành công
+2024-12-23 09:22:54.456333: 10.102.4.241 kết nối thành công
+2024-12-23 09:22:54.616005: 10.102.5.39 kết nối thành công
+2024-12-23 09:22:54.731899: 10.102.5.41 kết nối thành công
+2024-12-23 09:22:55.467027: 10.102.4.232 kết nối thành công
+2024-12-23 09:22:55.477170: 10.102.5.36 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:22:55.542405: 10.102.4.214 kết nối thành công
+2024-12-23 09:22:55.577407: 10.102.4.71 kết nối thành công
+2024-12-23 09:22:55.826819: 10.102.4.239 kết nối thành công
+2024-12-23 09:22:55.864996: 10.102.5.40 kết nối thành công
+2024-12-23 09:22:56.691991: 10.102.4.236 kết nối thành công
+2024-12-23 09:22:56.691991: 10.102.4.61 kết nối thành công
+2024-12-23 09:22:56.757199: 10.102.5.38 kết nối thành công
+2024-12-23 09:22:56.831802: 10.102.5.35 kết nối thành công
+2024-12-23 09:22:56.921747: 10.102.4.107 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:22:56.975142: 10.102.4.109 kết nối thành công
+2024-12-23 09:22:57.817024: 10.102.4.62 kết nối thành công
+2024-12-23 09:22:57.892164: 10.102.5.11 kết nối thành công
+2024-12-23 09:22:57.909616: 10.102.5.12 kết nối thành công
+2024-12-23 09:22:58.056872: 10.102.5.10 kết nối thành công
+2024-12-23 09:22:58.084100: 10.102.4.60 kết nối thành công
+2024-12-23 09:22:58.971817: 10.102.4.21 kết nối thành công
+2024-12-23 09:22:59.057244: 10.102.5.14 kết nối thành công
+2024-12-23 09:22:59.076526: 10.102.4.252 kết nối thành công
+2024-12-23 09:22:59.095737: 10.102.5.18 kết nối thành công
+2024-12-23 09:22:59.205331: 10.102.4.55 kết nối thành công
+2024-12-23 09:22:59.290404: 10.102.5.13 kết nối thành công
+2024-12-23 09:23:00.121996: 10.102.5.16 kết nối thành công
+2024-12-23 09:23:00.173511: 10.102.4.248 kết nối thành công
+2024-12-23 09:23:00.242181: 10.102.4.56 kết nối thành công
+2024-12-23 09:23:00.258365: 10.102.4.57 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:23:00.341939: 10.102.5.15 kết nối thành công
+2024-12-23 09:23:00.394245: 10.102.4.58 kết nối thành công
+2024-12-23 09:23:14.932411: 10.102.4.244 kết nối thành công
+2024-12-23 09:23:14.992410: 10.102.5.45 kết nối thành công
+2024-12-23 09:23:15.036421: 10.102.5.44 kết nối thành công
+2024-12-23 09:23:15.064408: 10.102.5.43 kết nối thành công
+2024-12-23 09:23:15.109410: 10.102.5.42 kết nối thành công
+2024-12-23 09:23:15.187411: 10.102.4.243 kết nối thành công
+2024-12-23 09:23:16.921002: 10.102.4.249 kết nối thành công
+2024-12-23 09:23:17.230001: 10.102.5.26 kết nối thành công
+2024-12-23 09:23:17.234003: 10.102.5.25 kết nối thành công
+2024-12-23 09:23:17.378003: 10.102.4.83 kết nối thành công
+2024-12-23 09:23:17.408000: 10.102.4.189 kết nối thành công
+2024-12-23 09:23:18.320232: 10.102.5.27 kết nối thành công
+2024-12-23 09:23:18.696184: 10.102.5.24 kết nối thành công
+2024-12-23 09:23:18.727182: 10.102.5.21 kết nối thành công
+2024-12-23 09:23:18.727182: 10.102.5.23 kết nối thành công
+2024-12-23 09:23:18.821180: 10.102.5.19 kết nối thành công
+2024-12-23 09:23:18.822185: 10.102.5.20 kết nối thành công
+2024-12-23 09:23:19.387183: 10.102.4.79 kết nối thành công
+2024-12-23 09:23:20.037269: 10.102.5.29 kết nối thành công
+2024-12-23 09:23:20.041804: 10.102.5.22 kết nối thành công
+2024-12-23 09:23:20.086052: 10.102.5.34 kết nối thành công
+2024-12-23 09:23:20.120960: 10.102.5.28 kết nối thành công
+2024-12-23 09:23:20.204576: 10.102.5.33 kết nối thành công
+2024-12-23 09:23:20.796852: 10.102.5.31 kết nối thành công
+2024-12-23 09:23:21.341879: 10.102.5.32 kết nối thành công
+2024-12-23 09:23:21.341879: 10.102.5.46 kết nối thành công
+2024-12-23 09:23:21.372090: 10.102.5.30 kết nối thành công
+2024-12-23 09:23:21.376127: 10.102.5.47 kết nối thành công
+2024-12-23 09:23:21.442015: 10.102.5.48 kết nối thành công
+2024-12-23 09:23:21.996804: 10.102.5.49 kết nối thành công
+2024-12-23 09:23:22.441936: 10.102.4.231 kết nối thành công
+2024-12-23 09:23:22.516701: 10.102.4.238 kết nối thành công
+2024-12-23 09:23:22.551903: 10.102.4.233 kết nối thành công
+2024-12-23 09:23:22.602867: 10.102.4.240 kết nối thành công
+2024-12-23 09:23:22.649138: 10.102.5.37 kết nối thành công
+2024-12-23 09:23:23.137002: 10.102.4.234 kết nối thành công
+2024-12-23 09:23:23.566098: 10.102.4.241 kết nối thành công
+2024-12-23 09:23:23.629442: 10.102.4.235 kết nối thành công
+2024-12-23 09:23:23.848503: 10.102.5.39 kết nối thành công
+2024-12-23 09:23:23.919174: 10.102.5.41 kết nối thành công
+2024-12-23 09:23:24.862155: 10.102.5.36 kết nối thành công
+2024-12-23 09:23:25.062304: 10.102.4.232 kết nối thành công
+2024-12-23 09:23:25.100275: 10.102.4.214 kết nối thành công
+2024-12-23 09:23:25.289772: 10.102.5.40 kết nối thành công
+2024-12-23 09:23:26.051762: 10.102.4.239 kết nối thành công
+2024-12-23 09:23:26.266897: 10.102.5.35 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:23:26.337717: 10.102.4.236 kết nối thành công
+2024-12-23 09:23:26.573380: 10.102.5.38 kết nối thành công
+2024-12-23 09:23:27.242007: 10.102.4.61 kết nối thành công
+2024-12-23 09:23:27.435508: 10.102.4.107 kết nối thành công
+2024-12-23 09:23:27.523570: 10.102.4.109 kết nối thành công
+2024-12-23 09:23:27.697077: 10.102.4.62 kết nối thành công
+2024-12-23 09:23:28.466947: 10.102.5.11 kết nối thành công
+2024-12-23 09:23:28.701975: 10.102.5.12 kết nối thành công
+2024-12-23 09:23:28.720313: 10.102.4.237 kết nối thành công
+2024-12-23 09:23:28.797495: 10.102.4.60 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:23:28.865100: 10.102.5.10 kết nối thành công
+2024-12-23 09:23:29.911929: 10.102.5.14 kết nối thành công
+2024-12-23 09:23:29.935716: 10.102.4.21 kết nối thành công
+2024-12-23 09:23:29.971211: 10.102.5.18 kết nối thành công
+2024-12-23 09:23:30.021003: 10.102.5.13 kết nối thành công
+2024-12-23 09:23:30.111586: 10.102.4.71 kết nối thành công
+2024-12-23 09:23:30.626963: 10.102.4.252 kết nối thành công
+2024-12-23 09:23:31.052228: 10.102.4.55 kết nối thành công
+2024-12-23 09:23:31.073193: 10.102.4.56 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-23 09:23:31.134590: 10.102.4.248 kết nối thành công
+2024-12-23 09:23:31.244112: 10.102.5.16 kết nối thành công
+2024-12-23 09:23:31.264181: 10.102.5.15 kết nối thành công
+2024-12-23 09:23:31.779735: 10.102.4.57 kết nối thành công
+2024-12-23 09:23:32.087257: 10.102.4.58 kết nối thành công
+2024-12-23 16:16:44.719604: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-23 16:16:44.729345: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-23 16:16:45.512619: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-12-23 16:16:45.549092: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-23 16:16:49.473777: kết nối ok
+2024-12-23 16:16:50.569823: kết nối ok
+2024-12-23 16:16:50.609549: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-23 16:16:54.169591: kết nối ok
+2024-12-23 16:16:59.579533: kết nối ok
+2024-12-23 16:17:01.499679: kết nối ok
+2024-12-23 16:17:09.059311: kết nối ok
+2024-12-23 16:17:09.549513: kết nối ok

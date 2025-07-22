@@ -1,0 +1,12 @@
+conf t
+gpon
+gpon-olt 03
+no onu 04
+end
+conf t
+gpon
+gpon-olt  03
+onu add 04 registration-id D013110304
+onu-profile 04 HSI_MYTV_VOIP_GNMS_ONU
+end
+write memory

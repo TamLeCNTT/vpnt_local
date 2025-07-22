@@ -18,11 +18,11 @@ const Suyhao_mainE_v2 = () => {
   const [loading, setloading] = useState(false);
   const [listPg, setListPg] = useState([]);
   const [list_export, setlist_export] = useState([]);
-  const [flag, setflag] = useState(false)
-  const [load, setload] = useState(false)
-  const [gio, setgio] = useState(7)
-  const [phut, setphut] = useState(0)
-  const [status, setStatus] = useState(false)
+  const [flag, setflag] = useState(false);
+  const [load, setload] = useState(false);
+  const [gio, setgio] = useState(7);
+  const [phut, setphut] = useState(0);
+  const [status, setStatus] = useState(false);
   const header = [
     [
       "SITE NAME",
@@ -30,37 +30,35 @@ const Suyhao_mainE_v2 = () => {
       "HOSTNAME",
       "PORT",
       "Thông số suy hao",
-      "W_low", "SITE NEIGHBORS", "IP NEIGHBORS", "HOSTNAME NEIGHBORS",
-      "PORT NEIGHBORS"
-
+      "W_low",
+      "SITE NEIGHBORS",
+      "IP NEIGHBORS",
+      "HOSTNAME NEIGHBORS",
+      "PORT NEIGHBORS",
     ],
   ];
   let navitive = useNavigate();
   useEffect(() => {
-    mainEService.getDatainFile("timebackup.txt").then(res => {
-      console.log(res.data.data)
-      if (res.data.data) {
-        setStatus(true)
-        mainEService.autorun(res.data.data).then(
-          res => {
-
-
-          }
-        )
-      }
-      else {
-        setStatus(false)
-      }
-    }).catch(err=>{})
+    mainEService
+      .getDatainFile("timebackup.txt")
+      .then((res) => {
+        console.log(res.data.data);
+        if (res.data.data) {
+          setStatus(true);
+          mainEService.autorun(res.data.data).then((res) => {});
+        } else {
+          setStatus(false);
+        }
+      })
+      .catch((err) => {});
     const checkTime = () => {
       const now = new Date();
       const hours = now.getHours();
       const minutes = now.getMinutes();
 
       if (hours === 19 && minutes === 0) {
-        setload(!load)
+        setload(!load);
       }
-
     };
 
     const intervalId = setInterval(checkTime, 60000); // Kiểm tra mỗi phút
@@ -78,7 +76,7 @@ const Suyhao_mainE_v2 = () => {
     if (match) {
       return match[1];
     }
-    return 'Không tìm thấy';
+    return "Không tìm thấy";
   };
   const TE = (text) => {
     // Sử dụng Regular Expression để trích xuất phần sau 'TenGigE'
@@ -86,35 +84,31 @@ const Suyhao_mainE_v2 = () => {
     if (match) {
       return match[1];
     }
-    return 'Không tìm thấy';
+    return "Không tìm thấy";
   };
   const changedinhmuc = (e) => {
-    let dinhmuc = ""
-    if (!e.target.value)
-      setdinhmuc("")
+    let dinhmuc = "";
+    if (!e.target.value) setdinhmuc("");
     else if (Number(e.target.value) < 1) {
-      setdinhmuc(1)
-      dinhmuc = 1
+      setdinhmuc(1);
+      dinhmuc = 1;
+    } else {
+      setdinhmuc(e.target.value);
+      let list = lists;
+      dinhmuc = e.target.value;
+      setLists(list);
     }
-
-    else {
-      setdinhmuc(e.target.value)
-      let list = lists
-      dinhmuc = e.target.value
-      setLists(list)
-    }
-    console.log(lists)
-    let listshow_export_suyhao = []
+    console.log(lists);
+    let listshow_export_suyhao = [];
     lists.map((item, index) => {
       if (
-        Number(item.RXpower
-        ) < 99 &&
-        (Number(item.RXpower) - Number(item.w_low) < dinhmuc)
+        Number(item.RXpower) < 99 &&
+        Number(item.RXpower) - Number(item.w_low) < dinhmuc
       ) {
-        let item_export = {}
+        let item_export = {};
         item_export.tenthietbi = decryptData(item.tenthietbi);
         item_export.diachi = decryptData(item.diachi);
-        item_export.tenhethong = (item.tenhethong);
+        item_export.tenhethong = item.tenhethong;
         item_export.port = item.port;
         item_export.RXpower = item.RXpower;
         item_export.w_low = item.w_low;
@@ -123,224 +117,292 @@ const Suyhao_mainE_v2 = () => {
         item_export.hostname = item.nBHostName;
         item_export.nbport = item.nBPort;
         listshow_export_suyhao.push(item_export);
-        setlist_export(listshow_export_suyhao);
+        console.log(listshow_export_suyhao)
+        setlist_export(listshow_export_suyhao.sort((x, y) => (Number(x.RXpower) - Number(x.w_low)) - (Number(y.RXpower) - Number(y.w_low))));
       }
-    })
-
-  }
+    });
+  };
   const changeHour = (e) => {
-    setgio(e.target.value)
-  }
+    setgio(e.target.value);
+  };
   const changeMinute = (e) => {
-    setphut(e.target.value)
-  }
+    setphut(e.target.value);
+  };
   const Loadpage = () => {
-    setload(!load)
-  }
+    setload(!load);
+  };
   useEffect(() => {
-    flagnumber = 0
+    flagnumber = 0;
     const fetchData = () => {
-
-      setloading(true)
+      // setloading(true)
       let listshow_export_suyhao = [];
-      mainEService.getdata().then(ress => {
-        let listupe = ress.data
-        ress.data.map((item, index) => {
-
-          let listshow_export_suyhao = list_export
-
-          mainEService.get_rx_power_by_upe(decryptData(item.ip), decryptData(item.username),
-            decryptData(item.password)).then(res => {
-              if (res) {
-
-                res && res.data && res.data.data && res.data.data.map((items, i) => {
-                  let newitem = {};
-                  newitem.diachi = item.ip;
-                  newitem.tenthietbi = item.tentram;
-                  newitem.username = item.username;
-                  newitem.password = item.password;
-                  newitem.tenhethong = item.tenhethong;
-                  newitem.port = items.port;
-                  newitem.RXpower = items.rx_power;
-                  newitem.w_low = items.rx_min;
-                  newitem.w_high = "";
-                  let listNeibor = res.data.data1
-                  newitem.nBHostName = listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port)).length ? listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port))[0].DeviceID + "0" : ""
-                  newitem.nBPort = listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port)).length ? listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port))[0].PortID : ""
-                  newitem.nBSiteName = listupe.filter(e => e.tenhethong == newitem.nBHostName).length ? decryptData(listupe.filter(e => e.tenhethong == newitem.nBHostName)[0].tentram) : ""
-                  newitem.nBSIp = listupe.filter(e => e.tenhethong == newitem.nBHostName).length ? decryptData(listupe.filter(e => e.tenhethong == newitem.nBHostName)[0].ip) : ""
-
-                  console.log(listupe.filter(e => e.tenhethong == newitem.nBHostName), newitem.nBHostName, listupe)
-
-
-
-                  if (
-                    Number(items.rx_power
-                    ) < 99 &&
-                    (Number(items.rx_power) - Number(items.rx_min) < dinhmuc)
-                  ) {
-                    let item_export = {}
-                    item_export.tenthietbi = decryptData(item.tentram);
-                    item_export.diachi = decryptData(item.ip);
-                    item_export.tenhethong = (item.tenhethong);
-                    item_export.port = items.port;
-                    item_export.RXpower = items.rx_power;
-                    item_export.w_low = items.rx_min;
-                    item_export.nbsitename = newitem.nBSiteName;
-                    item_export.ip = newitem.nBSIp;
-                    item_export.hostname = newitem.nBHostName;
-                    item_export.nbport = newitem.nBPort;
-                    listshow_export_suyhao.push(item_export);
-                    setlist_export(listshow_export_suyhao);
-                  }
-                  setLists((prevList) => {
-                    // Kiểm tra xem đã có mục nào có cùng diachi và port trong danh sách chưa
-                    const exists = prevList.some(
-                      (item) => item.diachi === newitem.diachi && item.port === newitem.port
-                    );
-
-                    // Nếu chưa có, thêm newItem vào danh sách, nếu không thì giữ nguyên danh sách cũ
-                    if (!exists) {
-                      return [...prevList, newitem].sort(
-                        (a, b) =>
-                          min(a.w_low, a.RXpower, a.w_high) -
-                          min(b.w_low, b.RXpower, b.w_high)
-                      );
-                    } else {
-                      return prevList; // Giữ nguyên nếu đã tồn tại
-                    }
-                  });
-               
-                  if (0 == Number(index)) {
-                    setloading(false)
-                    if (flagnumber == 0) {
-                      flagnumber = 1
-                      toast.success("Quét hoàn thành!!!")
-                    }
-
-                 
-                  }
-                  else {
-                    setloading(true)
-                  }
-                })
-
-              } else {
-                console.log("eror")
-              }
-              setflag(true)
-            })
-        })
-
-      }).catch(e => {
-        setloading(true)
-        mainEService.getdata().then(ress => {
-          let listupe = ress.data
+      mainEService
+        .getdata()
+        .then((ress) => {
+          let listupe = ress.data;
           ress.data.map((item, index) => {
-            let listshow_export_suyhao = list_export
-            mainEService.get_rx_power_by_upe(decryptData(item.ip), decryptData(item.username),
-              decryptData(item.password)).then(res => {
+            let listshow_export_suyhao = list_export;
+
+            mainEService
+              .get_rx_power_by_upe(
+                decryptData(item.ip),
+                decryptData(item.username),
+                decryptData(item.password)
+              )
+              .then((res) => {
                 if (res) {
-                  console.log(res.data)
-                  res && res.data && res.data.data && res.data.data.map((items, i) => {
-                    let newitem = {};
-                    newitem.diachi = item.ip;
-                    newitem.tenthietbi = item.tentram;
-                    newitem.username = item.username;
-                    newitem.password = item.password;
-                    newitem.tenhethong = item.tenhethong;
-                    newitem.port = items.port;
-                    newitem.RXpower = items.rx_power;
-                    newitem.w_low = items.rx_min;
-                    newitem.w_high = "";
-                    let listNeibor = res.data.data1
-                    newitem.nBHostName = listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port)).length ? listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port))[0].DeviceID + "0" : ""
-                    newitem.nBPort = listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port)).length ? listNeibor.filter(e => TE(e.LocalIntrfce) == TenGigE(items.port))[0].PortID : ""
-                    newitem.nBSiteName = listupe.filter(e => e.tenhethong == newitem.nBHostName).length ? decryptData(listupe.filter(e => e.tenhethong == newitem.nBHostName)[0].tentram) : ""
-                    newitem.nBSIp = listupe.filter(e => e.tenhethong == newitem.nBHostName).length ? decryptData(listupe.filter(e => e.tenhethong == newitem.nBHostName)[0].ip) : ""
+                  res &&
+                    res.data &&
+                    res.data.data &&
+                    res.data.data.map((items, i) => {
+                      let newitem = {};
+                      newitem.diachi = item.ip;
+                      newitem.tenthietbi = item.tentram;
+                      newitem.username = item.username;
+                      newitem.password = item.password;
+                      newitem.tenhethong = item.tenhethong;
+                      newitem.port = items.port;
+                      newitem.RXpower = items.rx_power;
+                      newitem.w_low = items.rx_min;
+                      newitem.w_high = "";
+                      let listNeibor = res.data.data1;
+                      newitem.nBHostName = listNeibor.filter(
+                        (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                      ).length
+                        ? listNeibor.filter(
+                            (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                          )[0].DeviceID + "0"
+                        : "";
+                      newitem.nBPort = listNeibor.filter(
+                        (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                      ).length
+                        ? listNeibor.filter(
+                            (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                          )[0].PortID
+                        : "";
+                      newitem.nBSiteName = listupe.filter(
+                        (e) => e.tenhethong == newitem.nBHostName
+                      ).length
+                        ? decryptData(
+                            listupe.filter(
+                              (e) => e.tenhethong == newitem.nBHostName
+                            )[0].tentram
+                          )
+                        : "";
+                      newitem.nBSIp = listupe.filter(
+                        (e) => e.tenhethong == newitem.nBHostName
+                      ).length
+                        ? decryptData(
+                            listupe.filter(
+                              (e) => e.tenhethong == newitem.nBHostName
+                            )[0].ip
+                          )
+                        : "";
 
-                    console.log(listupe.filter(e => e.tenhethong == newitem.nBHostName), newitem.nBHostName, listupe)
-
-
-
-                    if (
-                      Number(items.rx_power
-                      ) < 99 &&
-                      (Number(items.rx_power) - Number(items.rx_min) < dinhmuc)
-                    ) {
-                      let item_export = {}
-                      item_export.tenthietbi = decryptData(item.tentram);
-                      item_export.diachi = decryptData(item.ip);
-                      item_export.tenhethong = (item.tenhethong);
-                      item_export.port = items.port;
-                      item_export.RXpower = items.rx_power;
-                      item_export.w_low = items.rx_min;
-                      item_export.nbsitename = newitem.nBSiteName;
-                      item_export.ip = newitem.nBSIp;
-                      item_export.hostname = newitem.nBHostName;
-                      item_export.nbport = newitem.nBPort;
-                      listshow_export_suyhao.push(item_export);
-                      setlist_export(listshow_export_suyhao);
-                    }
-                    setLists((prevList) => {
-                      // Kiểm tra xem đã có mục nào có cùng diachi và port trong danh sách chưa
-                      const exists = prevList.some(
-                        (item) => item.diachi === newitem.diachi && item.port === newitem.port
+                      console.log(
+                        listupe.filter(
+                          (e) => e.tenhethong == newitem.nBHostName
+                        ),
+                        newitem.nBHostName,
+                        listupe
                       );
 
-                      // Nếu chưa có, thêm newItem vào danh sách, nếu không thì giữ nguyên danh sách cũ
-                      if (!exists) {
-                        return [...prevList, newitem].sort(
-                          (a, b) =>
-                            min(a.w_low, a.RXpower, a.w_high) -
-                            min(b.w_low, b.RXpower, b.w_high)
-
+                      if (
+                        Number(items.rx_power) < 99 &&
+                        Number(items.rx_power) - Number(items.rx_min) < dinhmuc
+                      ) {
+                        let item_export = {};
+                        item_export.tenthietbi = decryptData(item.tentram);
+                        item_export.diachi = decryptData(item.ip);
+                        item_export.tenhethong = item.tenhethong;
+                        item_export.port = items.port;
+                        item_export.RXpower = items.rx_power;
+                        item_export.w_low = items.rx_min;
+                        item_export.nbsitename = newitem.nBSiteName;
+                        item_export.ip = newitem.nBSIp;
+                        item_export.hostname = newitem.nBHostName;
+                        item_export.nbport = newitem.nBPort;
+                        listshow_export_suyhao.push(item_export);
+                        setlist_export(listshow_export_suyhao.sort((x, y) => (x.RXpower - x.w_low) - (y.RXpower - y.w_low)));
+                      }
+                      setLists((prevList) => {
+                        // Kiểm tra xem đã có mục nào có cùng diachi và port trong danh sách chưa
+                        const exists = prevList.some(
+                          (item) =>
+                            item.diachi === newitem.diachi &&
+                            item.port === newitem.port
                         );
+
+                        // Nếu chưa có, thêm newItem vào danh sách, nếu không thì giữ nguyên danh sách cũ
+                        if (!exists) {
+                          return [...prevList, newitem].sort(
+                            (a, b) =>
+                              min(a.w_low, a.RXpower, a.w_high) -
+                              min(b.w_low, b.RXpower, b.w_high)
+                          );
+                        } else {
+                          return prevList; // Giữ nguyên nếu đã tồn tại
+                        }
+                      });
+
+                      if (0 == Number(index)) {
+                        setloading(false);
+                        if (flagnumber == 0) {
+                          flagnumber = 1;
+                          toast.success("Quét hoàn thành!!!");
+                        }
                       } else {
-                        return prevList; // Giữ nguyên nếu đã tồn tại
+                        //  setloading(true)
                       }
                     });
-
-                    if (0 == Number(index)) {
-                      setloading(false)
-                   
-                      if (flagnumber == 0) {
-                        flagnumber = 1
-                        toast.success("Quét hoàn thành!!!")
-                      }
-
-                    }
-                    else {
-                      setloading(true)
-                    }
-                  })
-
-
                 } else {
-                  console.log("eror")
+                  console.log("eror");
                 }
+                setflag(true);
+              });
+          });
+        })
+        .catch((e) => {
+          /// setloading(true)
+          mainEService
+            .getdata()
+            .then((ress) => {
+              let listupe = ress.data;
+              ress.data.map((item, index) => {
+                let listshow_export_suyhao = list_export;
+                mainEService
+                  .get_rx_power_by_upe(
+                    decryptData(item.ip),
+                    decryptData(item.username),
+                    decryptData(item.password)
+                  )
+                  .then((res) => {
+                    if (res) {
+                      console.log(res.data);
+                      res &&
+                        res.data &&
+                        res.data.data &&
+                        res.data.data.map((items, i) => {
+                          let newitem = {};
+                          newitem.diachi = item.ip;
+                          newitem.tenthietbi = item.tentram;
+                          newitem.username = item.username;
+                          newitem.password = item.password;
+                          newitem.tenhethong = item.tenhethong;
+                          newitem.port = items.port;
+                          newitem.RXpower = items.rx_power;
+                          newitem.w_low = items.rx_min;
+                          newitem.w_high = "";
+                          let listNeibor = res.data.data1;
+                          newitem.nBHostName = listNeibor.filter(
+                            (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                          ).length
+                            ? listNeibor.filter(
+                                (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                              )[0].DeviceID + "0"
+                            : "";
+                          newitem.nBPort = listNeibor.filter(
+                            (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                          ).length
+                            ? listNeibor.filter(
+                                (e) => TE(e.LocalIntrfce) == TenGigE(items.port)
+                              )[0].PortID
+                            : "";
+                          newitem.nBSiteName = listupe.filter(
+                            (e) => e.tenhethong == newitem.nBHostName
+                          ).length
+                            ? decryptData(
+                                listupe.filter(
+                                  (e) => e.tenhethong == newitem.nBHostName
+                                )[0].tentram
+                              )
+                            : "";
+                          newitem.nBSIp = listupe.filter(
+                            (e) => e.tenhethong == newitem.nBHostName
+                          ).length
+                            ? decryptData(
+                                listupe.filter(
+                                  (e) => e.tenhethong == newitem.nBHostName
+                                )[0].ip
+                              )
+                            : "";
 
-                setflag(true)
+                          console.log(
+                            listupe.filter(
+                              (e) => e.tenhethong == newitem.nBHostName
+                            ),
+                            newitem.nBHostName,
+                            listupe
+                          );
 
-              })
+                          if (
+                            Number(items.rx_power) < 99 &&
+                            Number(items.rx_power) - Number(items.rx_min) <
+                              dinhmuc
+                          ) {
+                            let item_export = {};
+                            item_export.tenthietbi = decryptData(item.tentram);
+                            item_export.diachi = decryptData(item.ip);
+                            item_export.tenhethong = item.tenhethong;
+                            item_export.port = items.port;
+                            item_export.RXpower = items.rx_power;
+                            item_export.w_low = items.rx_min;
+                            item_export.nbsitename = newitem.nBSiteName;
+                            item_export.ip = newitem.nBSIp;
+                            item_export.hostname = newitem.nBHostName;
+                            item_export.nbport = newitem.nBPort;
+                            listshow_export_suyhao.push(item_export);
+                            setlist_export(listshow_export_suyhao.sort((x, y) => (x.RXpower - x.w_low) - (y.RXpower - y.w_low)));
+                          }
+                          setLists((prevList) => {
+                            // Kiểm tra xem đã có mục nào có cùng diachi và port trong danh sách chưa
+                            const exists = prevList.some(
+                              (item) =>
+                                item.diachi === newitem.diachi &&
+                                item.port === newitem.port
+                            );
 
-          })
+                            // Nếu chưa có, thêm newItem vào danh sách, nếu không thì giữ nguyên danh sách cũ
+                            if (!exists) {
+                              return [...prevList, newitem].sort(
+                                (a, b) =>
+                                  min(a.w_low, a.RXpower, a.w_high) -
+                                  min(b.w_low, b.RXpower, b.w_high)
+                              );
+                            } else {
+                              return prevList; // Giữ nguyên nếu đã tồn tại
+                            }
+                          });
 
-        }).catch(err => { setloading(false) })
-      })
+                          if (0 == Number(index)) {
+                            setloading(false);
 
+                            if (flagnumber == 0) {
+                              flagnumber = 1;
+                              toast.success("Quét hoàn thành!!!");
+                            }
+                          } else {
+                            //    setloading(true)
+                          }
+                        });
+                    } else {
+                      console.log("eror");
+                    }
 
-
-
-
+                    setflag(true);
+                  });
+              });
+            })
+            .catch((err) => {
+              setloading(false);
+            });
+        });
     };
 
-    setLists([])
-    setflag(false)
+    setLists([]);
+    setflag(false);
     fetchData();
-
   }, [load]);
-
 
   const decryptData = (encryptedData) => {
     let secretKey = "vnpt";
@@ -371,7 +433,7 @@ const Suyhao_mainE_v2 = () => {
       item.password = encryptData(item.password);
       item.diachi = encryptData(item.diachi);
       item.tenthietbi = encryptData(item.tenthietbi);
-      item.tenhethong = encryptData(item.tenthuongmai)
+      item.tenhethong = encryptData(item.tenthuongmai);
     });
     suyhaoService.addData(e).then((res) => {
       //  console.log(res.data);
@@ -383,14 +445,13 @@ const Suyhao_mainE_v2 = () => {
     setListPg(e);
   };
   const Auto = () => {
-    let time = (gio > 9 ? gio : "0" + gio) + ":" + (phut > 9 ? phut : "0" + phut)
-    mainEService.autorun(time).then(
-      res => {
-        toast.success("Thêm lịch Auto Backup thành công!")
-        mainEService.writeDatainFile("timebackup.txt", time)
-      }
-    )
-  }
+    let time =
+      (gio > 9 ? gio : "0" + gio) + ":" + (phut > 9 ? phut : "0" + phut);
+    mainEService.autorun(time).then((res) => {
+      toast.success("Thêm lịch Auto Backup thành công!");
+      mainEService.writeDatainFile("timebackup.txt", time);
+    });
+  };
   return (
     <>
       {loading && (
@@ -406,13 +467,10 @@ const Suyhao_mainE_v2 = () => {
         <div className="container">
           <div className="row mt-4">
             <div className="col col-md-6 col-lg-12 col-sm-12 b-2">
-              <NavLink
-                to="/"
-
-              >
+              <NavLink to="/">
                 <i class="fa-solid fa-home" /> Trang chủ &nbsp;
               </NavLink>
-              / Giám sát suy hao /  Thống kê suy hao Man-E
+              / Giám sát suy hao / Thống kê suy hao Man-E
             </div>
           </div>
 
@@ -421,45 +479,76 @@ const Suyhao_mainE_v2 = () => {
               <div class="time-container">
                 <span class="label">Chọn thời gian:</span>
 
-
                 <div class="input-group">
                   <label class="input-group-text">Hour</label>
-                  <input type="number" className="form-control" id="minute" min="0" max="59" value={gio}
-                    onChange={(e) => changeHour(e)} />
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="minute"
+                    min="0"
+                    max="59"
+                    value={gio}
+                    onChange={(e) => changeHour(e)}
+                  />
                 </div>
 
                 <div class="input-group">
                   <label class="input-group-text">Minute</label>
-                  <input type="number" className="form-control" id="minute" min="0" max="59" value={phut}
-                    onChange={(e) => changeMinute(e)} />
+                  <input
+                    type="number"
+                    className="form-control"
+                    id="minute"
+                    min="0"
+                    max="59"
+                    value={phut}
+                    onChange={(e) => changeMinute(e)}
+                  />
                 </div>
 
                 <div class="input-group">
-                  <button className="btn btn-primary btn-lg" onClick={() => Auto()}>Run Auto</button>
+                  <button
+                    className="btn btn-primary btn-lg"
+                    onClick={() => Auto()}
+                  >
+                    Run Auto
+                  </button>
                 </div>
               </div>
             </div>
             <div className="col col-md-1 d-flex align-items-center justify-content-center">
               <label className="form-label tonghop-label"> Định mức</label>
             </div>
-            <div className="col col-md-1 mt-2">  <input
-              type="number"
-              className="form-control  ms-2 "
-
-              onChange={(e) => changedinhmuc(e)}
-              value={dinhmuc}
-              placeholder="Định mức suy hao"
-            /></div>
+            <div className="col col-md-1 mt-2">
+              {" "}
+              <input
+                type="number"
+                className="form-control  ms-2 "
+                onChange={(e) => changedinhmuc(e)}
+                value={dinhmuc}
+                placeholder="Định mức suy hao"
+              />
+            </div>
             <div className="col col-md-5 mt-2">
               <div className="row">
                 <div className="col col-md-4">
-                  <button onClick={() => Loadpage()} className={flag ? "btn btn-lg  btn-success" : "btn btn-lg disabled btn-success"}>Làm mới trạng thái</button>
+                  <button
+                    onClick={() => Loadpage()}
+                    className={
+                      flag
+                        ? "btn btn-lg  btn-success"
+                        : "btn btn-lg disabled btn-success"
+                    }
+                  >
+                    Làm mới trạng thái
+                  </button>
                 </div>
                 <div className="col col-md-7">
                   <ImportSuyhao
                     getdata={getdata}
                     header={header}
-                    data={list_export.sort((a, b) => b.nbport.localeCompare(a.nbport))}
+                    data={list_export.sort((a, b) =>
+                      b.nbport.localeCompare(a.nbport)
+                    )}
                     row={0}
                     name={
                       "DanhSach_Suyhao_MainE_" +
@@ -471,9 +560,7 @@ const Suyhao_mainE_v2 = () => {
                     }
                   />
                 </div>
-
               </div>
-
             </div>
           </div>
           <table className="table mt-3 table-bordered   table-hover">
@@ -481,33 +568,20 @@ const Suyhao_mainE_v2 = () => {
               <tr>
                 <th>STT</th>
                 {/* <th scope="col">SITE NAME</th> */}
-                <th scope="col">SITE NAME
-                </th>
+                <th scope="col">SITE NAME</th>
                 <th scope="col">IP ADDRESS</th>
 
-
-                <th scope="col">HOSTNAME
-                </th>
+                <th scope="col">HOSTNAME</th>
                 <th scope="col">PORT</th>
 
                 <th scope="col">Thông số suy hao</th>
                 <th scope="col">W_Low</th>
-                <th scope="col">SITE
-                  NEIGHBORS</th>
-                <th scope="col">IP
-                  NEIGHBORS
-                </th>
-                <th scope="col">HOSTNAME
-                  NEIGHBORS
-                </th>
-                <th scope="col">PORT
-                  NEIGHBORS</th>
-
-
+                <th scope="col">SITE NEIGHBORS</th>
+                <th scope="col">IP NEIGHBORS</th>
+                <th scope="col">HOSTNAME NEIGHBORS</th>
+                <th scope="col">PORT NEIGHBORS</th>
 
                 {/* <th scope="col">W_High</th> */}
-
-
               </tr>
             </thead>
             <tbody>
@@ -518,7 +592,7 @@ const Suyhao_mainE_v2 = () => {
                       className={
                         // ||Number(item.RXpower) - Number(item.w_high) > -2
                         Number(item.RXpower) < 99 &&
-                          (Number(item.RXpower) - Number(item.w_low) < dinhmuc)
+                        Number(item.RXpower) - Number(item.w_low) < dinhmuc
                           ? "alert tr-backgroud"
                           : "alert"
                       }
@@ -528,7 +602,6 @@ const Suyhao_mainE_v2 = () => {
                       <td scope="row">{index + 1}</td>
                       <td>{decryptData(item.tenthietbi)}</td>
                       <td>{decryptData(item.diachi)}</td>
-
 
                       <td> {item.tenhethong} </td>
                       <td> {item.port} </td>
@@ -555,7 +628,6 @@ const Suyhao_mainE_v2 = () => {
                           ? item.w_high + " dBm"
                           : "w_high not found"}{" "}
                       </td> */}
-
                     </tr>
                   );
                 })}

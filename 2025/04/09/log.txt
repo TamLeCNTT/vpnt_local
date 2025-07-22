@@ -1,0 +1,13 @@
+2025-04-09 16:46:49.321655: kết nối ok
+2025-04-09 16:47:01.813273: kết nối ok
+2025-04-09 16:47:37.253611: kết nối ok
+2025-04-09 16:47:39.908571: kết nối ok
+2025-04-09 16:48:35.248218: kết nối ok
+2025-04-09 16:48:39.223391: kết nối ok
+2025-04-09 16:48:42.548347: kết nối ok
+2025-04-09 16:52:09.237816: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-09 16:52:51.318227: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-10 10:16:10.648158: kết nối ok
+2025-04-10 10:16:50.836401: kết nối ok
+2025-04-10 10:23:29.738877: kết nối ok
+2025-04-10 10:24:12.164599: kết nối ok

@@ -1,0 +1,29 @@
+ show port status 1-24
+--------------------------------------------------------------------------------------------------------
+ PORT  TYPE        ADMIN   OPER   NEGO   SET-SPEED   CUR-SPEED   FLOWCTRL      UPTIME         DOWNTIME
+--------------------------------------------------------------------------------------------------------
+1       GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     203:03:00:41    000:00:00:00
+2       GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    216:15:36:45
+3       GE-FX        Up     Up     Force   100/Full   100/Full     Off     098:05:25:07    000:00:00:00
+4       GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    762:23:00:27
+5       GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    762:23:00:27
+6       GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     092:01:24:51    000:00:00:00
+7       GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+8       GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+9       GE-FX        Up     Down   Force   100/Full     0/Full     Off     000:00:00:00    163:06:18:50
+10      GE-FX        Up     Down   Force  1000/Full     0/Full     Off     000:00:00:00    011:19:47:11
+11      GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+12      GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+13      GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+14      GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+15      GE-FX        Down   Down   Force   100/Full     0/Full     Off     000:00:00:00    762:23:00:27
+16      GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    162:02:34:43
+17      GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    069:04:59:04
+18      GE-FX        Up     Down   Force  1000/Full     0/Full     Off     000:00:00:00    245:16:13:00
+19      GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     098:05:23:46    000:00:00:00
+20      GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     037:17:13:13    000:00:00:00
+21      GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     245:15:42:08    000:00:00:00
+22      GE-FX        Down   Down   Force  1000/Full     0/Full     Off     000:00:00:00    762:23:00:27
+23      GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     166:07:49:11    000:00:00:00
+24      GE-FX        Up     Up     Force  1000/Full  1000/Full     Off     081:05:44:30    000:00:00:00
+HUG.LMY.XLT.L2S.LM03#

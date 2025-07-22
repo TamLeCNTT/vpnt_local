@@ -31,10 +31,9 @@ const Home = () => {
     "Định Mức nhiên liệu (lít/giờ)",
     "Tổng nhiên liệu dầu (lít)",
     "Tổng nhiên liệu xăng(lít)",
-  
+
     "Có ATS",
     "Ghi chú",
-   
   ];
   const optiondonvi = [
     { value: "tatca", label: "Tất cả" },
@@ -50,15 +49,14 @@ const Home = () => {
   }, []);
   const getdata = (e) => {
     console.log(e);
-    setListpg([])
-    setLists([])
+    setListpg([]);
+    setLists([]);
     let listdata = [];
     let data = {};
     const format = "dd/MM/yyyy HH:mm";
-    let err=false
+    let err = false;
     e.map((item, index) => {
       if (index != 0 && item.__EMPTY_9) {
-        
         // console.log(
         //   item.__EMPTY_1,
         //   differenceInMinutes(
@@ -68,239 +66,351 @@ const Home = () => {
         //   item.__EMPTY_3,
         //   item.__EMPTY_5 ? item.__EMPTY_5 : "khong cos kt"
         // );
-        try{
-        data = {
-          stt: index,
-          tentram: item.__EMPTY_1,
-          tgbdac: item.__EMPTY_2 ? item.__EMPTY_2 : "",
-          tgktac: item.__EMPTY_3 ? item.__EMPTY_3 : "",
-          tgbdmn: item.__EMPTY_4 ? item.__EMPTY_4 : "",
-          tgktmn: item.__EMPTY_5 ? item.__EMPTY_5 : "",
-          sophut:item.__EMPTY_6,
-          
-          tongtgdau: 0,
-          tongtgxang: 0,
-          dinhmuc:
-            String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-              .toLowerCase()
-              .indexOf("xăng") != -1
-              ? Number(
-                  String(item.__EMPTY_8).slice(
-                    String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-                      .toLowerCase()
-                      .indexOf("xăng") + 5,
-                    String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-                      .toLowerCase()
-                      .indexOf("lít")? String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-                      .toLowerCase()
-                      .indexOf("lít"): String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-                      .toLowerCase()
-                      .indexOf("lit")
-                  )
-                )
-              : listNhienlieu.filter((e) => e.tentram == item.__EMPTY_1)[0]
-                  .dinhmuc,
-          tongnhienlieudau: 0,
-          tongnhienlieuxang: 0,
+        try {
+          data = {
+            stt: index,
+            tentram: item.__EMPTY_1,
+            tgbdac: item.__EMPTY_2 ? item.__EMPTY_2 : "",
+            tgktac: item.__EMPTY_3 ? item.__EMPTY_3 : "",
+            tgbdmn: item.__EMPTY_4 ? item.__EMPTY_4 : "",
+            tgktmn: item.__EMPTY_5 ? item.__EMPTY_5 : "",
+            sophut: item.__EMPTY_6,
 
-          loainhienlieu: String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-          .toLowerCase()
-          .indexOf("xăng") != -1?"UC":listNhienlieu.filter(
-            (e) => e.tentram == item.__EMPTY_1
-          )[0].nhienlieu,
-          ats: item.__EMPTY_7 ? item.__EMPTY_7 : "",
-          ghichu:
-            differenceInMinutes(
-              parse(item.__EMPTY_5, format, new Date()),
-              parse(item.__EMPTY_3, format, new Date())
-            ) &&
-            differenceInMinutes(
-              parse(item.__EMPTY_5, format, new Date()),
-              parse(item.__EMPTY_3, format, new Date())
-            ) > 60
-              ? item.__EMPTY_8
-                ? "Trừ " +
-                  (differenceInMinutes(
-                    parse(item.__EMPTY_5, format, new Date()),
-                    parse(item.__EMPTY_3, format, new Date())
-                  ) -
-                    60) +
-                  " phút vượt VHMPĐ" +
-                  item.__EMPTY_8
-                : "Trừ " +
-                  (differenceInMinutes(
-                    parse(item.__EMPTY_5, format, new Date()),
-                    parse(item.__EMPTY_3, format, new Date())
-                  ) -
-                    60) +
-                  " phút vượt VHMPĐ"
-              : 
+            tongtgdau: 0,
+            tongtgxang: 0,
+            dinhmuc:
               String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
-              .toLowerCase()
-              .indexOf("xăng") != -1
-              ? "Xăng 3 lít/h"
-              :             
-              item.__EMPTY_8
-              ? item.__EMPTY_8
-              : "",
-          tram: item.__EMPTY_9,
-          phut:
-            differenceInMinutes(
-              parse(item.__EMPTY_5, format, new Date()),
-              parse(item.__EMPTY_3, format, new Date())
-            ) &&
-            differenceInMinutes(
-              parse(item.__EMPTY_5, format, new Date()),
-              parse(item.__EMPTY_3, format, new Date())
-            ) > 60
-              ? Number(item.__EMPTY_6) -
-                (Number(
-                  differenceInMinutes(
-                    parse(item.__EMPTY_5, format, new Date()),
-                    parse(item.__EMPTY_3, format, new Date())
+                .toLowerCase()
+                .indexOf("xăng") != -1
+                ? Number(
+                    String(item.__EMPTY_8).slice(
+                      String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                        .toLowerCase()
+                        .indexOf("xăng") + 5,
+                      String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                        .toLowerCase()
+                        .indexOf("lít")
+                        ? String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                            .toLowerCase()
+                            .indexOf("lít")
+                        : String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                            .toLowerCase()
+                            .indexOf("lit")
+                    )
                   )
-                ) -
-                  60)
-              : item.__EMPTY_6,
-        };}
-        catch{
-          toast.error("Trạm "+item.__EMPTY_1+" không tồn tại")
-          err=true
+                : Number(
+                    listNhienlieu.filter((e) => e.tentram == item.__EMPTY_1)[0]
+                      .dinhmuc
+                  ),
+            tongnhienlieudau: 0,
+            tongnhienlieuxang: 0,
+
+            loainhienlieu:
+              String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                .toLowerCase()
+                .indexOf("xăng") != -1
+                ? "UC"
+                : listNhienlieu.filter((e) => e.tentram == item.__EMPTY_1)[0]
+                    .nhienlieu,
+            ats: item.__EMPTY_7 ? item.__EMPTY_7 : "",
+            ghichu:
+              differenceInMinutes(
+                parse(item.__EMPTY_5, format, new Date()),
+                parse(item.__EMPTY_3, format, new Date())
+              ) &&
+              differenceInMinutes(
+                parse(item.__EMPTY_5, format, new Date()),
+                parse(item.__EMPTY_3, format, new Date())
+              ) > 60
+                ? item.__EMPTY_8
+                  ? "Trừ " +
+                    (differenceInMinutes(
+                      parse(item.__EMPTY_5, format, new Date()),
+                      parse(item.__EMPTY_3, format, new Date())
+                    ) -
+                      60) +
+                    " phút vượt VHMPĐ" +
+                    item.__EMPTY_8
+                  : "Trừ " +
+                    (differenceInMinutes(
+                      parse(item.__EMPTY_5, format, new Date()),
+                      parse(item.__EMPTY_3, format, new Date())
+                    ) -
+                      60) +
+                    " phút vượt VHMPĐ"
+                : String(item.__EMPTY_8 ? item.__EMPTY_8 : "")
+                    .toLowerCase()
+                    .indexOf("xăng") != -1
+                ? "Xăng 3 lít/h"
+                : item.__EMPTY_8
+                ? item.__EMPTY_8
+                : "",
+            tram: item.__EMPTY_9,
+            phut:
+              differenceInMinutes(
+                parse(item.__EMPTY_5, format, new Date()),
+                parse(item.__EMPTY_3, format, new Date())
+              ) &&
+              differenceInMinutes(
+                parse(item.__EMPTY_5, format, new Date()),
+                parse(item.__EMPTY_3, format, new Date())
+              ) > 60
+                ? Number(item.__EMPTY_6) -
+                  (Number(
+                    differenceInMinutes(
+                      parse(item.__EMPTY_5, format, new Date()),
+                      parse(item.__EMPTY_3, format, new Date())
+                    )
+                  ) -
+                    60)
+                : item.__EMPTY_6,
+          };
+        } catch {
+          toast.error("Trạm " + item.__EMPTY_1 + " không tồn tại");
+          err = true;
         }
         // console.log(data);
         listdata.push(data);
       }
     });
-    if (!err){
-      console.log(listdata)
+    if (!err) {
+      console.log(listdata);
       listdata = listdata.sort((a, b) => {
         // Điều kiện 1: Sắp xếp theo 'tram'
         if (a.tram !== b.tram) {
           return a.tram.localeCompare(b.tram);
         }
-        
+
         // Điều kiện 2: Sắp xếp theo 'tentram' nếu 'tram' giống nhau
         if (a.tentram !== b.tentram) {
           return a.tentram.localeCompare(b.tentram);
         }
-      
+
         // Điều kiện 3: Sắp xếp theo 'diachi' nếu 'tram' và 'tentram' giống nhau
         return a.ghichu.localeCompare(b.ghichu);
       });
-    let listDataexport = [];
-    // console.log(listdata);
-    listdata.map((item, index) => {
-      let listsumbyTentram = listdata.filter((e) => e.tentram == item.tentram);
-      // console.log("danh sach", listsumbyTentram);
-      // console.log(
-      //   listsumbyTentram.filter(
-      //     (e) =>
-      //       String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
-      //       e.loainhienlieu == "Xăng"
-      //   )
-      // );
-      let gioxang = listsumbyTentram
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
-            e.loainhienlieu == "Xăng"
-        )
-        .reduce((a, v) => (a = a + Number(v.phut)), 0);
-      let gioxanguc = listsumbyTentram
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") != -1 
-        )
-        .reduce((a, v) => (a = a + Number(v.phut)), 0);
-      let giodau = listsumbyTentram
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
-            e.loainhienlieu != "Xăng"
-        ) 
-        .reduce((a, v) => (a = a + Number(v.phut)), 0);
-      let nhienlieu = listNhienlieu.filter((e) => e.tentram == item.tentram);
+      let listDataexport = [];
+      // console.log(listdata);
+      listdata.map((item, index) => {
+        let listsumbyTentram = listdata.filter(
+          (e) => e.tentram == item.tentram
+        );
+        // console.log("danh sach", listsumbyTentram);
+        // console.log(
+        //   listsumbyTentram.filter(
+        //     (e) =>
+        //       String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
+        //       e.loainhienlieu == "Xăng"
+        //   )
+        // );
+        let gioxang = listsumbyTentram
+          .filter(
+            (e) =>
+              String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
+              e.loainhienlieu == "Xăng"
+          )
+          .reduce((a, v) => (a = a + Number(v.phut)), 0);
+        let gioxanguc = listsumbyTentram
+          .filter((e) => String(e.ghichu).toLowerCase().indexOf("xăng") != -1)
+          .reduce((a, v) => (a = a + Number(v.phut)), 0);
+        let giodau = listsumbyTentram
+          .filter(
+            (e) =>
+              String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
+              e.loainhienlieu != "Xăng"
+          )
+          .reduce((a, v) => (a = a + Number(v.phut)), 0);
+        let nhienlieu = listNhienlieu.filter((e) => e.tentram == item.tentram);
 
-      listdata[index].stt = index + 1;
-      if (
-        String(listdata[index].ghichu).toLowerCase().indexOf("xăng") == -1 &&
-        listdata[index].loainhienlieu != "Xăng"
-      ) {
-        listdata[index].tongtgdau = giodau;
-        listdata[index].tongtgxang = 0;
-        listdata[index].tongnhienlieudau = (
-          (Number(giodau) / 60) *
-          listdata[index].dinhmuc
-        ).toFixed(2);
-        listdata[index].tongnhienlieuxang = 0;
-      } else {
-        listdata[index].tongtgdau = 0;
-        listdata[index].tongnhienlieudau = 0;
-        let tonggioxang=0
-        console.log(listdata[index],gioxang,gioxanguc)
-        if (  String(listdata[index].ghichu).toLowerCase().indexOf("xăng") == -1)
-        {
-          console.log("ko")
-         tonggioxang= gioxanguc!=0 && gioxang!=gioxanguc?gioxang-gioxanguc:gioxang;
+        listdata[index].stt = index + 1;
+        if (
+          String(listdata[index].ghichu).toLowerCase().indexOf("xăng") == -1 &&
+          listdata[index].loainhienlieu != "Xăng"
+        ) {
+          listdata[index].tongtgdau = giodau;
+          listdata[index].tongtgxang = 0;
+          listdata[index].tongnhienlieudau = Number(
+            ((Number(giodau) / 60) * listdata[index].dinhmuc).toFixed(2)
+          );
+          listdata[index].tongnhienlieuxang = 0;
+        } else {
+          listdata[index].tongtgdau = 0;
+          listdata[index].tongnhienlieudau = 0;
+          let tonggioxang = 0;
+          console.log(listdata[index], gioxang, gioxanguc);
+          if (
+            String(listdata[index].ghichu).toLowerCase().indexOf("xăng") == -1
+          ) {
+            console.log("ko");
+            tonggioxang =
+              gioxanguc != 0 && gioxang != gioxanguc
+                ? gioxang - gioxanguc
+                : gioxang;
+          } else {
+            console.log("co");
+            tonggioxang = gioxanguc;
+          }
+          listdata[index].tongtgxang = tonggioxang;
+          listdata[index].tongnhienlieuxang = Number(
+            ((Number(tonggioxang) / 60) * listdata[index].dinhmuc).toFixed(2)
+          );
         }
-      else{
-        console.log("co")
-        tonggioxang= gioxanguc;
-      }
-        listdata[index].tongtgxang = tonggioxang
-        listdata[index].tongnhienlieuxang = (
-          (Number(tonggioxang) / 60) *
-          listdata[index].dinhmuc
-        ).toFixed(2);
-      }
-      //listdata[index].dinhmuc = Number(nhienlieu[0].dinhmuc);
-      //[index].loainhienlieu = nhienlieu[0].nhienlieu;
-      // listdata[index].tongnhienlieu = (
-      //   (Number(gio) / 60) *
-      //   Number(nhienlieu[0].dinhmuc)
-      // ).toFixed(2);
+        //listdata[index].dinhmuc = Number(nhienlieu[0].dinhmuc);
+        //[index].loainhienlieu = nhienlieu[0].nhienlieu;
+        // listdata[index].tongnhienlieu = (
+        //   (Number(gio) / 60) *
+        //   Number(nhienlieu[0].dinhmuc)
+        // ).toFixed(2);
 
-      //console.log(listdata[index].tram == "TTVT1");
-      if (
-        (listdata[index + 1] &&
-          listdata[index].tram != listdata[index + 1].tram) ||
-        !listdata[index + 1]
-      ) {
-        // console.log(listdata.filter((e) => e.tram == listdata[index].tram));
+        //console.log(listdata[index].tram == "TTVT1");
+        if (
+          (listdata[index + 1] &&
+            listdata[index].tram != listdata[index + 1].tram) ||
+          !listdata[index + 1]
+        ) {
+          // console.log(listdata.filter((e) => e.tram == listdata[index].tram));
 
-        data = {
-          stt: "",
-          tentram: "Tổng",
-          tgbdac: "",
-          tgktac: "",
-          tgbdmn: "",
-          tgktmn: "",
-          sophut: listdata
-            .filter((e) => e.tram == listdata[index].tram)
-            .reduce((a, v) => (a = a + Number(v.sophut)), 0),
-          tongtgdau: listdata
+          data = {
+            stt: "",
+            tentram: "Tổng",
+            tgbdac: "",
+            tgktac: "",
+            tgbdmn: "",
+            tgktmn: "",
+            sophut: listdata
+              .filter((e) => e.tram == listdata[index].tram)
+              .reduce((a, v) => (a = a + Number(v.sophut)), 0),
+            tongtgdau: listdata
+              .filter(
+                (e) =>
+                  e.tram == listdata[index].tram &&
+                  String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
+                  e.loainhienlieu != "Xăng"
+              )
+              .reduce((a, v) => (a = a + Number(v.phut)), 0)
+              .toFixed(0),
+            tongtgxang: listdata
+              .filter(
+                (e) =>
+                  (e.tram == listdata[index].tram &&
+                    String(e.ghichu).toLowerCase().indexOf("xăng") != -1) ||
+                  (e.tram == listdata[index].tram && e.loainhienlieu == "Xăng")
+              )
+              .reduce((a, v) => (a = a + Number(v.phut)), 0)
+              .toFixed(0),
+            dinhmuc: 0,
+            tongnhienlieudau: Number(
+              listdata
+                .filter(
+                  (e) =>
+                    e.tram == listdata[index].tram &&
+                    String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
+                    e.loainhienlieu != "Xăng"
+                )
+                .reduce(
+                  (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
+                  0
+                )
+                .toFixed(2)
+            ),
+            tongnhienlieuxang: Number(
+              listdata
+                .filter(
+                  (e) =>
+                    (e.tram == listdata[index].tram &&
+                      String(e.ghichu).toLowerCase().indexOf("xăng") != -1) ||
+                    (e.tram == listdata[index].tram &&
+                      e.loainhienlieu == "Xăng")
+                )
+                .reduce(
+                  (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
+                  0
+                )
+                .toFixed(2)
+            ),
+
+            loainhienlieu: "",
+            ats: "",
+            ghichu: "",
+            tram: "",
+          };
+          // console.log(data);
+
+          listDataexport.push(listdata[index]);
+          // let data1 = {
+          //   stt: "",
+          //   tentram: "",
+          //   tgbdac: "",
+          //   tgktac: "",
+          //   tgbdmn: "",
+          //   tgktmn: "",
+          //   phut: "",
+          //   tongtg: "",
+          //   dinhmuc: "",
+          //   tongnhienlieudau: "",
+          //   tongnhienlieuxang: "",
+
+          //   loainhienlieu: "",
+          //   ats: "",
+          //   ghichu: "",
+          //   tram: "",
+          // };
+          // listDataexport.push(data1);
+          listDataexport.push(data);
+          // data = {
+          //   stt: "",
+          //   tentram: "",
+          //   tgbdac: "",
+          //   tgktac: "",
+          //   tgbdmn: "",
+          //   tgktmn: "",
+          //   phut: "",
+          //   tongtg: "",
+          //   dinhmuc: "",
+          //   tongnhienlieudau: "",
+          //   tongnhienlieuxang: "",
+
+          //   loainhienlieu: "",
+          //   ats: "",
+          //   ghichu: "",
+          //   tram: "",
+          // };
+          // listDataexport.push(data);
+          // console.log("con cho con");
+        } else {
+          listDataexport.push(listdata[index]);
+          //     console.log(listdata[index]);
+        }
+      });
+      data = {
+        stt: "",
+        tentram: "Tổng cộng",
+        tgbdac: "",
+        tgktac: "",
+        tgbdmn: "",
+        tgktmn: "",
+        sophut: listdata.reduce((a, v) => (a = a + Number(v.sophut)), 0),
+        tongtgdau: listdata
+          .filter(
+            (e) =>
+              String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
+              e.loainhienlieu != "Xăng"
+          )
+          .reduce((a, v) => (a = a + Number(v.phut)), 0)
+          .toFixed(0),
+        tongtgxang: listdata
+          .filter(
+            (e) =>
+              String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
+              e.loainhienlieu == "Xăng"
+          )
+          .reduce((a, v) => (a = a + Number(v.phut)), 0)
+          .toFixed(0),
+        dinhmuc: 0,
+        tongnhienlieudau: Number(
+          listdata
             .filter(
               (e) =>
-                e.tram == listdata[index].tram &&
-                String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
-                e.loainhienlieu != "Xăng"
-            )
-            .reduce((a, v) => (a = a + Number(v.phut)), 0)
-            .toFixed(0),
-          tongtgxang: listdata
-            .filter(
-              (e) =>
-                (e.tram == listdata[index].tram &&
-                  String(e.ghichu).toLowerCase().indexOf("xăng") != -1) ||
-                (e.tram == listdata[index].tram && e.loainhienlieu == "Xăng")
-            )
-            .reduce((a, v) => (a = a + Number(v.phut)), 0)
-            .toFixed(0),
-          dinhmuc: 0,
-          tongnhienlieudau: listdata
-            .filter(
-              (e) =>
-                e.tram == listdata[index].tram &&
                 String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
                 e.loainhienlieu != "Xăng"
             )
@@ -308,139 +418,40 @@ const Home = () => {
               (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
               0
             )
-            .toFixed(2),
-          tongnhienlieuxang: listdata
+            .toFixed(2)
+        ),
+        tongnhienlieuxang: Number(
+          listdata
             .filter(
               (e) =>
-                (e.tram == listdata[index].tram &&
-                  String(e.ghichu).toLowerCase().indexOf("xăng") != -1) ||
-                (e.tram == listdata[index].tram && e.loainhienlieu == "Xăng")
+                String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
+                e.loainhienlieu == "Xăng"
             )
             .reduce(
               (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
               0
             )
-            .toFixed(2),
+            .toFixed(2)
+        ),
 
-          loainhienlieu: "",
-          ats: "",
-          ghichu: "",
-          tram: "",
-        };
-        // console.log(data);
+        loainhienlieu: "",
+        ats: "",
+        ghichu: "",
+        tram: "",
+      };
 
+      listDataexport.push(data);
+      setLists(listdata);
+      setListOld(listdata);
+      const updatedList = listDataexport.map((person) => {
+        // Tạo đối tượng mới không có thuộc tính 'age'
+        const { phut, loainhienlieu, tram, ...rest } = person;
+        return rest;
+      });
+      setlistexport(updatedList);
 
-        listDataexport.push(listdata[index]);
-        // let data1 = {
-        //   stt: "",
-        //   tentram: "",
-        //   tgbdac: "",
-        //   tgktac: "",
-        //   tgbdmn: "",
-        //   tgktmn: "",
-        //   phut: "",
-        //   tongtg: "",
-        //   dinhmuc: "",
-        //   tongnhienlieudau: "",
-        //   tongnhienlieuxang: "",
-
-        //   loainhienlieu: "",
-        //   ats: "",
-        //   ghichu: "",
-        //   tram: "",
-        // };
-        // listDataexport.push(data1);
-        listDataexport.push(data);
-        // data = {
-        //   stt: "",
-        //   tentram: "",
-        //   tgbdac: "",
-        //   tgktac: "",
-        //   tgbdmn: "",
-        //   tgktmn: "",
-        //   phut: "",
-        //   tongtg: "",
-        //   dinhmuc: "",
-        //   tongnhienlieudau: "",
-        //   tongnhienlieuxang: "",
-
-        //   loainhienlieu: "",
-        //   ats: "",
-        //   ghichu: "",
-        //   tram: "",
-        // };
-        // listDataexport.push(data);
-        // console.log("con cho con");
-      } else {
-        listDataexport.push(listdata[index]);
-        //     console.log(listdata[index]);
-      }
-    });
-    data = {
-      stt: "",
-      tentram: "Tổng cộng",
-      tgbdac: "",
-      tgktac: "",
-      tgbdmn: "",
-      tgktmn: "",
-      sophut: listdata.reduce((a, v) => (a = a + Number(v.sophut)), 0),
-      tongtgdau: listdata
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
-            e.loainhienlieu != "Xăng"
-        )
-        .reduce((a, v) => (a = a + Number(v.phut)), 0)
-        .toFixed(0),
-      tongtgxang: listdata
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
-            e.loainhienlieu == "Xăng"
-        )
-        .reduce((a, v) => (a = a + Number(v.phut)), 0)
-        .toFixed(0),
-      dinhmuc: 0,
-      tongnhienlieudau: listdata
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") == -1 &&
-            e.loainhienlieu != "Xăng"
-        )
-        .reduce(
-          (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
-          0
-        )
-        .toFixed(2),
-      tongnhienlieuxang: listdata
-        .filter(
-          (e) =>
-            String(e.ghichu).toLowerCase().indexOf("xăng") != -1 ||
-            e.loainhienlieu == "Xăng"
-        )
-        .reduce(
-          (a, v) => (a = a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
-          0
-        )
-        .toFixed(2),
-
-      loainhienlieu: "",
-      ats: "",
-      ghichu: "",
-      tram: "",
-    };
-
-    listDataexport.push(data);
-    setLists(listdata);
-    setListOld(listdata);
-    const updatedList = listDataexport.map(person => {
-      // Tạo đối tượng mới không có thuộc tính 'age'
-      const { phut,loainhienlieu,tram, ...rest } = person;
-      return rest;
-    });
-    setlistexport(updatedList);
-    
-    console.log(updatedList)}
+      console.log(updatedList);
+    }
   };
   const changedonvic = (e) => {
     if (e.value == "tatca") {
@@ -529,13 +540,10 @@ const Home = () => {
         <div className="container">
           <div className="row mt-4">
             <div className="col col-md-3 col-lg-12 b-2">
-            <NavLink
-                        to="/"
-                      
-                      >
-                        <i class="fa-solid fa-home"/> Trang chủ &nbsp;
-                      </NavLink>
-                      /  Thống kê nhiên liệu máy nổ 
+              <NavLink to="/">
+                <i class="fa-solid fa-home" /> Trang chủ &nbsp;
+              </NavLink>
+              / Thống kê nhiên liệu máy nổ
             </div>
           </div>
           <div className="row mt-4 d-flex justify-content-between ">
@@ -559,14 +567,8 @@ const Home = () => {
                     row={6}
                     data={listexport}
                     name={
-                      "Tổng hợp nhiên liệu tháng_" +
-                      (new Date().getMonth() +1)+
-                      "_Ngay_" +
-                      new Date().getDate() +
-                      "_" +
-                      (new Date().getMonth() +1)+
-                      "_" +
-                      new Date().getFullYear()
+                      "TỔNG HỢP NHIÊN LIỆU THÁNG " +
+                                          (new Date().getMonth() + 1) 
                     }
                   />
                 </div>
@@ -704,8 +706,7 @@ const Home = () => {
                           .reduce(
                             (a, v) =>
                               (a =
-                                a +
-                                (Number(v.phut) / 60) * Number(v.dinhmuc)),
+                                a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
                             0
                           )
                           .toFixed(2)
@@ -723,8 +724,7 @@ const Home = () => {
                           .reduce(
                             (a, v) =>
                               (a =
-                                a +
-                                (Number(v.phut) / 60) * Number(v.dinhmuc)),
+                                a + (Number(v.phut) / 60) * Number(v.dinhmuc)),
                             0
                           )
                           .toFixed(2)

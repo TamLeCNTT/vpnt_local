@@ -4,14 +4,22 @@ import CryptoJS from "crypto-js";
 import { useNavigate } from "react-router-dom";
 import { Modal } from "react-bootstrap";
 import Swal from "sweetalert2";
+import Select from "react-select";
 import suyhaoService from "../../service/suyhaoService";
+import portService from "../../service/portService";
+import { set } from "date-fns";
 const AddOrEdit = (props) => {
   const [show, setshow] = useState(false);
-
+  const [listRing, setListRing] = useState([]);
+  const [ring, setRing] = useState("không");
+  const [tenhethong, setTenhethong] = useState("");
   const [diachi, setDiachi] = useState("");
   const [tenthietbi, setTenthietbi] = useState("");
   const [loai, setLoai] = useState("");
   const [port, setPort] = useState("");
+  const [porton, setPorton] = useState(2);
+  const [portoff, setPortoff] = useState(2);
+  const [nguon, setNguon] = useState(2);
   const [oldUsername, setOldUsername] = useState("");
   const [newUsername, setNewUsername] = useState("");
   const [oldPassword, setOldPassword] = useState("");
@@ -56,7 +64,8 @@ const AddOrEdit = (props) => {
   };
   const validateNumberList = (input) => {
     // Regular expression to match the format "number,number,number"
-    const pattern = /^\d+(,\d+)*$/;
+    const pattern = /^([^,]+,)*[^,]+$/;
+
     return pattern.test(input);
   };
   const mergeAndRemoveDuplicates = (str1, str2) => {
@@ -90,7 +99,14 @@ const AddOrEdit = (props) => {
       : null;
     if (props.status == "edit") {
       itemold.loai = loai;
-      itemold.tenthietbi = encryptData(tenthietbi);
+      console.log(diachi);
+      itemold.diachi = encryptData(diachi);
+      itemold.tenthietbi = encryptData(tenhethong);
+      itemold.tenthuongmai = encryptData(tenthietbi);
+      itemold.ring = ring;
+      itemold.nguon = nguon;
+      itemold.porton=porton
+      itemold.portoff=portoff
       itemold.port = mergeAndRemoveDuplicates(port, ",");
       if (newUsername && newUsername) {
         if (
@@ -152,10 +168,14 @@ const AddOrEdit = (props) => {
           item.username = encryptData(newUsername);
           item.password = encryptData(newPassword);
           item.diachi = encryptData(diachi);
-          item.tenthietbi = encryptData(tenthietbi);
+          item.tenthietbi = encryptData(tenhethong);
           item.tenthuongmai = encryptData(tenthietbi);
           item.loai = loai;
           item.port = port;
+          item.ring = ring;
+          item.nguon = nguon;
+          item.porton=porton
+          item.portoff=portoff
           list.push(item);
           suyhaoService.addData(list).then((res) => {
             console.log(res.data);
@@ -175,19 +195,47 @@ const AddOrEdit = (props) => {
     //     setname(student.name);
     //     setrank(student.rank);
     //     setteacher(student.teacherId);
+    portService.getdataRing().then((res) => {
+      console.log(res.data);
+      res.data
+        .sort((a, b) => {
+          const lastThreeA = a.ten; // Lấy 3 ký tự cuối của a.ten
+          const lastThreeB = b.ten; // Lấy 3 ký tự cuối của b.ten
+          return lastThreeA.localeCompare(lastThreeB); // So sánh theo thứ tự từ điển
+        })
+        .map((item, index) => {
+          item.value = item.ten;
+          item.label = item.ten;
+        });
+      let list = [...res.data];
+
+      setListRing(list);
+    });
     setshow(true);
+    sethide(false);
     if (props.status == "edit") {
+      console.log(props.data);
       setDiachi(decryptData(props.data.diachi));
       setLoai(props.data.loai);
-      setTenthietbi(decryptData(props.data.tenthietbi));
+      setTenthietbi(decryptData(props.data.tenthuongmai));
       setPort(props.data.port);
+      setRing(
+        props.data.ring != "OK" && props.data.ring != "ok" && props.data.ring
+          ? props.data.ring
+          : "Không"
+      );
+      setTenhethong(decryptData(props.data.tenthietbi));
+      setNguon(props.data.nguon);
     } else {
       setDiachi("");
       setLoai("");
       setTenthietbi("");
+      setTenhethong("");
       setPort("");
-      setNewPassword("");
-      setNewUsername("");
+      setNguon(2);
+      setNewPassword("Dhtthost@3");
+      setNewUsername("admin");
+      setRing("Không");
     }
   };
 
@@ -199,6 +247,20 @@ const AddOrEdit = (props) => {
   };
   const changeLoaithietbi = (e) => {
     setLoai(e.target.value);
+    if (String(e.target.value).includes("OS6")) {
+      setNewPassword("dhtthost@");
+      setNewUsername("admin");
+    } else {
+      setNewPassword("Dhtthost@3");
+      setNewUsername("admin");
+    }
+  };
+
+  const changePortDown = (e) => {
+    setPortoff(e.target.value);
+  };
+  const changePortUp = (e) => {
+    setPorton(e.target.value);
   };
   const changeCong = (e) => {
     setPort(e.target.value);
@@ -217,6 +279,20 @@ const AddOrEdit = (props) => {
   };
   const changeHide = () => {
     sethide(!hide);
+  };
+  const changeRing = (e) => {
+    setRing(e ? e.value : null);
+    console.log(e);
+  };
+  const changeTenhethong = (e) => {
+    setTenhethong(e.target.value);
+  };
+  const changeNguon = (e) => {
+    if (Number(e.target.value) < 1) {
+      setNguon(1);
+    } else {
+      setNguon(e.target.value);
+    }
   };
   return (
     <>
@@ -242,6 +318,7 @@ const AddOrEdit = (props) => {
         size="lg"
         dialogClassName="modal-90w modal_show"
         aria-labelledby="example-custom-modal-styling-title"
+        backdrop="static"
       >
         <Modal.Header closeButton>
           <Modal.Title id="example-custom-modal-styling-title">
@@ -260,7 +337,7 @@ const AddOrEdit = (props) => {
                 <div className="col col-12 col-md-6">
                   <div className="md-4">
                     <label htmlFor="code" className="form-label tonghop-label">
-                      Địa chỉ
+                      Địa chỉ<a className="obligatory">*</a>
                     </label>
                     <input
                       type="text"
@@ -276,7 +353,7 @@ const AddOrEdit = (props) => {
                 <div className="col col-12 col-md-6">
                   <div className="md-4">
                     <label className="form-label tonghop-label" htmlFor="name">
-                      Tên thiết bị
+                      Tên thiết bị<a className="obligatory">*</a>
                     </label>
                     <input
                       className="form-control"
@@ -294,7 +371,7 @@ const AddOrEdit = (props) => {
                 <div className="col col-md-6">
                   <div className="md-4">
                     <label className="form-label tonghop-label" htmlFor="rank">
-                      Loại thiết bị
+                      Loại thiết bị<a className="obligatory">*</a>
                     </label>
                     <select
                       className="form-select"
@@ -312,6 +389,7 @@ const AddOrEdit = (props) => {
                       </option>
                       <option value="OS6400">OS6400</option>
                       <option value="OS6450">OS6450</option>
+                      <option value="S5800">S5800</option>
                     </select>
                   </div>
                 </div>
@@ -321,7 +399,7 @@ const AddOrEdit = (props) => {
                       htmlFor="course"
                       className="form-label tonghop-label"
                     >
-                      Cổng thiết bị
+                      Cổng thiết bị<a className="obligatory">*</a>
                     </label>
                     <input
                       type="text"
@@ -330,6 +408,104 @@ const AddOrEdit = (props) => {
                       onChange={(e) => changeCong(e)}
                       value={port}
                       placeholder="Cổng thiết bị"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row mt-4">
+                <div className="col col-12 col-md-6 mb-4">
+                  <div className="md-4">
+                    <label className="form-label tonghop-label" htmlFor="name">
+                      {/* Chọn slot onu mới <a className="obligatory">*</a> */}
+                      Chọn Ring
+                    </label>
+                    <Select
+                      onChange={(e) => changeRing(e)}
+                      options={listRing}
+                      value={
+                        listRing.find((option) => option.value === ring) || null
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="col col-12 col-md-6">
+                  <div className="md-4">
+                    <label
+                      htmlFor="course"
+                      className="form-label tonghop-label"
+                    >
+                      Tên hệ thống<a className="obligatory">*</a>
+                    </label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      id="course"
+                      onChange={(e) => changeTenhethong(e)}
+                      value={tenhethong}
+                      placeholder="Tên hệ thống"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row mt-4">
+                <div className="col col-12 col-md-4">
+                  <div className="md-4">
+                    <label
+                      htmlFor="course"
+                      className="form-label tonghop-label"
+                    >
+                      Số lượng nguồn<a className="obligatory">*</a>
+                    </label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      id="course"
+                      onChange={(e) => changeNguon(e)}
+                      value={nguon}
+                      placeholder="Số nguồn"
+                    />
+                  </div>
+                </div>
+             
+             
+                <div className="col col-12 col-md-4">
+                  <div className="md-4">
+                    <label
+                      htmlFor="course"
+                      className="form-label tonghop-label"
+                    >
+                      Số Port Up<a className="obligatory">*</a>
+                    </label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      id="course"
+                      onChange={(e) => changePortUp(e)}
+                      value={porton}
+                      placeholder="Số nguồn"
+                    />
+                  </div>
+                </div>
+             
+             
+                <div className="col col-12 col-md-4">
+                  <div className="md-4">
+                    <label
+                      htmlFor="course"
+                      className="form-label tonghop-label"
+                    >
+                      Số Port Down<a className="obligatory">*</a>
+                    </label>
+                    <input
+                      type="number"
+                      className="form-control"
+                      id="course"
+                      onChange={(e) => changePortDown(e)}
+                      value={portoff}
+                      placeholder="Số nguồn"
                     />
                   </div>
                 </div>
@@ -432,7 +608,7 @@ const AddOrEdit = (props) => {
                           htmlFor="code"
                           className="form-label tonghop-label"
                         >
-                          Tài khoản
+                          Tài khoản<a className="obligatory">*</a>
                         </label>
                         <input
                           type="text"
@@ -450,7 +626,7 @@ const AddOrEdit = (props) => {
                           className="form-label tonghop-label"
                           htmlFor="name"
                         >
-                          Mật khẩu
+                          Mật khẩu<a className="obligatory">*</a>
                         </label>
 
                         <input
@@ -473,6 +649,7 @@ const AddOrEdit = (props) => {
                     class="mr-3"
                     type="checkbox"
                     value=""
+                    checked={!hide}
                     id="defaultCheck1"
                     onClick={() => changeHide()}
                   />

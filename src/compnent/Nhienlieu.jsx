@@ -88,8 +88,9 @@ if (tentram && tencsht && loainhienlieu&&dinhmuc){
     nhienlieu:loainhienlieu,
     dinhmuc:dinhmuc
   }
-  let listSave=lists
+  let listSave=[]
   listSave.push(item)
+  console.log(listSave)
   if (trangthai=="add")
   nhienlieuService.addData(listSave).then(res=>{
     console.log(res.data)
@@ -99,9 +100,10 @@ if (tentram && tencsht && loainhienlieu&&dinhmuc){
     setLists([...listSave])
     setListOld([...listSave])
     if (search){
-      search(search)
+      changetext(search)
     }
   }).catch(er=>{
+    console.log(er)
     toast.error("Dữ liệu đã tồn tại")
   
   })
@@ -121,7 +123,7 @@ if (tentram && tencsht && loainhienlieu&&dinhmuc){
       setListOld([...listSave])
      
       if (search){
-        search(search)
+        changetext(search)
       }
     }).catch(er=>{
       toast.error("Dữ liệu đã tồn tại")
@@ -196,7 +198,11 @@ else{
 
     if (result.isConfirmed) {
       nhienlieuService.deletedata(id).then((res) => {
-        setLists(lists.filter((e) => e.id != id));
+        setLists(lists.filter((e) => e.tentram != id));
+        setListOld(listold.filter((e) => e.idtentram != id))
+        if (search){
+          changetext(search)
+        }
         toast.success("Xóa thiết bị thành công");
       });
     }

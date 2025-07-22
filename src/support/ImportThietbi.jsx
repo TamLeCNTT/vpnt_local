@@ -66,6 +66,15 @@ const ImportThietbi = (props) => {
               import <i className="fa fa-file-import"></i>
             </label>
           </div>
+
+          <div className="col col-md-4  col-sm-6 col-md-3 ">
+          <button
+            onClick={handleExport}
+            className="btn btn-lg btn-primary float-right"
+          >
+            Export <i className="fa fa-download"></i>
+          </button>
+        </div>
         </div>
       </div>
     </>

@@ -68,10 +68,10 @@ const ThongkeSoLanSuyHao = () => {
     setloading(true)
     //  console.log(e.target.value,daychoiceEnd)
     if (e.target.value == daychoiceEnd) {
-      setname("THỐNG KÊ CỔNG KÉM THEO GIAO BSC ngày " + daychoiceEnd)
+      setname("DANH SÁCH THUÊ BAO SUY HAO KÉM LẶP LẠI ngày " + daychoiceEnd)
     }
     else {
-      setname("THỐNG KÊ CỔNG KÉM THEO GIAO BSC từ ngày " + convertDate(e.target.value) + " đến " + convertDate(daychoiceEnd))
+      setname("DANH SÁCH THUÊ BAO SUY HAO KÉM LẶP LẠI từ ngày " + convertDate(e.target.value) + " đến " + convertDate(daychoiceEnd))
     }
     setListexport([])
 
@@ -304,6 +304,22 @@ const ThongkeSoLanSuyHao = () => {
   const DeleteOldData= async()=>{
     let newmonth=new Date().getMonth()
     let year=new Date().getFullYear()
+    console.log(newmonth)
+    if (newmonth==0){
+      console.log(newmonth)
+      newmonth=11
+      year=year-1
+    }
+    else{
+      if (newmonth==1){
+        console.log(newmonth)
+        newmonth=12
+        year=year-1
+      } 
+      else{
+        newmonth=newmonth-1
+      }
+    }
     const result =await  Swal.fire({
       title: "Bạn có muốn xóa dữ liệu tháng "+newmonth,
       text: "Dữ liệu sẽ xóa vĩnh viễn và không thể khôi phục !!!"  ,
@@ -320,11 +336,20 @@ const ThongkeSoLanSuyHao = () => {
 
     if (result.isConfirmed){
      
+    
+    
       console.log(newmonth)
       TuyenKTService.getdata_thongkesolansuyhao_byMonth(newmonth,year).then(
         res=>{
-          console.log(res.data,year)
-          toast.success("Xóa dữ liệu thành công")
+          if(res.data.length>0){
+          console.log(res.data)
+          TuyenKTService.delete_thongkesolansuyhao_byMonth(Number(res.data[res.data.length-1].id)).then(ress=>{
+            toast.success("Xóa dữ liệu thành công")
+          })
+          }
+          else{
+            toast.info("Dữ liệu đã được xóa trước đó!")
+          }
         }
       )
     }
@@ -390,7 +415,7 @@ const ThongkeSoLanSuyHao = () => {
            
             <div className="col col-md-5">
               <div className="row">
-              <div className="col col-md-3">
+              <div className="col col-md-4">
               <button className="btn btn-danger btn-lg" onClick={()=>DeleteOldData()}>Xóa dữ liệu cũ</button>
                 </div>
                 <div className="col col-md-6">

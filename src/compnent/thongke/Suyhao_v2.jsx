@@ -14,11 +14,14 @@ import Paginations from "../../support/Paginations";
 const Suyhao_v2 = () => {
   const [lists, setLists] = useState([]);
   const [listRing, setListRing] = useState([]);
+  const [listSW, setListSW] = useState([]);
+  const [listOld, setListOld] = useState([]);
   const [dinhmuc, setdinhmuc] = useState(2);
   const [dinhmucnhietdo, setdinhmucnhietdo] = useState(60);
   const [loaiDo, setLoaiDo] = useState("suyhao");
   const [loaiThietBi, setLoaiThietBi] = useState("all");
   const [Ring, setRing] = useState("all");
+  const [SW, setSW] = useState("all");
   let flash = 0;
 
   const [listPg, setListPg] = useState([]);
@@ -76,7 +79,13 @@ const Suyhao_v2 = () => {
         item_export.RXpower = item.RXpower;
         item_export.w_low = item.w_low;
         listshow_export_suyhao.push(item_export);
-        setlist_export(listshow_export_suyhao);
+        setlist_export(
+          listshow_export_suyhao.filter(
+            (e) =>
+              Number(e.RXpower) < 99 &&
+              Number(e.RXpower) - Number(e.w_low) < dinhmuc
+          )
+        );
       }
     });
   };
@@ -93,7 +102,7 @@ const Suyhao_v2 = () => {
       dinhmuc = e.target.value;
       setLists(list);
     }
-    console.log(lists);
+
     let listshow_export_suyhao = [];
     lists.map((item, index) => {
       if (Number(item.temperature) >= dinhmuc) {
@@ -104,6 +113,11 @@ const Suyhao_v2 = () => {
         item_export.port = item.port;
         item_export.temperature = item.temperature;
         listshow_export_suyhao.push(item_export);
+        console.log(listshow_export_suyhao);
+        listshow_export_suyhao = listshow_export_suyhao.filter(
+          (e) => Number(e.temperature) >= Number(dinhmuc)
+        );
+        console.log(listshow_export_suyhao);
         setlist_export(listshow_export_suyhao);
       }
     });
@@ -113,19 +127,22 @@ const Suyhao_v2 = () => {
     setload(!load);
   };
   useEffect(() => {
-    //   suyhaoService.getdata().then((res) => {
-    //   console.log(res.data);
-    //   let list=res.data
-    //   list.map((item,index)=>{
-    //     item.diachi=decryptData(item.diachi)
-    //     item.password=decryptData(item.password)
-    //     item.tenthietbi=decryptData(item.tenthietbi)
-    //     item.tenthuongmai=decryptData(item.tenthuongmai)
-    //     item.username=decryptData(item.username)
-    //   })
-    //   console.log(list)
-    //   setlist_export(list)
-    // });
+    suyhaoService.getdata().then((res) => {
+      console.log(res.data);
+      let list = res.data;
+      let lissw = [];
+      list.map((item, index) => {
+        let ring = {
+          label: decryptData(item.tenthuongmai),
+          value: decryptData(item.diachi),
+          ring: item.ring,
+        };
+        lissw.push(ring);
+      });
+
+      setListSW(lissw);
+      setListOld(lissw);
+    });
 
     portService.getdataRing().then((res) => {
       console.log(res.data);
@@ -754,7 +771,17 @@ const Suyhao_v2 = () => {
 
   const changeRing = (e) => {
     console.log(e);
+    let list = listOld;
+    console.log(listOld, e);
+    if (e && e.value != "all")
+      list = list.filter((item) => item.ring == e.value);
+
+    setListSW(list);
     setRing(e.value);
+  };
+  const changeSW = (e) => {
+    console.log(e);
+    setSW(e.value);
   };
   const changeLoaiDo = (e) => {
     setLoaiDo(e.target.value);
@@ -774,8 +801,16 @@ const Suyhao_v2 = () => {
         suyhaoService.getdata().then((res) => {
           if (loaiThietBi == "sw") {
             if (Ring != "all")
-              listSuyHao = res.data.filter((e) => e.ring == Ring);
-            else listSuyHao = res.data;
+              if (SW != "all") {
+                listSuyHao = res.data.filter(
+                  (e) => decryptData(e.diachi) == SW
+                );
+                console.log(listSuyHao, SW);
+              } else listSuyHao = res.data.filter((e) => e.ring == Ring);
+            else if (SW != "all") {
+              listSuyHao = res.data.filter((e) => decryptData(e.diachi) == SW);
+              console.log(listSuyHao, SW);
+            } else listSuyHao = res.data;
           }
           if (loaiThietBi == "all") listSuyHao = res.data;
           let list_log = [];
@@ -1080,6 +1115,81 @@ const Suyhao_v2 = () => {
                 // .catch((er) => {
                 //   console.log(er);
                 // });
+              }
+              if (item.loai == "S5800") {
+                console.log(item);
+                //  console.log("sw2724");
+                await suyhaoService
+                  .get_rx_power_by_SWS5800(
+                    decryptData(item.diachi),
+                    decryptData(item.username),
+                    decryptData(item.password),
+                    item.port
+                  )
+                  .then((res) => {
+                    console.log(res.data);
+                    const correctedJsonString = res.data.RXpower.replace(
+                      /'/g,
+                      '"'
+                    );
+                    console.log(JSON.parse(correctedJsonString));
+                    JSON.parse(correctedJsonString).map((e, i) => {
+                      let newitem = {};
+                      newitem.diachi = item.diachi;
+                      newitem.tenthietbi = item.tenthietbi;
+                      newitem.tenthuongmai = item.tenthuongmai;
+                      newitem.username = item.username;
+                      newitem.password = item.password;
+                      newitem.loai = item.loai;
+                      newitem.port = e.port;
+                      newitem.RXpower = e.rx_power;
+                      newitem.w_low = e.w_low == 0 ? -999 : e.w_low;
+                      newitem.w_high = e.w_high;
+                      newitem.temperature = e.temperature;
+                      newitem.T_low = e.T_low;
+                      newitem.T_high = e.T_high;
+                      if (
+                        Number(e.rx_power) < 99 &&
+                        Number(e.rx_power) - Number(e.w_low) < dinhmuc
+                      ) {
+                        let item_export = {};
+                        item_export.tenthietbi = decryptData(item.tenthietbi);
+                        item_export.diachi = decryptData(item.diachi);
+                        item_export.tenthuongmai = decryptData(
+                          item.tenthuongmai
+                        );
+                        newitem.loai = item.loai;
+                        item_export.port = e.port;
+                        item_export.RXpower = e.rx_power;
+                        item_export.w_low = e.w_low;
+
+                        listshow_export_suyhao.push(item_export);
+                        setlist_export(listshow_export_suyhao);
+                      }
+                      setLists((prevList) => {
+                        // Kiểm tra xem đã có mục nào có cùng diachi và port trong danh sách chưa
+                        const exists = prevList.some(
+                          (item) =>
+                            item.diachi === newitem.diachi &&
+                            item.port === newitem.port
+                        );
+
+                        // Nếu chưa có, thêm newItem vào danh sách, nếu không thì giữ nguyên danh sách cũ
+                        if (!exists) {
+                          return [...prevList, newitem].sort(
+                            (a, b) =>
+                              min(a.w_low, a.RXpower, a.w_high) -
+                              min(b.w_low, b.RXpower, b.w_high)
+                          );
+                        } else {
+                          return prevList; // Giữ nguyên nếu đã tồn tại
+                        }
+                      });
+                    });
+                  })
+                  .catch((er) => {
+                    console.log(er);
+                  });
               }
               list_log.push({
                 diachi: decryptData(item.diachi),
@@ -2193,6 +2303,16 @@ const Suyhao_v2 = () => {
                 </div>
               </div>
             )}
+            {loaiThietBi == "sw" && (
+              <div className="col col-6 col-md-2">
+                <div className="md-4">
+                  <label className="form-label tonghop-label" htmlFor="name">
+                    Chọn SW
+                  </label>
+                  <Select onChange={(e) => changeSW(e)} options={listSW} />
+                </div>
+              </div>
+            )}
 
             <div className="col col-6 col-md-2">
               <div className="md-4 mt-4 p-3">
@@ -2376,8 +2496,11 @@ const Suyhao_v2 = () => {
                           : decryptData(item.tenthietbi)}
                       </td>
 
-                      <td> {item.loai} </td>
-                      <td> {item.port} </td>
+                      <td className="text-uppercase text-center">
+                        {" "}
+                        {item.loai}{" "}
+                      </td>
+                      <td>{item.port} </td>
                       {loaiDo == "suyhao" && (
                         <>
                           <td>
@@ -2402,7 +2525,7 @@ const Suyhao_v2 = () => {
                             <>
                               <td>
                                 {" "}
-                                {item.RXpower != 9999 &&  item.w_low!=-999
+                                {item.RXpower != 9999 && item.w_low != -999
                                   ? item.w_low + " dBm"
                                   : "w_low not found"}{" "}
                               </td>
@@ -2422,12 +2545,7 @@ const Suyhao_v2 = () => {
                 })}
             </tbody>
           </table>
-          <Paginations
-            itemsPerPage={20}
-            list={lists}
-            getlist={getlist}
-          />
-
+          <Paginations itemsPerPage={20} list={lists} getlist={getlist} />
         </div>
       </main>
     </>

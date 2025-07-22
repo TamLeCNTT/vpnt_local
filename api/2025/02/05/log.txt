@@ -1,0 +1,30 @@
+2025-02-07 09:38:32.197248: kết nối ok
+2025-02-07 09:38:32.514664: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:39:20.520844: kết nối ok
+2025-02-07 09:39:20.734474: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:39:36.079259: kết nối ok
+2025-02-07 09:39:36.325453: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:42:23.903933: kết nối ok
+2025-02-07 09:42:24.108487: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:43:34.166089: kết nối ok
+2025-02-07 09:43:34.466229: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:43:49.345680: kết nối ok
+2025-02-07 09:43:49.545487: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:44:54.037658: kết nối ok
+2025-02-07 09:44:54.306405: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:45:12.415985: kết nối ok
+2025-02-07 09:45:12.634775: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:46:18.927731: kết nối ok
+2025-02-07 09:46:19.109334: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:48:00.550185: kết nối ok
+2025-02-07 09:48:00.815340: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 09:48:26.602698: kết nối ok
+2025-02-07 09:48:26.822660: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-02-07 10:27:41.156458: kết nối ok
+2025-02-07 10:27:43.088791: kết nối ok
+2025-02-07 10:29:25.937892: kết nối ok
+2025-02-07 10:29:28.253669: kết nối ok
+2025-02-07 10:30:14.554307: kết nối ok
+2025-02-07 10:30:16.474367: kết nối ok
+2025-02-07 10:31:29.221257: kết nối ok
+2025-02-07 10:31:31.245462: kết nối ok

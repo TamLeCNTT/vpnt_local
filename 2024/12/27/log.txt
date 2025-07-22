@@ -1,0 +1,300 @@
+2024-12-27 10:08:30.603529: 10.102.4.244 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:30.603529: 10.102.5.44 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:30.624890: 10.102.5.43 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:30.637373: 10.102.5.42 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:30.637373: 10.102.5.45 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:30.655218: 10.102.4.243 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:51.709337: 10.102.4.249 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:51.709337: 10.102.5.25 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:51.737524: 10.102.4.189 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:51.739163: 10.102.4.81 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:08:51.739163: 10.102.4.83 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:03.299691: 10.102.4.244 kết nối thành công
+2024-12-27 10:09:03.314230: 10.102.5.44 kết nối thành công
+2024-12-27 10:09:03.344035: 10.102.4.243 kết nối thành công
+2024-12-27 10:09:03.344035: 10.102.5.43 kết nối thành công
+2024-12-27 10:09:03.364795: 10.102.5.42 kết nối thành công
+2024-12-27 10:09:03.369306: 10.102.5.45 kết nối thành công
+2024-12-27 10:09:04.464649: 10.102.4.83 kết nối thành công
+2024-12-27 10:09:04.494620: 10.102.4.81 kết nối thành công
+2024-12-27 10:09:04.499631: 10.102.4.249 kết nối thành công
+2024-12-27 10:09:04.534256: 10.102.5.25 kết nối thành công
+2024-12-27 10:09:04.552512: 10.102.5.27 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:09:04.620288: 10.102.5.26 kết nối thành công
+2024-12-27 10:09:05.644736: 10.102.5.24 kết nối thành công
+2024-12-27 10:09:05.779574: 10.102.5.23 kết nối thành công
+2024-12-27 10:09:05.784609: 10.102.5.21 kết nối thành công
+2024-12-27 10:09:05.784609: 10.102.4.189 kết nối thành công
+2024-12-27 10:09:05.804713: 10.102.5.20 kết nối thành công
+2024-12-27 10:09:05.846728: 10.102.5.19 kết nối thành công
+2024-12-27 10:09:06.781341: 10.102.4.79 kết nối thành công
+2024-12-27 10:09:07.074709: 10.102.5.33 kết nối thành công
+2024-12-27 10:09:07.124342: 10.102.5.29 kết nối thành công
+2024-12-27 10:09:07.144451: 10.102.5.22 kết nối thành công
+2024-12-27 10:09:07.209402: 10.102.5.28 kết nối thành công
+2024-12-27 10:09:08.074333: 10.102.5.31 kết nối thành công
+2024-12-27 10:09:08.319372: 10.102.5.32 kết nối thành công
+2024-12-27 10:09:08.399303: 10.102.5.47 kết nối thành công
+2024-12-27 10:09:08.399303: 10.102.5.46 kết nối thành công
+2024-12-27 10:09:08.424452: 10.102.5.30 kết nối thành công
+2024-12-27 10:09:08.540704: 10.102.5.48 kết nối thành công
+2024-12-27 10:09:09.179569: 10.102.5.49 kết nối thành công
+2024-12-27 10:09:09.464539: 10.102.4.231 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:09:09.539552: 10.102.5.37 kết nối thành công
+2024-12-27 10:09:09.564742: 10.102.4.238 kết nối thành công
+2024-12-27 10:09:09.639972: 10.102.4.240 kết nối thành công
+2024-12-27 10:09:09.664660: 10.102.4.233 kết nối thành công
+2024-12-27 10:09:10.304330: 10.102.4.234 kết nối thành công
+2024-12-27 10:09:10.604307: 10.102.4.241 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:09:10.674708: 10.102.4.235 kết nối thành công
+2024-12-27 10:09:10.689276: 10.102.4.237 kết nối thành công
+2024-12-27 10:09:10.914651: 10.102.5.41 kết nối thành công
+2024-12-27 10:09:10.954499: 10.102.5.39 kết nối thành công
+2024-12-27 10:09:11.519247: 10.102.5.36 kết nối thành công
+2024-12-27 10:09:11.779355: 10.102.4.232 kết nối thành công
+2024-12-27 10:09:11.809646: 10.102.4.214 kết nối thành công
+2024-12-27 10:09:11.809646: 10.102.4.71 kết nối thành công
+2024-12-27 10:09:12.090222: 10.102.4.239 kết nối thành công
+2024-12-27 10:09:12.174716: 10.102.5.40 kết nối thành công
+2024-12-27 10:09:12.719781: 10.102.5.35 kết nối thành công
+2024-12-27 10:09:12.789668: 10.102.5.27 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:12.934499: 10.102.5.19 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:12.969687: 10.102.5.24 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:12.969687: 10.102.5.23 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:12.989770: 10.102.5.20 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:12.989770: 10.102.5.21 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-27 10:09:13.029494: 10.102.4.61 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:09:13.089772: 10.102.4.236 kết nối thành công
+2024-12-27 10:09:13.184525: 10.102.5.38 kết nối thành công
+2024-12-27 10:09:13.279629: 10.102.4.109 kết nối thành công
+2024-12-27 10:09:13.359627: 10.102.4.107 kết nối thành công
+2024-12-27 10:09:13.894644: 10.102.4.62 kết nối thành công
+2024-12-27 10:09:14.199371: 10.102.5.11 kết nối thành công
+2024-12-27 10:09:14.324339: 10.102.5.12 kết nối thành công
+2024-12-27 10:09:14.389515: 10.102.5.10 kết nối thành công
+2024-12-27 10:09:14.479469: 10.102.4.60 kết nối thành công
+2024-12-27 10:09:15.154602: 10.102.5.14 kết nối thành công
+2024-12-27 10:09:15.399009: 10.102.5.18 kết nối thành công
+2024-12-27 10:09:15.439499: 10.102.4.21 kết nối thành công
+2024-12-27 10:09:15.514554: 10.102.4.252 kết nối thành công
+2024-12-27 10:09:15.624639: 10.102.4.55 kết nối thành công
+2024-12-27 10:09:15.639704: 10.102.5.13 kết nối thành công
+2024-12-27 10:09:16.339453: 10.102.5.16 kết nối thành công
+2024-12-27 10:09:16.589475: 10.102.4.248 kết nối thành công
+2024-12-27 10:09:16.650380: 10.102.4.56 kết nối thành công
+2024-12-27 10:09:16.701090: 10.102.5.15 kết nối thành công
+2024-12-27 10:09:16.710390: 10.102.4.57 kết nối thành công
+2024-12-27 10:09:16.757628: 10.102.4.58 kết nối thành công
+2024-12-27 10:21:39.443609: 10.102.5.43 kết nối thành công
+2024-12-27 10:21:39.467716: 10.102.5.45 kết nối thành công
+2024-12-27 10:21:39.485830: 10.102.5.44 kết nối thành công
+2024-12-27 10:21:39.490945: 10.102.4.244 kết nối thành công
+2024-12-27 10:21:39.514611: 10.102.5.42 kết nối thành công
+2024-12-27 10:21:39.568541: 10.102.4.243 kết nối thành công
+2024-12-27 10:21:40.593317: 10.102.4.249 kết nối thành công
+2024-12-27 10:21:40.630346: 10.102.4.81 kết nối thành công
+2024-12-27 10:21:40.630346: 10.102.4.83 kết nối thành công
+2024-12-27 10:21:40.689348: 10.102.4.189 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:21:40.748868: 10.102.5.25 kết nối thành công
+2024-12-27 10:21:40.843448: 10.102.5.26 kết nối thành công
+2024-12-27 10:21:41.876084: 10.102.5.27 kết nối thành công
+2024-12-27 10:21:41.897092: 10.102.5.21 kết nối thành công
+2024-12-27 10:21:41.916818: 10.102.5.24 kết nối thành công
+2024-12-27 10:21:41.916818: 10.102.5.23 kết nối thành công
+2024-12-27 10:21:41.933272: 10.102.5.19 kết nối thành công
+2024-12-27 10:21:42.060432: 10.102.5.20 kết nối thành công
+2024-12-27 10:21:43.093341: 10.102.4.79 kết nối thành công
+2024-12-27 10:21:43.260465: 10.102.5.34 kết nối thành công
+2024-12-27 10:21:43.261466: 10.102.5.22 kết nối thành công
+2024-12-27 10:21:43.261466: 10.102.5.29 kết nối thành công
+2024-12-27 10:21:43.314730: 10.102.5.33 kết nối thành công
+2024-12-27 10:21:43.347549: 10.102.5.28 kết nối thành công
+2024-12-27 10:21:44.324777: 10.102.5.31 kết nối thành công
+2024-12-27 10:21:44.507179: 10.102.5.46 kết nối thành công
+2024-12-27 10:21:44.648510: 10.102.5.48 kết nối thành công
+2024-12-27 10:21:44.648510: 10.102.5.32 kết nối thành công
+2024-12-27 10:21:44.694419: 10.102.5.47 kết nối thành công
+2024-12-27 10:21:44.715528: 10.102.5.30 kết nối thành công
+2024-12-27 10:21:45.488235: 10.102.5.49 kết nối thành công
+2024-12-27 10:21:45.823098: 10.102.4.231 kết nối thành công
+2024-12-27 10:21:45.823098: 10.102.5.37 kết nối thành công
+2024-12-27 10:21:45.859772: 10.102.4.240 kết nối thành công
+2024-12-27 10:21:45.903872: 10.102.4.238 kết nối thành công
+2024-12-27 10:21:45.918094: 10.102.4.233 kết nối thành công
+2024-12-27 10:21:46.624125: 10.102.4.234 kết nối thành công
+2024-12-27 10:21:47.028332: 10.102.4.237 kết nối thành công
+2024-12-27 10:21:47.082853: 10.102.4.241 kết nối thành công
+2024-12-27 10:21:47.082853: 10.102.4.235 kết nối thành công
+2024-12-27 10:21:47.225462: 10.102.5.41 kết nối thành công
+2024-12-27 10:21:47.263083: 10.102.5.39 kết nối thành công
+2024-12-27 10:21:47.923606: 10.102.5.36 kết nối thành công
+2024-12-27 10:21:48.198136: 10.102.4.232 kết nối thành công
+2024-12-27 10:21:48.218070: 10.102.4.214 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:21:48.274561: 10.102.4.71 kết nối thành công
+2024-12-27 10:21:48.358911: 10.102.4.239 kết nối thành công
+2024-12-27 10:21:48.453165: 10.102.5.40 kết nối thành công
+2024-12-27 10:21:49.189820: 10.102.5.35 kết nối thành công
+2024-12-27 10:21:49.456084: 10.102.4.236 kết nối thành công
+2024-12-27 10:21:49.456084: 10.102.4.61 kết nối thành công
+2024-12-27 10:21:49.478631: 10.102.5.38 kết nối thành công
+2024-12-27 10:21:49.516707: 10.102.4.109 kết nối thành công
+2024-12-27 10:21:49.626359: 10.102.4.107 kết nối thành công
+2024-12-27 10:21:50.456181: 10.102.4.62 kết nối thành công
+2024-12-27 10:21:50.658685: 10.102.4.60 kết nối thành công
+2024-12-27 10:21:50.707702: 10.102.5.12 kết nối thành công
+2024-12-27 10:21:50.728765: 10.102.5.11 kết nối thành công
+2024-12-27 10:21:50.728765: 10.102.5.10 kết nối thành công
+2024-12-27 10:21:51.706491: 10.102.5.14 kết nối thành công
+2024-12-27 10:21:51.823973: 10.102.4.21 kết nối thành công
+2024-12-27 10:21:51.841976: 10.102.4.252 kết nối thành công
+2024-12-27 10:21:51.845161: 10.102.5.18 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:21:51.907726: 10.102.4.55 kết nối thành công
+2024-12-27 10:21:51.943402: 10.102.5.13 kết nối thành công
+2024-12-27 10:21:52.905651: 10.102.4.248 kết nối thành công
+2024-12-27 10:21:52.957307: 10.102.5.16 kết nối thành công
+2024-12-27 10:21:53.007093: 10.102.4.56 kết nối thành công
+2024-12-27 10:21:53.014094: 10.102.4.57 kết nối thành công
+2024-12-27 10:21:53.063830: 10.102.5.15 kết nối thành công
+2024-12-27 10:21:53.123108: 10.102.4.58 kết nối thành công
+2024-12-27 10:44:07.673467: 10.102.4.243 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:44:07.683999: 10.102.5.44 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:44:07.833193: 10.102.5.42 kết nối thành công
+2024-12-27 10:44:07.839194: 10.102.5.43 kết nối thành công
+2024-12-27 10:44:07.927193: 10.102.4.244 kết nối thành công
+2024-12-27 10:44:07.958194: 10.102.5.45 kết nối thành công
+2024-12-27 10:44:08.813362: 10.102.4.249 kết nối thành công
+2024-12-27 10:44:09.046077: 10.102.5.25 kết nối thành công
+2024-12-27 10:44:09.286365: 10.102.4.81 kết nối thành công
+2024-12-27 10:44:09.317887: 10.102.4.189 kết nối thành công
+2024-12-27 10:44:09.435943: 10.102.5.26 kết nối thành công
+2024-12-27 10:44:09.508452: 10.102.4.83 kết nối thành công
+2024-12-27 10:44:10.182763: 10.102.5.27 kết nối thành công
+2024-12-27 10:44:10.481082: 10.102.5.24 kết nối thành công
+2024-12-27 10:44:10.548290: 10.102.5.19 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:44:10.654481: 10.102.5.21 kết nối thành công
+2024-12-27 10:44:10.965646: 10.102.5.20 kết nối thành công
+2024-12-27 10:44:10.983990: 10.102.5.23 kết nối thành công
+2024-12-27 10:44:11.648678: 10.102.4.79 kết nối thành công
+2024-12-27 10:44:11.976067: 10.102.5.22 kết nối thành công
+2024-12-27 10:44:12.163246: 10.102.5.33 kết nối thành công
+2024-12-27 10:44:12.163246: 10.102.5.29 kết nối thành công
+2024-12-27 10:44:12.628292: 10.102.5.34 kết nối thành công
+2024-12-27 10:44:12.780242: 10.102.5.28 kết nối thành công
+2024-12-27 10:44:13.112842: 10.102.5.31 kết nối thành công
+2024-12-27 10:44:13.249037: 10.102.5.32 kết nối thành công
+2024-12-27 10:44:13.381037: 10.102.5.46 kết nối thành công
+2024-12-27 10:44:13.381037: 10.102.5.30 kết nối thành công
+2024-12-27 10:44:13.844641: 10.102.5.47 kết nối thành công
+2024-12-27 10:44:13.870868: 10.102.5.48 kết nối thành công
+2024-12-27 10:44:14.361030: 10.102.5.49 kết nối thành công
+2024-12-27 10:44:14.462891: 10.102.4.231 kết nối thành công
+2024-12-27 10:44:14.541136: 10.102.5.37 kết nối thành công
+2024-12-27 10:44:14.632699: 10.102.4.240 kết nối thành công
+2024-12-27 10:44:14.996583: 10.102.4.238 kết nối thành công
+2024-12-27 10:44:15.038581: 10.102.4.233 kết nối thành công
+2024-12-27 10:44:15.611231: 10.102.4.241 kết nối thành công
+2024-12-27 10:44:15.631069: 10.102.4.235 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:44:15.818806: 10.102.4.237 kết nối thành công
+2024-12-27 10:44:15.818806: 10.102.4.234 kết nối thành công
+2024-12-27 10:44:16.296261: 10.102.5.39 kết nối thành công
+2024-12-27 10:44:16.296261: 10.102.5.41 kết nối thành công
+2024-12-27 10:44:16.833859: 10.102.4.232 kết nối thành công
+2024-12-27 10:44:17.112680: 10.102.5.36 kết nối thành công
+2024-12-27 10:44:17.153119: 10.102.4.71 kết nối thành công
+2024-12-27 10:44:17.323950: 10.102.4.214 kết nối thành công
+2024-12-27 10:44:17.493337: 10.102.4.239 kết nối thành công
+2024-12-27 10:44:17.604094: 10.102.5.40 kết nối thành công
+2024-12-27 10:44:18.228846: 10.102.4.236 kết nối thành công
+2024-12-27 10:44:18.243788: 10.102.5.35 kết nối thành công
+2024-12-27 10:44:18.392003: 10.102.5.38 kết nối thành công
+2024-12-27 10:44:18.526304: 10.102.4.61 kết nối thành công
+2024-12-27 10:44:18.662127: 10.102.4.107 kết nối thành công
+2024-12-27 10:44:18.693130: 10.102.4.109 kết nối thành công
+2024-12-27 10:44:19.393530: 10.102.4.62 kết nối thành công
+2024-12-27 10:44:19.466234: 10.102.5.11 kết nối thành công
+2024-12-27 10:44:19.705874: 10.102.5.12 kết nối thành công
+2024-12-27 10:44:19.754876: 10.102.5.10 kết nối thành công
+2024-12-27 10:44:19.943402: 10.102.4.60 kết nối thành công
+2024-12-27 10:44:20.811038: 10.102.5.14 kết nối thành công
+2024-12-27 10:44:20.898737: 10.102.4.252 kết nối thành công
+2024-12-27 10:44:21.011047: 10.102.5.18 kết nối thành công
+2024-12-27 10:44:21.107585: 10.102.4.55 kết nối thành công
+2024-12-27 10:44:21.111200: 10.102.5.13 kết nối thành công
+2024-12-27 10:44:21.116214: 10.102.4.21 kết nối thành công
+2024-12-27 10:44:21.978814: 10.102.5.16 kết nối thành công
+2024-12-27 10:44:21.978814: 10.102.4.248 kết nối thành công
+2024-12-27 10:44:22.125255: 10.102.4.56 kết nối thành công
+2024-12-27 10:44:22.341696: 10.102.4.57 kết nối thành công
+2024-12-27 10:44:22.475053: 10.102.5.15 kết nối thành công
+2024-12-27 10:44:22.509038: 10.102.4.58 kết nối thành công
+2024-12-27 10:45:02.332840: 10.102.5.44 kết nối thành công
+2024-12-27 10:45:02.336842: 10.102.5.45 kết nối thành công
+2024-12-27 10:45:02.379865: 10.102.4.244 kết nối thành công
+2024-12-27 10:45:02.440132: 10.102.5.43 kết nối thành công
+2024-12-27 10:45:02.462553: 10.102.5.42 kết nối thành công
+2024-12-27 10:45:02.502823: 10.102.4.243 kết nối thành công
+2024-12-27 10:45:03.506208: 10.102.4.249 kết nối thành công
+2024-12-27 10:45:03.604870: 10.102.4.81 kết nối thành công
+2024-12-27 10:45:03.622873: 10.102.5.25 kết nối thành công
+2024-12-27 10:45:03.622873: 10.102.4.83 kết nối thành công
+2024-12-27 10:45:03.675874: 10.102.4.189 kết nối thành công
+2024-12-27 10:45:03.703874: 10.102.5.26 kết nối thành công
+2024-12-27 10:45:04.844934: 10.102.5.27 kết nối thành công
+2024-12-27 10:45:04.928323: 10.102.5.19 kết nối thành công
+2024-12-27 10:45:04.931077: 10.102.5.21 kết nối thành công
+2024-12-27 10:45:04.990312: 10.102.5.24 kết nối thành công
+2024-12-27 10:45:05.001926: 10.102.5.20 kết nối thành công
+2024-12-27 10:45:05.005940: 10.102.5.23 kết nối thành công
+2024-12-27 10:45:06.020882: 10.102.4.79 kết nối thành công
+2024-12-27 10:45:06.303656: 10.102.5.34 kết nối thành công
+2024-12-27 10:45:06.312915: 10.102.5.29 kết nối thành công
+2024-12-27 10:45:06.331555: 10.102.5.33 kết nối thành công
+2024-12-27 10:45:06.353368: 10.102.5.22 kết nối thành công
+2024-12-27 10:45:06.353368: 10.102.5.28 kết nối thành công
+2024-12-27 10:45:07.639195: 10.102.5.31 kết nối thành công
+2024-12-27 10:45:07.914603: 10.102.5.32 kết nối thành công
+2024-12-27 10:45:07.986597: 10.102.5.46 kết nối thành công
+2024-12-27 10:45:08.084120: 10.102.5.30 kết nối thành công
+2024-12-27 10:45:08.132118: 10.102.5.47 kết nối thành công
+2024-12-27 10:45:08.632667: 10.102.5.48 kết nối thành công
+2024-12-27 10:45:08.961803: 10.102.5.49 kết nối thành công
+2024-12-27 10:45:09.209768: 10.102.5.37 kết nối thành công
+2024-12-27 10:45:09.254765: 10.102.4.231 kết nối thành công
+2024-12-27 10:45:09.432619: 10.102.4.240 kết nối thành công
+2024-12-27 10:45:09.543602: 10.102.4.238 kết nối thành công
+2024-12-27 10:45:10.112265: 10.102.4.233 kết nối thành công
+2024-12-27 10:45:10.321091: 10.102.4.241 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:45:10.411884: 10.102.4.235 kết nối thành công
+2024-12-27 10:45:10.510826: 10.102.4.234 kết nối thành công
+2024-12-27 10:45:10.600247: 10.102.4.237 kết nối thành công
+2024-12-27 10:45:10.945964: 10.102.5.39 kết nối thành công
+2024-12-27 10:45:11.511345: 10.102.5.41 kết nối thành công
+2024-12-27 10:45:11.611112: 10.102.4.232 kết nối thành công
+2024-12-27 10:45:11.626736: 10.102.4.71 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:45:11.727952: 10.102.5.36 kết nối thành công
+2024-12-27 10:45:11.911106: 10.102.4.214 kết nối thành công
+2024-12-27 10:45:12.645075: 10.102.5.40 kết nối thành công
+2024-12-27 10:45:12.844371: 10.102.4.239 kết nối thành công
+2024-12-27 10:45:12.961272: 10.102.5.35 kết nối thành công
+2024-12-27 10:45:13.020047: 10.102.5.38 kết nối thành công
+2024-12-27 10:45:13.131439: 10.102.4.236 kết nối thành công
+2024-12-27 10:45:13.241875: 10.102.4.61 kết nối thành công
+2024-12-27 10:45:14.061123: 10.102.4.109 kết nối thành công
+2024-12-27 10:45:14.061123: 10.102.4.107 kết nối thành công
+2024-12-27 10:45:14.197897: 10.102.4.62 kết nối thành công
+2024-12-27 10:45:14.302882: 10.102.5.11 kết nối thành công
+2024-12-27 10:45:14.474916: 10.102.5.12 kết nối thành công
+2024-12-27 10:45:14.724435: 10.102.5.10 kết nối thành công
+2024-12-27 10:45:15.323172: 10.102.4.60 kết nối thành công
+2024-12-27 10:45:15.393173: 10.102.5.14 kết nối thành công
+2024-12-27 10:45:15.509158: 10.102.5.18 kết nối thất bại: [Errno 13] Permission denied: 'PowerUp.txt'
+2024-12-27 10:45:15.576291: 10.102.4.21 kết nối thành công
+2024-12-27 10:45:15.973616: 10.102.5.13 kết nối thành công
+2024-12-27 10:45:16.558061: 10.102.4.252 kết nối thành công
+2024-12-27 10:45:16.625472: 10.102.5.16 kết nối thành công
+2024-12-27 10:45:16.674776: 10.102.4.248 kết nối thành công
+2024-12-27 10:45:16.726005: 10.102.4.56 kết nối thành công
+2024-12-27 10:45:17.191158: 10.102.5.15 kết nối thành công
+2024-12-27 10:45:17.957325: 10.102.4.57 kết nối thành công
+2024-12-27 10:45:18.166077: 10.102.4.58 kết nối thành công
+2024-12-27 10:45:21.560890: 10.102.4.55 kết nối thành công

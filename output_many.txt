@@ -1,90 +1,142 @@
-config
-undo service-port port 0/1/02 ont 09
-
-y
-interface gpon 0/1 
-
-HUG.VTY.A3V.OLT.HM01(config-if-gpon-0/1)#interface gpon 0/1
-
-ont delete 02 09 
-  Failure: The ONT does not exist
-
-HUG.VTY.A3V.OLT.HM01(config-if-gpon-0/1)#ont delete 02 09
-
-ont add 02 09 password-auth HA3P110209  [1Dalways-on omci ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name ONT 
-{ <cr>|desc<K>|fiber-route<K>|ont-type<K> }: 
-
-  Command:
-          ont add 02 09 password-auth HA3P110209 always-on omci 
-ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name ONT
-  Number of ONTs that can be added: 1, success: 1
-  PortID :2, ONTID :9
-
-HUG.VTY.A3V.OLT.HM01(config-if-gpon-0/1)#
-
-HUG.VTY.A3V.OLT.HM01(config-if-gpon-0/1)#ont add 02 09 password-auth HA3P110209 always-on omci ont-lineprofile-name HSI_IPTV_VOIP_VPN ont-srvprofile-name ONT
-
-
-
-quit 
-
-HUG.VTY.A3V.OLT.HM01(config)#quit
-
-service-port vlan 575 gpon 0/1/02 ont 09 gemport 1  [1Dmulti-service user-vlan 11 inbound traffic-table name HSI outbound traffic-table [1D name HSI 
-
-HUG.VTY.A3V.OLT.HM01(config)#service-port vlan 575 gpon 0/1/02 ont 09 gemport 1 multi-service user-vlan 11 inbound traffic-table name HSI outbound traffic-table name HSI
-
-service-port vlan 4001 gpon 0/1/02 ont 09 gemport 5 [1D multi-service user-vlan 4001 inbound traffic-table name GNMS outbound traffic-t [1Dable name GNMS 
-
-HUG.VTY.A3V.OLT.HM01(config)#service-port vlan 4001 gpon 0/1/02 ont 09 gemport 5 multi-service user-vlan 4001 inbound traffic-table name GNMS outbound traffic-table name GNMS
-
-btv 
-
-HUG.VTY.A3V.OLT.HM01(config-btv)#btv
-
-igmp user add smart-vlan 2419 
-{ <cr>|auth<K>|dedicated-net-id<K>|globalleave<K>|log<K>|max-bandwidth<K>|max-program<K>|no-auth<K>|quickleave<K> }: 
-
-  Command:
-          igmp user add smart-vlan 2419
-  Add 0 user(s) successfully
-
-HUG.VTY.A3V.OLT.HM01(config-btv)#
-
-HUG.VTY.A3V.OLT.HM01(config-btv)#igmp user add smart-vlan 2419
-
-
-
-multicast-vlan 99 
-{ <cr>|dedicated-net-id<K> }: 
-
-  Command:
-          multicast-vlan 99
-
-HUG.VTY.A3V.OLT.HM01(config-mvlan99)#multicast-vlan 99
-
-
-
-
-
-HUG.VTY.A3V.OLT.HM01(config-mvlan99)#igmp multicast-vlan member smart-vlan 2419
-
-
-
-igmp multicast-vlan member smart-vlan 2419  [1D
-{ <cr>|dedicated-net-id<K> }: 
-
-  Command:
-          igmp multicast-vlan member smart-vlan 2419
-  Failure: The user does not exist
-
-HUG.VTY.A3V.OLT.HM01(config-mvlan99)#quit
-
-
-
-HUG.VTY.A3V.OLT.HM01(config-mvlan99)#quit 
-
-HUG.VTY.A3V.OLT.HM01(config)#service-port vlan 0 gpon 0/1/01 ont 01 gemport 4 multi-service user-vlan 15 inbound traffic-table name VPN outbound traffic-table name VPN
-
+configure terminal
+configure terminal
+Enter configuration commands, one per line.  End with CTRL/Z.
+HUG.CTH.C04.OLT.ZM01(config)#
+interface gpon_olt-1/3/01
+interface gpon_olt-1/3/01
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_olt-1/3/1)#
+no onu 17
+no onu 17
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_olt-1/3/1)#
+end
+end
+HUG.CTH.C04.OLT.ZM01#
+configure terminal
+configure terminal
+Enter configuration commands, one per line.  End with CTRL/Z.
+HUG.CTH.C04.OLT.ZM01(config)#
+interface gpon_olt-1/3/01
+interface gpon_olt-1/3/01
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_olt-1/3/1)#
+onu 17 type GW040-H pw ZC0410117
+onu 17 type GW040-H pw ZC041011$ GW040-H pw ZC041011           7          
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_olt-1/3/1)#
+exit
+exit
+HUG.CTH.C04.OLT.ZM01(config)#
+interface gpon_onu-1/3/01:17
+interface gpon_onu-1/3/01:17
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport-mode manual
+vport-mode manual
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+tcont 1 name HSI profile T4_1000M
+tcont 1 name HSI profile T4_$e HSI profile T4_           1          0         0        0       M      
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+tcont 2 name IPTV profile T2_512K
+tcont 2 name IPTV profile T2$e IPTV profile T2           _          5         1        2       K      
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+tcont 3 name VOIP profile T3_10M
+tcont 3 name VOIP profile T3$e VOIP profile T3           _          1         0        M       
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+gemport 3 name VOIP tcont 3
+gemport 3 name VOIP tcont 3
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+gemport 1 name HSI tcont 1
+gemport 1 name HSI tcont 1
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+gemport 2 name IPTV tcont 2
+gemport 2 name IPTV tcont 2
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+tcont 6 name onu profile T3_10M
+tcont 6 name onu profile T3_$e onu profile T3_           1          0         M        
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+gemport 6 name onu tcont 6
+gemport 6 name onu tcont 6
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport 1 map-type vlan
+vport 1 map-type vlan
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport-map 1 6 vlan 4001
+vport-map 1 6 vlan 4001
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport 1 map-type vlan
+vport 1 map-type vlan
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport-map 1 1 vlan 11
+vport-map 1 1 vlan 11
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport-map 1 2 vlan 12
+vport-map 1 2 vlan 12
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+vport-map 1 3 vlan 13
+vport-map 1 3 vlan 13
+HUG.CTH.C04.OLT.ZM01(config-if-gpon_onu-1/3/1:17)#
+exit
+exit
+HUG.CTH.C04.OLT.ZM01(config)#
+interface vport-1/3/01.17:1
+interface vport-1/3/01.17:1
+HUG.CTH.C04.OLT.ZM01(config-if-vport-1/3/1.17:1)#
+service-port 1 user-vlan 11 vlan 369
+service-port 1 user-vlan 11 v$t 1 user-vlan 11 v           l          a         n                3      6     9    
+HUG.CTH.C04.OLT.ZM01(config-if-vport-1/3/1.17:1)#
+service-port 6 user-vlan 4000 vlan 4001
+service-port 6 user-vlan 4000$t 6 user-vlan 4000                      v         l        a       n            4    0   0  1$lan 4000 vlan 4001           
+HUG.CTH.C04.OLT.ZM01(config-if-vport-1/3/1.17:1)#
+exit
+exit
+HUG.CTH.C04.OLT.ZM01(config)#
+pon-onu-mng gpon_onu-1/3/01:17
+pon-onu-mng gpon_onu-1/3/01:17
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+dhcp-ip ethuni eth_0/4 from-internet
+dhcp-ip ethuni eth_0/4 from-internet$uni eth_0/4 from-internet           
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+service 6 gemport 6 vlan 4000
+service 6 gemport 6 vlan 4000
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+mvlan 12
+mvlan 12
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+mvlan tag eth_0/4 strip 
+mvlan tag eth_0/4 strip 
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+service 1 gemport 1 vlan 11
+service 1 gemport 1 vlan 11
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+service 2 gemport 2 vlan 12
+service 2 gemport 2 vlan 12
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+service 3 gemport 3 vlan 13
+service 3 gemport 3 vlan 13
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+voip protocol sip
+voip protocol sip
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+voip-ip ipv4 mode dhcp vlan-profile VOIP host 2
+voip-ip ipv4 mode dhcp vlan-profile $4 mode dhcp vlan-profile            V          O         I        P              h     o    s   t   $p vlan-profile VOIP host            2          
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+wan-ip 1 ipv4 mode pppoe username ftthttbang_hh password vnn123456 vlan-profile HSI host 1
+wan-ip 1 ipv4 mode pppoe username ft$v4 mode pppoe username ft           t          h         t        t       b      a     n    g   _  h$poe username ftthttbang_h           h                    p        a       s      s     w    o   r  d$me ftthttbang_hh password                      v         n        n       1      2     3    4   5  6$ang_hh password vnn123456                      v         l        a       n      -     p    r   o  f$sword vnn123456 vlan-prof           i          l         e                H      S     I        h  o$23456 vlan-profile HSI ho           s          t                  1       
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+wan 1 service internet host 1
+wan 1 service internet host 1
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+vlan port eth_0/4 mode tag vlan 12
+vlan port eth_0/4 mode tag vlan 12
+HUG.CTH.C04.OLT.ZM01(config-gpon-onu-mng)#
+exit
+exit
+HUG.CTH.C04.OLT.ZM01(config)#
+igmp mvlan 99
+igmp mvlan 99
+HUG.CTH.C04.OLT.ZM01(config-igmp-mvlan-99)#
+receive-port vport-1/3/01.17:1
+receive-port vport-1/3/01.17:1
+HUG.CTH.C04.OLT.ZM01(config-igmp-mvlan-99)#
+end
+end
+HUG.CTH.C04.OLT.ZM01#
 
 

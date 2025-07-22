@@ -1,0 +1,420 @@
+2025-05-20 08:30:38.634362: 10.102.5.36 kết nối thành công
+2025-05-20 08:31:49.591785: 10.102.4.131 kết nối thành công
+2025-05-20 08:33:35.817267: 10.102.4.131 kết nối thành công
+2025-05-20 08:37:43.406206: 10.102.4.131 kết nối thành công
+2025-05-20 08:38:13.274301: 10.102.4.144 kết nối thành công
+2025-05-20 08:38:30.220879: 10.102.4.15 kết nối thành công
+2025-05-20 08:43:17.106722: 10.102.5.47 kết nối thành công
+2025-05-20 08:47:16.910558: 10.102.5.47 kết nối thành công
+2025-05-20 09:02:09.979454: 10.102.5.47 kết nối thành công
+2025-05-20 09:02:30.274000: 10.102.5.49 kết nối thành công
+2025-05-20 09:09:13.778645: ('localhost',) kết nối thành công
+2025-05-20 09:09:52.708356: ('localhost',) kết nối thành công
+2025-05-20 09:16:29.608170: 10.102.4.59 kết nối thất bại: telnet connection closed
+2025-05-20 09:17:23.557893: ('localhost',) kết nối thành công
+2025-05-20 09:17:30.304620: 10.102.4.59 kết nối thất bại: telnet connection closed
+2025-05-20 09:18:07.378156: ('localhost',) kết nối thành công
+2025-05-20 09:39:16.166093: ('localhost',) kết nối thành công
+2025-05-20 09:39:47.371118: ('localhost',) kết nối thành công
+2025-05-20 09:39:48.866166: ('localhost',) kết nối thành công
+2025-05-20 09:40:34.976498: ('localhost',) kết nối thành công
+2025-05-20 09:41:40.236125: ('localhost',) kết nối thành công
+2025-05-20 09:43:11.668828: ('localhost',) kết nối thành công
+2025-05-20 09:44:37.877099: ('localhost',) kết nối thành công
+2025-05-20 09:47:58.245866: ('localhost',) kết nối thành công
+2025-05-20 09:47:59.685891: ('localhost',) kết nối thành công
+2025-05-20 09:50:18.725269: ('localhost',) kết nối thành công
+2025-05-20 09:50:20.250217: ('localhost',) kết nối thành công
+2025-05-20 09:50:21.544687: ('localhost',) kết nối thành công
+2025-05-20 09:50:43.550216: ('localhost',) kết nối thành công
+2025-05-20 09:50:44.875658: ('localhost',) kết nối thành công
+2025-05-20 09:50:46.875223: ('localhost',) kết nối thành công
+2025-05-20 09:52:50.904222: ('localhost',) kết nối thành công
+2025-05-20 10:16:46.952655: ('localhost',) kết nối thành công
+2025-05-20 10:17:02.138714: ('localhost',) kết nối thành công
+2025-05-20 10:17:02.368462: ('localhost',) kết nối thành công
+2025-05-20 10:17:02.508597: ('localhost',) kết nối thành công
+2025-05-20 10:17:14.359132: ('localhost',) kết nối thành công
+2025-05-20 10:17:24.753485: ('localhost',) kết nối thành công
+2025-05-20 10:17:42.291153: ('localhost',) kết nối thành công
+2025-05-20 10:18:51.764269: ('localhost',) kết nối thành công
+2025-05-20 10:19:23.313208: ('localhost',) kết nối thành công
+2025-05-20 10:20:12.787053: ('localhost',) kết nối thành công
+2025-05-20 10:20:13.986917: ('localhost',) kết nối thành công
+2025-05-20 10:20:15.873009: ('localhost',) kết nối thành công
+2025-05-20 10:20:40.503470: ('localhost',) kết nối thành công
+2025-05-20 10:20:52.510784: ('localhost',) kết nối thành công
+2025-05-20 10:20:53.872787: ('localhost',) kết nối thành công
+2025-05-20 10:21:45.933638: 10.102.5.25 kết nối thất bại: telnet connection closed
+2025-05-20 10:22:13.275541: ('localhost',) kết nối thành công
+2025-05-20 10:22:13.440444: ('localhost',) kết nối thành công
+2025-05-20 10:22:13.528991: ('localhost',) kết nối thành công
+2025-05-20 10:22:13.567500: ('localhost',) kết nối thành công
+2025-05-20 10:22:14.088673: ('localhost',) kết nối thành công
+2025-05-20 10:22:14.134161: ('localhost',) kết nối thành công
+2025-05-20 10:22:14.712809: ('localhost',) kết nối thành công
+2025-05-20 10:22:14.858103: ('localhost',) kết nối thành công
+2025-05-20 10:22:45.799575: ('localhost',) kết nối thành công
+2025-05-20 10:22:45.922517: ('localhost',) kết nối thành công
+2025-05-20 10:22:46.993143: ('localhost',) kết nối thành công
+2025-05-20 10:22:47.133483: ('localhost',) kết nối thành công
+2025-05-20 10:22:47.489425: ('localhost',) kết nối thành công
+2025-05-20 10:22:47.635039: ('localhost',) kết nối thành công
+2025-05-20 10:22:47.688049: ('localhost',) kết nối thành công
+2025-05-20 10:22:47.860069: ('localhost',) kết nối thành công
+2025-05-20 10:23:16.018128: 10.102.5.26 kết nối thất bại: telnet connection closed
+2025-05-20 10:25:57.932641: ('localhost',) kết nối thành công
+2025-05-20 10:25:57.948193: ('localhost',) kết nối thành công
+2025-05-20 10:25:58.047537: ('localhost',) kết nối thành công
+2025-05-20 10:25:58.170069: ('localhost',) kết nối thành công
+2025-05-20 10:25:58.803082: ('localhost',) kết nối thành công
+2025-05-20 10:25:58.859406: ('localhost',) kết nối thành công
+2025-05-20 10:25:59.352821: ('localhost',) kết nối thành công
+2025-05-20 10:25:59.475794: ('localhost',) kết nối thành công
+2025-05-20 10:27:15.191347: 10.102.5.29 kết nối thất bại: telnet connection closed
+2025-05-20 10:27:15.201878: 10.102.5.46 kết nối thất bại: telnet connection closed
+2025-05-20 10:27:15.207778: 10.102.5.47 kết nối thất bại: telnet connection closed
+2025-05-20 10:27:15.802777: ('localhost',) kết nối thành công
+2025-05-20 10:27:16.412507: ('localhost',) kết nối thành công
+2025-05-20 10:27:16.922754: ('localhost',) kết nối thành công
+2025-05-20 10:28:45.302330: 10.102.5.48 kết nối thất bại: telnet connection closed
+2025-05-20 10:28:45.312387: 10.102.5.49 kết nối thất bại: telnet connection closed
+2025-05-20 10:28:45.822651: ('localhost',) kết nối thành công
+2025-05-20 10:32:43.687555: ('localhost',) kết nối thành công
+2025-05-20 10:34:13.092251: 10.102.4.231 kết nối thất bại: telnet connection closed
+2025-05-20 10:36:05.876680: ('localhost',) kết nối thành công
+2025-05-20 10:36:06.101806: ('localhost',) kết nối thành công
+2025-05-20 10:36:06.341773: ('localhost',) kết nối thành công
+2025-05-20 10:36:06.986887: ('localhost',) kết nối thành công
+2025-05-20 10:36:07.601808: ('localhost',) kết nối thành công
+2025-05-20 10:36:08.251671: ('localhost',) kết nối thành công
+2025-05-20 10:37:54.666499: ('localhost',) kết nối thành công
+2025-05-20 10:37:56.692004: ('localhost',) kết nối thành công
+2025-05-20 10:37:57.281993: ('localhost',) kết nối thành công
+2025-05-20 10:37:57.381169: 10.102.4.162 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:37:57.398594: 10.102.4.25 kết nối thành công
+2025-05-20 10:37:57.658189: 10.102.4.94 kết nối thành công
+2025-05-20 10:37:57.829246: 10.102.4.114 kết nối thành công
+2025-05-20 10:37:58.411822: ('localhost',) kết nối thành công
+2025-05-20 10:37:58.605779: 10.102.4.164 kết nối thành công
+2025-05-20 10:37:59.752423: 10.102.4.169 kết nối thành công
+2025-05-20 10:37:59.784736: 10.102.4.133 kết nối thành công
+2025-05-20 10:37:59.874793: 10.102.4.33 kết nối thành công
+2025-05-20 10:38:00.099858: 10.102.4.132 kết nối thành công
+2025-05-20 10:38:01.774441: 10.102.4.69 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:38:01.779437: 10.102.4.78 kết nối thành công
+2025-05-20 10:38:01.852246: 10.102.4.170 kết nối thành công
+2025-05-20 10:38:02.393363: 10.102.4.110 kết nối thành công
+2025-05-20 10:38:03.461757: 10.102.4.32 kết nối thành công
+2025-05-20 10:38:03.959794: 10.102.4.106 kết nối thành công
+2025-05-20 10:38:04.596550: 10.102.4.82 kết nối thành công
+2025-05-20 10:38:05.271672: 10.102.4.154 kết nối thành công
+2025-05-20 10:38:06.991565: 10.102.4.154 kết nối thành công
+2025-05-20 10:38:07.049164: 10.102.4.117 kết nối thành công
+2025-05-20 10:38:09.644570: 10.102.4.128 kết nối thành công
+2025-05-20 10:38:09.718887: 10.102.4.97 kết nối thành công
+2025-05-20 10:38:11.415226: 10.102.4.96 kết nối thành công
+2025-05-20 10:38:12.133921: 10.102.4.95 kết nối thành công
+2025-05-20 10:38:13.794908: 10.102.4.195 kết nối thành công
+2025-05-20 10:38:14.421923: 10.102.4.70 kết nối thành công
+2025-05-20 10:38:14.480637: ('localhost',) kết nối thành công
+2025-05-20 10:38:16.311768: 10.102.4.164 kết nối thành công
+2025-05-20 10:38:16.546804: 10.102.4.127 kết nối thành công
+2025-05-20 10:38:18.050236: 10.102.4.142 kết nối thành công
+2025-05-20 10:38:18.158434: 10.102.4.110 kết nối thành công
+2025-05-20 10:38:18.537661: ('localhost',) kết nối thành công
+2025-05-20 10:38:18.690384: ('localhost',) kết nối thành công
+2025-05-20 10:38:19.111636: ('localhost',) kết nối thành công
+2025-05-20 10:38:19.200901: ('localhost',) kết nối thành công
+2025-05-20 10:38:20.941732: 10.102.4.126 kết nối thành công
+2025-05-20 10:42:29.111988: ('localhost',) kết nối thành công
+2025-05-20 10:42:29.180994: 10.102.4.94 kết nối thành công
+2025-05-20 10:42:29.503784: ('localhost',) kết nối thành công
+2025-05-20 10:42:30.291060: 10.102.4.25 kết nối thành công
+2025-05-20 10:42:30.328541: 10.102.4.27 kết nối thất bại: telnet connection closed
+2025-05-20 10:42:30.575405: 10.102.4.162 kết nối thành công
+2025-05-20 10:42:30.659651: 10.102.4.114 kết nối thành công
+2025-05-20 10:42:30.913569: 10.102.4.94 kết nối thành công
+2025-05-20 10:42:31.046520: 10.102.4.164 kết nối thành công
+2025-05-20 10:42:31.221124: 10.102.4.33 kết nối thành công
+2025-05-20 10:42:31.247866: ('localhost',) kết nối thành công
+2025-05-20 10:42:32.441539: 10.102.4.169 kết nối thành công
+2025-05-20 10:42:32.563959: 10.102.4.133 kết nối thành công
+2025-05-20 10:42:32.923835: 10.102.4.132 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:42:32.923835: 10.102.4.69 kết nối thành công
+2025-05-20 10:42:32.947737: 10.102.4.78 kết nối thành công
+2025-05-20 10:42:33.431226: ('localhost',) kết nối thành công
+2025-05-20 10:42:34.605754: 10.102.4.170 kết nối thành công
+2025-05-20 10:42:34.757710: 10.102.4.110 kết nối thành công
+2025-05-20 10:42:35.290622: ('localhost',) kết nối thành công
+2025-05-20 10:42:35.405034: ('localhost',) kết nối thành công
+2025-05-20 10:42:35.716343: 10.102.4.117 kết nối thành công
+2025-05-20 10:42:36.921249: 10.102.4.32 kết nối thành công
+2025-05-20 10:42:37.131567: 10.102.4.106 kết nối thành công
+2025-05-20 10:42:37.459976: 10.102.4.82 kết nối thành công
+2025-05-20 10:42:39.236370: 10.102.4.97 kết nối thành công
+2025-05-20 10:42:39.911398: 10.102.4.154 kết nối thành công
+2025-05-20 10:42:40.197799: 10.102.4.154 kết nối thành công
+2025-05-20 10:42:40.951562: 10.102.4.128 kết nối thành công
+2025-05-20 10:42:41.572862: 10.102.4.95 kết nối thành công
+2025-05-20 10:42:58.562647: 10.102.4.40 kết nối thất bại: telnet connection closed
+2025-05-20 10:42:58.653580: ('localhost',) kết nối thành công
+2025-05-20 10:42:58.858373: ('localhost',) kết nối thành công
+2025-05-20 10:42:59.631447: 10.102.4.162 kết nối thành công
+2025-05-20 10:42:59.768117: 10.102.4.94 kết nối thành công
+2025-05-20 10:43:00.182057: 10.102.4.25 kết nối thành công
+2025-05-20 10:43:00.552479: 10.102.4.27 kết nối thất bại: telnet connection closed
+2025-05-20 10:43:00.967273: 10.102.4.114 kết nối thành công
+2025-05-20 10:43:00.989033: 10.102.4.164 kết nối thành công
+2025-05-20 10:43:01.200952: 10.102.4.33 kết nối thành công
+2025-05-20 10:43:01.597835: ('localhost',) kết nối thành công
+2025-05-20 10:43:02.201534: 10.102.4.169 kết nối thành công
+2025-05-20 10:43:02.511403: 10.102.4.133 kết nối thành công
+2025-05-20 10:43:03.211161: ('localhost',) kết nối thành công
+2025-05-20 10:43:03.566540: 10.102.4.132 kết nối thành công
+2025-05-20 10:43:03.667802: 10.102.4.78 kết nối thành công
+2025-05-20 10:43:03.866475: ('localhost',) kết nối thành công
+2025-05-20 10:43:03.929095: 10.102.4.50 kết nối thất bại: telnet connection closed
+2025-05-20 10:43:04.221362: ('localhost',) kết nối thành công
+2025-05-20 10:43:04.600211: 10.102.4.170 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:43:04.620344: 10.102.4.110 kết nối thành công
+2025-05-20 10:43:04.766222: 10.102.4.69 kết nối thành công
+2025-05-20 10:43:05.638456: 10.102.4.117 kết nối thành công
+2025-05-20 10:43:06.293234: 10.102.4.96 kết nối thành công
+2025-05-20 10:43:06.795517: 10.102.4.32 kết nối thành công
+2025-05-20 10:43:07.042875: 10.102.4.106 kết nối thành công
+2025-05-20 10:43:07.262946: 10.102.4.82 kết nối thành công
+2025-05-20 10:43:09.021834: 10.102.4.128 kết nối thành công
+2025-05-20 10:43:09.103173: 10.102.4.154 kết nối thành công
+2025-05-20 10:43:09.199248: 10.102.4.97 kết nối thành công
+2025-05-20 10:43:09.451341: 10.102.4.95 kết nối thành công
+2025-05-20 10:43:09.704306: 10.102.4.154 kết nối thành công
+2025-05-20 10:43:09.836314: ('localhost',) kết nối thành công
+2025-05-20 10:43:10.828195: 10.102.4.195 kết nối thành công
+2025-05-20 10:43:11.345386: 10.102.4.70 kết nối thành công
+2025-05-20 10:43:11.535769: 10.102.4.164 kết nối thành công
+2025-05-20 10:43:11.647042: 10.102.4.127 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:43:11.665742: 10.102.4.142 kết nối thành công
+2025-05-20 10:43:11.872192: 10.102.4.50 kết nối thất bại: telnet connection closed
+2025-05-20 10:43:12.017215: ('localhost',) kết nối thành công
+2025-05-20 10:43:12.019248: 10.102.4.40 kết nối thất bại: telnet connection closed
+2025-05-20 10:43:12.132616: 10.102.4.27 kết nối thất bại: telnet connection closed
+2025-05-20 10:43:12.471484: 10.102.4.110 kết nối thành công
+2025-05-20 10:43:13.912010: 10.102.4.94 kết nối thành công
+2025-05-20 10:43:13.912010: 10.102.4.141 kết nối thành công
+2025-05-20 10:43:14.047289: 10.102.4.126 kết nối thành công
+2025-05-20 10:43:14.351577: 10.102.4.129 kết nối thành công
+2025-05-20 10:43:15.741682: 10.102.4.151 kết nối thành công
+2025-05-20 10:43:15.879791: 10.102.4.152 kết nối thành công
+2025-05-20 10:43:16.151418: 10.102.4.153 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:43:16.202871: 10.102.4.156 kết nối thành công
+2025-05-20 10:43:16.691349: ('localhost',) kết nối thành công
+2025-05-20 10:43:17.851081: 10.102.4.118 kết nối thành công
+2025-05-20 10:43:18.051450: 10.102.4.111 kết nối thành công
+2025-05-20 10:43:18.117344: 10.102.4.161 kết nối thành công
+2025-05-20 10:43:18.419337: 10.102.4.150 kết nối thành công
+2025-05-20 10:43:18.931258: ('localhost',) kết nối thành công
+2025-05-20 10:43:20.081590: 10.102.4.167 kết nối thành công
+2025-05-20 10:43:20.293673: 10.102.4.191 kết nối thành công
+2025-05-20 10:43:20.461206: 10.102.4.73 kết nối thành công
+2025-05-20 10:43:21.787696: 10.102.4.192 kết nối thành công
+2025-05-20 10:43:22.244491: 10.102.4.87 kết nối thành công
+2025-05-20 10:43:24.111230: 10.102.4.182 kết nối thành công
+2025-05-20 10:43:25.900922: 10.102.4.171 kết nối thành công
+2025-05-20 10:43:43.331280: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 10:43:45.121117: 10.102.4.35 kết nối thành công
+2025-05-20 10:43:46.925501: 10.102.4.23 kết nối thành công
+2025-05-20 10:43:48.711370: 10.102.4.166 kết nối thành công
+2025-05-20 10:44:08.035791: ('localhost',) kết nối thành công
+2025-05-20 10:44:08.493882: ('localhost',) kết nối thành công
+2025-05-20 10:44:09.541105: 10.102.4.114 kết nối thành công
+2025-05-20 10:44:09.631629: 10.102.4.162 kết nối thành công
+2025-05-20 10:44:09.748589: 10.102.4.164 kết nối thành công
+2025-05-20 10:44:09.788299: 10.102.4.27 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:09.862904: 10.102.4.94 kết nối thành công
+2025-05-20 10:44:10.161372: 10.102.4.25 kết nối thành công
+2025-05-20 10:44:10.351311: ('localhost',) kết nối thành công
+2025-05-20 10:44:10.381393: 10.102.4.40 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:11.251408: 10.102.4.33 kết nối thành công
+2025-05-20 10:44:11.331263: 10.102.4.133 kết nối thành công
+2025-05-20 10:44:11.411270: 10.102.4.69 kết nối thành công
+2025-05-20 10:44:11.861429: 10.102.4.132 kết nối thành công
+2025-05-20 10:44:12.031127: ('localhost',) kết nối thành công
+2025-05-20 10:44:12.088655: 10.102.4.38 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:12.093936: 10.102.4.78 kết nối thành công
+2025-05-20 10:44:12.114747: 10.102.4.169 kết nối thành công
+2025-05-20 10:44:12.351071: ('localhost',) kết nối thành công
+2025-05-20 10:44:12.581363: ('localhost',) kết nối thành công
+2025-05-20 10:44:12.840624: 10.102.4.110 kết nối thành công
+2025-05-20 10:44:13.297179: 10.102.4.170 kết nối thành công
+2025-05-20 10:44:13.414575: 10.102.4.50 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:13.764742: 10.102.4.117 kết nối thành công
+2025-05-20 10:44:14.801178: 10.102.4.32 kết nối thành công
+2025-05-20 10:44:15.221030: 10.102.4.106 kết nối thành công
+2025-05-20 10:44:15.412190: 10.102.4.82 kết nối thành công
+2025-05-20 10:44:15.598031: 10.102.4.97 kết nối thành công
+2025-05-20 10:44:15.645358: 10.102.4.154 kết nối thành công
+2025-05-20 10:44:16.168221: 10.102.4.154 kết nối thành công
+2025-05-20 10:44:16.671536: ('localhost',) kết nối thành công
+2025-05-20 10:44:16.976725: 10.102.4.128 kết nối thành công
+2025-05-20 10:44:17.461175: 10.102.4.95 kết nối thành công
+2025-05-20 10:44:17.507792: 10.102.4.195 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:44:17.509840: 10.102.4.70 kết nối thành công
+2025-05-20 10:44:18.194101: 10.102.4.96 kết nối thành công
+2025-05-20 10:44:18.501169: 10.102.4.127 kết nối thành công
+2025-05-20 10:44:18.621162: ('localhost',) kết nối thành công
+2025-05-20 10:44:18.657470: 10.102.4.50 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:18.687302: 10.102.4.40 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:19.211434: 10.102.4.110 kết nối thành công
+2025-05-20 10:44:19.271080: 10.102.4.27 kết nối thất bại: telnet connection closed
+2025-05-20 10:44:19.466374: 10.102.4.164 kết nối thành công
+2025-05-20 10:44:19.764332: 10.102.4.142 kết nối thành công
+2025-05-20 10:44:20.481438: 10.102.4.94 kết nối thành công
+2025-05-20 10:44:20.587057: 10.102.4.126 kết nối thành công
+2025-05-20 10:44:21.301436: 10.102.4.129 kết nối thành công
+2025-05-20 10:44:21.889142: 10.102.4.141 kết nối thành công
+2025-05-20 10:44:22.234174: 10.102.4.156 kết nối thành công
+2025-05-20 10:44:22.254809: 10.102.4.151 kết nối thành công
+2025-05-20 10:44:22.351526: 10.102.4.152 kết nối thành công
+2025-05-20 10:44:22.681412: ('localhost',) kết nối thành công
+2025-05-20 10:44:23.089343: 10.102.4.153 kết nối thành công
+2025-05-20 10:44:23.903477: 10.102.4.118 kết nối thành công
+2025-05-20 10:44:24.133811: 10.102.4.161 kết nối thành công
+2025-05-20 10:44:24.154953: 10.102.4.111 kết nối thành công
+2025-05-20 10:44:24.466565: 10.102.4.150 kết nối thành công
+2025-05-20 10:44:24.603518: ('localhost',) kết nối thành công
+2025-05-20 10:44:25.371525: 10.102.4.73 kết nối thành công
+2025-05-20 10:44:26.061120: 10.102.4.167 kết nối thành công
+2025-05-20 10:44:26.220933: 10.102.4.192 kết nối thất bại: [Errno 13] Permission denied: 'output_status.txt'
+2025-05-20 10:44:26.236400: 10.102.4.191 kết nối thành công
+2025-05-20 10:44:28.084978: 10.102.4.182 kết nối thành công
+2025-05-20 10:44:28.402842: 10.102.4.87 kết nối thành công
+2025-05-20 10:44:29.993191: 10.102.4.171 kết nối thành công
+2025-05-20 10:44:31.795898: 10.102.4.35 kết nối thành công
+2025-05-20 10:44:33.545373: 10.102.4.23 kết nối thành công
+2025-05-20 10:44:35.371596: 10.102.4.166 kết nối thành công
+2025-05-20 10:44:47.291873: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 10:44:49.228510: 10.102.4.104 kết nối thành công
+2025-05-20 10:44:51.043570: 10.102.4.65 kết nối thành công
+2025-05-20 10:44:52.811046: 10.102.4.101 kết nối thành công
+2025-05-20 10:44:55.493481: 10.102.4.68 kết nối thành công
+2025-05-20 10:45:20.231277: ('localhost',) kết nối thành công
+2025-05-20 10:48:56.185702: ('localhost',) kết nối thành công
+2025-05-20 10:53:20.930546: ('localhost',) kết nối thành công
+2025-05-20 10:54:25.930413: ('localhost',) kết nối thành công
+2025-05-20 10:54:27.761967: 10.102.4.102 kết nối thành công
+2025-05-20 10:54:29.550276: 10.102.4.139 kết nối thành công
+2025-05-20 10:54:31.640710: 10.102.4.140 kết nối thành công
+2025-05-20 10:54:32.200599: ('localhost',) kết nối thành công
+2025-05-20 10:54:32.740448: ('localhost',) kết nối thành công
+2025-05-20 10:54:33.300491: ('localhost',) kết nối thành công
+2025-05-20 10:54:35.327404: 10.102.4.63 kết nối thành công
+2025-05-20 10:54:37.210529: 10.102.4.24 kết nối thành công
+2025-05-20 10:54:37.810681: ('localhost',) kết nối thành công
+2025-05-20 10:54:39.472499: 10.102.4.32 kết nối thành công
+2025-05-20 10:54:41.755293: 10.102.4.33 kết nối thành công
+2025-05-20 10:54:42.250367: ('localhost',) kết nối thành công
+2025-05-20 10:54:44.090561: 10.102.4.100 kết nối thành công
+2025-05-20 10:54:46.280415: 10.102.4.78 kết nối thành công
+2025-05-20 10:54:48.894191: 10.102.4.196 kết nối thành công
+2025-05-20 10:54:50.586297: 10.102.4.82 kết nối thành công
+2025-05-20 10:54:51.210615: ('localhost',) kết nối thành công
+2025-05-20 10:54:52.870672: 10.102.4.113 kết nối thành công
+2025-05-20 10:54:55.215550: 10.102.4.72 kết nối thành công
+2025-05-20 10:54:57.145104: 10.102.4.43 kết nối thành công
+2025-05-20 10:55:18.205773: 10.102.4.17 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 10:55:21.001854: 10.102.4.92 kết nối thành công
+2025-05-20 10:55:21.660622: ('localhost',) kết nối thành công
+2025-05-20 12:10:54.299419: kết nối ok
+2025-05-20 12:11:01.524505: kết nối ok
+2025-05-20 12:11:11.674746: kết nối ok
+2025-05-20 12:15:19.887125: ('localhost',) kết nối thành công
+2025-05-20 12:18:04.329187: ('localhost',) kết nối thành công
+2025-05-20 12:18:21.374170: ('localhost',) kết nối thành công
+2025-05-20 12:22:33.333702: ('localhost',) kết nối thành công
+2025-05-20 12:22:41.333783: ('localhost',) kết nối thành công
+2025-05-20 12:23:26.383481: ('localhost',) kết nối thành công
+2025-05-20 12:24:28.943502: ('localhost',) kết nối thành công
+2025-05-20 12:24:30.630248: 10.102.4.105 kết nối thành công
+2025-05-20 12:24:32.343604: 10.102.4.36 kết nối thành công
+2025-05-20 12:24:34.943277: 10.102.4.42 kết nối thành công
+2025-05-20 12:24:37.000078: 10.102.4.149 kết nối thành công
+2025-05-20 12:24:39.676542: 10.102.4.30 kết nối thành công
+2025-05-20 12:24:41.563242: 10.102.4.37 kết nối thành công
+2025-05-20 12:24:43.408256: 10.102.4.148 kết nối thành công
+2025-05-20 12:24:45.178296: 10.102.4.145 kết nối thành công
+2025-05-20 12:24:47.323221: 10.102.4.146 kết nối thành công
+2025-05-20 12:24:49.743514: 10.102.4.147 kết nối thành công
+2025-05-20 12:24:51.503605: 10.102.4.88 kết nối thành công
+2025-05-20 12:24:53.608456: 10.102.4.48 kết nối thành công
+2025-05-20 12:24:55.266753: 10.102.4.49 kết nối thành công
+2025-05-20 12:24:57.373251: 10.102.4.89 kết nối thành công
+2025-05-20 12:25:18.428194: 10.102.4.53 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-05-20 13:55:20.116419: ('localhost',) kết nối thành công
+2025-05-20 13:56:05.816303: ('localhost',) kết nối thành công
+2025-05-20 13:56:06.376262: ('localhost',) kết nối thành công
+2025-05-20 13:56:08.456218: ('localhost',) kết nối thành công
+2025-05-20 13:57:57.916444: ('localhost',) kết nối thành công
+2025-05-20 13:57:58.756387: ('localhost',) kết nối thành công
+2025-05-20 13:58:01.996175: ('localhost',) kết nối thành công
+2025-05-20 13:58:19.256098: ('localhost',) kết nối thành công
+2025-05-20 14:02:27.195854: ('localhost',) kết nối thành công
+2025-05-20 14:02:31.330906: ('localhost',) kết nối thành công
+2025-05-20 14:02:33.190756: ('localhost',) kết nối thành công
+2025-05-20 14:02:40.570702: ('localhost',) kết nối thành công
+2025-05-20 14:02:41.730854: ('localhost',) kết nối thành công
+2025-05-20 14:03:04.006031: ('localhost',) kết nối thành công
+2025-05-20 14:03:11.856166: ('localhost',) kết nối thành công
+2025-05-20 14:03:20.195944: ('localhost',) kết nối thành công
+2025-05-20 14:04:17.115882: ('localhost',) kết nối thành công
+2025-05-20 14:04:24.945832: ('localhost',) kết nối thành công
+2025-05-20 14:08:56.475627: ('localhost',) kết nối thành công
+2025-05-20 14:15:22.034892: ('localhost',) kết nối thành công
+2025-05-20 14:18:57.159752: ('localhost',) kết nối thành công
+2025-05-20 14:18:59.047697: 10.102.4.131 kết nối thành công
+2025-05-20 14:19:00.984736: 10.102.4.143 kết nối thành công
+2025-05-20 14:19:03.054574: 10.102.4.144 kết nối thành công
+2025-05-20 14:19:05.239683: 10.102.4.15 kết nối thành công
+2025-05-20 14:19:06.989850: 10.102.4.66 kết nối thành công
+2025-05-20 14:19:08.958648: 10.102.4.135 kết nối thành công
+2025-05-20 14:19:10.653308: 10.102.4.168 kết nối thành công
+2025-05-20 14:19:12.944376: 10.102.4.245 kết nối thành công
+2025-05-20 14:19:14.671251: 10.102.4.91 kết nối thành công
+2025-05-20 15:10:13.140608: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:13.154494: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:14.300848: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-05-20 15:10:14.310516: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-05-20 15:10:14.353003: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:19.270534: kết nối ok
+2025-05-20 15:10:19.310363: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:19.371712: kết nối ok
+2025-05-20 15:10:19.396390: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:20.560937: kết nối ok
+2025-05-20 15:10:20.590620: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:20.620304: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:25.270545: kết nối ok
+2025-05-20 15:10:25.304229: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-05-20 15:10:26.320802: kết nối ok
+2025-05-20 15:10:28.110727: kết nối ok
+2025-05-20 15:10:30.630678: kết nối ok
+2025-05-20 15:10:32.300828: kết nối ok
+2025-05-20 15:10:33.030717: kết nối ok
+2025-05-20 15:10:38.390697: kết nối ok
+2025-05-20 15:10:42.850924: kết nối ok
+2025-05-20 15:10:45.050743: kết nối ok
+2025-05-20 15:10:49.830475: kết nối ok
+2025-05-20 15:11:03.386233: kết nối ok
+2025-05-20 15:44:17.457789: ('localhost',) kết nối thành công
+2025-05-20 15:44:19.458102: 10.102.4.18 kết nối thành công
+2025-05-20 15:44:21.477938: 10.102.4.165 kết nối thành công
+2025-05-20 15:44:23.787959: 10.102.4.24 kết nối thành công
+2025-05-20 15:44:25.987869: 10.102.4.156 kết nối thành công
+2025-05-20 15:44:27.714278: 10.102.4.116 kết nối thành công
+2025-05-20 15:44:29.412676: 10.102.4.25 kết nối thành công
+2025-05-20 15:44:31.477835: 10.102.4.69 kết nối thành công
+2025-05-20 15:44:33.216861: 10.102.4.117 kết nối thành công
+2025-05-20 15:45:18.508099: ('localhost',) kết nối thành công
+2025-05-20 15:55:22.457220: ('localhost',) kết nối thành công
+2025-05-20 17:24:25.495119: ('localhost',) kết nối thành công
+2025-05-20 17:39:14.838939: ('localhost',) kết nối thành công
+2025-05-21 05:28:52.605281: 10.102.4.106 kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host

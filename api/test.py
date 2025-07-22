@@ -46,18 +46,13 @@ def create_database_and_table():
             #     donvi VARCHAR(255)
             # )
             # """)
-            cursor.execute("""
-                    CREATE TABLE IF NOT EXISTS port (
-                       id INT AUTO_INCREMENT PRIMARY KEY,
-                        matram VARCHAR(255),
-                        switch	 VARCHAR(255),
-                        port	 VARCHAR(255),
-                        username VARCHAR(255),
-                        password VARCHAR(255),
-                        ip VARCHAR(255),
-                        loai VARCHAR(255)
-                    )
-                    """)
+            # cursor.execute("""
+            #         CREATE TABLE IF NOT EXISTS danhsachnhanvien (
+            #            id INT AUTO_INCREMENT PRIMARY KEY,
+            #             tennhanvien VARCHAR(255),
+            #             tuyenkt	 VARCHAR(255)
+            #         )
+            #         """)
             # cursor.execute("""
             # CREATE TABLE IF NOT EXISTS binhquan_suyhao (
             #     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -145,13 +140,13 @@ def create_database_and_table():
         #     CREATE TABLE IF NOT EXISTS nhienlieu (
         #    tentram VARCHAR(255) PRIMARY KEY,
         #         tencsht VARCHAR(255) ,
-               
+
         #         nhienlieu	 VARCHAR(255),
         #     dinhmuc	 VARCHAR(255)
 
         #     )
         #     """)
-              # cursor.execute("""
+            # cursor.execute("""
             # CREATE TABLE IF NOT EXISTS tuyen_kt_tt (
             #     tuyenkt VARCHAR(255) PRIMARY KEY,
             #     ttvt VARCHAR(255),
@@ -161,6 +156,17 @@ def create_database_and_table():
 
             # )
             # """)
+            cursor.execute("""
+                    CREATE TABLE IF NOT EXISTS tramdidong (
+                       id INT AUTO_INCREMENT PRIMARY KEY,
+                        tencsht VARCHAR(255),
+                        tentram	 VARCHAR(255),
+                           dp	 VARCHAR(255),
+                           dichvu	 VARCHAR(255),
+                           port 	 VARCHAR(255),
+                           switch	 VARCHAR(255)
+                    )
+                    """)
             print("Bảng 'mytable' đã được tạo hoặc đã tồn tại.")
 
     except Error as e:

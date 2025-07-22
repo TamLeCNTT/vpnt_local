@@ -1,339 +1,40 @@
-show ipv4 int bri | inc TenGigE0 | in Up
-Mon Nov 25 14:01:04.226 GMT
-TenGigE0/0/0/0                 unassigned      Up              Up       default 
-TenGigE0/0/0/2                 unassigned      Up              Up       default 
-TenGigE0/0/0/3                 unassigned      Up              Up       default 
-TenGigE0/1/0/0                 unassigned      Up              Up       default 
-TenGigE0/1/1/0                 unassigned      Up              Up       default 
-TenGigE0/1/1/1                 unassigned      Up              Up       default 
-TenGigE0/1/1/2                 unassigned      Up              Up       default 
-TenGigE0/1/1/3                 unassigned      Up              Up       default 
-TenGigE0/2/0/0                 unassigned      Up              Up       default 
-TenGigE0/2/0/1                 unassigned      Up              Up       default 
-TenGigE0/2/0/2                 unassigned      Up              Up       default 
-TenGigE0/2/0/3                 unassigned      Up              Up       default 
-TenGigE0/5/0/0                 unassigned      Up              Up       default 
-TenGigE0/5/0/1                 unassigned      Up              Up       default 
-TenGigE0/5/0/1.3021            unassigned      Up              Up       default 
-TenGigE0/5/0/1.3171            unassigned      Up              Up       default 
-TenGigE0/5/0/1.3599            unassigned      Up              Down     default 
-TenGigE0/5/0/2                 unassigned      Up              Up       default 
-TenGigE0/5/0/2.3021            unassigned      Up              Up       default 
-TenGigE0/5/0/2.3171            unassigned      Up              Up       default 
-TenGigE0/5/0/2.3599            unassigned      Up              Down     default 
-TenGigE0/5/0/3                 unassigned      Up              Up       default 
-TenGigE0/7/0/1                 unassigned      Up              Up       default 
-TenGigE0/7/0/2                 unassigned      Up              Up       default 
-TenGigE0/7/0/3                 unassigned      Up              Up       default 
-TenGigE0/7/0/3.3021            unassigned      Up              Up       default 
-TenGigE0/7/0/3.3171            unassigned      Up              Up       default 
-TenGigE0/7/0/3.3599            unassigned      Up              Down     default 
-TenGigE0/7/1/1                 unassigned      Up              Up       default 
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#show cdp neighbors | include HGI
-Mon Nov 25 14:01:04.764 GMT
-HGI00VTH_ASR901 Te0/0/0/0        136     R          ASR9K Ser Te0/2/1/1       
-HGI00TPT_ASR901 Te0/0/0/2        159     R          ASR9K Ser Te0/5/1/2       
-HGI00TPT_ASR901 Te0/1/0/0        143     R          ASR9K Ser Te0/1/0/0       
-HGI00VTH_ASR901 Te0/2/0/0        125     R          ASR9K Ser Te0/2/0/2       
-HGI00VTH_ASR901 Te0/2/0/2        166     R          ASR9K Ser Te0/6/1/3       
-HGI00TPT_ASR901 Te0/2/0/3        133     R          ASR9K Ser Te0/0/1/0       
-HGI00VTH_ASR901 Te0/5/0/0        157     R          ASR9K Ser Te0/1/1/3       
-HGI00TPT_ASR901 Te0/7/0/1        165     R          ASR9K Ser Te0/7/1/3       
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#show contro TenGigE0/2/0/1 phy | include dBm 
-Mon Nov 25 14:01:05.082 GMT
-	   Transmit Power:  1.25890 mW (0.99991 dBm)   1.00000 mW (0.00000 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.25890 mW (0.99991 dBm)   1.00000 mW (0.00000 dBm)   0.03630 mW (-14.40093 dBm)   0.01820 mW (-17.39929 dBm)
-	Tx Power:  0.62660 mW (-2.03010 dBm)
-	Rx Power:  0.51670 mW (-2.86762 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-2.86762
-show contro TenGigE0/5/0/3 phy | include dBm 
-Mon Nov 25 14:01:05.457 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.62200 mW (-2.06210 dBm)
-	Rx Power:  0.25670 mW (-5.90574 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-5.90574
-show contro TenGigE0/5/0/1 phy | include dBm 
-Mon Nov 25 14:01:05.830 GMT
-	   Transmit Power:  1.41250 mW (1.49988 dBm)   1.25890 mW (0.99991 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.77830 mW (2.50005 dBm)   1.58490 mW (2.00002 dBm)   0.01580 mW (-18.01343 dBm)   0.01000 mW (-20.00000 dBm)
-	Tx Power:  0.63640 mW (-1.96270 dBm)
-	Rx Power:  0.13140 mW (-8.81405 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-8.81405
-show contro TenGigE0/1/1/0 phy | include dBm 
-Mon Nov 25 14:01:06.222 GMT
-	   Transmit Power:  3.16220 mW (4.99989 dBm)   1.99520 mW (2.99986 dBm)   0.63090 mW (-2.00039 dBm)   0.39810 mW (-4.00008 dBm)
-	    Receive Power:  1.58480 mW (1.99974 dBm)   1.00000 mW (0.00000 dBm)   0.02080 mW (-16.81937 dBm)   0.01310 mW (-18.82729 dBm)
-	Tx Power:  1.23120 mW (0.90329 dBm)
-	Rx Power:  0.19220 mW (-7.16247 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-7.16247
-show contro TenGigE0/5/0/0 phy | include dBm 
-Mon Nov 25 14:01:06.592 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.66190 mW (-1.79208 dBm)
-	Rx Power:  0.24660 mW (-6.08007 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-6.08007
-show contro TenGigE0/0/0/3 phy | include dBm 
-Mon Nov 25 14:01:07.054 GMT
-	   Transmit Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.02510 mW (-16.00326 dBm)   0.02000 mW (-16.98970 dBm)
-	Tx Power:  0.40300 mW (-3.94695 dBm)
-	Rx Power:  0.32390 mW (-4.89589 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-4.89589
-show contro TenGigE0/1/1/2 phy | include dBm 
-Mon Nov 25 14:01:07.419 GMT
-	   Transmit Power:  1.58480 mW (1.99974 dBm)   1.00000 mW (0.00000 dBm)   0.19950 mW (-7.00057 dBm)   0.12580 mW (-9.00319 dBm)
-	    Receive Power:  2.23870 mW (3.49996 dBm)   1.41250 mW (1.49988 dBm)   0.02880 mW (-15.40608 dBm)   0.01810 mW (-17.42321 dBm)
-	Tx Power:  0.41620 mW (-3.80698 dBm)
-	Rx Power:  0.39370 mW (-4.04835 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-4.04835
-show contro TenGigE0/2/0/3 phy | include dBm 
-Mon Nov 25 14:01:07.792 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.48870 mW (1.72807 dBm)
-	Rx Power:  0.00870 mW (-20.60481 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-20.60481
-show contro TenGigE0/7/1/1 phy | include dBm 
-Mon Nov 25 14:01:08.166 GMT
-	   Transmit Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.25110 mW (-6.00153 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.02510 mW (-16.00326 dBm)   0.02000 mW (-16.98970 dBm)
-	Tx Power:  0.62230 mW (-2.06000 dBm)
-	Rx Power:  0.12790 mW (-8.93129 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-8.93129
-show contro TenGigE0/0/0/0 phy | include dBm 
-Mon Nov 25 14:01:08.541 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.66470 mW (-1.77374 dBm)
-	Rx Power:  0.29030 mW (-5.37153 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-5.37153
-show contro TenGigE0/2/0/0 phy | include dBm 
-Mon Nov 25 14:01:08.913 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.66000 mW (-1.80456 dBm)
-	Rx Power:  0.12590 mW (-8.99974 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-8.99974
-show contro TenGigE0/7/0/3 phy | include dBm 
-Mon Nov 25 14:01:09.286 GMT
-	   Transmit Power:  1.41250 mW (1.49988 dBm)   1.25890 mW (0.99991 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.77830 mW (2.50005 dBm)   1.58490 mW (2.00002 dBm)   0.01580 mW (-18.01343 dBm)   0.01000 mW (-20.00000 dBm)
-	Tx Power:  0.62670 mW (-2.02940 dBm)
-	Rx Power:  0.34890 mW (-4.57299 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-4.57299
-show contro TenGigE0/2/0/2 phy | include dBm 
-Mon Nov 25 14:01:09.657 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.68520 mW (-1.64183 dBm)
-	Rx Power:  0.12790 mW (-8.93129 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-8.93129
-show contro TenGigE0/1/1/3 phy | include dBm 
-Mon Nov 25 14:01:10.029 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.70110 mW (-1.54220 dBm)
-	Rx Power:  0.36980 mW (-4.32033 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-4.32033
-show contro TenGigE0/1/1/1 phy | include dBm 
-Mon Nov 25 14:01:10.401 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.66460 mW (-1.77440 dBm)
-	Rx Power:  0.32140 mW (-4.92954 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-4.92954
-show contro TenGigE0/7/0/2 phy | include dBm 
-Mon Nov 25 14:01:10.781 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.63460 mW (-1.97500 dBm)
-	Rx Power:  0.08390 mW (-10.76238 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-10.76238
-show contro TenGigE0/5/0/2 phy | include dBm 
-Mon Nov 25 14:01:11.154 GMT
-	   Transmit Power:  1.41250 mW (1.49988 dBm)   1.25890 mW (0.99991 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.77830 mW (2.50005 dBm)   1.58490 mW (2.00002 dBm)   0.01580 mW (-18.01343 dBm)   0.01000 mW (-20.00000 dBm)
-	Tx Power:  0.62350 mW (-2.05164 dBm)
-	Rx Power:  0.10510 mW (-9.78397 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-9.78397
-show contro TenGigE0/1/0/0 phy | include dBm 
-Mon Nov 25 14:01:11.531 GMT
-	   Transmit Power:  3.98110 mW (6.00003 dBm)   3.16230 mW (5.00003 dBm)   1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)
-	    Receive Power:  0.15850 mW (-7.99971 dBm)   0.10000 mW (-10.00000 dBm)   0.00500 mW (-23.01030 dBm)   0.00320 mW (-24.94850 dBm)
-	Tx Power:  1.22540 mW (0.88278 dBm)
-	Rx Power:  0.00360 mW (-24.43697 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-24.43697
-show contro TenGigE0/0/0/2 phy | include dBm 
-Mon Nov 25 14:01:11.903 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.39190 mW (1.43608 dBm)
-	Rx Power:  0.01090 mW (-19.62574 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-19.62574
-show contro TenGigE0/7/0/1 phy | include dBm 
-Mon Nov 25 14:01:12.287 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.37060 mW (1.36911 dBm)
-	Rx Power:  0.01360 mW (-18.66461 dBm)
-RP/0/RSP0/CPU0:HGI01VTH_ASR9010#-18.66461
-0000 dBm)   0.79430 mW (-1.00015 dBm)   0.02510 mW (-16.00326 dBm)   0.02000 mW (-16.98970 dBm)
-	Tx Power:  0.65160 mW (-1.86019 dBm)
-	Rx Power:  0.62010 mW (-2.07538 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-2.07538
-show contro TenGigE0/2/0/3 phy | include dBm 
-Mon Nov 25 14:01:09.083 GMT
-	   Transmit Power:  5.01180 mW (6.99994 dBm)   2.51180 mW (3.99985 dBm)   0.39810 mW (-4.00008 dBm)   0.16980 mW (-7.70062 dBm)
-	    Receive Power:  1.58480 mW (1.99974 dBm)   0.79430 mW (-1.00015 dBm)   0.02630 mW (-15.80044 dBm)   0.01310 mW (-18.82729 dBm)
-	Tx Power:  1.17920 mW (0.71587 dBm)
-	Rx Power:  0.09320 mW (-10.30584 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-10.30584
-show contro TenGigE0/7/1/1 phy | include dBm 
-Mon Nov 25 14:01:09.426 GMT
-	   Transmit Power:  3.98110 mW (6.00003 dBm)   3.16230 mW (5.00003 dBm)   1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)
-	    Receive Power:  0.15850 mW (-7.99971 dBm)   0.10000 mW (-10.00000 dBm)   0.00500 mW (-23.01030 dBm)   0.00320 mW (-24.94850 dBm)
-	Tx Power:  1.39870 mW (1.45725 dBm)
-	Rx Power:  0.01840 mW (-17.35182 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-17.35182
-show contro TenGigE0/7/1/3 phy | include dBm 
-Mon Nov 25 14:01:09.780 GMT
-	   Transmit Power:  3.98110 mW (6.00003 dBm)   3.16230 mW (5.00003 dBm)   1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)
-	    Receive Power:  0.15850 mW (-7.99971 dBm)   0.10000 mW (-10.00000 dBm)   0.00500 mW (-23.01030 dBm)   0.00320 mW (-24.94850 dBm)
-	Tx Power:  1.30440 mW (1.15411 dBm)
-	Rx Power:  0.00860 mW (-20.65502 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-20.65502
-show contro TenGigE0/2/1/3 phy | include dBm 
-Mon Nov 25 14:01:10.138 GMT
-	   Transmit Power:  3.98110 mW (6.00003 dBm)   3.16230 mW (5.00003 dBm)   1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)
-	    Receive Power:  0.15850 mW (-7.99971 dBm)   0.10000 mW (-10.00000 dBm)   0.00500 mW (-23.01030 dBm)   0.00320 mW (-24.94850 dBm)
-	Tx Power:  1.37320 mW (1.37734 dBm)
-	Rx Power:  0.03700 mW (-14.31798 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-14.31798
-show contro TenGigE0/3/1/2 phy | include dBm 
-Mon Nov 25 14:01:10.504 GMT
-	   Transmit Power:  5.01180 mW (6.99994 dBm)   2.51180 mW (3.99985 dBm)   0.39810 mW (-4.00008 dBm)   0.16980 mW (-7.70062 dBm)
-	    Receive Power:  1.58480 mW (1.99974 dBm)   0.79430 mW (-1.00015 dBm)   0.02630 mW (-15.80044 dBm)   0.01310 mW (-18.82729 dBm)
-	Tx Power:  1.18820 mW (0.74890 dBm)
-	Rx Power:  0.10550 mW (-9.76748 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-9.76748
-show contro TenGigE0/5/1/3 phy | include dBm 
-Mon Nov 25 14:01:10.853 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   0.70790 mW (-1.50028 dBm)   0.63090 mW (-2.00039 dBm)
-	    Receive Power:  0.79430 mW (-1.00015 dBm)   0.70790 mW (-1.50028 dBm)   0.03310 mW (-14.80172 dBm)   0.02630 mW (-15.80044 dBm)
-	Tx Power:  1.18410 mW (0.73388 dBm)
-	Rx Power:  0.16810 mW (-7.74432 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-7.74432
-show contro TenGigE0/3/0/3 phy | include dBm 
-Mon Nov 25 14:01:11.198 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.48510 mW (1.71756 dBm)
-	Rx Power:  0.01270 mW (-18.96196 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-18.96196
-show contro TenGigE0/2/0/0 phy | include dBm 
-Mon Nov 25 14:01:11.543 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.63510 mW (-1.97158 dBm)
-	Rx Power:  0.56600 mW (-2.47184 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-2.47184
-show contro TenGigE0/7/0/3 phy | include dBm 
-Mon Nov 25 14:01:11.882 GMT
-	   Transmit Power:  2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   0.15130 mW (-8.20161 dBm)   0.07580 mW (-11.20331 dBm)
-	    Receive Power:  2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   0.03630 mW (-14.40093 dBm)   0.01810 mW (-17.42321 dBm)
-	Tx Power:  0.49860 mW (-3.02248 dBm)
-	Rx Power:  0.45020 mW (-3.46595 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-3.46595
-show contro TenGigE0/2/0/2 phy | include dBm 
-Mon Nov 25 14:01:12.224 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.69640 mW (-1.57141 dBm)
-	Rx Power:  0.31420 mW (-5.02794 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-5.02794
-show contro TenGigE0/6/1/2 phy | include dBm 
-Mon Nov 25 14:01:12.564 GMT
-	   Transmit Power:  0.89120 mW (-0.50025 dBm)   0.79430 mW (-1.00015 dBm)   0.25110 mW (-6.00153 dBm)   0.22380 mW (-6.50140 dBm)
-	    Receive Power:  1.25890 mW (0.99991 dBm)   1.12200 mW (0.49993 dBm)   0.03630 mW (-14.40093 dBm)   0.03230 mW (-14.90797 dBm)
-	Tx Power:  0.48200 mW (-3.16953 dBm)
-	Rx Power:  0.74910 mW (-1.25460 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-1.25460
-show contro TenGigE0/1/1/3 phy | include dBm 
-Mon Nov 25 14:01:12.903 GMT
-	   Transmit Power:  2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   0.15130 mW (-8.20161 dBm)   0.07580 mW (-11.20331 dBm)
-	    Receive Power:  2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   0.03630 mW (-14.40093 dBm)   0.01810 mW (-17.42321 dBm)
-	Tx Power:  0.39290 mW (-4.05718 dBm)
-	Rx Power:  0.22510 mW (-6.47625 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-6.47625
-show contro TenGigE0/1/1/1 phy | include dBm 
-Mon Nov 25 14:01:13.245 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.57110 mW (1.96204 dBm)
-	Rx Power:  0.02750 mW (-15.60667 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-15.60667
-show contro TenGigE0/7/0/2 phy | include dBm 
-Mon Nov 25 14:01:13.582 GMT
-	   Transmit Power:  3.98110 mW (6.00003 dBm)   3.16230 mW (5.00003 dBm)   1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)
-	    Receive Power:  0.15850 mW (-7.99971 dBm)   0.10000 mW (-10.00000 dBm)   0.00500 mW (-23.01030 dBm)   0.00320 mW (-24.94850 dBm)
-	Tx Power:  1.29100 mW (1.10926 dBm)
-	Rx Power:  0.01330 mW (-18.76148 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-18.76148
-show contro TenGigE0/6/1/3 phy | include dBm 
-Mon Nov 25 14:01:13.915 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.62950 mW (-2.01004 dBm)
-	Rx Power:  0.18500 mW (-7.32828 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-7.32828
-show contro TenGigE0/5/0/2 phy | include dBm 
-Mon Nov 25 14:01:14.252 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   0.70790 mW (-1.50028 dBm)   0.63090 mW (-2.00039 dBm)
-	    Receive Power:  0.79430 mW (-1.00015 dBm)   0.70790 mW (-1.50028 dBm)   0.03310 mW (-14.80172 dBm)   0.02630 mW (-15.80044 dBm)
-	Tx Power:  1.32600 mW (1.22544 dBm)
-	Rx Power:  0.06520 mW (-11.85752 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-11.85752
-show contro TenGigE0/3/1/0 phy | include dBm 
-Mon Nov 25 14:01:14.590 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.45130 mW (1.61757 dBm)
-	Rx Power:  0.01680 mW (-17.74691 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-17.74691
-show contro TenGigE0/6/1/0 phy | include dBm 
-Mon Nov 25 14:01:14.939 GMT
-	   Transmit Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.02510 mW (-16.00326 dBm)   0.02000 mW (-16.98970 dBm)
-	Tx Power:  0.47050 mW (-3.27440 dBm)
-	Rx Power:  0.45290 mW (-3.43998 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-3.43998
-show contro TenGigE0/7/1/2 phy | include dBm 
-Mon Nov 25 14:01:15.285 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.62810 mW (-2.01971 dBm)
-	Rx Power:  0.19440 mW (-7.11304 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-7.11304
-show contro TenGigE0/2/1/2 phy | include dBm 
-Mon Nov 25 14:01:15.627 GMT
-	   Transmit Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.31620 mW (-5.00038 dBm)   0.25110 mW (-6.00153 dBm)
-	    Receive Power:  1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)   0.04570 mW (-13.40084 dBm)   0.03630 mW (-14.40093 dBm)
-	Tx Power:  0.64190 mW (-1.92533 dBm)
-	Rx Power:  0.24470 mW (-6.11366 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-6.11366
-show contro TenGigE0/2/1/1 phy | include dBm 
-Mon Nov 25 14:01:15.973 GMT
-	   Transmit Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.25120 mW (-5.99980 dBm)   0.19950 mW (-7.00057 dBm)
-	    Receive Power:  1.00000 mW (0.00000 dBm)   0.79430 mW (-1.00015 dBm)   0.02510 mW (-16.00326 dBm)   0.02000 mW (-16.98970 dBm)
-	Tx Power:  0.48410 mW (-3.15065 dBm)
-	Rx Power:  0.20820 mW (-6.81519 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-6.81519
-show contro TenGigE0/3/0/2 phy | include dBm 
-Mon Nov 25 14:01:16.304 GMT
-	   Transmit Power:  2.51180 mW (3.99985 dBm)   2.23870 mW (3.49996 dBm)   1.12200 mW (0.49993 dBm)   1.00000 mW (0.00000 dBm)
-	    Receive Power:  0.19950 mW (-7.00057 dBm)   0.17780 mW (-7.50068 dBm)   0.00630 mW (-22.00659 dBm)   0.00500 mW (-23.01030 dBm)
-	Tx Power:  1.47800 mW (1.69674 dBm)
-	Rx Power:  0.01740 mW (-17.59451 dBm)
-RP/0/RSP0/CPU0:HGI00VTH_ASR9010#-17.59451
+-3.53106
+-3.93189
+-17.18967
+-3.36488
+-1.40621
+-8.77784
+-18.21023
+-19.39302
+-13.71611
+-9.74694
+-4.86782
+-18.76148
+-17.09965
+-10.22734
+-11.05684
+-4.54075
+-9.20819
+-10.05243
+-9.48076
+-8.23041
+-11.07905
+-7.98603
+-10.17729
+-12.42604
+-2.04468
+-11.57391
+-18.01343
+-9.67381
+-9.93534
+-13.97940
+-3.27348
+-12.94136
+-1.52427
+-8.34162
+-19.06578
+-21.24939
+-18.86057
+-17.90485
+-11.43876
+-15.65431

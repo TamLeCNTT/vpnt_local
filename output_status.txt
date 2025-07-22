@@ -1,0 +1,29 @@
+ show port status 1-24
+--------------------------------------------------------------------------------------------------------
+ PORT  TYPE        ADMIN   OPER   NEGO   SET-SPEED   CUR-SPEED   FLOWCTRL      UPTIME         DOWNTIME
+--------------------------------------------------------------------------------------------------------
+1       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+2       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+3       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+4       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+5       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+6       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+7       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+8       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+9       GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+10      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+11      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+12      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+13      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+14      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+15      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+16      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+17      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+18      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+19      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+20      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+21      GE-FX        Down   Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+22      GE-FX        Up     Up     Auto   Auto/Full  1000/Full     Off     229:16:40:08    000:00:00:00
+23      GE-FX        Up     Down   Auto   Auto/Full     0/Full     Off     000:00:00:00    344:04:05:27
+24      GE-FX        Up     Up     Auto   Auto/Full  1000/Full     Off     061:07:43:57    000:00:00:00
+HUG.CTA.C10.L2S.LM01#

@@ -1,0 +1,11 @@
+2024-12-20 07:00:36.823366: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-20 07:00:37.625807: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2024-12-20 07:00:37.656291: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-20 07:00:41.611509: kết nối ok
+2024-12-20 07:00:42.541160: kết nối ok
+2024-12-20 07:00:42.576648: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-20 07:00:46.321526: kết nối ok
+2024-12-20 07:00:51.601402: kết nối ok
+2024-12-20 07:00:53.821251: kết nối ok
+2024-12-20 07:01:00.166101: kết nối ok
+2024-12-20 07:01:01.630913: kết nối ok

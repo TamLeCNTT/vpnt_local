@@ -1,0 +1,17 @@
+2025-06-24 14:17:38.153326: 
+2025-06-24 14:18:26.548286: 
+2025-06-24 14:21:06.947683: 
+2025-06-24 14:28:13.222203: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-06-24 14:30:32.401261: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-06-24 14:32:28.186867: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-06-24 14:33:59.279333: 
+2025-06-24 14:34:56.438297: 
+2025-06-24 14:35:47.221227: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-06-24 14:41:54.535887: kết nối thất bại: cannot access local variable 'onu' where it is not associated with a value
+2025-06-24 14:43:07.555942: 
+2025-06-24 14:45:31.565485: kết nối thất bại: list index out of range
+2025-06-24 14:45:58.355973: 
+2025-06-24 14:50:40.364945: 
+2025-06-24 16:55:07.855562: 
+2025-06-24 16:57:44.289205: 
+2025-06-24 16:58:31.085600: 

@@ -1,0 +1,148 @@
+2024-12-21 17:04:07.850435: kết nối ok
+2024-12-21 17:04:08.390517: kết nối ok
+2024-12-21 17:04:08.685668: kết nối ok
+2024-12-21 17:04:09.025656: kết nối ok
+2024-12-21 17:04:09.105530: kết nối ok
+2024-12-21 17:04:09.490693: kết nối ok
+2024-12-21 17:04:10.005658: kết nối ok
+2024-12-21 17:04:10.065537: kết nối ok
+2024-12-21 17:04:10.560760: kết nối ok
+2024-12-21 17:04:11.385795: kết nối ok
+2024-12-21 17:04:11.765682: kết nối ok
+2024-12-21 17:04:12.015346: kết nối ok
+2024-12-21 17:04:12.260610: kết nối ok
+2024-12-21 17:04:12.575760: kết nối ok
+2024-12-21 17:04:12.655437: kết nối ok
+2024-12-21 17:04:12.765245: kết nối ok
+2024-12-21 17:04:13.195689: kết nối ok
+2024-12-21 17:04:13.235449: kết nối ok
+2024-12-21 17:04:13.520662: kết nối ok
+2024-12-21 17:04:13.815719: kết nối ok
+2024-12-21 17:04:13.815719: kết nối ok
+2024-12-21 17:04:14.265394: kết nối ok
+2024-12-21 17:04:14.315657: kết nối ok
+2024-12-21 17:04:14.500514: kết nối ok
+2024-12-21 17:04:14.520531: kết nối ok
+2024-12-21 17:04:14.640756: kết nối ok
+2024-12-21 17:04:14.725286: kết nối ok
+2024-12-21 17:04:14.765480: kết nối ok
+2024-12-21 17:04:14.915826: kết nối ok
+2024-12-21 17:04:14.955521: kết nối ok
+2024-12-21 17:04:15.015541: kết nối ok
+2024-12-21 17:04:15.065347: kết nối ok
+2024-12-21 17:04:15.105603: kết nối ok
+2024-12-21 17:04:15.265560: kết nối ok
+2024-12-21 17:04:15.275848: kết nối ok
+2024-12-21 17:04:15.315719: kết nối ok
+2024-12-21 17:04:15.465472: kết nối ok
+2024-12-21 17:04:15.625577: kết nối ok
+2024-12-21 17:04:15.755709: kết nối ok
+2024-12-21 17:04:15.885363: kết nối ok
+2024-12-21 17:04:15.885363: kết nối ok
+2024-12-21 17:04:16.145781: kết nối ok
+2024-12-21 17:04:16.245545: kết nối ok
+2024-12-21 17:04:16.285735: kết nối ok
+2024-12-21 17:04:16.395501: kết nối ok
+2024-12-21 17:04:16.475745: kết nối ok
+2024-12-21 17:04:17.495521: kết nối ok
+2024-12-21 17:04:17.516562: kết nối ok
+2024-12-21 17:04:17.845655: kết nối ok
+2024-12-21 17:04:18.045696: kết nối ok
+2024-12-21 17:04:18.195712: kết nối ok
+2024-12-21 17:04:18.717603: kết nối ok
+2024-12-21 17:04:18.745459: kết nối ok
+2024-12-21 17:04:19.145700: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-12-21 17:04:19.625426: kết nối ok
+2024-12-21 17:04:19.755552: kết nối ok
+2024-12-21 17:04:20.575233: kết nối ok
+2024-12-21 17:04:21.045554: kết nối ok
+2024-12-21 17:04:21.265380: kết nối ok
+2024-12-21 17:04:21.970675: kết nối ok
+2024-12-21 17:04:22.040341: kết nối ok
+2024-12-21 17:04:22.115797: kết nối ok
+2024-12-21 17:04:23.135259: kết nối ok
+2024-12-21 17:04:23.335299: kết nối ok
+2024-12-21 17:04:23.650649: kết nối ok
+2024-12-21 17:04:24.615496: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2024-12-21 17:04:24.655300: kết nối ok
+2024-12-21 17:04:24.725564: kết nối ok
+2024-12-21 17:04:25.745561: kết nối ok
+2024-12-21 17:04:26.040631: kết nối ok
+2024-12-21 17:04:27.245401: kết nối ok
+2024-12-21 17:04:28.875446: 10.102.4.190 kết nối thành công
+2024-12-21 17:04:29.520597: 10.102.4.244 kết nối thành công
+2024-12-21 17:04:29.785650: 10.102.5.44 kết nối thành công
+2024-12-21 17:04:29.825954: 10.102.5.43 kết nối thành công
+2024-12-21 17:04:30.126087: 10.102.5.42 kết nối thành công
+2024-12-21 17:04:30.550438: 10.102.4.197 kết nối thành công
+2024-12-21 17:04:30.665550: 10.102.4.155 kết nối thành công
+2024-12-21 17:04:30.775330: 10.102.4.154 kết nối thành công
+2024-12-21 17:04:30.985909: 10.102.5.45 kết nối thành công
+2024-12-21 17:04:31.305668: 10.102.4.243 kết nối thành công
+2024-12-21 17:04:31.350520: 10.102.4.206 kết nối thành công
+2024-12-21 17:04:31.955319: 10.102.4.194 kết nối thành công
+2024-12-21 17:04:32.135412: 10.102.4.117 kết nối thành công
+2024-12-21 17:04:32.310534: 10.102.4.195 kết nối thành công
+2024-12-21 17:04:32.995462: 10.102.4.128 kết nối thành công
+2024-12-21 17:04:33.040609: 10.102.4.69 kết nối thành công
+2024-12-21 17:04:33.040609: 10.102.4.97 kết nối thành công
+2024-12-21 17:04:33.315601: 10.102.4.249 kết nối thành công
+2024-12-21 17:04:33.600461: 10.102.4.54 kết nối thành công
+2024-12-21 17:04:33.735404: 10.102.4.179 kết nối thành công
+2024-12-21 17:04:33.765484: 10.102.4.95 kết nối thành công
+2024-12-21 17:04:34.265177: 10.102.4.213 kết nối thành công
+2024-12-21 17:04:34.485413: 10.102.4.96 kết nối thành công
+2024-12-21 17:04:34.845297: 10.102.4.52 kết nối thành công
+2024-12-21 17:04:34.865922: 10.102.4.70 kết nối thành công
+2024-12-21 17:04:35.575431: 10.102.4.142 kết nối thành công
+2024-12-21 17:04:35.715254: 10.102.4.127 kết nối thành công
+2024-12-21 17:04:35.780596: 10.102.4.164 kết nối thành công
+2024-12-21 17:04:36.200483: 10.102.4.51 kết nối thất bại: list index out of range
+2024-12-21 17:04:36.250142: 10.102.4.110 kết nối thành công
+2024-12-21 17:04:36.340514: 10.102.4.40 kết nối thất bại: list index out of range
+2024-12-21 17:04:36.405354: 10.102.4.50 kết nối thành công
+2024-12-21 17:04:36.935455: 10.102.4.187 kết nối thành công
+2024-12-21 17:04:37.165383: 10.102.4.27 kết nối thất bại: list index out of range
+2024-12-21 17:04:37.165383: 10.102.4.126 kết nối thành công
+2024-12-21 17:04:38.675217: 10.102.4.129 kết nối thành công
+2024-12-21 17:04:38.960220: 10.102.4.94 kết nối thành công
+2024-12-21 17:04:39.070205: 10.102.4.141 kết nối thành công
+2024-12-21 17:04:39.135537: 10.102.4.151 kết nối thành công
+2024-12-21 17:04:39.190322: 10.102.4.152 kết nối thành công
+2024-12-21 17:04:39.275201: 10.102.4.156 kết nối thành công
+2024-12-21 17:04:39.685603: 10.102.4.178 kết nối thành công
+2024-12-21 17:04:40.935240: 10.102.4.162 kết nối thành công
+2024-12-21 17:04:40.935240: 10.102.4.161 kết nối thành công
+2024-12-21 17:04:41.085369: 10.102.4.153 kết nối thành công
+2024-12-21 17:04:41.105433: 10.102.4.118 kết nối thành công
+2024-12-21 17:04:41.184698: 10.102.4.116 kết nối thành công
+2024-12-21 17:04:41.540502: 10.102.4.163 kết nối thành công
+2024-12-21 17:04:41.665552: 10.102.4.59 kết nối thất bại: list index out of range
+2024-12-21 17:04:42.880160: 10.102.4.150 kết nối thành công
+2024-12-21 17:04:43.005343: 10.102.4.111 kết nối thành công
+2024-12-21 17:04:43.075696: 10.102.4.223 kết nối thành công
+2024-12-21 17:04:43.300353: 10.102.4.108 kết nối thành công
+2024-12-21 17:04:43.795512: 10.102.4.160 kết nối thành công
+2024-12-21 17:04:43.825556: 10.102.4.112 kết nối thành công
+2024-12-22 07:00:11.681549: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:12.088515: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:12.088515: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:12.088515: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:32.723657: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:32.723657: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:32.739283: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:32.770533: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:32.786441: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:32.896323: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:32.911376: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:32.958256: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:32.958256: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2024-12-22 07:00:33.019572: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:33.287333: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:33.306666: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:33.306666: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:33.505017: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:53.818364: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:53.833989: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:53.926958: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2024-12-22 07:00:53.942574: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond

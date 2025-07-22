@@ -1,0 +1,19 @@
+its@C2799BF06381C06595DAF1D2D5714079:~$  date
+Tue Jul 22 15:03:19 +07 2025
+
+its@C2799BF06381C06595DAF1D2D5714079:~$  speedtest --accept-license -s 17757
+
+   Speedtest by Ookla
+
+      Server: VNPT-NET - Ha Noi (id: 17757)
+         ISP: VNPT
+Idle Latency:     22.94 ms   (jitter: 0.23ms, low: 4.73ms, high: 5.23ms)
+    Download:   345.47 Mbps (data used: 392.0 MB)                                                   
+                  4.35 ms   (jitter: 16.45ms, low: 4.03ms, high: 217.04ms)
+      Upload:   349.80 Mbps (data used: 356.6 MB)                                                   
+                  3.89 ms   (jitter: 20.43ms, low: 3.60ms, high: 1665.54ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/f66d15d6-d9e5-4017-add2-00177bdfbc60
+
+its@C2799BF06381C06595DAF1D2D5714079:~$  curl ifconfig.me
+123.23.69.226

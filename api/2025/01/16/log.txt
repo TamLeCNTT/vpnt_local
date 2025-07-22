@@ -1,0 +1,1120 @@
+2025-01-17 07:00:50.266797: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 07:00:50.268843: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 07:00:51.099437: kết nối thất bại: [Errno 13] Permission denied: 'output_main.txt'
+2025-01-17 07:00:51.118570: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 07:00:55.038825: kết nối ok
+2025-01-17 07:00:55.908583: kết nối ok
+2025-01-17 07:00:55.933697: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 07:00:59.748953: kết nối ok
+2025-01-17 07:01:03.243523: kết nối ok
+2025-01-17 07:01:06.278730: kết nối ok
+2025-01-17 07:01:11.518537: kết nối ok
+2025-01-17 07:01:13.724829: kết nối ok
+2025-01-17 17:33:59.550675: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:33:59.950914: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:34:04.631214: kết nối ok
+2025-01-17 17:34:05.390921: kết nối ok
+2025-01-17 17:34:06.361000: kết nối ok
+2025-01-17 17:34:13.510751: kết nối ok
+2025-01-17 17:34:23.200485: kết nối ok
+2025-01-17 17:34:23.270867: kết nối ok
+2025-01-17 17:34:25.285682: kết nối ok
+2025-01-17 17:34:25.322479: kết nối ok
+2025-01-17 17:34:25.627741: kết nối ok
+2025-01-17 17:34:25.740995: kết nối ok
+2025-01-17 17:34:26.070582: kết nối ok
+2025-01-17 17:34:26.331207: kết nối ok
+2025-01-17 17:34:26.362659: kết nối ok
+2025-01-17 17:34:26.444456: kết nối ok
+2025-01-17 17:34:26.670391: kết nối ok
+2025-01-17 17:34:26.767582: kết nối thất bại: [Errno 13] Permission denied: 'output.txt'
+2025-01-17 17:34:26.909139: kết nối ok
+2025-01-17 17:34:26.950050: kết nối ok
+2025-01-17 17:34:27.018734: kết nối ok
+2025-01-17 17:34:27.365480: kết nối ok
+2025-01-17 17:34:27.380938: kết nối ok
+2025-01-17 17:34:27.612867: kết nối ok
+2025-01-17 17:34:27.617394: kết nối ok
+2025-01-17 17:34:27.635528: kết nối ok
+2025-01-17 17:34:27.663329: kết nối ok
+2025-01-17 17:34:27.807395: kết nối ok
+2025-01-17 17:34:28.184215: kết nối ok
+2025-01-17 17:34:28.324846: kết nối ok
+2025-01-17 17:34:28.335068: kết nối ok
+2025-01-17 17:34:28.371143: kết nối ok
+2025-01-17 17:34:28.443897: kết nối ok
+2025-01-17 17:34:28.815651: kết nối ok
+2025-01-17 17:34:28.815651: kết nối ok
+2025-01-17 17:34:28.856123: kết nối ok
+2025-01-17 17:34:28.924336: kết nối ok
+2025-01-17 17:34:29.248889: kết nối ok
+2025-01-17 17:34:29.251144: kết nối ok
+2025-01-17 17:34:30.436393: kết nối ok
+2025-01-17 17:34:30.831209: kết nối ok
+2025-01-17 17:34:31.086989: kết nối ok
+2025-01-17 17:34:31.340804: kết nối ok
+2025-01-17 17:34:31.410844: kết nối ok
+2025-01-17 17:34:32.195451: kết nối ok
+2025-01-17 17:34:32.665626: kết nối ok
+2025-01-17 17:34:32.855625: kết nối ok
+2025-01-17 17:34:33.010605: kết nối ok
+2025-01-17 17:34:33.360820: kết nối ok
+2025-01-17 17:34:34.180563: kết nối ok
+2025-01-17 17:34:34.726500: kết nối ok
+2025-01-17 17:34:34.845486: kết nối ok
+2025-01-17 17:34:35.870531: kết nối ok
+2025-01-17 17:34:36.125907: kết nối ok
+2025-01-17 17:34:36.575756: kết nối ok
+2025-01-17 17:34:37.350582: kết nối ok
+2025-01-17 17:34:37.895525: kết nối ok
+2025-01-17 17:34:38.335794: kết nối ok
+2025-01-17 17:34:38.610591: kết nối ok
+2025-01-17 17:34:38.761154: kết nối ok
+2025-01-17 17:34:39.100884: kết nối ok
+2025-01-17 17:34:40.270800: kết nối ok
+2025-01-17 17:34:40.780753: kết nối ok
+2025-01-17 17:34:40.920845: kết nối ok
+2025-01-17 17:34:41.509576: kết nối ok
+2025-01-17 17:34:41.547201: kết nối ok
+2025-01-17 17:34:41.941838: kết nối ok
+2025-01-17 17:34:42.805567: kết nối ok
+2025-01-17 17:34:43.360785: kết nối ok
+2025-01-17 17:34:44.000487: kết nối ok
+2025-01-17 17:34:44.450918: kết nối ok
+2025-01-17 17:34:44.661235: kết nối ok
+2025-01-17 17:34:45.225785: kết nối ok
+2025-01-17 17:34:45.751116: kết nối ok
+2025-01-17 17:34:46.440861: kết nối ok
+2025-01-17 17:34:46.970711: kết nối ok
+2025-01-17 17:34:47.000843: kết nối ok
+2025-01-17 17:34:47.840755: kết nối ok
+2025-01-17 17:34:50.620755: 10.102.4.190 kết nối thành công
+2025-01-17 17:34:51.580696: 10.102.4.154 kết nối thành công
+2025-01-17 17:34:51.710872: 10.102.5.44 kết nối thành công
+2025-01-17 17:34:51.766285: 10.102.4.244 kết nối thành công
+2025-01-17 17:34:52.210451: 10.102.5.43 kết nối thành công
+2025-01-17 17:34:52.360381: 10.102.4.155 kết nối thành công
+2025-01-17 17:34:52.785663: 10.102.5.42 kết nối thành công
+2025-01-17 17:34:52.958380: 10.102.4.197 kết nối thành công
+2025-01-17 17:34:53.057491: 10.102.5.45 kết nối thành công
+2025-01-17 17:34:53.660461: 10.102.4.117 kết nối thành công
+2025-01-17 17:34:53.725377: 10.102.4.194 kết nối thành công
+2025-01-17 17:34:54.040421: 10.102.4.243 kết nối thành công
+2025-01-17 17:34:54.795676: 10.102.4.206 kết nối thành công
+2025-01-17 17:34:54.800719: 10.102.4.128 kết nối thành công
+2025-01-17 17:34:54.852498: 10.102.4.97 kết nối thành công
+2025-01-17 17:34:55.565339: 10.102.4.179 kết nối thành công
+2025-01-17 17:34:55.985420: 10.102.4.249 kết nối thành công
+2025-01-17 17:34:56.040394: 10.102.4.69 kết nối thành công
+2025-01-17 17:34:56.344637: 10.102.4.95 kết nối thành công
+2025-01-17 17:34:56.514840: 10.102.4.54 kết nối thành công
+2025-01-17 17:34:56.759901: 10.102.4.96 kết nối thành công
+2025-01-17 17:34:57.225917: 10.102.4.213 kết nối thành công
+2025-01-17 17:34:57.851448: 10.102.4.70 kết nối thành công
+2025-01-17 17:34:58.280474: 10.102.4.195 kết nối thành công
+2025-01-17 17:34:58.905728: 10.102.4.164 kết nối thành công
+2025-01-17 17:34:59.145723: 10.102.4.142 kết nối thành công
+2025-01-17 17:34:59.350674: 10.102.4.127 kết nối thành công
+2025-01-17 17:34:59.390367: 10.102.4.51 kết nối thất bại: list index out of range
+2025-01-17 17:34:59.622260: 10.102.4.52 kết nối thành công
+2025-01-17 17:34:59.986727: 10.102.4.50 kết nối thành công
+2025-01-17 17:35:00.200710: 10.102.4.110 kết nối thành công
+2025-01-17 17:35:00.285426: 10.102.4.40 kết nối thất bại: list index out of range
+2025-01-17 17:35:00.566809: 10.102.4.187 kết nối thành công
+2025-01-17 17:35:00.666683: 10.102.4.27 kết nối thất bại: list index out of range
+2025-01-17 17:35:01.575308: 10.102.4.126 kết nối thành công
+2025-01-17 17:35:01.995588: 10.102.4.94 kết nối thành công
+2025-01-17 17:35:02.565466: 10.102.4.156 kết nối thành công
+2025-01-17 17:35:03.050726: 10.102.4.141 kết nối thành công
+2025-01-17 17:35:03.050726: 10.102.4.129 kết nối thành công
+2025-01-17 17:35:03.345593: 10.102.4.151 kết nối thành công
+2025-01-17 17:35:03.800716: 10.102.4.178 kết nối thành công
+2025-01-17 17:35:03.800716: 10.102.4.152 kết nối thành công
+2025-01-17 17:35:04.750381: 10.102.4.161 kết nối thành công
+2025-01-17 17:35:05.140834: 10.102.4.162 kết nối thành công
+2025-01-17 17:35:05.160456: 10.102.4.153 kết nối thành công
+2025-01-17 17:35:05.605387: 10.102.4.116 kết nối thành công
+2025-01-17 17:35:06.200744: 10.102.4.118 kết nối thành công
+2025-01-17 17:35:06.280711: 10.102.4.59 kết nối thất bại: list index out of range
+2025-01-17 17:35:07.021001: 10.102.4.223 kết nối thành công
+2025-01-17 17:35:07.114244: 10.102.4.108 kết nối thành công
+2025-01-17 17:35:07.320709: 10.102.4.163 kết nối thành công
+2025-01-17 17:35:07.910814: 10.102.4.111 kết nối thành công
+2025-01-17 17:35:08.725467: 10.102.4.150 kết nối thành công
+2025-01-17 17:35:08.880607: 10.102.4.160 kết nối thành công
+2025-01-17 17:35:09.615301: 10.102.4.112 kết nối thành công
+2025-01-17 17:35:10.040859: 10.102.4.73 kết nối thành công
+2025-01-17 17:35:10.660448: 10.102.4.114 kết nối thành công
+2025-01-17 17:35:10.672907: 10.102.4.159 kết nối thành công
+2025-01-17 17:35:10.825728: 10.102.5.25 kết nối thành công
+2025-01-17 17:35:11.038362: 10.102.4.76 kết nối thành công
+2025-01-17 17:35:11.332714: 10.102.5.26 kết nối thành công
+2025-01-17 17:35:11.689602: 10.102.4.193 kết nối thành công
+2025-01-17 17:35:12.132701: 10.102.4.242 kết nối thành công
+2025-01-17 17:35:12.432130: 10.102.4.83 kết nối thành công
+2025-01-17 17:35:12.465873: 10.102.4.167 kết nối thành công
+2025-01-17 17:35:12.708413: 10.102.4.191 kết nối thành công
+2025-01-17 17:35:12.731967: 10.102.4.81 kết nối thành công
+2025-01-17 17:35:13.180513: 10.102.4.28 kết nối thành công
+2025-01-17 17:35:13.230271: 10.102.4.120 kết nối thành công
+2025-01-17 17:35:14.532952: 10.102.4.181 kết nối thành công
+2025-01-17 17:35:14.532952: 10.102.4.192 kết nối thành công
+2025-01-17 17:35:14.671375: 10.102.4.26 kết nối thất bại: list index out of range
+2025-01-17 17:35:15.163421: 10.102.4.182 kết nối thành công
+2025-01-17 17:35:16.163703: 10.102.4.87 kết nối thành công
+2025-01-17 17:35:16.183414: 10.102.4.204 kết nối thành công
+2025-01-17 17:35:17.463579: 10.102.4.171 kết nối thành công
+2025-01-17 17:35:17.580595: 10.102.5.27 kết nối thành công
+2025-01-17 17:35:17.780897: 10.102.4.189 kết nối thành công
+2025-01-17 17:35:17.980338: 10.102.5.24 kết nối thành công
+2025-01-17 17:35:19.075304: 10.102.5.21 kết nối thành công
+2025-01-17 17:35:19.080354: 10.102.4.203 kết nối thành công
+2025-01-17 17:35:19.290756: 10.102.5.23 kết nối thành công
+2025-01-17 17:35:19.535308: 10.102.5.19 kết nối thành công
+2025-01-17 17:35:20.096427: 10.102.4.176 kết nối thành công
+2025-01-17 17:35:20.295679: 10.102.4.172 kết nối thành công
+2025-01-17 17:35:20.330652: 10.102.4.202 kết nối thành công
+2025-01-17 17:35:21.030436: 10.102.5.20 kết nối thành công
+2025-01-17 17:35:21.062220: 10.102.4.175 kết nối thành công
+2025-01-17 17:35:21.344670: 10.102.4.173 kết nối thành công
+2025-01-17 17:35:21.550667: 10.102.4.174 kết nối thành công
+2025-01-17 17:35:21.894522: 10.102.4.205 kết nối thành công
+2025-01-17 17:35:21.894522: 10.102.4.29 kết nối thất bại: list index out of range
+2025-01-17 17:35:22.745102: 10.102.4.79 kết nối thành công
+2025-01-17 17:35:22.950789: 10.102.4.77 kết nối thành công
+2025-01-17 17:35:23.578039: 10.102.4.35 kết nối thành công
+2025-01-17 17:35:23.620775: 10.102.4.23 kết nối thành công
+2025-01-17 17:35:25.000459: 10.102.4.75 kết nối thành công
+2025-01-17 17:35:25.427309: 10.102.4.166 kết nối thành công
+2025-01-17 17:35:27.160396: 10.102.4.104 kết nối thành công
+2025-01-17 17:35:27.650731: 10.102.4.67 kết nối thành công
+2025-01-17 17:35:29.020432: 10.102.5.22 kết nối thành công
+2025-01-17 17:35:29.343392: 10.102.4.103 kết nối thành công
+2025-01-17 17:35:30.825289: 10.102.4.65 kết nối thành công
+2025-01-17 17:35:31.165614: 10.102.4.101 kết nối thành công
+2025-01-17 17:35:32.510669: 10.102.4.158 kết nối thành công
+2025-01-17 17:35:32.900351: 10.102.4.68 kết nối thành công
+2025-01-17 17:35:33.742076: 10.102.5.33 kết nối thành công
+2025-01-17 17:35:34.123738: 10.102.5.29 kết nối thành công
+2025-01-17 17:35:34.990302: 10.102.5.34 kết nối thành công
+2025-01-17 17:35:35.450559: 10.102.5.28 kết nối thành công
+2025-01-17 17:35:35.723249: 10.102.4.215 kết nối thành công
+2025-01-17 17:35:36.220419: 10.102.4.224 kết nối thành công
+2025-01-17 17:35:36.373559: 10.102.4.124 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-17 17:35:36.515355: 10.102.4.219 kết nối thành công
+2025-01-17 17:35:37.441054: 10.102.5.31 kết nối thành công
+2025-01-17 17:35:37.722590: 10.102.5.32 kết nối thành công
+2025-01-17 17:35:37.885440: 10.102.5.30 kết nối thành công
+2025-01-17 17:35:37.980456: 10.102.4.45 kết nối thất bại: list index out of range
+2025-01-17 17:35:38.155771: 10.102.4.46 kết nối thất bại: list index out of range
+2025-01-17 17:35:39.907050: 10.102.4.140 kết nối thành công
+2025-01-17 17:35:39.988996: 10.102.4.157 kết nối thành công
+2025-01-17 17:35:40.455729: 10.102.4.102 kết nối thành công
+2025-01-17 17:35:40.895310: 10.102.4.41 kết nối thành công
+2025-01-17 17:35:41.040485: 10.102.5.46 kết nối thành công
+2025-01-17 17:35:41.205372: 10.102.5.47 kết nối thành công
+2025-01-17 17:35:42.190322: 10.102.5.48 kết nối thành công
+2025-01-17 17:35:42.225488: 10.102.5.49 kết nối thành công
+2025-01-17 17:35:42.585480: 10.102.4.80 kết nối thất bại: list index out of range
+2025-01-17 17:35:42.970528: 10.102.4.222 kết nối thành công
+2025-01-17 17:35:43.065468: 10.102.4.86 kết nối thành công
+2025-01-17 17:35:43.405530: 10.102.4.38 kết nối thành công
+2025-01-17 17:35:43.935520: 10.102.4.39 kết nối thành công
+2025-01-17 17:35:44.290427: 10.102.4.63 kết nối thành công
+2025-01-17 17:35:44.660842: 10.102.4.106 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-17 17:35:44.700586: 10.102.4.165 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-17 17:35:45.160472: 10.102.4.44 kết nối thất bại: list index out of range
+2025-01-17 17:35:45.490549: 10.102.4.24 kết nối thành công
+2025-01-17 17:35:45.820486: 10.102.4.32 kết nối thành công
+2025-01-17 17:35:45.820486: 10.102.4.220 kết nối thành công
+2025-01-17 17:35:46.205526: 10.102.4.229 kết nối thành công
+2025-01-17 17:35:46.565704: 10.102.4.217 kết nối thành công
+2025-01-17 17:35:46.700514: 10.102.4.100 kết nối thành công
+2025-01-17 17:35:47.016076: 10.102.4.33 kết nối thành công
+2025-01-17 17:35:47.110388: 10.102.5.37 kết nối thành công
+2025-01-17 17:35:47.270778: 10.102.4.231 kết nối thành công
+2025-01-17 17:35:47.285329: 10.102.4.226 kết nối thành công
+2025-01-17 17:35:47.440234: 10.102.4.216 kết nối thành công
+2025-01-17 17:35:47.670625: 10.102.4.212 kết nối thất bại: [Errno 13] Permission denied: 'outputests.txt'
+2025-01-17 17:35:47.960423: 10.102.4.230 kết nối thành công
+2025-01-17 17:35:48.127513: 10.102.4.227 kết nối thành công
+2025-01-17 17:35:48.220635: 10.102.4.238 kết nối thành công
+2025-01-17 17:35:48.405576: 10.102.4.240 kết nối thành công
+2025-01-17 17:35:49.185772: 10.102.4.233 kết nối thành công
+2025-01-17 17:35:49.360472: 10.102.4.234 kết nối thành công
+2025-01-17 17:35:49.440654: 10.102.4.241 kết nối thành công
+2025-01-17 17:35:49.600455: 10.102.4.235 kết nối thành công
+2025-01-17 17:35:50.220607: 10.102.4.78 kết nối thành công
+2025-01-17 17:35:50.290705: 10.102.4.237 kết nối thành công
+2025-01-17 17:35:50.595575: 10.102.5.39 kết nối thành công
+2025-01-17 17:35:50.705695: 10.102.4.218 kết nối thành công
+2025-01-17 17:35:50.970368: 10.102.5.41 kết nối thành công
+2025-01-17 17:35:51.650508: 10.102.5.36 kết nối thành công
+2025-01-17 17:35:51.770581: 10.102.4.232 kết nối thành công
+2025-01-17 17:35:51.880285: 10.102.4.214 kết nối thành công
+2025-01-17 17:35:52.070280: 10.102.4.196 kết nối thành công
+2025-01-17 17:35:52.115475: 10.102.4.71 kết nối thành công
+2025-01-17 17:35:52.540449: 10.102.4.228 kết nối thành công
+2025-01-17 17:35:52.785596: 10.102.4.225 kết nối thành công
+2025-01-17 17:35:52.935498: 10.102.4.239 kết nối thành công
+2025-01-17 17:35:52.935498: 10.102.5.40 kết nối thành công
+2025-01-17 17:35:53.450987: 10.102.5.35 kết nối thành công
+2025-01-17 17:35:53.850417: 10.102.4.236 kết nối thành công
+2025-01-17 17:35:54.010545: 10.102.4.14 kết nối thành công
+2025-01-17 17:35:54.060512: 10.102.4.61 kết nối thành công
+2025-01-17 17:35:54.180634: 10.102.5.38 kết nối thành công
+2025-01-17 17:35:54.930522: 10.102.4.82 kết nối thành công
+2025-01-17 17:35:55.130773: 10.102.4.109 kết nối thành công
+2025-01-17 17:35:55.250671: 10.102.4.107 kết nối thành công
+2025-01-17 17:35:55.650483: 10.102.4.47 kết nối thành công
+2025-01-17 17:35:55.725255: 10.102.4.25 kết nối thành công
+2025-01-17 17:35:57.010683: 10.102.4.72 kết nối thành công
+2025-01-17 17:35:57.015692: 10.102.4.113 kết nối thành công
+2025-01-17 17:35:57.080452: 10.102.4.132 kết nối thành công
+2025-01-17 17:35:57.430496: 10.102.4.43 kết nối thành công
+2025-01-17 17:35:57.596765: 10.102.4.34 kết nối thành công
+2025-01-17 17:35:57.970233: 10.102.4.188 kết nối thành công
+2025-01-17 17:35:58.080256: 10.102.4.20 kết nối thất bại: list index out of range
+2025-01-17 17:35:59.655502: 10.102.4.36 kết nối thành công
+2025-01-17 17:35:59.665565: 10.102.4.105 kết nối thành công
+2025-01-17 17:35:59.801108: 10.102.4.92 kết nối thành công
+2025-01-17 17:35:59.880401: 10.102.4.42 kết nối thành công
+2025-01-17 17:36:00.520678: 10.102.4.246 kết nối thành công
+2025-01-17 17:36:01.440679: 10.102.4.31 kết nối thành công
+2025-01-17 17:36:01.570644: 10.102.4.115 kết nối thành công
+2025-01-17 17:36:01.590306: 10.102.4.149 kết nối thành công
+2025-01-17 17:36:02.240329: 10.102.4.134 kết nối thành công
+2025-01-17 17:36:03.155275: 10.102.4.30 kết nối thành công
+2025-01-17 17:36:03.240479: 10.102.4.148 kết nối thành công
+2025-01-17 17:36:03.760391: 10.102.4.37 kết nối thành công
+2025-01-17 17:36:04.230386: 10.102.4.62 kết nối thành công
+2025-01-17 17:36:04.630639: 10.102.4.133 kết nối thành công
+2025-01-17 17:36:04.980518: 10.102.5.11 kết nối thành công
+2025-01-17 17:36:05.080679: 10.102.4.145 kết nối thành công
+2025-01-17 17:36:06.180364: 10.102.4.146 kết nối thành công
+2025-01-17 17:36:06.360345: 10.102.4.147 kết nối thành công
+2025-01-17 17:36:06.763751: 10.102.4.136 kết nối thành công
+2025-01-17 17:36:06.870492: 10.102.4.88 kết nối thành công
+2025-01-17 17:36:08.090306: 10.102.5.12 kết nối thành công
+2025-01-17 17:36:08.105364: 10.102.4.137 kết nối thành công
+2025-01-17 17:36:08.120467: 10.102.4.211 kết nối thành công
+2025-01-17 17:36:08.545666: 10.102.4.183 kết nối thành công
+2025-01-17 17:36:09.357519: 10.102.5.10 kết nối thành công
+2025-01-17 17:36:09.505534: 10.102.4.48 kết nối thành công
+2025-01-17 17:36:09.712475: 10.102.4.60 kết nối thành công
+2025-01-17 17:36:10.345542: 10.102.4.49 kết nối thành công
+2025-01-17 17:36:11.530553: 10.102.4.16 kết nối thành công
+2025-01-17 17:36:11.800618: 10.102.4.53 kết nối thành công
+2025-01-17 17:36:11.925292: 10.102.4.89 kết nối thành công
+2025-01-17 17:36:12.080329: 10.102.4.98 kết nối thành công
+2025-01-17 17:36:12.340410: 10.102.4.99 kết nối thành công
+2025-01-17 17:36:12.395430: 10.102.4.11 kết nối thất bại: list index out of range
+2025-01-17 17:36:12.700696: 10.102.4.12 kết nối thành công
+2025-01-17 17:36:12.865575: 10.102.4.138 kết nối thành công
+2025-01-17 17:36:12.970509: 10.102.4.13 kết nối thành công
+2025-01-17 17:36:14.540416: 10.102.4.252 kết nối thành công
+2025-01-17 17:36:14.910340: 10.102.4.131 kết nối thành công
+2025-01-17 17:36:15.235527: 10.102.4.143 kết nối thành công
+2025-01-17 17:36:15.750632: 10.102.4.144 kết nối thành công
+2025-01-17 17:36:16.460359: 10.102.4.198 kết nối thành công
+2025-01-17 17:36:16.720535: 10.102.4.15 kết nối thành công
+2025-01-17 17:36:16.755592: 10.102.4.17 kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-17 17:36:17.060269: 10.102.4.66 kết nối thành công
+2025-01-17 17:36:17.080392: 10.102.4.184 kết nối thành công
+2025-01-17 17:36:17.095578: 10.102.4.74 kết nối thất bại: list index out of range
+2025-01-17 17:36:17.695253: 10.102.5.14 kết nối thành công
+2025-01-17 17:36:17.765577: 10.102.4.209 kết nối thành công
+2025-01-17 17:36:17.960512: 10.102.5.18 kết nối thành công
+2025-01-17 17:36:18.200738: 10.102.4.21 kết nối thành công
+2025-01-17 17:36:18.310254: 10.102.5.13 kết nối thành công
+2025-01-17 17:36:18.395618: 10.102.4.201 kết nối thành công
+2025-01-17 17:36:18.790243: 10.102.4.185 kết nối thành công
+2025-01-17 17:36:18.875598: 10.102.4.208 kết nối thành công
+2025-01-17 17:36:18.930451: 10.102.4.55 kết nối thành công
+2025-01-17 17:36:19.195577: 10.102.5.16 kết nối thành công
+2025-01-17 17:36:19.820412: 10.102.4.210 kết nối thành công
+2025-01-17 17:36:20.010645: 10.102.4.56 kết nối thành công
+2025-01-17 17:36:20.075597: 10.102.4.248 kết nối thành công
+2025-01-17 17:36:20.148546: 10.102.4.170 kết nối thành công
+2025-01-17 17:36:20.620573: 10.102.4.135 kết nối thành công
+2025-01-17 17:36:20.790269: 10.102.4.186 kết nối thành công
+2025-01-17 17:36:21.391103: 10.102.5.15 kết nối thành công
+2025-01-17 17:36:21.650324: 10.102.4.168 kết nối thành công
+2025-01-17 17:36:21.761362: 10.102.4.57 kết nối thành công
+2025-01-17 17:36:21.965324: 10.102.4.169 kết nối thành công
+2025-01-17 17:36:22.440395: 10.102.4.245 kết nối thành công
+2025-01-17 17:36:22.485555: 10.102.4.199 kết nối thành công
+2025-01-17 17:36:22.710599: 10.102.4.58 kết nối thành công
+2025-01-17 17:36:22.850423: 10.102.4.200 kết nối thành công
+2025-01-17 17:36:23.005270: 10.102.4.19 kết nối thất bại: list index out of range
+2025-01-17 17:36:23.190277: 10.102.4.91 kết nối thành công
+2025-01-17 17:36:23.465251: kết nối ok
+2025-01-17 17:36:24.245159: 10.102.5.52 kết nối thành công
+2025-01-17 17:36:24.757569: 10.102.4.247 kết nối thành công
+2025-01-17 17:36:24.775334: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:36:24.885642: 10.102.4.18 kết nối thành công
+2025-01-17 17:36:24.905330: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:36:25.250454: 10.102.4.93 kết nối thành công
+2025-01-17 17:36:30.706732: kết nối ok
+2025-01-17 17:36:31.560759: kết nối ok
+2025-01-17 17:36:31.570355: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:36:32.860391: kết nối ok
+2025-01-17 17:36:37.470513: kết nối ok
+2025-01-17 17:36:37.490676: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 17:36:38.800655: kết nối ok
+2025-01-17 17:36:47.235206: kết nối ok
+2025-01-17 17:36:47.447897: kết nối ok
+2025-01-17 17:36:48.151055: kết nối ok
+2025-01-17 17:49:41.328766: kết nối thất bại: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-17 17:49:41.621066: kết nối ok
+2025-01-17 19:00:15.116602: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 19:00:15.121641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 19:00:19.841744: kết nối ok
+2025-01-17 19:00:19.866519: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 19:00:20.631408: kết nối ok
+2025-01-17 19:00:22.024730: kết nối ok
+2025-01-17 19:00:22.031772: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-17 19:00:25.271934: kết nối ok
+2025-01-17 19:00:29.751728: kết nối ok
+2025-01-17 19:00:36.424543: kết nối ok
+2025-01-17 19:00:38.751904: kết nối ok
+2025-01-17 19:00:39.302816: kết nối ok
+2025-01-18 07:00:08.717585: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:13.010645: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:30.031597: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.041596: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:30.091128: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.138129: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.138129: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.152131: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:30.654129: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.665131: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:30.700128: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.932131: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:30.950132: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-18 07:00:31.039126: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:34.302089: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:34.302089: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:34.302089: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:51.216697: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:51.263696: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:51.763694: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-18 07:00:51.916696: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:09.237236: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:13.465873: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:13.465873: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:13.465873: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:30.571834: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:30.571834: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:30.701570: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:30.732815: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:30.740830: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:30.988297: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:31.057338: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:31.057338: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:31.157633: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:31.173270: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:31.173270: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-19 07:00:31.257938: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:34.612853: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:34.666264: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:34.697529: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:34.766585: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:51.664234: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:51.933853: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:52.165687: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-19 07:00:52.347562: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:00:49.397237: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:49.771236: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:50.859948: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:51.292951: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:51.785957: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:53.039945: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:59.370269: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:00:59.542267: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:00.824506: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:03.574852: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:07.870417: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:08.241819: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:10.285400: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:10.463034: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:10.664033: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:10.687034: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:11.034540: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:11.764650: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:11.871640: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:12.472329: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:12.811329: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:12.933329: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:13.732907: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:13.764912: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:13.936907: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:14.363538: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:14.664091: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:14.805208: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:15.229439: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:15.888329: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:15.962575: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:15.970188: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:15.987647: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.084093: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.331924: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.383610: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.415227: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.631278: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.763179: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.796448: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:16.846265: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:17.428275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:18.259999: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:18.860347: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:19.377045: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:19.965536: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:20.158888: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:20.178568: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:20.626603: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:21.259348: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:21.332522: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:21.334571: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:21.376703: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:21.464186: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:22.566752: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:22.609018: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:24.258307: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:25.079474: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:25.960597: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:26.274784: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:27.358357: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:27.661402: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:28.573875: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:28.696200: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:29.160126: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:29.356723: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:29.375270: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:30.173067: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:31.265349: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:31.297703: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:31.572313: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:31.955539: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:31.973789: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:32.237341: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:32.561424: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:33.255574: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:33.301475: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:34.039511: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:34.545631: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:34.608885: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:35.939307: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:36.055154: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:36.458527: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.055649: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.055649: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.075860: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.337647: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.470767: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.553587: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.553587: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.641280: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.653853: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:37.863335: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.863335: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.863335: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.865371: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:37.926163: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:37.937595: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:37.974462: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.037327: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.037327: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.054134: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.054134: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.087783: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:38.106856: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:38.136880: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 07:01:38.438054: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.470291: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.470291: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.552548: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.554558: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.554598: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:38.554598: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:41.536082: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:42.052477: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:42.852237: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:42.935729: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:50.036817: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:50.633733: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:52.865350: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:53.026201: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:54.931554: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:55.564685: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:59.163473: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:59.263829: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:59.363752: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:59.530238: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 07:01:59.530238: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-20 16:41:32.577324: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:41:33.580565: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:41:38.281082: kết nối ok
+2025-01-20 16:41:38.296709: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:41:39.124403: kết nối ok
+2025-01-20 16:41:39.423585: kết nối ok
+2025-01-20 16:41:39.423585: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:41:43.777517: kết nối ok
+2025-01-20 16:41:47.030953: kết nối ok
+2025-01-20 16:41:54.059329: kết nối ok
+2025-01-20 16:41:56.923067: kết nối ok
+2025-01-20 16:41:57.230709: kết nối ok
+2025-01-20 16:56:22.014597: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:56:22.030214: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:56:26.706835: kết nối ok
+2025-01-20 16:56:26.722424: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:56:27.440655: kết nối ok
+2025-01-20 16:56:28.774113: kết nối ok
+2025-01-20 16:56:28.796381: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-20 16:56:32.111499: kết nối ok
+2025-01-20 16:56:36.414827: kết nối ok
+2025-01-20 16:56:42.534063: kết nối ok
+2025-01-20 16:56:46.446470: kết nối ok
+2025-01-20 16:56:46.829719: kết nối ok
+2025-01-21 07:00:25.393792: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:25.573791: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:26.142794: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:26.335798: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:27.501815: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:28.256799: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:29.353854: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:30.008853: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:31.404901: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:31.818898: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:33.314708: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:33.637707: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:41.421320: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:42.628323: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:46.156319: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:46.357323: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:46.645322: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:47.358323: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:47.452321: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:47.558321: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:48.050848: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:48.159849: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:48.267849: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:48.450852: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:48.887851: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:49.262849: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:50.155851: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:50.358852: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:51.220851: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:51.849955: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:52.060945: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:52.458017: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:52.760002: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:52.892068: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:53.029068: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:53.269121: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:53.403181: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:53.754182: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:53.834180: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:54.200705: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:54.247705: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:54.614704: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:54.739704: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:54.825705: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:54.927704: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:55.165228: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:55.167231: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:55.606228: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:00:55.653231: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:55.863228: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:56.265229: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:56.754228: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:56.771227: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:56.952228: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:57.057227: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:57.057227: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:57.466751: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:57.850750: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:57.960751: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:58.355756: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:00:58.445750: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:02.150275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:02.519278: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:02.552277: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:03.047274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:03.556277: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:04.362276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:05.158279: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:05.165274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:05.359273: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:05.394275: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:06.648274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:07.450276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:10.756280: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:11.061274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:13.662274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:13.851274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:14.585274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:14.612276: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:14.750274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:14.854278: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:15.266275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:15.753274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:16.146276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:16.147275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:16.252274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:16.646279: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:16.940276: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:17.037275: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.017276: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.122276: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.446279: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.546277: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.646275: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.675276: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:20.779274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:23.255285: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:23.347271: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:24.275275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:24.390274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:24.566274: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:24.673277: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:24.748274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:24.835283: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:25.150277: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:25.454276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.056275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.148275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.649274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.667275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.667275: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.670278: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.756276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.758276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.761278: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.765276: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.767279: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:26.771274: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:27.839860: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:27.869861: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.002858: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.422927: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.526927: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.791994: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.943993: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:28.948992: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:29.115059: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:29.125056: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:35.960635: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:36.065635: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:36.651158: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:36.674158: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:38.153608: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:38.652614: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:38.670609: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:40.453608: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:40.546611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:40.747609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:40.868611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:40.887609: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:41.459611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.763608: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.764611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.764611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.766609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.851609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:41.915610: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:42.097609: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:42.154613: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.155609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.158610: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.242616: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:42.244607: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.245608: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.259609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.259609: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.261611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.263612: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.350611: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.427608: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:42.456610: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.561670: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.561670: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.562669: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.563670: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.666672: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:42.666672: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:44.277762: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:45.758763: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:45.866761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:45.958758: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.036761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.051761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.066758: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.358757: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.436761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:46.675762: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:48.409762: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:49.158757: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:49.451761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:49.466760: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:49.860758: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:49.952760: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:49.966757: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.042759: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.257761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.257761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.257761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.258759: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.352762: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.354762: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.354762: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.354762: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.563763: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.563763: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.565763: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.653757: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.653757: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:50.764761: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:57.603761: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:58.162762: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:01:58.695284: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:01:59.551387: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:00.115920: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:00.981025: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:01.703782: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:02.059846: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:02.143370: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:02.519947: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:02.663948: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 07:02:02.960947: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:03.446948: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:03.659949: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:05.959473: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:06.846472: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:07.552475: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:08.947473: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:20.754574: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:21.061573: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:21.664089: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:22.153153: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:23.547337: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:23.653342: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:24.061341: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 07:02:24.062342: kết nối thất bại: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2025-01-21 08:52:25.678201: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 08:52:26.061344: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 08:52:30.849481: kết nối ok
+2025-01-21 08:52:30.869674: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 08:52:31.201812: kết nối ok
+2025-01-21 08:52:32.574727: kết nối ok
+2025-01-21 08:52:32.880901: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 08:52:35.974117: kết nối ok
+2025-01-21 08:52:40.165791: kết nối ok
+2025-01-21 08:52:46.546785: kết nối ok
+2025-01-21 08:52:49.917321: kết nối ok
+2025-01-21 08:52:49.981104: kết nối ok
+2025-01-21 14:23:45.251546: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 14:23:45.654232: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 14:23:50.398572: kết nối ok
+2025-01-21 14:23:50.420676: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 14:23:51.219524: kết nối ok
+2025-01-21 14:23:52.127337: kết nối ok
+2025-01-21 14:23:52.142963: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 14:23:55.919612: kết nối ok
+2025-01-21 14:23:59.275722: kết nối ok
+2025-01-21 14:24:06.002001: kết nối ok
+2025-01-21 14:24:09.579660: kết nối ok
+2025-01-21 14:24:09.756458: kết nối ok
+2025-01-21 15:15:15.178857: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.182847: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.371314: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.656061: kết nối thất bại: 
+2025-01-21 15:15:15.660063: kết nối thất bại: 
+2025-01-21 15:15:15.661061: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.664018: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.793605: kết nối thất bại: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 15:15:15.793605: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:15.814935: kết nối thất bại: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 15:15:15.814935: kết nối thất bại: 
+2025-01-21 15:15:15.814935: kết nối thất bại: Error reading SSH protocol banner[WinError 10054] An existing connection was forcibly closed by the remote host
+2025-01-21 15:15:15.830622: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 15:15:19.873900: kết nối ok
+2025-01-21 15:15:20.486420: kết nối ok
+2025-01-21 15:15:20.619982: kết nối ok
+2025-01-21 15:15:21.924500: kết nối ok
+2025-01-21 15:15:29.224626: kết nối ok
+2025-01-21 15:15:31.376807: kết nối ok
+2025-01-21 15:15:39.411333: kết nối ok
+2025-01-21 15:15:39.590046: kết nối ok
+2025-01-21 16:14:00.854853: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:00.870498: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:05.537936: kết nối ok
+2025-01-21 16:14:05.588517: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:06.401560: kết nối ok
+2025-01-21 16:14:06.887242: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:06.887242: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:07.641928: kết nối ok
+2025-01-21 16:14:11.287233: kết nối ok
+2025-01-21 16:14:11.651552: kết nối ok
+2025-01-21 16:14:12.339878: kết nối ok
+2025-01-21 16:14:12.385832: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:13.756991: kết nối ok
+2025-01-21 16:14:13.807534: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:15.825787: kết nối ok
+2025-01-21 16:14:17.233235: kết nối ok
+2025-01-21 16:14:21.757552: kết nối ok
+2025-01-21 16:14:21.757552: kết nối ok
+2025-01-21 16:14:25.292556: kết nối ok
+2025-01-21 16:14:25.947543: kết nối ok
+2025-01-21 16:14:27.775661: kết nối ok
+2025-01-21 16:14:50.929957: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:50.929957: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:55.739641: kết nối ok
+2025-01-21 16:14:55.808141: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:14:56.369858: kết nối ok
+2025-01-21 16:14:57.706038: kết nối ok
+2025-01-21 16:14:57.790805: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-21 16:15:01.081676: kết nối ok
+2025-01-21 16:15:05.666804: kết nối ok
+2025-01-21 16:15:11.811615: kết nối ok
+2025-01-21 16:15:15.172994: kết nối ok
+2025-01-21 16:15:15.794423: kết nối ok
+2025-01-22 07:02:40.720543: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:02:48.392544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:02:52.079548: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:02:56.228542: kết nối ok
+2025-01-22 07:02:56.659555: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:02:57.794552: kết nối ok
+2025-01-22 07:03:45.147543: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:03:45.157546: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:03:45.208544: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:03:47.872544: kết nối thất bại: Authentication timeout.
+2025-01-22 07:03:47.906544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:03:52.227545: kết nối thất bại: No existing session
+2025-01-22 07:03:52.943545: kết nối ok
+2025-01-22 07:04:04.551544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:09.103545: kết nối ok
+2025-01-22 07:04:13.820562: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:26.264548: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:31.948546: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:32.448545: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:37.991548: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:41.911544: kết nối ok
+2025-01-22 07:04:45.055547: kết nối ok
+2025-01-22 07:04:46.608544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:47.187544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:48.260545: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:49.403544: kết nối ok
+2025-01-22 07:04:50.377544: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:52.141595: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:52.890592: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:55.385598: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:55.468595: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:56.871593: kết nối thất bại: 
+2025-01-22 07:04:56.968595: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:04:58.289593: kết nối thất bại: 
+2025-01-22 07:04:58.872591: kết nối ok
+2025-01-22 07:05:01.572592: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:01.963591: kết nối ok
+2025-01-22 07:05:02.584596: kết nối ok
+2025-01-22 07:05:03.032595: kết nối ok
+2025-01-22 07:05:07.638593: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:08.017595: kết nối ok
+2025-01-22 07:05:08.017595: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:08.870598: kết nối ok
+2025-01-22 07:05:08.981596: kết nối ok
+2025-01-22 07:05:10.099596: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:10.935607: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:11.069594: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:12.633594: kết nối thất bại: 
+2025-01-22 07:05:13.481595: kết nối ok
+2025-01-22 07:05:14.466612: kết nối ok
+2025-01-22 07:05:14.481593: kết nối ok
+2025-01-22 07:05:17.513594: kết nối ok
+2025-01-22 07:05:17.513594: kết nối ok
+2025-01-22 07:05:17.515594: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:17.534594: kết nối ok
+2025-01-22 07:05:17.978598: kết nối ok
+2025-01-22 07:05:18.628594: kết nối thất bại: 
+2025-01-22 07:05:19.061120: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:19.382121: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:19.896121: kết nối ok
+2025-01-22 07:05:20.164137: kết nối ok
+2025-01-22 07:05:21.580123: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:21.596119: kết nối ok
+2025-01-22 07:05:22.029122: kết nối thất bại: 
+2025-01-22 07:05:22.079120: kết nối ok
+2025-01-22 07:05:23.430123: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:24.547125: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:25.298119: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:25.879117: kết nối ok
+2025-01-22 07:05:27.742118: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:28.873119: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:28.995121: kết nối ok
+2025-01-22 07:05:29.428115: kết nối ok
+2025-01-22 07:05:30.009126: kết nối thất bại: 
+2025-01-22 07:05:30.379116: kết nối thất bại: 
+2025-01-22 07:05:31.940119: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:33.442138: kết nối ok
+2025-01-22 07:05:33.777118: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:33.895120: kết nối ok
+2025-01-22 07:05:34.589120: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:35.328120: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:36.088643: kết nối ok
+2025-01-22 07:05:37.456642: kết nối ok
+2025-01-22 07:05:37.558639: kết nối ok
+2025-01-22 07:05:37.591657: kết nối ok
+2025-01-22 07:05:38.810641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:39.858642: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:40.256641: kết nối ok
+2025-01-22 07:05:41.123643: kết nối ok
+2025-01-22 07:05:41.989641: kết nối ok
+2025-01-22 07:05:42.421641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:42.659643: kết nối ok
+2025-01-22 07:05:43.453641: kết nối ok
+2025-01-22 07:05:44.624652: kết nối ok
+2025-01-22 07:05:44.986641: kết nối ok
+2025-01-22 07:05:44.988641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:45.023650: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:45.625640: kết nối ok
+2025-01-22 07:05:45.954642: kết nối thất bại: 
+2025-01-22 07:05:46.337645: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:46.687653: kết nối thất bại: 
+2025-01-22 07:05:46.968640: kết nối ok
+2025-01-22 07:05:46.971641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:47.775639: kết nối ok
+2025-01-22 07:05:47.974641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:48.004642: kết nối ok
+2025-01-22 07:05:48.006644: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:48.274642: kết nối ok
+2025-01-22 07:05:48.590645: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:48.719646: kết nối ok
+2025-01-22 07:05:48.806642: kết nối ok
+2025-01-22 07:05:50.921642: kết nối ok
+2025-01-22 07:05:50.988661: kết nối ok
+2025-01-22 07:05:51.221641: kết nối ok
+2025-01-22 07:05:52.223642: kết nối ok
+2025-01-22 07:05:52.683641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:54.688640: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:55.388640: kết nối ok
+2025-01-22 07:05:55.483648: kết nối ok
+2025-01-22 07:05:55.988641: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:56.530644: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:05:57.068642: kết nối thất bại: 
+2025-01-22 07:05:57.698644: kết nối thất bại: 
+2025-01-22 07:05:58.087641: kết nối ok
+2025-01-22 07:05:58.998645: kết nối ok
+2025-01-22 07:05:59.451646: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:05:59.535640: kết nối ok
+2025-01-22 07:05:59.553640: kết nối ok
+2025-01-22 07:06:00.416641: kết nối ok
+2025-01-22 07:06:01.585744: kết nối ok
+2025-01-22 07:06:01.735744: kết nối ok
+2025-01-22 07:06:02.319745: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:02.864761: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:03.049746: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:03.351744: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:03.398743: kết nối ok
+2025-01-22 07:06:03.466746: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:04.367743: kết nối ok
+2025-01-22 07:06:04.717744: kết nối ok
+2025-01-22 07:06:04.748746: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:05.145744: kết nối ok
+2025-01-22 07:06:05.314744: kết nối thất bại: 
+2025-01-22 07:06:06.233747: kết nối ok
+2025-01-22 07:06:06.965746: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:07.094747: kết nối thất bại: 
+2025-01-22 07:06:07.545746: kết nối ok
+2025-01-22 07:06:07.647742: kết nối ok
+2025-01-22 07:06:07.697745: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:08.045746: kết nối ok
+2025-01-22 07:06:08.061748: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:08.062748: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:08.149747: kết nối ok
+2025-01-22 07:06:08.912770: kết nối ok
+2025-01-22 07:06:09.099745: kết nối ok
+2025-01-22 07:06:09.462745: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:09.762753: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:09.814745: kết nối ok
+2025-01-22 07:06:10.412747: kết nối thất bại: 
+2025-01-22 07:06:12.179741: kết nối ok
+2025-01-22 07:06:12.180745: kết nối ok
+2025-01-22 07:06:12.365746: kết nối thất bại: 
+2025-01-22 07:06:12.395770: kết nối ok
+2025-01-22 07:06:12.460746: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:12.780744: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:12.815742: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:13.066744: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:13.463745: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:13.960746: kết nối ok
+2025-01-22 07:06:14.414745: kết nối ok
+2025-01-22 07:06:15.365746: kết nối ok
+2025-01-22 07:06:15.613744: kết nối ok
+2025-01-22 07:06:15.776746: kết nối ok
+2025-01-22 07:06:16.698749: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:17.158748: kết nối ok
+2025-01-22 07:06:18.042744: kết nối ok
+2025-01-22 07:06:18.262747: kết nối ok
+2025-01-22 07:06:18.278744: kết nối ok
+2025-01-22 07:06:19.010747: kết nối ok
+2025-01-22 07:06:19.959752: kết nối ok
+2025-01-22 07:06:20.174745: kết nối ok
+2025-01-22 07:06:20.262747: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:20.325745: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:20.326744: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:21.707745: kết nối thất bại: 
+2025-01-22 07:06:22.244745: kết nối ok
+2025-01-22 07:06:22.908790: kết nối ok
+2025-01-22 07:06:22.941807: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:23.108792: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:23.478795: kết nối ok
+2025-01-22 07:06:24.139791: kết nối ok
+2025-01-22 07:06:24.157792: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:24.525799: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:25.340798: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:25.574803: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:26.239793: kết nối ok
+2025-01-22 07:06:26.722797: kết nối thất bại: 
+2025-01-22 07:06:26.777792: kết nối thất bại: 
+2025-01-22 07:06:26.842790: kết nối ok
+2025-01-22 07:06:27.325793: kết nối ok
+2025-01-22 07:06:28.142795: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:28.953794: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:29.041807: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:29.554793: kết nối ok
+2025-01-22 07:06:29.975793: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:30.607793: kết nối ok
+2025-01-22 07:06:31.871793: kết nối ok
+2025-01-22 07:06:31.989797: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:32.240791: kết nối ok
+2025-01-22 07:06:32.757792: kết nối ok
+2025-01-22 07:06:33.592790: kết nối ok
+2025-01-22 07:06:33.624793: kết nối thất bại: [Errno 11001] getaddrinfo failed
+2025-01-22 07:06:33.672802: kết nối ok
+2025-01-22 07:06:34.471789: kết nối ok
+2025-01-22 07:06:34.591788: kết nối ok
+2025-01-22 07:06:34.955796: kết nối ok
+2025-01-22 07:06:36.937800: kết nối thất bại: Authentication failed: transport shut down or saw EOF
+2025-01-22 07:06:40.204832: kết nối ok
+2025-01-22 07:06:40.904829: kết nối ok
+2025-01-22 07:06:40.951830: kết nối ok
+2025-01-22 07:06:42.471827: kết nối ok
+2025-01-22 07:06:43.604833: kết nối ok
+2025-01-22 07:06:45.314903: kết nối ok
+2025-01-22 07:06:46.132904: kết nối ok
+2025-01-22 07:06:46.418923: kết nối ok
+2025-01-22 07:06:47.002936: kết nối ok
+2025-01-22 07:06:48.251944: kết nối ok
+2025-01-22 07:06:49.301948: kết nối ok
+2025-01-22 07:06:50.847469: kết nối ok
+2025-01-22 07:06:54.312538: kết nối ok
+2025-01-22 07:06:56.560537: kết nối ok
+2025-01-22 07:06:56.679539: kết nối ok
+2025-01-22 07:06:59.310536: kết nối ok
+2025-01-22 07:06:59.814538: kết nối ok
+2025-01-22 07:07:00.326537: kết nối ok
+2025-01-22 07:07:00.700537: kết nối ok
+2025-01-22 07:07:07.765534: kết nối ok
+2025-01-22 07:07:08.224537: kết nối ok
+2025-01-22 07:07:17.741534: kết nối ok
+2025-01-22 07:07:19.586536: kết nối ok

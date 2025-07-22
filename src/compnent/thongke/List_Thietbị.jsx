@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 
 import Swal from "sweetalert2";
-
+import Select from "react-select";
 import CryptoJS from "crypto-js";
 import { toast } from "react-toastify";
 import suyhaoService from "../../service/suyhaoService";
@@ -15,6 +15,9 @@ import AddOrEdit from "./AddOrEdit";
 import ImportNhienlieu from "../../support/ImportNhienlieu";
 import ImportThietbi from "../../support/ImportThietbi";
 import Loading from "../../support/Loading";
+import portService from "../../service/portService";
+import { components } from "react-select";
+
 const List_Thietbị = (props) => {
   const getTodayDate = () => {
     const today = new Date();
@@ -23,32 +26,66 @@ const List_Thietbị = (props) => {
     const day = String(today.getDate()).padStart(2, "0");
     return `${year}-${month}-${day}`;
   };
+  const [listRing, setListRing] = useState([]);
   const [list, setList] = useState([]);
   const [listOLd, setListOld] = useState([]);
   const [listPg, setListPg] = useState([]);
   const [textsearch, setTextsearch] = useState([]);
+   const [listexport, setListexport] = useState([]);
   const [loading, setloading] = useState(false);
   const [ngaykt, setngaykt] = useState(getTodayDate());
   const usered = sessionStorage.getItem("user")
     ? JSON.parse(sessionStorage.getItem("user"))
     : null;
-
+  const [ring, setRing] = useState("");
   const [listthietbi, setListthietbi] = useState([]);
   let native = useNavigate();
 
   const header = [
     [
-      "STT",
-      "tentram",
-      "tgbdac",
-      "tgktac",
-      "tgbdmn",
-      "tgktmn",
-      "tongtg",
-      "ghichu",
-      "tram",
+      "IP",
+      "username",
+      "Password",
+      "Tên hệ thống",
+      "Tên SW",
+      "RING",
+      "Loại",
+      "Port UpLink",
+      "Số lượng nguồn",
+      "UP"
+      
     ],
   ];
+  const changeRing = (e) => {
+    setRing(e ? e.value : null);
+    let listfiilter = listOLd;
+    let listSearch = listOLd;
+    if (textsearch) {
+      listSearch = listfiilter.filter(
+        (item) =>
+          String(decryptData(item.diachi)).indexOf(String(textsearch)) != -1 ||
+          String(decryptData(item.tenthuongmai))
+            .toLocaleLowerCase()
+            .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+          String(item.loai)
+            .toLocaleLowerCase()
+            .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+          String(item.port).indexOf(String(textsearch)) != -1
+      );
+    }
+    console.log(listSearch);
+    if (e && e.value)
+      listSearch = listSearch.filter(
+        (item) =>
+          String(item.ring)
+            .toLocaleLowerCase()
+            .indexOf(e.value.toLocaleLowerCase()) != -1
+      );
+
+    setListthietbi(listSearch);
+
+    console.log(e);
+  };
   const removeDiacritics = (str) => {
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   };
@@ -77,16 +114,24 @@ const List_Thietbị = (props) => {
     }
   };
   const changeTextSearch = async (e) => {
-    let listfiilter = listOLd;
-    let listSearch = [];
+    let listfiilter = [...listOLd];
+    let listSearch = [...listOLd];
     setTextsearch(e.target.value);
-
+    if (ring) {
+      listfiilter = listfiilter.filter(
+        (item) =>
+          String(item.ring)
+            .toLocaleLowerCase()
+            .indexOf(String(ring).toLocaleLowerCase()) != -1
+      );
+      console.log(listfiilter, ring);
+    }
     if (e.target.value) {
       listSearch = listfiilter.filter(
         (item) =>
           String(decryptData(item.diachi)).indexOf(String(e.target.value)) !=
             -1 ||
-          String(decryptData(item.tenthietbi))
+          String(decryptData(item.tenthuongmai))
             .toLocaleLowerCase()
             .indexOf(String(e.target.value).toLocaleLowerCase()) != -1 ||
           String(item.loai)
@@ -95,8 +140,11 @@ const List_Thietbị = (props) => {
           String(item.port).indexOf(String(e.target.value)) != -1
       );
     }
-    if (!e.target.value) setListthietbi(listOLd);
-    else setListthietbi(listSearch);
+    if (!e.target.value) {
+      if (ring) {
+        setListthietbi(listfiilter);
+      } else setListthietbi(listOLd);
+    } else setListthietbi(listSearch);
   };
   const getdata = (e) => {
     let listdata = [];
@@ -112,6 +160,7 @@ const List_Thietbị = (props) => {
     let lists = listthietbi;
     if (e && Object.values(e).length > 0) {
       e.map((item, index) => {
+        item.id = RandomString(10);
         item.diachi = encryptData(item.diachi);
         item.password = encryptData(item.password);
         item.tenthietbi = encryptData(item.tenthietbi);
@@ -119,6 +168,7 @@ const List_Thietbị = (props) => {
         item.username = encryptData(item.username);
         lists.push(item);
       });
+      console.log(e)
       suyhaoService
         .addData(e)
         .then((res) => {
@@ -138,9 +188,45 @@ const List_Thietbị = (props) => {
       setloading(false);
     }
   };
+   const RandomString = (length) => {
+    const characters =
+      "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let result = "";
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
+    }
+    return result;
+  };
   const addoredit = () => {
     suyhaoService.getdata().then((res) => {
-      setListthietbi(res.data);
+      let listSearch = res.data;
+
+      if (textsearch) {
+        listSearch = res.data.filter(
+          (item) =>
+            String(decryptData(item.diachi)).indexOf(String(textsearch)) !=
+              -1 ||
+            String(decryptData(item.tenthuongmai))
+              .toLocaleLowerCase()
+              .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+            String(item.loai)
+              .toLocaleLowerCase()
+              .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+            String(item.port).indexOf(String(textsearch)) != -1
+        );
+      }
+      console.log(listSearch);
+      if (ring) {
+        listSearch = listSearch.filter(
+          (item) =>
+            String(item.ring)
+              .toLocaleLowerCase()
+              .indexOf(String(ring).toLocaleLowerCase()) != -1
+        );
+        console.log(listSearch, ring);
+      }
+      setListthietbi(listSearch);
       setListOld(res.data);
       console.log(res.data);
     });
@@ -150,8 +236,76 @@ const List_Thietbị = (props) => {
       setListthietbi(res.data);
       setListOld(res.data);
       console.log(res.data);
+      let listep=[]
+      let sl=0
+      res.data.map( async(item,index)=>{
+        let items={ip:decryptData(item.diachi),user:decryptData(item.username),pass:decryptData(item.password),tenthietbi:decryptData(item.tenthietbi),tenthuongmai:decryptData(item.tenthuongmai),ring:item.ring,loai:item.loai,port:item.port,nguon:item.nguon}
+        items.up=0
+        // if (item.loai=="OS6400"){
+        //   console.log(items)
+        // await suyhaoService.getstatus_port_by_A6400(decryptData(item.diachi),decryptData(item.username),decryptData(item.password)).then(
+        //     res=>{
+        //       console.log(res.data)
+        //       items.up=res.data.Up
+        //     }
+        //   )
+        // }
+        // else{
+        //   if (item.loai=="V2224G"){
+        //    sl=sl+1
+        //   await suyhaoService.getstatus_port_by_SW2224(decryptData(item.diachi),decryptData(item.username),decryptData(item.password)).then(
+        //       res=>{
+        //         console.log(res.data)
+        //         items.up=res.data.Up
+        //       }
+        //     )
+        //   }
+        // }
+        listep.push(items)
+      })
+      console.log(sl)
+      setListexport(listep)
+      portService.getdataRing().then((res) => {
+        
+        res.data
+          .sort((a, b) => {
+            const lastThreeA = a.ten; // Lấy 3 ký tự cuối của a.ten
+            const lastThreeB = b.ten; // Lấy 3 ký tự cuối của b.ten
+            return lastThreeA.localeCompare(lastThreeB); // So sánh theo thứ tự từ điển
+          })
+          .map((item, index) => {
+            item.value = item.ten;
+            item.label = item.ten;
+          });
+
+        let list = [];
+        list = [...res.data];
+        // let item = { value: "", label: "" };
+        // list.push(item);
+        setListRing(list);
+       
+      });
     });
   }, []);
+  const clearFilter = () => {
+    setRing(null); // Xóa lựa chọn lọc
+    let listfiilter = listOLd;
+    let listSearch = [];
+    if (textsearch) {
+      listfiilter = listfiilter.filter(
+        (item) =>
+          String(decryptData(item.diachi)).indexOf(String(textsearch)) != -1 ||
+          String(decryptData(item.tenthuongmai))
+            .toLocaleLowerCase()
+            .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+          String(item.loai)
+            .toLocaleLowerCase()
+            .indexOf(String(textsearch).toLocaleLowerCase()) != -1 ||
+          String(item.port).indexOf(String(textsearch)) != -1
+      );
+    }
+    setListthietbi(listfiilter);
+  };
   const deleteThietbi = async (id) => {
     console.log(id);
     const result = await Swal.fire({
@@ -161,10 +315,10 @@ const List_Thietbị = (props) => {
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
-      confirmButtonText: "xóa",
+      confirmButtonText: "Xóa",
       cancelButtonText: "Hủy",
       customClass: {
-        popup: 'swal-wide' // Thêm lớp tùy chỉnh
+        popup: "swal-wide", // Thêm lớp tùy chỉnh
       },
     });
 
@@ -193,7 +347,7 @@ const List_Thietbị = (props) => {
       <main id="cabin_list" className="main">
         <div className="container">
           <div className="row mt-3">
-            <div className="col col-md-7">
+            <div className="col col-md-4">
               <input
                 type="text"
                 className="form-control  ms-2 "
@@ -203,19 +357,43 @@ const List_Thietbị = (props) => {
                 placeholder="Nhập nội dung tìm kiếm"
               />
             </div>
-            <div className="col col-md-1" onClick={() => imports()}>
-              <ImportThietbi
-                getdata={getdata}
-                header={header}
-                row={0}
-                name={
-                  "DanhSach_HocVien_" +
-                  new Date().getFullYear() +
-                  "_" +
-                  new Date().getMonth() +
-                  "_" +
-                  new Date().getDate()
-                }
+            <div className="col col-md-3">
+              <Select
+                className="select"
+                onChange={(e) => changeRing(e)}
+                options={listRing}
+                value={listRing.find((option) => option.value === ring) || null}
+                isClearable={true}
+              />
+            </div>
+            <div className="col col-md-3" onClick={() => imports()}>
+            {/* <ImportNhienlieu
+                    getdata={getdata}
+                    header={header}
+                    data={listexport}
+                    row={0}
+                    name={
+                      "DanhSach_Tram_OLT_" +
+                      new Date().getFullYear() +
+                      "_" +
+                      new Date().getMonth() +
+                      "_" +
+                      new Date().getDate()
+                    }
+              /> */}
+               <ImportNhienlieu
+                    getdata={getdata}
+                    header={header}
+                    data={listexport}
+                    row={0}
+                    name={
+                      "DanhSach_Tram_OLT_" +
+                      new Date().getFullYear() +
+                      "_" +
+                      new Date().getMonth() +
+                      "_" +
+                      new Date().getDate()
+                    }
               />
             </div>
             <div className="col col-2 col-md-2 d-flex flex-column justify-content-center align-items-start">
@@ -241,20 +419,28 @@ const List_Thietbị = (props) => {
 
                   <th scope="col">Loại</th>
                   <th scope="col">Port</th>
+                  <th scope="col">Ring</th>
                   <th scope="col">Quản lý</th>
                 </tr>
               </thead>
               <tbody>
                 {listPg &&
-                  listPg.map((item, index) => {
+                  listPg .sort((a, b) =>  a.diachi.localeCompare(b.diachi)).map((item, index) => {
                     return (
                       <tr className="alert " role="alert" key={index}>
-                        <td className="text-center" scope="row">{index + 1}</td>
-                        <td className="text-center">{decryptData(item.diachi)}</td>
-                        <td className="text-center">{decryptData(item.tenthietbi)}</td>
+                        <td className="text-center" scope="row">
+                          {index + 1}
+                        </td>
+                        <td className="text-center">
+                          {decryptData(item.diachi)}
+                        </td>
+                        <td className="text-center">
+                          {decryptData(item.tenthuongmai)}
+                        </td>
 
                         <td className="text-center"> {item.loai}</td>
                         <td className="text-center"> {item.port}</td>
+                        <td className="text-center"> {item.ring}</td>
 
                         <td>
                           <div class="d-flex justify-content-center mx-2">

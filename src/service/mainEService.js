@@ -18,7 +18,7 @@ class mainEService {
   getDatainFile(name) {
     return axios.get(EMPLOYEE_API_BASE_URL+"read_file?name="+name)
   }
-
+ 
   writeDatainFile(name,content) {
     return axios.get(EMPLOYEE_API_BASE_URL+"write_file?name="+name+"&content="+content)
   }

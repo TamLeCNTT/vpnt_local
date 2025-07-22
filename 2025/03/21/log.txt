@@ -1,0 +1,19 @@
+2025-03-21 09:20:17.730209: 10.102.5.89 kết nối thất bại: cannot access local variable 'list' where it is not associated with a value
+2025-03-21 09:20:55.060345: 10.102.5.89 kết nối thành công
+2025-03-21 09:24:49.420154: 10.102.5.89 kết nối thành công
+2025-03-21 09:28:05.504636: 10.102.5.89 kết nối thành công
+2025-03-21 09:30:41.819922: 10.102.5.89 kết nối thành công
+2025-03-21 09:31:19.337153: 10.102.5.89 kết nối thành công
+2025-03-21 09:31:34.168352: 10.102.5.89 kết nối thành công
+2025-03-21 09:41:13.000544: 10.102.5.89 kết nối thành công
+2025-03-21 09:51:35.205230: 10.102.5.89 kết nối thành công
+2025-03-21 09:56:57.718205: 10.102.5.89 kết nối thành công
+2025-03-21 09:59:27.450172: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 09:59:38.997545: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 10:06:00.657317: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 10:06:23.267030: 10.102.5.89 kết nối thành công
+2025-03-21 10:06:24.327145: 10.102.5.89 kết nối thành công
+2025-03-21 10:06:28.972221: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 10:07:03.926987: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 10:07:23.397409: 10.102.5.89 kết nối thất bại: telnet connection closed
+2025-03-21 10:08:14.478978: 10.102.5.89 kết nối thất bại: telnet connection closed

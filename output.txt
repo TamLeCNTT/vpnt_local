@@ -1,41 +1,5 @@
-gei_1/4/2
-  Optical module information:gei_1/4/2
-  Basic-info:
-   Vendor-Name    : OLYCOM                   Vendor-Pn      : TSPL1G40D       
-   Vendor-Sn      : CI170721192              Version-Lev    : 10        
-   Production-Date: 170724                   Module-Type    : 1000BASE-LX
-   Wavelength     : 1310      (nm)           Connector      : LC        
-   OTDR           : N/A                      OTDR-Version   : N/A       
-   Fiber-Type     : N/A
-   Class          : N/A       
-   Trans-Distance : 40(km)
-   Material-Number: 
-                   4f 4c 59 43 4f 4d 20 20 20 20
-                   20 20 20 20 20 20 00 00 00 00 
-  Register-Data   :
-                   64 00 d8 00 5f 00 dd 00 8c a0 6d 60
-                   88 b8 71 48 9c 40 01 f4 88 b8 03 e8
-                   3d e9 07 cb 31 2d 09 d0 4d f1 00 14
-                   27 10 00 28 00 00 00 00 00 00 00 00
-                   00 00 00 00 00 00 00 00 00 00 00 00
-                   00 00 00 00 00 00 00 00 3f 80 00 00
-                   00 00 00 00 01 00 00 00 01 00 00 00
-                   01 00 00 00 01 00 00 00 00 00 00 09
-                   2b ed 77 e8 28 0a 15 88 04 a5 00 00
-                   00 00 20 00 00 00 00 00 00 00 00 00
-                   00 00 00 ff ff ff ff 00 
-  Diagnostic-info:
-   RxPower        : -9.248(dbm) [-19.0,-3.0]
-   TxPower        : -2.545(dbm) [-11.0,-3.0]
-   TxBias-Current : 20.500(mA) [0.0,131.0]
-   Laser-Rate     : 13(100Mb/s)
-   Temperature    : 43.926(c) [-45.0,90.0]
-   Supply-Vol     : 3.070(v) [3.0,3.6]
-  Alarm-thresh:
-   RxPower-Upper    : 3  (dbm)               RxPower-Lower    : -20(dbm)
-   TxPower-Upper    : 9  (dbm)               TxPower-Lower    : -14(dbm)
-   Bias-Upper       : 131(mA)                Bias-Lower       : 0  (mA)
-   Voltage-Upper    : 7  (v)                 Voltage-Lower    : 0  (v)
-   Temperature-Upper: 90 (c)                 Temperature-Lower: -45(c)
-  Configuration-Module-Class: N/A
-HUG.NBY.LTH.OLT.ZT01#
+nt-a:xfpshow equipment diagnostics sfp nt-a:xfp detail | match exac
+t:rx-po
+                                                            ^
+invalid token
+HUG.PHP.XHA.OLT.AL01#

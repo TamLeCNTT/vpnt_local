@@ -1,0 +1,63 @@
+1show laser hardware xgigaethernet 1/2/1 detailed
+show laser hardware xgigaethernet 1/2/1 detailed
+Interface:xgigaethernet 1/2/1
+    Common information:
+	Transceiver Type	:1000BASE-LX_SFP
+	Connector Type		:LC
+	Wavelength(nm)		:1310 
+	Linklength(m)		:20000 
+	Encoding		:8B10B
+	Nominal BR(Mbps)	:1300 
+	Min BR(Mbps)		:1300 
+	Max BR(Mbps)		:1300 
+	DDM support		:Yes
+    Manufacture information:
+	Vendor Name		:OLYCOM          
+	Vendor Part Num		:TSPL1G20D       
+	Vendor Serial Num	:15170324271     
+	Vendor in Num		:A   
+	Manufacturing Date	:170328  
+    Diagnostic information:
+	Current temperature(Centigrade)		:48.00
+	Temperature threshold(Centigrade)	:-45.00/90.00 (Auto)
+	Current rx power(dBm)			:-15.04
+	Rx Power threshold(dBm)			:-23.97/0.00 (Auto)
+	Current tx power(dBm)			:-6.84
+	Tx Power threshold(dBm)			:-10.00/-1.99 (Auto)
+	Current voltage(V)			:3.36
+	Voltage threshold(V)			:2.70/3.80 (Auto)
+	Bias current(mA)			:11.31
+	Bias current threshold(mA)		:0.00/100.00 (Auto)
+
+HUG.CTH.DPA.L2S.FB01#2show laser hardware xgigaethernet 1/2/2 detailed
+show laser hardware xgigaethernet 1/2/2 detailed
+Interface:xgigaethernet 1/2/2
+    Common information:
+	Transceiver Type	:1000BASE-LX_SFP
+	Connector Type		:LC
+	Wavelength(nm)		:1310 
+	Linklength(m)		:10000 
+	Encoding		:8B10B
+	Nominal BR(Mbps)	:1300 
+	Min BR(Mbps)		:1300 
+	Max BR(Mbps)		:1300 
+	DDM support		:Yes
+    Manufacture information:
+	Vendor Name		:OEM             
+	Vendor Part Num		:SFP-GE-L        
+	Vendor Serial Num	:KY113012656     
+	Vendor in Num		:1.00
+	Manufacturing Date	:110725  
+    Diagnostic information:
+	Current temperature(Centigrade)		:53.00
+	Temperature threshold(Centigrade)	:-40.00/95.00 (Auto)
+	Current rx power(dBm)			:-10.81
+	Rx Power threshold(dBm)			:-30.96/-2.99 (Auto)
+	Current tx power(dBm)			:-5.36
+	Tx Power threshold(dBm)			:-13.00/0.00 (Auto)
+	Current voltage(V)			:3.34
+	Voltage threshold(V)			:2.93/3.51 (Auto)
+	Bias current(mA)			:11.20
+	Bias current threshold(mA)		:1.00/100.00 (Auto)
+
+HUG.CTH.DPA.L2S.FB01#

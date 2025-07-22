@@ -1,0 +1,36 @@
+ show interfaces port 
+Legends: WTR - Wait To Restore
+         #   - WTR Timer is Running & Port is in wait-to-restore state
+         *   - Permanent Shutdown
+
+Slot/    Admin     Link    Violations  Recovery   Recovery      WTR            Alias
+Port     Status   Status                 Time       Max        (sec)
+------+----------+---------+----------+----------+----------+----------+-----------------------------------------
+  1/1    disable     down      none           300         10          0 ""
+  1/2    enable      down      none           300         10          0 ""
+  1/3    enable      down      none           300         10          0 ""
+  1/4    disable     down      none           300         10          0 ""
+  1/5    enable      up        none           300         10          0 ""
+  1/6    enable      down      none           300         10          0 ""
+  1/7    enable      up        none           300         10          0 ""
+  1/8    disable     down      none           300         10          0 ""
+  1/9    enable      up        none           300         10          0 ""
+  1/10   enable      up        none           300         10          0 ""
+  1/11   enable      up        none           300         10          0 ""
+  1/12   enable      up        none           300         10          0 ""
+  1/13   enable      up        none           300         10          0 ""
+  1/14   enable      up        none           300         10          0 "ftthnhhoatien"
+  1/15   disable     down      none           300         10          0 ""
+  1/16   enable      up        none           300         10          0 ""
+  1/17   disable     down      none           300         10          0 ""
+  1/18   enable      up        none           300         10          0 ""
+  1/19   enable      down      none           300         10          0 ""
+  1/20   enable      up        none           300         10          0 ""
+  1/21   enable      up        none           300         10          0 "To Gi0/0/1/15_ASR_HGI03LMY"
+  1/22   enable      up        none           300         10          0 "To Gi0/2/1/15_ASR_HGI03LMY"
+  1/23   disable     down      none           300         10          0 ""
+  1/24   disable     down      none           300         10          0 ""
+  1/25   disable     down      none             0          0          0 ""
+  1/26   disable     down      none             0          0          0 ""
+
+HUG.LMY.LMY.L2S.AL05# 

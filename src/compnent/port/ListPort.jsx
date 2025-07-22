@@ -14,7 +14,7 @@ import suyhaoService from "../../service/suyhaoService";
 const ListPort = () => {
   const [lists, setLists] = useState([]);
   const [show, setshow] = useState(false);
-
+  const [flag, setflag] = useState(false);
   const [tenthietbi, settenthietbi] = useState("");
   const [loaithietbi, setloaithietbi] = useState("");
   const [listthietbi, setlistthietbi] = useState([]);
@@ -28,146 +28,257 @@ const ListPort = () => {
   const ChangeNameDevice = (e) => {
     settenthietbi(e.target.value);
   };
-  useEffect(() => {
-    portService.getdata().then((res) => {
-      console.log(res.data);
+  const fetchData = async () => {
+    try {
+      console.log("Bắt đầu đo dữ liệu...");
+      const res = await portService.getdata();
       let listStatus = [];
-      res.data.map(async (item, index) => {
-        if (item.loai == "V2724G") {
-          await portService
-            .get_status_port_by_SW2724(
+
+      // Hàm xử lý lấy dữ liệu từ API song song
+      const handleDevice = async (item) => {
+        try {
+          let statusRes, powerRes;
+
+          if (item.loai === "V2724G") {
+            statusRes = portService.get_status_port_by_SW2724(
               item.ip,
               item.username,
               item.password,
               item.port
-            )
-            .then((ress) => {
-              console.log(Object.values(ress.data));
-              suyhaoService
-                .get_rx_power_by_SW2724(
-                  item.ip,
-                  item.username,
-                  item.password,
-                  item.port
-                )
-                .then((suyhao) => {
-                  console.log(
-                    JSON.parse(suyhao.data.RXpower.replace(/'/g, '"')).filter(
-                      (e) => e.port == 20
-                    )
-                  );
-                  Object.values(ress.data).map((data, i) => {
-                    let suyhaos = JSON.parse(
-                      suyhao.data.RXpower.replace(/'/g, '"')
-                    ).filter((e) => e.port == data.port)[0];
-
-                    let items = {
-                      matram: item.matram,
-                      switch: item.switch,
-                      port: data.port,
-                      status: data.status,
-                      rx: suyhaos.rx_power,
-                      low: suyhaos.w_low,
-                    };
-
-                    listStatus.push(items);
-                    setLists([...listStatus]);
-                  });
-                });
-            });
-        } else {
-          if (item.loai == "OS6450" || item.loai == "OS6400") {
-            await portService
-              .get_status_port_by_A6400(
-                item.ip,
-                item.username,
-                item.password,
-                item.port
-              )
-              .then((ress) => {
-                suyhaoService
-                  .get_rx_power_by_A6400(
-                    item.ip,
-                    item.username,
-                    item.password,
-                    item.port
-                  )
-                  .then((suyhao) => {
-                    console.log(
-                      JSON.parse(suyhao.data.RXpower.replace(/'/g, '"')).filter(
-                        (e) => e.port == 20
-                      )
-                    );
-                    Object.values(ress.data).map((data, i) => {
-                      let suyhaos = JSON.parse(
-                        suyhao.data.RXpower.replace(/'/g, '"')
-                      ).filter((e) => e.port == data.port)[0];
-
-                      let items = {
-                        matram: item.matram,
-                        switch: item.switch,
-                        port: data.port,
-                        status: data.status,
-                        rx: suyhaos.rx_power,
-                        low: suyhaos.w_low,
-                      };
-
-                      listStatus.push(items);
-                      setLists([...listStatus]);
-                    });
-                  });
-              });
+            );
+            powerRes = suyhaoService.get_rx_power_by_SW2724(
+              item.ip,
+              item.username,
+              item.password,
+              item.port
+            );
+          } else if (item.loai === "OS6450" || item.loai === "OS6400") {
+            statusRes = portService.get_status_port_by_A6400(
+              item.ip,
+              item.username,
+              item.password,
+              item.port
+            );
+            powerRes = suyhaoService.get_rx_power_by_A6400(
+              item.ip,
+              item.username,
+              item.password,
+              item.port
+            );
+          } else if (item.loai === "V2224G") {
+            statusRes = portService.get_status_port_by_SW2224(
+              item.ip,
+              item.username,
+              item.password,
+              item.port
+            );
+            powerRes = suyhaoService.get_rx_power_by_SW2224(
+              item.ip,
+              item.username,
+              item.password,
+              item.port
+            );
           } else {
-            if (item.loai == "V2224G") {
-              await portService
-                .get_status_port_by_SW2224(
-                  item.ip,
-                  item.username,
-                  item.password,
-                  item.port
-                )
-                .then((ress) => {
-                  console.log(Object.values(ress.data));
-                  suyhaoService
-                    .get_rx_power_by_SW2224(
-                      item.ip,
-                      item.username,
-                      item.password,
-                      item.port
-                    )
-                    .then((suyhao) => {
-                      console.log(
-                        JSON.parse(
-                          suyhao.data.RXpower.replace(/'/g, '"')
-                        ).filter((e) => e.port == 20)
-                      );
-                      Object.values(ress.data).map((data, i) => {
-                        let suyhaos = JSON.parse(
-                          suyhao.data.RXpower.replace(/'/g, '"')
-                        ).filter((e) => e.port == data.port)[0];
-
-                        let items = {
-                          matram: item.matram,
-                          switch: item.switch,
-                          port: data.port,
-                          status: data.status,
-                          rx: suyhaos.rx_power,
-                          low: suyhaos.w_low,
-                        };
-
-                        listStatus.push(items);
-                        setLists([...listStatus]);
-                      });
-                    });
-                });
-            }
+            return [];
           }
-        }
-      });
 
-      console.log(listStatus);
-    });
-  }, []);
+          // Chạy API song song
+          const [statusData, powerData] = await Promise.all([
+            statusRes,
+            powerRes,
+          ]);
+
+          // Xử lý dữ liệu trả về
+          const statusList = Object.values(statusData.data);
+          //console.log(powerData.data.RXpower);
+          const powerList = JSON.parse(
+            powerData.data.RXpower.replace(/'/g, '"')
+          );
+
+          return statusList
+            .map((data) => {
+              const suyhao = powerList.find((e) => e.port === data.port) || {};
+              if (
+                data.status == "down" ||
+                data.status == "Down" ||
+                Number(suyhao.rx_power) < Number(suyhao.w_low)
+              )
+                return {
+                  matram: item.matram,
+                  switch: item.switch,
+                  port: data.port,
+                  status: data.status,
+                  rx: suyhao.rx_power || "N/A",
+                  low: suyhao.w_low || "N/A",
+                };
+              else {
+                return null;
+              }
+            })
+            .filter((item) => item !== null);
+        } catch (error) {
+          console.error(`Lỗi xử lý thiết bị ${item.ip}:`, error);
+          return [];
+        }
+      };
+
+      // Xử lý tất cả các thiết bị cùng lúc
+      const allDevices = await Promise.all(res.data.map(handleDevice));
+      listStatus = allDevices.flat();
+
+      // Cập nhật danh sách sau khi lấy xong tất cả dữ liệu
+      setLists(listStatus);
+      console.log("Cập nhật danh sách thành công:", listStatus);
+    } catch (error) {
+      console.error("Lỗi khi lấy dữ liệu:", error);
+    }
+  };
+
+  useEffect(() => {
+    // Chạy mỗi 1 tiếng 1 lần
+    setInterval(fetchData, 3600 * 1000);
+    // Chạy ngay khi trang load
+    fetchData();
+    // Gọi lại sau 1 phút
+    // portService.getdata().then((res) => {
+    //   console.log(res.data);
+    //   let listStatus = [];
+    //   res.data.map(async (item, index) => {
+    //     if (item.loai == "V2724G") {
+    //       await portService
+    //         .get_status_port_by_SW2724(
+    //           item.ip,
+    //           item.username,
+    //           item.password,
+    //           item.port
+    //         )
+    //         .then((ress) => {
+    //           console.log(Object.values(ress.data));
+    //           suyhaoService
+    //             .get_rx_power_by_SW2724(
+    //               item.ip,
+    //               item.username,
+    //               item.password,
+    //               item.port
+    //             )
+    //             .then((suyhao) => {
+    //               console.log(
+    //                 JSON.parse(suyhao.data.RXpower.replace(/'/g, '"')).filter(
+    //                   (e) => e.port == 20
+    //                 )
+    //               );
+    //               Object.values(ress.data).map((data, i) => {
+    //                 let suyhaos = JSON.parse(
+    //                   suyhao.data.RXpower.replace(/'/g, '"')
+    //                 ).filter((e) => e.port == data.port)[0];
+
+    //                 let items = {
+    //                   matram: item.matram,
+    //                   switch: item.switch,
+    //                   port: data.port,
+    //                   status: data.status,
+    //                   rx: suyhaos.rx_power,
+    //                   low: suyhaos.w_low,
+    //                 };
+
+    //                 listStatus.push(items);
+    //                 setLists([...listStatus]);
+    //               });
+    //             });
+    //         });
+    //     } else {
+    //       if (item.loai == "OS6450" || item.loai == "OS6400") {
+    //         await portService
+    //           .get_status_port_by_A6400(
+    //             item.ip,
+    //             item.username,
+    //             item.password,
+    //             item.port
+    //           )
+    //           .then((ress) => {
+    //             suyhaoService
+    //               .get_rx_power_by_A6400(
+    //                 item.ip,
+    //                 item.username,
+    //                 item.password,
+    //                 item.port
+    //               )
+    //               .then((suyhao) => {
+    //                 console.log(
+    //                   JSON.parse(suyhao.data.RXpower.replace(/'/g, '"')).filter(
+    //                     (e) => e.port == 20
+    //                   )
+    //                 );
+    //                 Object.values(ress.data).map((data, i) => {
+    //                   let suyhaos = JSON.parse(
+    //                     suyhao.data.RXpower.replace(/'/g, '"')
+    //                   ).filter((e) => e.port == data.port)[0];
+
+    //                   let items = {
+    //                     matram: item.matram,
+    //                     switch: item.switch,
+    //                     port: data.port,
+    //                     status: data.status,
+    //                     rx: suyhaos.rx_power,
+    //                     low: suyhaos.w_low,
+    //                   };
+
+    //                   listStatus.push(items);
+    //                   setLists([...listStatus]);
+    //                 });
+    //               });
+    //           });
+    //       } else {
+    //         if (item.loai == "V2224G") {
+    //           await portService
+    //             .get_status_port_by_SW2224(
+    //               item.ip,
+    //               item.username,
+    //               item.password,
+    //               item.port
+    //             )
+    //             .then((ress) => {
+    //               console.log(Object.values(ress.data));
+    //               suyhaoService
+    //                 .get_rx_power_by_SW2224(
+    //                   item.ip,
+    //                   item.username,
+    //                   item.password,
+    //                   item.port
+    //                 )
+    //                 .then((suyhao) => {
+    //                   console.log(
+    //                     JSON.parse(
+    //                       suyhao.data.RXpower.replace(/'/g, '"')
+    //                     ).filter((e) => e.port == 20)
+    //                   );
+    //                   Object.values(ress.data).map((data, i) => {
+    //                     let suyhaos = JSON.parse(
+    //                       suyhao.data.RXpower.replace(/'/g, '"')
+    //                     ).filter((e) => e.port == data.port)[0];
+
+    //                     let items = {
+    //                       matram: item.matram,
+    //                       switch: item.switch,
+    //                       port: data.port,
+    //                       status: data.status,
+    //                       rx: suyhaos.rx_power,
+    //                       low: suyhaos.w_low,
+    //                     };
+
+    //                     listStatus.push(items);
+    //                     setLists([...listStatus]);
+    //                   });
+    //                 });
+    //             });
+    //         }
+    //       }
+    //     }
+    //   });
+
+    //   console.log(listStatus);
+    // });
+  }, [flag]);
   const RandomString = (length) => {
     const characters =
       "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
@@ -194,7 +305,6 @@ const ListPort = () => {
       !listthietbi ||
       listthietbi.findIndex((e) => e.tenthietbi == tenthietbi) == -1
     ) {
-     
     } else {
       toast.error("Tên thiết bị đã tồn tại");
     }
@@ -205,21 +315,33 @@ const ListPort = () => {
       console.log(res.data);
     });
   };
+  const refesh = () => {
+    setflag(!flag);
+  };
   return (
     <>
       <Header />
       <main id="cabin_list" className="main">
         <div className="container">
-          <div className="row mt-5 d-flex justify-content-between ">
-            <div className="col col-md-5">
-              <input
-                type="text"
-                className="form-control  ms-2 "
-                id="teacher"
-                // onChange={(e) => changetext(e)}
-                // value={text}
-                placeholder="Nhập nội dung tìm kiếm"
-              />
+          <div className="row mt-5 ">
+            <div className="col col-md-2">
+              <button
+                class="btn btn-lg btn-success mx-1 float-right"
+                onClick={() => refesh()}
+              >
+                <i class="fas fa-sync-alt me-2"></i>
+                LÀM MỚI CẢNH BÁO
+              </button>
+            </div>
+
+            <div className="col col-md-1">
+              <button
+                className="btn btn-lg btn-success mx-1 float-right"
+                onClick={() => openModal()}
+              >
+                {/* <i className="fa fa-plus" aria-hidden="true"></i> */}
+                Thêm <i className="fa fa-plus" aria-hidden="true"></i>
+              </button>
             </div>
             {/* <CoHuu_Filter filter={filter} listst={listst} listgv={listgv} /> */}
             <div className="col col-md-5">
@@ -239,87 +361,10 @@ const ListPort = () => {
                     }
                   />
                 </div>
-                <div className="col col-md-1 d-flex flex-column justify-content-end align-items-start mb-3">
-                  <button
-                    className="btn btn-lg d-block fs-2 btn-primary d-flex flex-column justify-content-end align-items-start "
-                    href="#"
-                    data-dismiss="alert"
-                    aria-label="edit"
-                    onClick={() => openModal()}
-                  >
-                    <i className="fa fa-plus" aria-hidden="true"></i>
-                  </button>
-
-                  <Modal
-                    show={show}
-                    onHide={() => setshow(false)}
-                    dialogClassName="modal-90w modal_show"
-                    aria-labelledby="example-custom-modal-styling-title"
-                  >
-                    <Modal.Header closeButton>
-                      <Modal.Title id="example-custom-modal-styling-title">
-                        <h3 className="text-center fw-bold">THÊM THIẾT BỊ </h3>
-                      </Modal.Title>
-                    </Modal.Header>
-                    <Modal.Body>
-                      <section id="about" className="about">
-                        <div className="container" data-aos="fade-up">
-                          <div className="row">
-                            <div className="col col-md-12 mb-3">
-                              <div className="md-4">
-                                <label
-                                  htmlFor="code"
-                                  className="form-label fw-bold"
-                                >
-                                  Tên thiết bị
-                                </label>
-                                <input
-                                  type="text"
-                                  className="form-control"
-                                  id="code"
-                                  placeholder="Tên thiết bị"
-                                  value={tenthietbi}
-                                  onChange={(e) => ChangeNameDevice(e)}
-                                />
-                              </div>
-                            </div>
-                            <div className="col col-md-12">
-                              <label
-                                className="form-label fw-bold"
-                                htmlFor="rank"
-                              >
-                                Loại thiết bị
-                              </label>
-                              <select
-                                className="form-select "
-                                value={loaithietbi}
-                                onChange={(e) => ChangeTypeDevice(e)}
-                              >
-                                <option value="" hidden>
-                                  Chọn loại thiết bị
-                                </option>
-                                <option value="accu">ACCU</option>
-                                <option value="rec">REC</option>
-                                <option value="tunguon">Tủ nguồn</option>
-                              </select>
-                            </div>
-                          </div>
-                        </div>
-                      </section>
-                    </Modal.Body>
-                    <Modal.Footer>
-                      <button
-                        className="btn btn-lg d-block fs-3 btn-primary p-3"
-                        onClick={() => save()}
-                      >
-                        Thêm
-                      </button>
-                    </Modal.Footer>
-                  </Modal>
-                </div>
               </div>
             </div>
           </div>
+
           <table className="table mt-3 table-bordered   table-hover ">
             <thead className="thead-dark">
               <tr>
@@ -335,6 +380,7 @@ const ListPort = () => {
               {lists &&
                 lists
                   .sort((a, b) => {
+                    console.log(lists);
                     // Sắp xếp theo attribute1 (chuỗi) trước
                     const result = a.status.localeCompare(b.status);
                     if (result !== 0) return result;
@@ -346,28 +392,90 @@ const ListPort = () => {
                   })
                   .map((item, index) => {
                     return (
-                      <tr
-                        className={
-                          item.status == "down" ||
-                          item.status == "Down" ||
-                          Number(item.rx) < Number(item.low)
-                            ? "alert tr-backgroud "
-                            : "alert"
-                        }
-                        role="alert"
-                        key={index}
-                      >
-                        <td  className="text-center">{item.matram}</td>
-                        <td className="text-center">{item.switch}</td>
-                        <td className="text-center">{item.port}</td>
-                        <td className="text-center">{item.status}</td>
-                        <td className="text-center">{item.rx}</td>
-                        <td className="text-center">{item.low}</td>
-                      </tr>
+                      item != null && (
+                        <tr
+                          className={
+                            item.status == "down" ||
+                            item.status == "Down" ||
+                            Number(item.rx) < Number(item.low)
+                              ? "alert tr-backgroud "
+                              : "alert"
+                          }
+                          role="alert"
+                          key={index}
+                        >
+                          <td className="text-center">{item.matram}</td>
+                          <td className="text-center">{item.switch}</td>
+                          <td className="text-center">{item.port}</td>
+                          <td className="text-center">{item.status}</td>
+                          <td className="text-center">{item.rx}</td>
+                          <td className="text-center">{item.low}</td>
+                        </tr>
+                      )
                     );
                   })}
             </tbody>
           </table>
+          <Modal
+            show={show}
+            onHide={() => setshow(false)}
+            dialogClassName="modal-90w modal_show"
+            aria-labelledby="example-custom-modal-styling-title"
+          >
+            <Modal.Header closeButton>
+              <Modal.Title id="example-custom-modal-styling-title">
+                <h3 className="text-center fw-bold">THÊM THIẾT BỊ </h3>
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <section id="about" className="about">
+                <div className="container" data-aos="fade-up">
+                  <div className="row">
+                    <div className="col col-md-12 mb-3">
+                      <div className="md-4">
+                        <label htmlFor="code" className="form-label fw-bold">
+                          Tên thiết bị
+                        </label>
+                        <input
+                          type="text"
+                          className="form-control"
+                          id="code"
+                          placeholder="Tên thiết bị"
+                          value={tenthietbi}
+                          onChange={(e) => ChangeNameDevice(e)}
+                        />
+                      </div>
+                    </div>
+                    <div className="col col-md-12">
+                      <label className="form-label fw-bold" htmlFor="rank">
+                        Loại thiết bị
+                      </label>
+                      <select
+                        className="form-select "
+                        value={loaithietbi}
+                        onChange={(e) => ChangeTypeDevice(e)}
+                      >
+                        <option value="" hidden>
+                          Chọn loại thiết bị
+                        </option>
+                        <option value="accu">ACCU</option>
+                        <option value="rec">REC</option>
+                        <option value="tunguon">Tủ nguồn</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </Modal.Body>
+            <Modal.Footer>
+              <button
+                className="btn btn-lg d-block fs-3 btn-primary p-3"
+                onClick={() => save()}
+              >
+                Thêm
+              </button>
+            </Modal.Footer>
+          </Modal>
         </div>
       </main>
     </>
